@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2017" minor="1"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="true" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" preplot="" helpbrowser="standard" contextmenusize="automatic" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1080" rtablesize="10" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" elisiondigitsthreshold="10000" showassumed="1" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L1" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block><CodeEditor-ExecGroup view="presentation" hide-input="false" inline-output="false" labelreference="L2" applyint="true" applyrational="true" display="code"><EC-CodeEditor id="CodeEditRegion0" expanded="true" visible="true" pixel-width="17932" pixel-height="3124" code-language="text/maple" autoexpand="true" wrapping="false" show-border="true" code-line-numbers="true">
+local CST1:=0,CST2:=0,CST3:=0,CST4:=0;
+local A,B,E;
+Period:=10:
+PA := 645:
+PD:=340:
+PT:=820:
+A := Matrix([  [2, -1], [2, 0], [2, -1], [2, 0], [2, 0], [2, 1], [2, 1], [2, 0], [3, 0], [2, -1], [2, 0], [2, 0], [2, -1], 
+             [2, -1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [2, 1], [3, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, -1], [2, 1], [2, 0], [2, 1], [2, 0], [2, 1], [2, 0], [2, 0], [2, -1], [2, 0], 
+             [2, 0], [2, 1], [2, 0], [2, 0], [3, -1], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 1], [3, 1], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2, -1], [2, -1], [2, -1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, -1], [2, 0], [2, 0], [2, 1], [2, -1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [3, 0], [2, 0], [2, 0], [2, 0], [2, -1], [2, 0], [2, 1], [2, 0], [2, -1], [2, 1], [2, 0], [2, 0], [2, -1], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [3, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [3, -1], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 1], [2, 0], [3, 0], [3, 0], [2, 0], [2, -1], [2, 1], [2, -1], [2, 1], [2, 1], [2, -1], [2, 0], 
+             [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, -1], [2, 0], [2, 0], 
+             [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2, 0], [2, 0], [2, -1], [2, 0], [2, 0], [2, 0], [2, 1], [2, 1], [2, 0], [2, 0], [2, -1], 
+             [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2, -1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], 
+             [2, 0], [2, 0], [2, 0], [2, -1], [2, 0], [2, 0], [2, 0], [2, -1], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [3, 1], [2, 0], [2, 0], [2, 0], [2, -1], [2, 0], [2, 0], 
+             [3, 0], [2, 0], [2, 0], [2, 0], [2, 0]]):
+
+
+B := Matrix([ [2,0], [2, -1], [2, 0], [2, 0], [3, 0], [2, -1], [2, 0], [2, 0], [3, -1], [2, 1], [2, 1], [2, 0], [2, 1], [3, 0], [2, 0], 
+             [3, 0], [2, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, -1], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, -1], [3, 0], [2, -1], [3, 0], [2, 0], 
+             [2, 0], [2, -1], [2, 0], [2, 0], [3, 0], [2, 0], [2, -1], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, -1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [2, 0], [2, -1], [2, 0], [2, 0], [2, 1], [2, 0], [3, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, -1], [2, 1], [2, 0], [3, 0], [2, 0], [2, 0], [2, 1], [3, -1], [3, 0], [2, 1], 
+             [3, 1], [2, -1], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 1], [3, 0], [2, 1], [2, 0], [3, 0], [3, 0], [2, 0], [2, 0], [3, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [3, -1], [3, -1], [2, 0], [2, 0], [2, 0], [2, 0], [2, -1], [2, 0], [2, 0], [2, 1], [3, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, -1], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2, 0], [2, 0], [2, -1], [3, -1], [3, 1], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], 
+             [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, -1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, -1], [2, 1], [2, 0], [2, 1], [2, 0], [2, 0], 
+             [2, -1], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, -1], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, -1], [2, 0], [2, 1], 
+             [3, 0], [3, 1], [2, 0], [2, 0], [2, 0], [2, -1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0]]):
+
+E := Matrix([ [2, 0], [2, 0], [2, 0], [2, -1], [2, 0], [3, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2, -1], [3, 0], 
+             [3, 0], [3, 0], [3, 0], [3, 0], [2, 0], [2, -1], [2, -1], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, -1], [2, 0], [2, -1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, -1], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 1], [2, 0], 
+             [2, 0], [2, 0], [2, -1], [2, 0], [2, -1], [2, 0], [3, -1], [3, 1], [2, 0], [3, 0], [2, 1], [3, 0], [2, 0], [3, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2, 1], [3, 0], [3, 0], [2, 1], 
+             [2, 0], [2, 0], [2, 1], [2, 1], [2, -1], [3, 1], [2, 0], [2, -1], [3, -1], [2, 0], [3, 0], [2, 0], [3, 0], [2, -1], [2, 0], [2, 1], [2, 0], [2, -1], [2, 1], [2, 0], [2, -1], [3, 0], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2, 1], [2, 1], [3, 0], [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, -1], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [3, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [3, -1], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 1], [3, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 1], [2, 0], [3, 0], [2, 0], [2, 0], [3, -1], 
+             [2, 0], [2, 0], [2, 0], [2, -1], [2, 1], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, -1], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 1], [3, -1], 
+             [3, 0], [3, 0], [3, -1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 1], [3, 0], [3, 0], [3, 0], 
+             [2, 0], [3, 0]]):
+
+for j from 1 to 243 do 
+	           if   (A(j, 1) = 2 and A(j, 2) =  0)  then C(j) := 2; 
+	           elif (A(j, 1) = 2 and A(j, 2) =  1)  then C(j) := 3; 
+	           elif (A(j, 1) = 2 and A(j, 2) = -1)  then C(j) := 1; 
+	           elif (A(j, 1) = 3 and A(j, 2) =  0)  then C(j) := 4; 
+	           elif (A(j, 1) = 3 and A(j, 2) =  1)  then C(j) := 5; 
+	           elif (A(j, 1) = 3 and A(j, 2) = -1)  then C(j) := 6; 
+	           end if; 
+end do:
+
+printf( &quot;Enumurated Matrix C = \134n&quot;); 
+for j from 1 to 244 do  printf(&quot;%d,&quot;, C(j)); end do;
+
+X := 1: P := X:
+for i from 1 to 244 do 
+    if C(i) = 1 then X := 2*X-P; 
+  elif C(i) = 2 then X := 2*X; 
+  elif C(i) = 3 then X := 2*X+P; 
+  elif C(i) = 4 then X := 3*X; 
+  elif C(i) = 5 then X := 3*X+P; 
+  elif C(i) = 6 then X := 3*X-P; 
+  end if; 
+end do:
+printf(&quot;\134n\134nA:= %d\134n&quot;, X);
+evalf(log[2](X));
+for j from 1 to 244 do 
+	                   if   (C(j)= 1 or C(j)= 3 ) then CST1:= CST1+PA+PD+3*Period;
+	                   elif (C(j)= 2)  then CST1:= CST1+PD+Period;	
+	                   elif (C(j)= 3)  then CST1:= CST1+PT+Period;	                
+	                   else  CST1:= CST1+PT+PA+2*Period;
+	                   end if; 
+end do;
+
+printf(&quot;\134nTIMING COST FOR A =%d\134n\134n&quot;,CST1);
+
+Y := 1: P := Y:
+for j from 1 to 232 do 
+	           if   (B(j, 1) = 2 and B(j, 2) =  0)  then C(j) := 2; 
+	           elif (B(j, 1) = 2 and B(j, 2) =  1)  then C(j) := 3; 
+	           elif (B(j, 1) = 2 and B(j, 2) = -1)  then C(j) := 1; 
+	           elif (B(j, 1) = 3 and B(j, 2) =  0)  then C(j) := 4; 
+	           elif (B(j, 1) = 3 and B(j, 2) =  1)  then C(j) := 5; 
+	           elif (B(j, 1) = 3 and B(j, 2) = -1)  then C(j) := 6; 
+	           end if; 
+end do:
+printf( &quot;Enumurated Matrix C = \134n&quot;); 
+for j from 1 to 232 do  printf( &quot;%d,&quot;, C(j)); end do;
+
+for i from 1 to 232 do 
+    if C(i) = 1 then Y := 2*Y-P; 
+  elif C(i) = 2 then Y := 2*Y; 
+  elif C(i) = 3 then Y := 2*Y+P; 
+  elif C(i) = 4 then Y := 3*Y; 
+  elif C(i) = 5 then Y := 3*Y+P; 
+  elif C(i) = 6 then Y := 3*Y-P; 
+  end if; 
+end do:
+printf(&quot;\134n\134nB:=%d\134n&quot;, Y);
+evalf(log[2](Y));
+for j from 1 to 232 do  
+                        if   (C(j)= 1 or C(j)= 3 ) then CST2:= CST2+PA+PD+3*Period;
+	                   elif (C(j)= 2)  then CST2:= CST2+PD+Period;	
+	                   elif (C(j)= 3)  then CST2:= CST2+PT+Period;	                
+	                   else  CST2:= CST2+PT+PA+2*Period;
+	                   end if; 
+end do;
+
+
+printf(&quot;\134nTIMING COST FOR B =%d\134n\134n&quot;,CST2);
+
+
+Z := 1: P := Z:
+for j from 1 to 220 do 
+	           if   (E(j, 1) = 2 and E(j, 2) =  0)  then C(j) := 2; 
+	           elif (E(j, 1) = 2 and E(j, 2) =  1)  then C(j) := 3; 
+	           elif (E(j, 1) = 2 and E(j, 2) = -1)  then C(j) := 1; 
+	           elif (E(j, 1) = 3 and E(j, 2) =  0)  then C(j) := 4; 
+	           elif (E(j, 1) = 3 and E(j, 2) =  1)  then C(j) := 5; 
+	           elif (E(j, 1) = 3 and E(j, 2) = -1)  then C(j) := 6; 
+	           end if; 
+end do:
+
+printf( &quot;Enumurated Matrix C = \134n&quot;); 
+for j from 1 to 220 do  printf( &quot;%d,&quot;, C(j)); end do;
+
+for i from 1 to 220 do 
+  if C(i) = 1 then Z := 2*Z-P; 
+elif C(i) = 2 then Z := 2*Z; 
+elif C(i) = 3 then Z := 2*Z+P; 
+elif C(i) = 4 then Z := 3*Z; 
+elif C(i) = 5 then Z := 3*Z+P; 
+elif C(i) = 6 then Z := 3*Z-P; 
+end if; 
+end do:
+printf(&quot;\134n\134nE:=%d\134n&quot;, Z);
+evalf(log[2](Z));
+
+for j from 1 to 220 do  
+                        if   (C(j)= 1 or C(j)= 3 ) then CST3:= CST3+PA+PD+3*Period;
+	                   elif (C(j)= 2)  then CST3:= CST3+PD+Period;	
+	                   elif (C(j)= 3)  then CST3:= CST3+PT+Period;	                
+	                   else  CST3:= CST3+PT+PA+2*Period;
+	                   end if;  
+end do;
+
+printf(&quot;\134nTIMING COST FOR E:=%d\134n\134n&quot;,CST3);
+
+</EC-CodeEditor>
+<Output><Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20index%20out%20of%20bounds" hyperlink="true"><Font style="HyperlinkError">Error, index out of bounds</Font></Hyperlink></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Enumurated Matrix C = 
+1,2,1,2,2,3,3,2,4,1,2,2,1,1,2,2,2,2,3,2,2,2,2,2,2,2,2,3,2,2,2,2,2,2,2,2,3,5,2,2,2,2,2,1,3,2,3,2,3,2,2,1,2,2,3,2,2,6,2,2,2,3,2,2,4,2,2,3,5,2,2,2,2,2,1,1,1,2,2,2,2,2,1,2,2,3,1,2,2,2,2,2,4,2,2,2,1,2,3,2,1,3,2,2,1,2,2,2,4,2,2,2,2,2,2,2,2,2,2,2,2,2,3,2,4,3,2,2,2,2,6,2,2,3,2,2,3,2,4,4,2,1,3,1,3,3,1,2,4,2,2,2,2,2,2,2,2,2,2,2,2,2,3,1,2,2,2,4,2,2,4,3,2,2,1,2,2,2,3,3,2,2,1,2,2,2,2,4,4,2,1,2,2,2,2,2,2,2,2,4,2,2,2,1,2,2,2,1,2,2,2,3,2,2,2,2,2,4,2,2,2,2,3,2,2,5,2,2,2,1,2,2,4,2,2,2,2,2,2,2,2,2,2,2,
+
+A:= 37381972611173535115462514078509062925626343011870334294593679756492679258112</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEsMjU0LjM2ODg3NzhGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">JCIreSgpb1ZEISIo</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+TIMING COST FOR A =142680
+</Text-field><Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20index%20out%20of%20bounds" hyperlink="true"><Font style="HyperlinkError">Error, index out of bounds</Font></Hyperlink></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Enumurated Matrix C = 
+2,1,2,2,4,1,2,2,6,3,3,2,3,4,2,4,3,2,2,4,2,1,2,4,2,2,2,2,2,4,1,4,1,4,2,2,1,2,2,4,2,1,3,2,2,2,2,1,2,2,2,2,2,3,2,2,2,2,2,1,2,2,3,2,4,3,2,2,2,2,4,2,2,4,2,2,2,2,2,2,2,2,2,3,2,1,3,2,4,2,2,3,6,4,3,5,1,2,3,2,2,2,2,4,2,2,2,2,2,2,2,2,2,2,2,2,2,4,2,2,2,3,4,3,2,4,4,2,2,5,2,2,4,2,2,2,2,6,6,2,2,2,2,1,2,2,3,4,4,2,2,2,1,2,2,2,2,4,2,2,2,4,3,2,2,1,6,5,2,2,2,2,4,4,2,2,4,2,2,1,2,2,4,2,2,2,1,3,2,3,2,2,1,2,3,2,2,2,2,2,4,2,1,3,2,2,2,2,1,2,3,4,5,2,2,2,1,2,2,2,2,2,2,3,2,2,2,2,2,1,2,2,
+
+B:=37619281249020885824607718516823284474420645642770447501635920866665858826492</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEsMjU0LjM3ODAwNzVGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">JCIrdit5VkQhIig=</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+TIMING COST FOR B =154725
+</Text-field><Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20index%20out%20of%20bounds" hyperlink="true"><Font style="HyperlinkError">Error, index out of bounds</Font></Hyperlink></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Enumurated Matrix C = 
+2,2,2,1,2,4,4,2,2,2,2,2,2,2,4,3,1,4,4,4,4,4,2,1,1,4,2,2,2,2,2,4,2,2,3,2,2,2,2,2,1,2,1,2,2,2,2,2,1,2,2,3,2,2,2,2,2,3,2,2,3,2,2,2,1,2,1,2,6,5,2,4,3,4,2,4,2,4,4,2,3,4,4,3,2,2,3,3,1,5,2,1,6,2,4,2,4,1,2,3,2,1,3,2,1,4,2,2,2,4,3,3,3,4,2,4,2,2,4,2,2,4,2,4,2,2,2,6,2,2,2,4,5,2,2,4,2,2,2,4,2,2,2,4,4,2,6,2,2,2,2,2,2,4,4,2,2,2,4,2,3,5,2,2,4,2,3,2,4,2,2,6,2,2,2,1,3,4,2,2,2,2,2,6,2,3,2,2,2,2,2,2,5,6,4,4,6,2,2,4,2,2,2,2,3,4,2,2,2,2,4,2,3,4,4,4,2,4,2,2,
+
+E:=38721810241509921879322294835255062546200687794776022140057852393744090576008</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEsMjU0LjQxOTY4MTZGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">JCIrO28+V0QhIig=</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+TIMING COST FOR E:=167905
+</Text-field>
+</Output></CodeEditor-ExecGroup></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L4" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block><CodeEditor-ExecGroup view="presentation" hide-input="false" inline-output="false" labelreference="L8" applyint="true" applyrational="true" display="code"><EC-CodeEditor id="CodeEditRegion1" expanded="true" visible="true" pixel-width="688" pixel-height="1724" code-language="text/maple" autoexpand="true" wrapping="false" show-border="true" code-line-numbers="true">
+XN:=X;
+local i,CST4,NAF,n,k:
+i:=0:
+CST4:=0:
+while XN &gt; 0 do 
+	if (modp(XN,2)&lt;&gt;0) then 
+		NAF(i):= 2- modp(XN,4);
+		XN:=XN-NAF(i);
+     else 
+     	NAF(i):=0; 	
+     end if; 
+     if (NAF(i)=1 or NAF(i)=-1) then 
+          CST4:= CST4+1760+2440+2*Period;
+     else 
+          CST4:=CST4+1760+Period;	
+     end if;
+     XN:= XN/2;    
+     i:=i+1;
+end do: 
+n:=i;
+printf(&quot;NAF=&quot;): 
+for k from i-1 by -1 to 0 do 
+	printf(&quot;%d&quot;,NAF(k) ); 
+end do;  
+
+printf(&quot;\134nTIMING COST FOR NAF-A:=%d\134n\134n&quot;,CST4);
+
+
+
+YN:=Z;
+j:=0:
+CST4:=0:
+while YN &gt; 0 do 
+	if (modp(YN,2)&lt;&gt;0) then 
+		NAF(j):= 2- modp(YN,4);
+		YN:=YN-NAF(j);
+     else 
+     	NAF(j):=0; 	
+     end if; 
+     if (NAF(j)=1 or NAF(j)=-1) then 
+          CST4:= CST4+1760+2440+2*Period;
+     else 
+          CST4:=CST4+1760+Period;	
+     end if;
+     YN:= YN/2;    
+     j:=j+1;
+end do: 
+n:=j;
+printf(&quot;NAF=&quot;): 
+for k from j-1 by -1 to 0 do 
+	printf(&quot;%d&quot;,NAF(k) ); 
+end do;  
+
+printf(&quot;\134nTIMING COST FOR NAF-A:=%d\134n\134n&quot;,CST4);
+
+
+
+
+YN:=Y;
+j:=0:
+CST4:=0:
+while YN &gt; 0 do 
+	if (modp(YN,2)&lt;&gt;0) then 
+		NAF(j):= 2- modp(YN,4);
+		YN:=YN-NAF(j);
+     else 
+     	NAF(j):=0; 	
+     end if; 
+     if (NAF(j)=1 or NAF(j)=-1) then 
+          CST4:= CST4+1760+2440+2*Period;
+     else 
+          CST4:=CST4+1760+Period;	
+     end if;
+     YN:= YN/2;    
+     j:=j+1;
+end do: 
+n:=j;
+printf(&quot;NAF=&quot;): 
+for k from j-1 by -1 to 0 do 
+	printf(&quot;%d&quot;,NAF(k) ); 
+end do;  
+
+printf(&quot;\134nTIMING COST FOR NAF-A:=%d\134n\134n&quot;,CST4);
+
+</EC-CodeEditor>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEjWE5GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkjbW5HRiQ2JFFobzM3MzgxOTcyNjExMTczNTM1MTE1NDYyNTE0MDc4NTA5MDYyOTI1NjI2MzQzMDExODcwMzM0Mjk0NTkzNjc5NzU2NDkyNjc5MjU4MTEyRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNYTkdGKCJobzciZSN6RVxjKHpPZiVITS4oPSxWamlESDE0JnlTXmlhNk5OPDZFKD5RUDcjRi4=</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEibkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSQyNTVGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJuRzYkSSdfbG9jYWxHRiYvRi9JMF9uMTgxNDk4ODA4NDE5MkdGKCIkYiM3I0Yy</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">NAF=1010010101010-10-100-1001010-100-100-10-10-1000-10001001001000-1010010000010-1000010100-101000001000100-10-100000000-10-1000101000100100-1000010-100001010010-100001000100-10-1000-100010100-10010-10100-10-10-10-10010-10000100000-100-1000-1000000-100100-100-10-10-100000010100-10-1010000000000000
+TIMING COST FOR NAF-A:=642450
+</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEjWU5GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkjbW5HRiQ2JFFobzM4NzIxODEwMjQxNTA5OTIxODc5MzIyMjk0ODM1MjU1MDYyNTQ2MjAwNjg3Nzk0Nzc2MDIyMTQwMDU3ODUyMzkzNzQ0MDkwNTc2MDA4RidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNZTkdGKCJobzNnZCE0V1BSX3kwU0Atd1p6KG8raWFpXUROW0hBJHo9Iyo0OkM1PXNRNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEibkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSQyNTZGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJuRzYkSSdfbG9jYWxHRiYvRi9JMF9uMTgxNDk4ODA4NDE5MkdGKCIkYyM3I0Yy</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">NAF=10-10-10-10-10100-1000-10001001010-100-10010010-10-100-10-1010010-10-1000-10-10-1000-10000-100101000-100-10-100000100-1010-10-1000-10-100101001010-1000-1001000-101000-1000000-1010-10000010-10010100-100100-10-10-10000-10-100-10100010100-10-1010000-10-100000-10-1010-100-10100-10-1000000010-1010-10-1010010001000
+TIMING COST FOR NAF-A:=671170
+</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEjWU5GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkjbW5HRiQ2JFFobzM3NjE5MjgxMjQ5MDIwODg1ODI0NjA3NzE4NTE2ODIzMjg0NDc0NDIwNjQ1NjQyNzcwNDQ3NTAxNjM1OTIwODY2NjY1ODU4ODI2NDkyRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNZTkdGKCJobyNcRSllZW1tMyNmaix2V3FGa1gxVXVXR0JvXj14Z0NlKTMtXDdHPnckNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEibkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSQyNTVGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJuRzYkSSdfbG9jYWxHRiYvRi9JMF9uMTgxNDk4ODA4NDE5MkdGKCIkYiM3I0Yy</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">NAF=101010-1010-10-1000-10000100100-10-10000-1000-100-1000-10100000-101010-10-1000-10010-10-1010000-1010-10000000-100-1000010010101010100010000010-10-10-10101000-10-100010100000010-101010100-1010000100000-1000000000-10-100010010000-100-10-1000-100-10-10-1001000-10000-100-10-1010-10000-1000000100000-100
+TIMING COST FOR NAF-A:=644900
+</Text-field>
+</Output></CodeEditor-ExecGroup></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L7" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=</Equation></Text-field>
+</Input>
+</Group></Presentation-Block>
+</Worksheet>
