@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2017" minor="1"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" preplot="" helpbrowser="standard" contextmenusize="automatic" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1080" rtablesize="10" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" elisiondigitsthreshold="10000" showassumed="1" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group hide-input="false" labelreference="L1" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Line Printed Output" layout="Line Printed Output"></Text-field>
+</Input>
+</Group><CodeEditor-ExecGroup view="presentation" hide-input="false" inline-output="false" labelreference="L10" applyint="true" applyrational="true" display="code"><EC-CodeEditor id="CodeEditRegion0" expanded="true" visible="true" pixel-width="1170" pixel-height="1233" code-language="text/maple" autoexpand="false" wrapping="false" show-border="true" code-line-numbers="true">## a.x^2 + y^2 = 1+ d.x^2.y^2   y^2 = (1-a*x^2)/(1-d*x^2) mod M
+global M := 2^255-19: d := modp(-121665/121666, M): a := -1: 
+#First point on Curve
+x1:=15112221349535400772501151409588531511454012693041857206046113283949847762202: 
+y1:=46316835694926478169428394003475163141307993866256225615783033603165251855960:
+n := 2^252 + 27742317777372353535851937790883648493:
+
+printf( &quot;p= %X\134n&quot;, M);
+printf( &quot;x= %X\134n&quot;, x1);
+printf( &quot;y= %X\134n&quot;, y1);
+printf( &quot;d= %X\134n&quot;, d);
+printf( &quot;n= %X\134n&quot;, n);
+
+##########################################################################################################
+EDDBL := proc (X1, Y1, Z1) 
+local B, C, D, E, F, G, H, J, N, W, X2, Y2, Z2:
+global x2,y2:
+B  :=(X1+Y1)^2:
+C  := X1^2; 
+D  := Y1^2; 
+G  := 2*Z1^2; 
+E  := modp( (C+D),M);  F  := modp((C-D),M); 
+H  := modp(-(F+G),M);  J  := modp((B-E),M);
+Y2 := modp(E*F,M);     Z2 := modp(-H*F, M); 
+X2 := modp(H*J, M); 
+x2:=modp(X2/Z2, M):y2:=modp(Y2/Z2, M):
+end proc:
+#########################################################################################################
+EDADD:= proc(X1,Y1,Z1,X2,Y2,Z2) 
+local A, B, C, D, E, F, G, H, J, L, P, Q, R, S, T, N, V, W, X3, Y3, Z3:
+global x3,y3:
+A:= Z1*Z2 mod M: C:= X1*X2 mod M:
+B:=A^2:  D:= Y1*Y2 mod M:  T:= d*C mod M: N:=(C+D): 
+E:= D*T: 
+F:= (B-E) mod M : G:= (B+E) mod M:
+S:= A*F mod M: R:= A*G mod M: 
+V:=(X1+Y1): W:= (X2+Y2):
+Q:= V*W: 
+P:= (Q-N) mod M: L:= (D+C) mod M:
+X3:= S*P mod M: Y3:= R*L mod M:
+Z3:= F*G mod M:
+x3:=modp(X3/Z3, M): y3:=modp(Y3/Z3, M):
+end proc:
+###########################################################################################################
+# EDWARDS TRIPLING 
+EDTRPL:= proc(X1,Y1,Z1)
+local A, B, C, D, E, F, G, H, K, J, U, V, W, XX, X, Y, Z, X3, Y3, Z3:
+global xx3,yy3:
+XX := X1^2 mod M:  Y:= Y1^2 mod M:
+Z := 2*(Z1^2): 
+X := M-XX: # mod M:
+A :=(X+Y): 
+B := 2*(Z-A) mod M: E :=(Y-X) mod M:  
+C := X*B mod M:     D := Y*B  mod M:
+F := A*E: 
+H :=(F+C) mod M:  G:=(F-D) mod M:
+K :=(C-F) mod M:  J:=(F+D) mod M:
+W := X1*G mod M:  V:= Y1*H mod M:
+U := Z1*G mod M:  X3:=W*J  mod M;
+Y3:= V*K  mod M;  Z3:=U*H  mod M;
+xx3:=modp(X3/Z3, M): 
+yy3:=modp(Y3/Z3, M):
+end proc:</EC-CodeEditor>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">p= 7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFED
+x= 216936D3CD6E53FEC0A4E231FDD6DC5C692CC7609525A7B2C9562D608F25D51A
+y= 6666666666666666666666666666666666666666666666666666666666666658
+d= 52036CEE2B6FFE738CC740797779E89800700A4D4141D8AB75EB4DCA135978A3
+n= 1000000000000000000000000000000014DEF9DEA2F79CD65812631A5CF5D3ED</Text-field>
+</Output></CodeEditor-ExecGroup><CodeEditor-ExecGroup view="presentation" hide-input="false" inline-output="false" labelreference="L28" applyint="true" applyrational="true" display="code"><EC-CodeEditor id="CodeEditRegion2" expanded="true" visible="true" pixel-width="500" pixel-height="364" code-language="text/maple" autoexpand="true" wrapping="false" show-border="true" code-line-numbers="true">### Generating Points 
+EDTRPL(x1,y1,1):
+convert(xx3,hex);convert(yy3,hex);
+
+printf(&quot;X(1)=%X\134nY(1)=%X\134n&quot;, x1,y1):
+printf(&quot;\134n&quot;):
+xx1:=x1:yy1:=y1:
+EDDBL(xx1,yy1,1):
+printf(&quot;X(2)=%X\134nY(2)=%X\134n&quot;, x2,y2):
+printf(&quot;\134n&quot;):
+xx2:=x2: yy2:=y2:
+for i from 3 to 300 do 
+EDADD(xx1,yy1,1,xx2,yy2,1):
+printf(&quot;X(%d)=%X\134nY(%d)=%X\134n&quot;, i,x3,i,y3):
+printf(&quot;\134n&quot;):
+xx2:=x3;yy2:=y3:
+end do:
+</EC-CodeEditor>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVFbbzY3QUU5QzRBMjI5MjhGNDkxRkY0QUU3NDNFREFDODNBNjM0Mzk4MTk4MTYyNDg4NkFDNjI0ODVGRDNGOEUyNUNGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=">SVtvNjdBRTlDNEEyMjkyOEY0OTFGRjRBRTc0M0VEQUM4M0E2MzQzOTgxOTgxNjI0ODg2QUM2MjQ4NUZEM0Y4RTI1Q0c2Ig==</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVFbbzEyNjdCMUQxNzdFRTY5QUJBMTI2QTE4RTYwMjY5RUY3OUYxNkVDMTc2NzI0MDMwNDAyQzM2ODQ4NzhGNUI0RDRGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=">SVtvMTI2N0IxRDE3N0VFNjlBQkExMjZBMThFNjAyNjlFRjc5RjE2RUMxNzY3MjQwMzA0MDJDMzY4NDg3OEY1QjRENEc2Ig==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">X(1)=216936D3CD6E53FEC0A4E231FDD6DC5C692CC7609525A7B2C9562D608F25D51A
+Y(1)=6666666666666666666666666666666666666666666666666666666666666658
+
+X(2)=36AB384C9F5A046C3D043B7D1833E7AC080D8E4515D7A45F83C5A14E2843CE0E
+Y(2)=2260CDF3092329C21DA25EE8C9A21F5697390F51643851560E5F46AE6AF8A3C9
+
+X(3)=67AE9C4A22928F491FF4AE743EDAC83A6343981981624886AC62485FD3F8E25C
+Y(3)=1267B1D177EE69ABA126A18E60269EF79F16EC176724030402C3684878F5B4D4
+
+X(4)=203DA8DB56CFF1468325D4B87A3520F91A739EC193CE1547493AA657C4C9F870
+Y(4)=47D0E827CB1595E1470EB88580D5716C4CF22832EA2F0FF0DF38AB61CA32112F
+
+X(5)=49FDA73EADE3587BFCEF7CF7D12DA5DE5C2819F93E1BE1A591409CC0322EF233
+Y(5)=5F4825B298FEAE6FE02C6E148992466631282ECA89430B5D10D21F83D676C8ED
+
+X(6)=4C9797BA7A45601C62AEACC0DD0A29BEA1E599826C7B4427783A741A7DCBF23D
+Y(6)=54DE3FC2886D8A11DB709A7FD4F7D77F9417C06944D6B60C1D27AD0F9497EF4
+
+X(7)=14568685FCF4BD4EE9E3EE194B1D810783E809F3BBF1CE955855981AF50E4107
+Y(7)=31C563E32B47D52F87CE6468DD36AD41F0882B46F7ABF23D12C4C4B59F4062B8
+
+X(8)=6742E15F97D771B642862D5CF84ECF93EB3AC67B80698B993B87FDBC08A584C8
+Y(8)=21D30600C9E573796EAD6F09668AF38F81783CFC621EE4931E2F5BA9FC37B9B4
+
+X(9)=357CC970C80071651BF336E06F9422B886D80E5C2E4E0294D3E023065185715C
+Y(9)=7F3D23C2C2DD0DF4B2BEFCE956F2D2FD1F789013236E4430C74E44845522F1C0
+
+X(10)=602C797E30CA6D754470B60ED2BC8677207E8E4ED836F81444951F224877F94F
+Y(10)=637FFCAA7A1B2477C8E44D54C898BFCF2576A6853DE0E843BA8874B06AE87B2C
+
+X(11)=14E528B1154BE417B6CF078DD6712438D381A5B2C593D552FF2FD2C1207CF3CB
+Y(11)=2D9082313F21AB975A6F7CE340FF0FCE1258591C3C9C58D4308F2DC36A033713
+
+X(12)=4719E17E016E5D355ECF70E00CA249DB3295BF2385C13B42AE62FE6678F0902D
+Y(12)=4070CE608BCE8022E71D6C4E637825B856487EB45273966733D281DC2E2DE4F9
+
+X(13)=107427E0D5F366CCDB33ADF0282D304F8843E3E88D22B7B83780E073B7C05FED
+Y(13)=12DBB00DED538B7478466022D2DA89B83740CFB2289A272387EFE1AEEA401F80
+
+X(14)=205F3B42F5884AAF048C7A895CCABB15D8DEE6D83E39832AA38E7353B58515B9
+Y(14)=4E50256F50C4CB8115BAD17ACBB702BFA74898E819B6265C8369FD98899C2839
+
+X(15)=4F162DEAEC2EC435DC5AC6F95D20419ED9631374770189CB90617F3E66A18DC1
+Y(15)=12CBFB2D04FF22F55162F70164D29331ACE5AF18A19A9AA1946D4CC4AD2E5CDF
+
+X(16)=23A4860627E53AEEB8E22B1508249C9109578D33E7BF237459B2596D6C28F9F8
+Y(16)=709696F2827FC3729F980F2E3AAD6E78B06A11FF8E079C27D87AAB37C16727EB
+
+X(17)=7DC52D5A7DB816E9B850741EA2FD72918D94985B85A20B4DC5597853A876DF6A
+Y(17)=6F6D2BCA60003EF9F24AC245CC919FB717B188723B34F901CD6CFE9BEC97BE04
+
+X(18)=1368877F4867292AAF9C0393BC2B0E869158987876B8001297B644A64BB10B96
+Y(18)=2E1126847E0BD8987DE8E8EA8A96C3A5BC810E4ED6D496B0354E3E90E075B04A
+
+X(19)=1D81F74A5BA45C7022E8C140D763B9C1B0E281A5304696E74F791A3A04A94472
+Y(19)=3F185A93D95A4347227C5BB6DDD65CF42E1830823F435F3083FE6102691D55B9
+
+X(20)=673C65CAEDD698B94F5BBD757DF73A9E6985150ECD4A2135A058E273AB4CF9AF
+Y(20)=136CEBACB6260A9D5E6A3E3171C535F0BE71CFBE16A960B9DD317BDA6F3C5A38
+
+X(21)=6F0AC78E5EB90E87958588F9D47541EDF252CB1DDE3D073CC45E3E7EF9365716
+Y(21)=6628D116B7975AE5F323E5DDF4F8CC35AE06D5C5C7D8A56EFFC66051336D289E
+
+X(22)=1E029B938C915F04B0C73D7338516AD51E376A9AFA7DE7C8C077622C2AEC2F7A
+Y(22)=6BFC9472CDE96427C4AC03F52E0D2B3CDCE6566535DCEE5A85A6A44B8975F24
+
+X(23)=2188AC423C67DB5625915E05222A391BCAF91F05D9B7CC2CAB5798B2D2E14D95
+Y(23)=23240C559C57B79A4DF69A23FC46E50504277B1FA49369AB663D79782B33C0EE
+
+X(24)=70985F28875D4006E0968D9C952D799E610ED8E052A9A10E9677C71EE8886B81
+Y(24)=604E1B93C877B9896DCA33CF8A2093CDDF9FD21208C20D08E7B2444FED7B79F1
+
+X(25)=794241471ED9CEB009384B370CB8790FCA98552ECB822DC06B19362C36353455
+Y(25)=71E918C03CDFCA7207772E8D18EE8F9D92D79A0A83F378912362BC68D311DCD0
+
+X(26)=7982F658573D3D2519905E0D62C9469B667197FD602C7BE16D5AA882178D4E9
+Y(26)=6C66E7E8EAB0CFC9E9A180A04D91D6E5C9709380B7D63EB011DFE9AFA1FA1A0C
+
+X(27)=163BC180C22DFC5DA23C5C052107BBA93A88B4360AA1D4E729611D8F5A7F8079
+Y(27)=631107A6BA83F7458194B9766A0A54F638CA20DAF800384DBAE1498677501939
+
+X(28)=47827FC68C31EC77E418A77ED5281A3C85BDBAB18D755B18BCDF5B549748291
+Y(28)=7324EC33CEF7B3EA9331141AE90F02866CE1BCFCDCD8C2D0191002F02078F0BB
+
+X(29)=39A32A30F3EB1DA0EB7E3903B8ACE3DA3890B24B61A3A9E79DB663B5DB0F7A5D
+Y(29)=4D4C54675DC1F1C9A1AF9CA0010045DC803C16AF345823136DD203715D67C491
+
+X(30)=7E40E656ADBD6AA0CB203F337DD19D441336400F59E341C837EBD71B7881E1E4
+Y(30)=342740FF1D2CC47AEFED1E9B1C1B387CAD3FF6F842729E20A414557407D2F3E4
+
+X(31)=38085391A0E2831F59C33FCCE7591515784D359925F11FF958E0E4658EFAC0E9
+Y(31)=42918001A829F49B5634E34AB7FAC21B30E24660669ED91955CC31944A19E62A
+
+X(32)=39CF6C6917421AF98582561D0B39567DE6033190F97852FC4FDD40F6977E4F26
+Y(32)=4434A90EE12CCE6B7ADE93ECC0F88B78B41205E74C8C4038F92D394F3A06D269
+
+X(33)=5E3573B049D6135FFBBBBD9A480617434F2455B4A591F719E91153EEB75A32A1
+Y(33)=54BC665420C789DA1105D53983C1A0FC33BCC2690CD9B37D6566E21A85892871
+
+X(34)=43B314AF3FAD092A519DD4C1E4D90F6E6909EEE8D3F9E99CA245DB9D4DE0A886
+Y(34)=AEBDAF9A47AFA9625F4A71B1F2D9B79DA982C3139DBDBE3DBEFA92D62333393
+
+X(35)=7ED068B25B82C05FDC0E46BD80A357F3ACD2F5C3B9330BC8D474E5B28270F6EB
+Y(35)=1DA83A187DA8CCCA704D46557A462551D70DF7F943A681C3B97B1DB6A21B7D3
+
+X(36)=2A7EBC21E24C98AEC05E00BF8904C110450F1A405AF9302B0BDBF676F59C5E7C
+Y(36)=7B84DE710AB04731D5A19160922616929CA121489F83A5B56EA1D8D6C6C4E766
+
+X(37)=5CA3370E7516F6686111B72650AAB4C5484407F14B515ADE03951C6A14A0AA3
+Y(37)=6F407FC537B95277966E7F0F5E64B86904BF7BAEE091CEE6011A3611834C6903
+
+X(38)=7BD4C5F7BB2DF5549DE8A5C0D2C15286DC2A09AF820E185CE5B6A1E6AEDC22CD
+Y(38)=A0D3B2C427D6E4843D756E1E51A0C6B11BEAF2BB7CD081321D507995BE963D7
+
+X(39)=624CB312B698BBD6DBCA79B8D2B53CB5D8B3AB33C19306E87C18211F095AB9C3
+Y(39)=5B3336B2751E97C793731AC9B9A2243B6229F6D0BBEA6B619395D0E5200BD8A3
+
+X(40)=4C1CF2DE651D088552F1D9C280730ABE88709452EB06BE5E722EB6AABE6FC247
+Y(40)=420B63B5CDC6728636A318389C11922B01A670472881F3CA229FBEEBCB67B394
+
+X(41)=1DDF6ECE608FE2901B34B7E4F47CFCB75E947E293C704D8121B11A31A051B5F9
+Y(41)=5E2DC58E9A48A749CE5296D229CFB34F96A147A8246D2E9844D52B52112EA94E
+
+X(42)=5DBE6CC3CCFE19F056F503FD5895E4CA00385A5F109126914B52446017318069
+Y(42)=4237066783C4352092FDF0DE4DF92CAE7343F40939F32B3E195C834E99321ACE
+
+X(43)=396B384F3D61CFC060308FBB1C941EBC9418E2D9ABD81316E08D625F48C0E101
+Y(43)=7223E5F7B66D1CA24962BAC273A7AA6618CC60CB8A64A8837E0261107E7AD644
+
+X(44)=1E9C5433522B34DF12C8B3C773B2CE0968F1FEB137A6993274BBBEC0A7BDEDF7
+Y(44)=1CC644921DC9A1586B9A580FBE2DB87D65695FD79A9A44B02274ABAD533F4B12
+
+X(45)=53CC3DCA3410277FB38D75E4AC0DDE8E77A99C817170DBC9696CFFE7890FBD50
+Y(45)=2592A3AAFCE64D7C69F4DE468D5D5AA19845F5CA08F64A0A40E37D23ECECBBE1
+
+X(46)=1AE2567765322A4F508799B49CB4E23DC39AFB5BBC4EC505B98AF74C02602D3E
+Y(46)=DA4E8204D91171438A09618B0897D33240B2D70C8C6F7106042A44C711567FD
+
+X(47)=34705FE600F5AED77B29D3EACDFFCD45D886904156D43DC550BB7FC889CC1368
+Y(47)=299153C141A8950FFBCC8E9352993E642FA39A476200DD4ACF42E158DBE3B01E
+
+X(48)=4D6204A526DEC7D09F148A93137704532E8A41AE27BD0F58CF2D0F6F7BA4D779
+Y(48)=654330726D32AAA4A89784E2141FD21A8BE67387882B44A38745EA7BA206DF11
+
+X(49)=5969255BD089181B991FCE96B1792BA330A14F8A0B061F8118C9C336B8504618
+Y(49)=680A805FA0AE93C2A12B193517FB1147D355547E4AB18A9D6CA21575BBB4D7A4
+
+X(50)=1687CBF84FD6EFF08833B22B598BD634E5E2B2E8AC5484506BB9A1057F2F259E
+Y(50)=14A6E98E85A577BC8299245A489B96FEFB1197F1EDB5AB9549D283A4E209BFB1
+
+X(51)=27D1D57FA8808D3D452DF14BDA4248B37902752163B1FD499A92456C59918ECB
+Y(51)=A42F1C0F4C5D7DE9E82904F0B4FF63988D31FEDB8AAD9D8AE009C7A1DFF09C3
+
+X(52)=74D651DFED11FF3479E71E2BC902AE30D9D66053869AC2C20E8D2019735835A
+Y(52)=63B49B0199A9613023724958B5911A40715EED5D9D4580A4B4AFB242ECA74DDC
+
+X(53)=811D14BFDFDCF2144EDD9CF55BCE584A9BA17AEC3EAC8AAA82987AD703D9B8A
+Y(53)=42BEA70D46F3EE0DF0EC77D24C5495EA56ADA2E0415920470C4746B68306376E
+
+X(54)=4A607E730479E507AF1A9EB9CB3F5C0B53BD8F4003CD9B51D1914776FB3BFB8B
+Y(54)=26F582DBF3E3BB00F35E76C4B4EB6647155E8FB67BC00D74B2B56D2B2C89D657
+
+X(55)=4DE090761B863CB0F0650297F154A8E66D00C5119C38E5DD05303D905D527A4A
+Y(55)=5EEF0EFD105361CE198A30E09E7E7EDFFBE3D70189E63CA68CF6057B9772BAA8
+
+X(56)=3C5B691A9DF916FA07FEFC3C7B39D45DB189869213E30C34E0EBF5367AC2FE5D
+Y(56)=5735B59EFA95E6E5BFF6AAD65A79D699864425F58CC156E990C24D898CB44944
+
+X(57)=1D45517858CE45556AAEE056EBAB7E0EF3DC9AE3740AED570F3E76BFB4FC4817
+Y(57)=B5A9D8FE8B7CCB04C0A5EF77798A3EC6E1BC1138604EB05E83844F0D4C5C699
+
+X(58)=69272A336C06AC710E10D5CFA326AE09A86BC792D2A916AFB393ADAC23F4A449
+Y(58)=1270F6B5D0A4FBB634D6938EF46C56585F91353316E016D7427C5A2A6A129BB2
+
+X(59)=4285EDBE9117F30AAE1EF5EE419EB1D472106C6B3D7F3CE3701E39324B0EEAFC
+Y(59)=503AA6104A682BCF2C0A60C84F4C22B50B0CAA0FED8DB87DEDC7173EAE04BDBD
+
+X(60)=4EF30DC3615711698A49A56F3868988185A96CC66B9A432463C468FAE85B0111
+Y(60)=4C8761688148E6F6010218AC46449B2884B692475A386EE4043EEF5785CA8AB4
+
+X(61)=3EF830CBEFF9B79039B1B6BD9BB52BBCFA56D008D91B9703EA1C80351F8687D6
+Y(61)=62349FF5D8DBD216A874769EEC152EF9734BEA9240EED623992C7553DC8EE4C8
+
+X(62)=61ECE0F6DCB258C1DD02754BC690E3B6BB0EC560DF7F88F1FBB14E8B40880832
+Y(62)=9C7D0D3A901A68305A9C45094510B715C1C3D59186C35DB23528A78354F7795
+
+X(63)=649A996E6D4D3B60CCB526939ED8929134107E03E2FD4648EAA2FA9830822C1A
+Y(63)=1648311B942FE95D492A1ACE5E5235C1AEA860D036D2475CC8964CD1ACEDEE9C
+
+X(64)=5FA64200BF829139CF290F9871D79A8B8E846FD6AD9D678F1517A0FB03CA40B
+Y(64)=3D199EEAF926002872F486796FA8AA4C99F1125E6E0D196AFBD695AF17DA0926
+
+X(65)=3A95596D97770D050D1ECC075D58A74F5FE6B4B8222740534BA22C8BE73F9D56
+Y(65)=15A80CDCC03317A830FA4A7461DE6BAC136993E0A797F83B405C161A34C98FD7
+
+X(66)=1E7B271F557987C4BE5B88C96E26DDAB396357DC3BF5EA5CC5B0B7FBF451B690
+Y(66)=4A9176FF5BDAB12856A1F0A52B815FF57E6AE8062DD503BE643564D4A10B8F1
+
+X(67)=2D265D3FE1C88903CA93685209418DEEC5AF886BF0D9FDB3F499D831CBB76CE1
+Y(67)=8376FB0663D3AA220948612B519AF4A6A1F956622B15A305FB2E60A84210B3C
+
+X(68)=39F3D2A2147281B77AFDF98DB352CDB314143E4F9DDA20D5689876F1AA2FE23A
+Y(68)=28D6ED8A52D62A0C91355626C2262C0779D95580AE1C49A44279F21CE6F23012
+
+X(69)=642CB15498D8C6B25803F3E56B98E2EA185AC808CBEAB5EB0A610ED5BABB9385
+Y(69)=21B5CA5020A9E5A2334C0BEE15193EA16C909963FFA6E1D93DF4B239ABEAEB3E
+
+X(70)=3BAF6FFD495A94ABDEBAAEB9D4853792BE9C8A5B622B3F77D6E18801391D723E
+Y(70)=16A371752A302C2DB274CAAD6E59AFB7B06753441663E48B772606D0C485B2E8
+
+X(71)=38E576301FF6CDD0822A19C6D610D445D3967E2BADA903ABB6220F68C6E79BEF
+Y(71)=458FE689E31A24952D2817DDA4349109C1B26EF31699FA36C4F8389EEB60EAC0
+
+X(72)=6400A924D21F6096F158727ABF13F09777F9E949D0D3822AC7A5DF0476C3C068
+Y(72)=595C1621E0DEA885F83C8956598B5E682FDAC02CC4D8A29CD189B860590E8CE1
+
+X(73)=372BEC78D75011A0EF2233CD08790A7F15C1EC1E3A78CAC8D6652678641780DB
+Y(73)=32E9E47CF2F48612ED3E2C2006EA0C0C8476D3562AA88CEFB67EC97ABDB538E8
+
+X(74)=7F5A58F1514B010C8DAA97ADF9284545BCB205E5D1BF701B4C4CDB68011435A3
+Y(74)=3D2B07D268AE543496E20BC00FD52CC0EEA383CC785478909A1B16C4FC12BE22
+
+X(75)=1AA3756AABCC3EB65AFEE34E0A15DD67BFB9FB199EB131F4CC6A3CA9EC4D1C77
+Y(75)=42333E27831ADD6EB49AF80E17347C63C26DD684758096EE3DBDBE03A49159AE
+
+X(76)=23B6B58911A7FEE53495BA038BE06BEDF55DD97518343B8C402BF4FD8D0ABF54
+Y(76)=3ED59443EEFF0ADDEEE42C9BA85614DE230D7DDD3131630DF09CE87E8849C80D
+
+X(77)=38DB16447D79D3590C4A36E20286BEADFBAE91A4EED2E5E7DD4F975AC0537DC5
+Y(77)=1C48CCAED60EC12CE862EA71165BBA7DF1739845DF2A857F4EF0A0F714F96DAA
+
+X(78)=65A3E79EF554B55B8D8FBB8005A01A1A0490BD2BFA8AD028567E4187CAD4E7F1
+Y(78)=25DAD5A79EAF42360DD7B837291FC3778309D634C204C9653417CD5610762C84
+
+X(79)=176B78984CDDFDDEF90BAE619C6A98E951D9A7AC7D6AF218AE7E76B273212FB7
+Y(79)=7B5B93EDA77443F366E2A127ABE12212AAD8536767EC1C5861143F777DB85852
+
+X(80)=78B43CC5BC020E13514EDD21E5A56E1A1912C615029152A13CDFE8D7F6425311
+Y(80)=75358A782E64B36E2F8762960F215646A01FBC926F27D6AC7E188D0CD2FB4DB9
+
+X(81)=42D154BF7B4A7BD73897AE528C6BC552EA58D74F8109E8E4052D3E9D38BB0F6
+Y(81)=42D1831323E279F9F7EE9E3470BA20CA7EDC3245ECA5D8FFA182DE120A71FC90
+
+X(82)=37B29395654CDD06C96B76715B563BB8B6B902B675005EE5A54CE7B47AAF08AC
+Y(82)=23965787C490E92A56E87E86FF1631083982D89F4B57517FBA5BDED135D93EB0
+
+X(83)=1F8D28DD4F286A8D0687B626B01204434BF5874A9550D6E375116490C154E108
+Y(83)=1CE82E2360367E06F41757FD45239F9BC2C61609139446B09B55A9C43DA98BB8
+
+X(84)=6C66A539BC140A776738EFCC8B959420E0CFEB6AB2514B122E80077F6E686374
+Y(84)=3AD3BFF438D509F9088564765492D4F039281D2853D603351170D0AC3A0C9DB6
+
+X(85)=613EB914C015076E9AE8356BF508C289E50B1C87D9E2546F6E406362E248E5E5
+Y(85)=3EDBAAFCD8C41EF4AA18B254137D201A2EF0CA4CA28807156BC949E920B97353
+
+X(86)=45AA406EB23C46728939154279CA04732BB82759E09834AD452074AD6E04AC60
+Y(86)=434D91D5BF4C2A02C6D4904F6BB7D7545F7AE95AFF08DD5450A1EAF94ED57E81
+
+X(87)=27BF43826BF0310B4B3E3A405EFF790A1D77A8D48B04891246CFF8E193CB03A9
+Y(87)=16A24D749CC1D234FBE8AF9CFD782C3AAA5869D6DB0AFA7B4D4C67037514F2EA
+
+X(88)=5A37CB0168B32DBC1A5847C2E569B4195CB61C3AB2FDACC5AC5DC90392F01087
+Y(88)=6B93B7D2913FA2FDBEB5B29A89438DE10E1CEE4BAEA6899F8ED384560B86C193
+
+X(89)=769A6A59746D7BEAD417BDD9C3B5F5AE1DBD924083FFD9E88DF7714F57A675C2
+Y(89)=22DC1267CFB2B41C590ABB7DC3DF45619AF688D0421F2BDFB50748335EC5DA25
+
+X(90)=66EEE7CF3A541BAC6A01950E3C7023D1BBB84FA706AD6BCC4BAB6777EED6E1F3
+Y(90)=2748C7173C261BB0914A345C069F3204EC80F12C32CF85F22F73BAE1F8125699
+
+X(91)=795734EE4FCC24194219D25D41A2889CDB942F765848E9DF63BFF0B158C7224D
+Y(91)=756420AB5C71127D39D2E79907634A177AF0E483E08484EA4D7B76F7100669B5
+
+X(92)=2FD9D0035A2AA6A9DA7CD833994E500E2DF16636C4E993E39098086A8C5DF55F
+Y(92)=2BDF6429B5C088D5BC79D98EBD6D1F9E6135550E9E29574B8CADDB708EEA2991
+
+X(93)=644D12FC5E7FCAC5AEB5911D8240971A99FC59FDD2903F46958E6896AEFBCF46
+Y(93)=173450789FCD40172E8124FEA56F7AEDAD2EE13FA8FC5209CC8CB572175216DC
+
+X(94)=5DE169F7AEB9837A5DB60F3F51716E88BCCAC71FF94A6DFEF4DCDB63A839EC9B
+Y(94)=1BA06944E3EF4A36A771E996B9841B9673D7FC87A3998713C553E143DE496A
+
+X(95)=5DECA767EF17B9E8D4F351F5C8AD1FCC50E97A2ED687516BF5210679FD6C1110
+Y(95)=4DDF2207DA12F700708089989DA016F3307CE5721C9E27C952599D67898AA396
+
+X(96)=3B5C6A2E0D4CB9CBDD2DA21EBF38F0159C0B57FDB7E632CCF56D4FC15B1416
+Y(96)=1BD9006846ACB57C1348639768D984736AEDBDDAE41BC81393449FBAFC243D1E
+
+X(97)=296DCB24CB3185D037A94BEF93C97CACD09FC7050BA8472DA59D4A689D9D2848
+Y(97)=B17DC85A4ACF73833FAB728F15ABCCAC97CD09E57975BD996D3E1DD8B060F7B
+
+X(98)=5FA357BB28DF099B8B70C2DDC02CAE05F06EB3B9A814B78FF7BD9CF55CF0841
+Y(98)=34533FBB409BD176EFB059999927A0E6FF374C125AFBB63D0A33D71D66C4E037
+
+X(99)=408A3F1AF2E77DFE94F8E225B40DFC146ABB1002DB7BCF15FDE61C1A6CF1B93F
+Y(99)=4F01EC38854C15A879E7C7924F048E2EC951DCDF04A614088B68FBCC0954E1C8
+
+X(100)=4B87A1147457B111116B878CFC2312DE451370AC38FE8690876EF6AC346FD47
+Y(100)=405EA0CDD414BDA960318B3108769A8928A25B756C372B254C69C78EA2FD81C5
+
+X(101)=7D2D9234970CDC9483E0A7C5EC52C49077C440E0A993A1E624F90B8FAFBBF07
+Y(101)=6AC2190030C210AE3E07B9239F6EE7AFFBA263866EE7831A564C511F703F2295
+
+X(102)=78CE54389A40BAA031EC8A4218C36167CB7086F71315CC29DA864153FC4F2E42
+Y(102)=1936FAF8146F26F6FBF8383FB9A6FEA2EA623C668FC236F5AC2406645CC5368B
+
+X(103)=2982D553002082320AA899B9B6887E40DEDF11868FA931689795D93D58452873
+Y(103)=215E16CA447978624CAD0EA6BF45AADA4ECA914425EE275DB2A26E980DC349B6
+
+X(104)=5648A7BE1B1138B47C4C1736F6784E39AB2A8AED4E0D41C66B044562A472D508
+Y(104)=6F6F7A0615101550F58464A6B909F8E1F9CFC87253E1306843285F0DBC3618C7
+
+X(105)=1D8649515CB49E136D2895B6276569E5C711FE1A343EEB5A3DAAA8D0E7B42D1A
+Y(105)=5B21E2F2978F343A3E9EC3316CDC111AF3B55F34AFA5FC3FCBF6C26C1BB7FB6C
+
+X(106)=20E34FDF6B1325CA15363B9C70A56554B4B775A3E70FEFC400BD6E2E7D8794EE
+Y(106)=121F6F3FE66155557B5E022C228BB8F8E7E5FF2FAD282B401D6A31B037E8A579
+
+X(107)=5460DF4D607147939CDBC04DBDCBDFFD37C5EAFDD501B50A67213A23EE724A97
+Y(107)=69DFC7004263CCB52487D34AB134B80BB3030273999739CB9CDC16D71B9ABCD8
+
+X(108)=56870F62A11F022ECA1369C4E95035682385A399D155A7A9FFED4ADEEB40537D
+Y(108)=4E172289BF3F9803E591C678211686CCEDA64E377646AEA233D86F1CA8183733
+
+X(109)=24623476F0AF9F42CA15A0697AD23ABEAF5ED9DC4D2B44F7E8175486598125BB
+Y(109)=6AEBE4A1A22D9E31194DCDE6D33FF3AF77DDA15C22B2ECBA9329849B8C042687
+
+X(110)=387A85354DD2E0D8A1DD1DCD60679305BD668DE57E7140E43559A2DF76CF60A1
+Y(110)=7DE06C3599D87135F2B06F7C7A26B9CC843E6CD04FA456684C5E55D6E9B9E173
+
+X(111)=64E507A02BFD8A8413117BAC253B17F94B2911681EBC07C92DA0DE6A651DD538
+Y(111)=513AC992D72B463DA110AFB612FBAE36590248A0507D845EE95FAB2D1CAA03A4
+
+X(112)=384BD69CA7D69CB9DC7DAB338F67D336867B24F2D91ECFA3D7E3380B3E48F8EA
+Y(112)=121351D79352D734A46A16B1B8BCAACABEBA9C9FF30A0841703124B6DEC0A6E5
+
+X(113)=47F3BD11324F6BEE230A22A5BB06A3CCDDBC0473B810689EFAEEF894A654BF0E
+Y(113)=7E05DB9B3FF886BF32608DFC8D14EAA91E2E2EF230E7C75618060E4285C492BE
+
+X(114)=3A468DC6C961544808DE160CEECBDADA53E9A30BF1D2928CB91BB5971329A8E0
+Y(114)=5070C00630A4802000275721B0860D4D6D138F7485FE71BD0FC6B8FB31AA7DB0
+
+X(115)=4A6D22703A7045D02D656015EA2D168385D42963A739A895E4FD87B3E55C5E0F
+Y(115)=4C58D7A8C6DED0451798E51F16FFA5B637A87AA5DEFB119BA868D8CCCF61776D
+
+X(116)=7C1685E6123220914B15CAE30880B31E6D4CA29DC8E0DF3D50750267713B1043
+Y(116)=2F1A766E1F1A72D2673A3E125375E905B1FD21B4FC0829125AE19C372E96E70F
+
+X(117)=3E22AF70A548097244D7798964598172A90391F84C59B04CEA7AF283BA368EB5
+Y(117)=689D8B7CDA23B8DEA197C5119FBBBD81DD4B59A36CC283DBE292B5B6519A2968
+
+X(118)=4C12035DD585D617D6FBE3B12FA649F5ED86DD579645919F05006CBAEB79D43F
+Y(118)=F3A8B63F62BE5ED3E3FACC6A585C630DB03A092862657F29544B0D1A9D21DDB
+
+X(119)=61A6BA2CA42D9D557B3A2FF0867C1B8BB8FC40192D31FF637431A302BC065A10
+Y(119)=63D805F5A79F845EA2915A25CF0A8CAB2E0255212A1BD3C8852B25579B63721D
+
+X(120)=50CB67EC4A998BC37D3A72BAB7EECB366CD58728A174C26192DED9241DD9E246
+Y(120)=80771A0502DE87BA5B3A23A789699FCAEB5238BBD08A290E01C2AF1E565143B
+
+X(121)=3D963EEAE48556E88305F91C478EFCFD2168C346B9BA185884EC8621E8CB414
+Y(121)=74B75CC839A944AD8C639719D20FD9D48D2099EF24C8633EABEC7A9EC1E7E183
+
+X(122)=75C2E0315D32B5DA5995A553093DB64CADD9A7E9B99224463B5588EB83D0779
+Y(122)=4FAE77EFB9965E3725CD5A861814630D4362A6A2B8CBE2369AB34BA7C57F9E2C
+
+X(123)=F04DA69E0202F7B44C58B103C88DE09A0599951FEDB17E7F2152D6B93A58AE9
+Y(123)=1FBC1C9CD03C4CFD46E8E90019DEBF86E8036587EADE038346F91070C800B8C4
+
+X(124)=622749859418B5F29751D627FF3391B62F39564BC69A7B98A8A6FBBFE1CAB49F
+Y(124)=6B2779BB3C8C305A3A6F0EFF41F73057BA5082E1D2CF18B6DF0CBC9179010500
+
+X(125)=797899E488353ED0C6666AFF11913B33BE0190833766E809B2A68CBC671A9CFE
+Y(125)=5DD70A33FF94A84B3FE660F7070E6179E86B5C846689265BF985CE424B8909CC
+
+X(126)=A208C2C4207D13AA11687E054F191BC312E3C2BD4965A7A4EEF23D74C4B7D02
+Y(126)=33E06070562790B773ACDB7119BF16B2DF0DF9E47C5CA6BBD1BB508353AF33E0
+
+X(127)=735B64BB872606510E4E7D57833EB7FFDC4AA0DBAA242439806BE68379F77CDD
+Y(127)=384AAAEE3CA7BA2436FCB65910859CA5EC30C10AF11DF7D777D287BC1A2BCE2C
+
+X(128)=379DBEB1A97B5F082402EABF1AD28BB78A837AA426237A405DA2495BF0CFDD87
+Y(128)=28EB9FE001CE99D063F7995348559BFC233261C134094521FDA0E7EE084B86FC
+
+X(129)=6F6EA532A62CF4766F55A0A72A86B55E73FE9D3328EE94BFC271E122F99DC1AC
+Y(129)=61D8203EF6DA5D0B584541C02331C7F58617CF8D4F26D11776236CE8B113AC10
+
+X(130)=3FFC7EF1B57BB70C29F58E6694975FBDA837B6BDB12842B1AD62E4B6D7007631
+Y(130)=465469B522CA0DCD22CC4BA5A434573B1924B7C8E5BCEB0230593B5E124EEC66
+
+X(131)=5D99A2A3D4AED730B827B68ED836A9910DCE4E7B93FAF456981AD6CD85748773
+Y(131)=7EEACF5680FB6108A8B7EDB45F7134644111B08E17C236469685AF5A79474B9E
+
+X(132)=75D58688B7F66CB20F4AE95B02579AA96068C7645D76CC1D5BC5A5F9D86E51E6
+Y(132)=707B8CB23D018A576D6BB321629B54EC8216299216B9E043FC7ECE80D95A7275
+
+X(133)=31D0B4BB57BD7B69363C064A49BF3C3B9D7635BCC287E7B3059D3D99FD8382E8
+Y(133)=1592E581034E13D47D02B8966F5359097E652391BE8FB1E803F4219A22ABA2C0
+
+X(134)=5F47FE216D4D3EB0DA9DF904F74837327267C4010AE948D5553B19D6E9F69036
+Y(134)=6FA7F77BD9304AC164327EDD5FB6F656B51FB2F020A37CC766AFA23CE0AB2051
+
+X(135)=424CF5C498BBBE8FA7E5C3247049CC3F45946D0E5F38C44A36A6C84B60A84AA0
+Y(135)=34ACD712D334A2315DC8FD00C5C9B7C5C9F29BCA27380A018882A5AB4A0FCB43
+
+X(136)=4BE7E4E20D358ABDEB9AD5432CB4399EC6F753BF5EE9B8AD5C0AF1CB57BB2A7D
+Y(136)=73E23EE1EA3CFBC7686129EE96D71D94E796BC81B0E2E34CAE26CAABF1544254
+
+X(137)=33A6AE0522936BA774837AA7959972F9804E3EF02AE84C8039BE6595598BE247
+Y(137)=37022798CC08BE9B4DED34C1C5062AB3A26081D375CADF517972FB48135A6602
+
+X(138)=219174DA8F973F1A223DAFE8AEBB5842E988516F7B59C94AE0156813C1CD6B16
+Y(138)=4C18F0E9D50D4933555F4DE0E3171757C29129AA2983D4814A2B4A954ECB625E
+
+X(139)=5939635B72AEBA595B5F6E376D11A3E07D4B1153AB4D0A7AB267B8BCC47CC3CB
+Y(139)=382162EB33DB2322CBE01A38FA4D13720B6D8EDFAF8116A628725EF4293A6C27
+
+X(140)=DCA1FC84E8469A69181EF6182275717E9EBA32DD5FEFB73146D7A926BFC5081
+Y(140)=235B403900B3D006F2CCCD0A2F7C13BCE3FAF280DF10C3A482C1A837EB588D57
+
+X(141)=3649E78D2AE9FB0EE86B691C27386EFCE4F3E383790E3CFEE2BD59C2E85C4036
+Y(141)=9B0D9E0DD82E697B9BE9D61CE0D1410E281122B483125C48F7942B22F5D5BE4
+
+X(142)=86E9E4AF69C2F91E97149ADF60473EE6CE95E32B058031FBA0CFDABCCC158F6
+Y(142)=29828CADFA2950E258CBB645A3BF77E34A0F0A09AD11FD0E697E4205751D9A6F
+
+X(143)=62C7585D1677B7619D8200175346EC99118416D8FDF0103730D165934E96A973
+Y(143)=5FEF7955EE07304429995433A468D68DEC4ECF6B08BBE8CD06869080094044DE
+
+X(144)=2A15B6F03F69A0B65A45DC812540B5C6130920157D86F2FB1FE22C8F853166D0
+Y(144)=721C3CBBCCBECA982DC301462CBF29C485ABF729B08A4E521474B2E4EC89DF9C
+
+X(145)=C94537D311E17F5B0C58989B5BE7E40C88B978A8C074A1E9BB07A713F77F6D3
+Y(145)=6DEAAA5001BCBBBE9AE436FE42F7042CE74FBF83C14058427FAD4587ED33C4E2
+
+X(146)=58CE92CC51C7C0BB8C97AF1EC3D4500D21D5281BF632BBFA0624408179EA3116
+Y(146)=4B763E3085B8418557866632BCCCBE7D813FEF778BA8F8FEDC9CD6BB8C658E85
+
+X(147)=6F5C6894A8D3877312E608C11809C15DFFEC3DF551711095C8CFC810533E1B3E
+Y(147)=74EADAB9389B40D6AC6CC0D6E333D628CED60A9EF7617751C20630D23477AF7B
+
+X(148)=7A2C7CE9EF9F22F64D74B6AE8A8A284CC77405AA15EB39D93ABF9AC598BABFAF
+Y(148)=5FFDCDCA326144AAE4017384B579BB3C3417F5FE5C45557169DD2DA27A04726
+
+X(149)=4E16E88E171F9A07E11F97BBA65C0FE5483501F255343AFB3335ED47FBCEE08F
+Y(149)=41BCD7DD328871247CB7995BC6BD2E1961E94B0FB12E5FB2F264F9AD2CF47D4C
+
+X(150)=BC41C5CCB39531B66253E11A4750E9D5079C79DEA2AB1CBB47A15BEE61653CC
+Y(150)=2258F38E20545BFEC414B9ABB0D490D072A3891693E4E5E225BB512D563C6652
+
+X(151)=65D8484CEF146E6C232FB262C2AC8200A52C63CCEC26FF6F038AA5C74982C741
+Y(151)=67283346BBAE9391952B141E57CA8E3A36F0363D3B81B1C0F2B3C30A92C74235
+
+X(152)=3BA1D4D108B9AB9D1EDCE30DC34F08533DE7E1322A206C602F01F8C7B13004FF
+Y(152)=1265AB3FA3F2CDEC2C2D81AADFDC0DCA60D0A0E47224C540756EB1B6B7B91FFD
+
+X(153)=1C588485B64BE8CB99BF97F065E75A82138EA2E035BA90B63745354E9CF729F8
+Y(153)=7C9A18D6EBF5465A197989CFB9B5B2A66A5402F46C4708AC04187C6B157A0D77
+
+X(154)=175BFB087F5D834FCB7DA02E3FB85C6D5F28B05204AB9AA0D256D6887F27EE57
+Y(154)=83E4E1FFD331015F4178484621BE89504B9C5A1C460F58777C715379C3AFB50
+
+X(155)=2C80C4AD0AEBCAFAB7E9D2519A329F8A1C7DF21CB6B1ACEC7403C0204D6DCE71
+Y(155)=7F8E62983160756E35356DF95D44467E621C7274372997CA74A9FB760B4DB36F
+
+X(156)=D9E2B199C924ABD10A713CB6627B68A4D548D9D6AA6B9FE2CFCE0142207F241
+Y(156)=60834AFD2F445221B3CDC26A93CF36E9D427F5991FD05D1BCF7A73BD80FA8915
+
+X(157)=1E1E5FC87FA2C49E2C44D5718E3D73C73A91A64AC1374652080BD9004291B9C6
+Y(157)=153828E90ED8D94C0F86E0EB54CCB31073CD29ED62C34CD9F2DBC5D98872E597
+
+X(158)=2050C725E296D07396A07DBE1078569BD34199FD95E4BD1B0F13CF60203EC5D4
+Y(158)=B9F8C25B360D003B0984BF68DA24C3765C71FD527BFE178E1EBEB9FC5F37FE8
+
+X(159)=CE0488A30ED446D445EFB1BD21BA32EC3D05D538E6393BC0E58E0849AD57129
+Y(159)=7278074AC66AC779136F4D6A334B27633645DEA0FC98D137E3DBD4015D12B5A1
+
+X(160)=3609E119217BD35A36201356EEDF9D464338A504A70046B03E142CADF5E111E0
+Y(160)=5B7A741136519C0D54AD97EF548CD9B3DDBDC5104CD0E1C2751D1E78BCA36BE2
+
+X(161)=1A6B81F7285F293F19BA019B009AED8280CE285AF42FAB91E87FB0BBFA6DEA4
+Y(161)=60F910DC7C9A82E7836F36ACFE7EC26B9BABFA8BF26B2945B3C1A43B0C19B4DC
+
+X(162)=4ECD451376AAAE738CA89915AA539F0E20A277EEC018ECC35B3AFD9ACF9C1199
+Y(162)=69ACB13B6FE95F3528E477314BC338597217255466104AAE0569826C9FDACFBD
+
+X(163)=79B4CE3C6990023859646690C9EA800174902ACFA1AAD7FF34ECA032DBDE7150
+Y(163)=53A1053D3FC6C749BF8A928854F392D09FA851BA963CA661BFFBE74F012BA45B
+
+X(164)=1C11F6E472652CC11DCF1F645930F9BD37F9E9DFF9D060C44913BA2DD8014678
+Y(164)=FE92B27B8410A5AF1534EDC698085B97B74174DCEEE416B92C032CA416645A0
+
+X(165)=220EE355B5C39C1901ED34C0F50F7778AD1BEDCD7259AE167C16514FFE333498
+Y(165)=5FD9374986E1E06035DBFADA0117035B96B159354262F2B2695AF1256D6AA2A
+
+X(166)=5F3E38314AFE9C2C75E3D62E045D289B822A71D874B55249706921BE26EF987A
+Y(166)=73EF95A6069A6919E79DEEB232A42CD31D2860ABFED35AFB9493FE20A3E42353
+
+X(167)=1E2F97D2CB4A19CA40403B364253DA71F65D2D4665894267E3C6A9DB8B4A3A18
+Y(167)=22804FB035ACB519210FF99ED7A974A725D896A77933789B4DD45A37DEA3466D
+
+X(168)=73A4D823F272266D1AB281DABDD343CD2A5060CFF6B935140D628D4ED2C7852C
+Y(168)=563F54C78348807999C9C615992A20319FCFEAB4CD700B588446B2E2D8A91C22
+
+X(169)=35B8699FA20987876AC3B3086965B05F8CC809D71CAB45E017C68AC96E24ED5B
+Y(169)=155079DE21981778DC438353BF2C6A65967A1A33EBB74C866FB42F4E3CCE3E39
+
+X(170)=3F40B10387F5F714ACBB0C0F79C86C0439E112B292F8F187002502B91785AB13
+Y(170)=26815B4B4862AF49E9976E8F9C8062C5AD5F24449496C0DB7F58BDFCE0C74B07
+
+X(171)=3CB40C55F5F19C52958E8C4ECD9C459B1D3268B3971B2286D3E58D1FC6B6A6BD
+Y(171)=379E1F1F59DF05C74485615B87441BA6203F0CDDDC6873A883D4CC6DD1B75921
+
+X(172)=23C521DE9E08D36EB16F2ACCB28BA853DB6588123E9DD4AB5DD692A6A456F7E4
+Y(172)=3E4C09C68AE6BCCC9283C1D0E0240F39A12DA42FBC579C30EEE2B3984C336909
+
+X(173)=6AD916290E0D003CE5C961679F77704DCD768589D7CB728C60F56852031803BF
+Y(173)=1E602B4A6725832A56944234F84C4F85F79911B55BEEF903549089925F2CCBEA
+
+X(174)=3B0C4E19A11DCB9B7BDBA2FFF2EA10C646AE8FA87075A5D3C6155EE5E7E6C255
+Y(174)=25204B7C7138BABDAA82510F520A23F21C4EFAAA1FD65402354FB3CBDF9522F8
+
+X(175)=7C0162492AE668160AA56A60E8BD43EC088555F750D2223CC37362DEAD5DE123
+Y(175)=34E60B446EAE100D4C3ABC6CB02E4CA559457FB5A9030A290A2568FA4CBF118F
+
+X(176)=1624FEFEC7DFAE6B5572E2765886C04E0395FA1C8123B93EA302A78EED7FDA0D
+Y(176)=60E4E54D6057A53DAD8808474461A5A152ED8A902D44C6E9C902D581BBA393CB
+
+X(177)=354C25BF7B3E83DD0C5E1F39B82E3567EDEB5337634056C1091CD6A016CAACDF
+Y(177)=7ABB271EF121630F85A9A1049B3AD78D5B889F533B37A713B8801DE46770FC3A
+
+X(178)=3469924445E807D19278EA0357909216F2E6D8325FAC249A0DAB8AF930CDFEC
+Y(178)=558C6672A443F74359D09FEA5FEF1892BE2A248BCA414FA20D1F64D1E1D81E8C
+
+X(179)=1E581A4BCF7504F33F4342B2097504D13F9B5A27F4790A6CDDE1242209862850
+Y(179)=2164D56564360FD2B5DBA2F2C6EF1045AB448C3B60B2F2196C2F74625FC39E07
+
+X(180)=404A8AE52B0AF3A1863C518AB665FDC5B4D4300E659D8829ECCCC2F78CC5134E
+Y(180)=51C032606A5E9E980770E083AA49C44A436E386C205FA3F4B648F91F6427C8C3
+
+X(181)=533B56F18283EE79B9A180B887C298961BD9AAA6FA3EF97FCB0D5688E694BC3D
+Y(181)=6011366753812DF2BCE83634A92DBAC18DD1CFFDBF9A97FA1B1D5B49E0026764
+
+X(182)=574BF13D9ECA21DB7107A5A5BE58F38E5FEB70EA6D7FEC477DF1C41CA1664C6
+Y(182)=793E35F0B74D6EEC66356F87BB056E8FF1DD4A2788212F64AE3C58FD687DA60D
+
+X(183)=4B508B94E6E2E6CD260A20664EA7D727AD20587B63EBE826032E0D20CDC6627B
+Y(183)=1E8ECD6FF5AABAE78172A0214D07A5013992D133AF58AFA74049DE726DF2A6C4
+
+X(184)=6ED0789EC270933C9EE349F2FDEAE0DA77A995D63D082EA74498B41836C6B2BD
+Y(184)=407CBF13DF9983C5A0BE9E73C4D8C4233E3F7FA28B40E44C3B267830E89B4F96
+
+X(185)=3398C0C0219F5AC87A8C73FCD17B89311D120A53F5231CB761030C194FED4265
+Y(185)=25B234A1DC8662C068C4BA903939C2F79F3F7A3AE64E5EDBF667B13599142D9
+
+X(186)=2B547C7D2A2F149FF57A1B9B9F2909FD86B4425364610E5BB4820823BD31FEC2
+Y(186)=7871A4B44CA8C482DDAC30DD47F6CA70DF75BDA82E550B015EFA1A975CE04230
+
+X(187)=5941A17B04CD3465031CB6745CB94EED24E1FF8D38A6E832F1637AE8E89C78E6
+Y(187)=5309792C546B6CDA458BE331957763B5ADB5D535D54A4A61023678FAA2EE02EE
+
+X(188)=5858856636BBED7E32AF6C12B658470AD076BF9B64B053FE34D6862B766C175C
+Y(188)=315E49F40F428631C93DB2F2FC1B6AD5D8850272CEA2C98A8A81AE14A68D7D37
+
+X(189)=2CB490D2C0047FCBAFFE1DF26640BEE73C158AF6FEC91343D606CE9D124A20C9
+Y(189)=2E2952EBF089200AEBFA3947F241E2FE85797AFEBDC1EA06D9D26DE1B446A964
+
+X(190)=31947871EA448AB0C6FDBB3263A7DE751120D21FCC9FBC1D46ECE7C87ABD8A86
+Y(190)=1263A7EAFC999A402EF005B5F5613A55003AB1854BFAC478A4B333F00E4C1DAD
+
+X(191)=79305236B583232A91C63C7D9CA3750BE7EE21711E4D6D257C39AE398212BDE1
+Y(191)=6F9ECDFA953E302C2014FD8512405E4BE0D48302ACD15E93936E8DBA7D01053B
+
+X(192)=6E5F16CAE935083F9F8F32F1026E3A74448E4B282086303A5685F0175AABFC47
+Y(192)=778D6578EA7FB7D68D349FC7600BAF88C52AB17D709C13CD09A4345D651C591C
+
+X(193)=57D9FCB884B94664F35387FA6665CD9BC8136F90D804D77416EA99C3C653EE63
+Y(193)=14197E65F0A3599C0B9FCEF75B5FBB93580D1B2457B59FB70CE7B9BAC88D0FBC
+
+X(194)=D61FA30A91FD4F1565C6C4EC7620286FD192FCEB09EA16DBBF09E647153230C
+Y(194)=6FF1045310799E410380968E3D6A63F61A301C35327A1B44DBEDB1851A61B4BB
+
+X(195)=6D99DF2C28C9FA1E38ACDDEFD3E0931109143D873F3330377A9926BDACDD6523
+Y(195)=2F21987905F397F092FC56C5CCD301A1E6AFA3C4611627E25017B2E68D07C150
+
+X(196)=79DA0A3C35E9D6158C6FCF4B4FC68B5F96781839EAB4EE7DA7CC03C5A20DB4D3
+Y(196)=38F363C302B88D8314F7E672AEF2C5D687B018448A236A81960C04857E161D79
+
+X(197)=749D19591F1755BD481FA12A288166AAC42911654C8C551395B265116269CEB9
+Y(197)=7EC145AA7558D0342CD87B1750933CB6F3717E727A86A1CC1F2B0C274213688D
+
+X(198)=67407ADD4968AEADC268D569C070214D591E3DF8C077D8841CBD076B67AA0BB0
+Y(198)=11D8583A564BDC4591613A679F0BB0724398D0F4217B862555F87075B17AD39B
+
+X(199)=340F7F5AE19292957902635A5786D14FA38036B324AE759DA501E32B8C4073F1
+Y(199)=64E231A413F1379A26F4E8223FF91FE2CCD865549571D3C6C28871964B40A0EA
+
+X(200)=4F45DB4A879CFC4CD1C0A65BDB070AF9959CC588715BEE1A9E9112B154D99B61
+Y(200)=6EA3BCA5AB51F6F1CBD5BAD1DBAC5E23A0C7B875324A50BF9BA57F07D1F9DD17
+
+X(201)=4AA33E00BF6E92CAC4E84384E5DDE0727394233AFD5D24D357A8AFEB94B08109
+Y(201)=3385BB4FBC441937EE01B671D506227A654FD6C1C532CF5221710C6C56EC7E21
+
+X(202)=4FFA93DA24BB8E96BFBF152C816DCDA7504ED6BAD90F4E060D6559995296B7B
+Y(202)=646C53610E29633CD09F63DDD4B6F7538D486719CADE6853FE334ABD04C48D49
+
+X(203)=34B2FFCA05F01088DE266306C5CC122661E9308EAB16929774E58565AFC0E4EB
+Y(203)=7662FAF0F70E82C062C2B835FC6DA3353D3CB20B80611FFA6EF2982CF62FA605
+
+X(204)=68EEC287A3BC6D1E62720FA8C4C19F06F6ADAFB716978F5E2FC1A4C031BBD3B1
+Y(204)=638B4252E9FEB798AD9E14BD813934B76242DCFCC15C0A194BE5F206ECED7DCC
+
+X(205)=820FCB51326F1536DDB8DC1052AA198406C7E48F2C81E7664D15F8F9D3715E
+Y(205)=756574C23BB01170B97D9FA1663A8FF2F5B97EAA5CD53F34140C1BCEC8C262D9
+
+X(206)=1DC589C8B71CB67DAE80CC1B100A5BA30CF8044C8DA9E958AD338E5C56FF968F
+Y(206)=67A366BCB9AB4931428A7F38B01598900F95AD2E5214BDE87D6CF1D79479E1F8
+
+X(207)=861D7E84CEC6D6E33641FF6C85202FC0E9160797809DDC2193802499CAF05D3
+Y(207)=34936E0A5DC7E2A6217D475FBB8C1C607FB8B3565908A04FD5948ABDD399C59F
+
+X(208)=1D19E9B78DDDA59596F3107F9037B29A76CC4C8C7A5DF9F21637083F741B790C
+Y(208)=5CBAC182CA0FACF7CB8B105C65F92D50127113904A977E1284FE2B43A0C1537B
+
+X(209)=5B4A1DC887EF684D7B4B165B70ACB70842A2FA105935AF15ECB4A097E33B8F2B
+Y(209)=54D21511C05805E5298A72372B8289E9D59C46DC8B5C368BBFDA620B68AA652C
+
+X(210)=16EA3EDFA7AFB71647917F1DD6ABC57EB639A0E55506AC23A163AB3E0667620E
+Y(210)=12F4C948F99FE5F44673D479CA37BFCDB7C5AD89D4725480C690661547D8ECBE
+
+X(211)=755493ED60B13F03F9C019362A5AF73FB49842DD6916E2572B1B6A312CD20CFC
+Y(211)=750BCBF7E449CEC422B93ACE1489E1B177D4DBBAA781D315C74D54BB444E9A9
+
+X(212)=CCBA6BB0456A8B0259C102D24ED9C81499D9449594774B23EA63D582BFDAE2A
+Y(212)=3D0DA26B0F478ED5BEE20F43C6FE958AA5A9521738A958FF311386D71109DE08
+
+X(213)=5F1C341065B6A81ED2EDB6BC38BA81B4C2E3FE2058E5BAA13E1406EB2C5B4B4B
+Y(213)=6179EBFA7F8086F26820FC99CA2F94C1BE19BCA672D79CEA5B02A836119E06BA
+
+X(214)=3F43FB45C03E4216B42D183254D89487DE1C11BC3B67CE34FC88327D6987B35B
+Y(214)=1442A446DA2C1779B39CD16C2D89372099580A69B8C3844FAB03FDB704908E13
+
+X(215)=1915024EE86ACFBA3F61CED9707521197195166FB1C4639BF3B3FCF0BF0DED46
+Y(215)=5F2E0547032221D2B00937CF524590E3D90901EF0286EA0B032C1A81461B6D92
+
+X(216)=79D785D42E27295C11B2F391759F44A4A74EBDA793B05DF68AB35023FB49F309
+Y(216)=1E40E86E8D49CFC48C62EC03ACAF979CE99980D6F51BAB1554D2C273A91B7128
+
+X(217)=4E942D95930F38C8786FF4A8E576E7A29FB7627AFE1FFF91CDA5006BA0624F5D
+Y(217)=45902F695D512D70CE4C1E0520C0060896B94E14D2960B2FCF2ED5E138E0217B
+
+X(218)=103F6E12819BB6705A9264C83F52614A6F92EB6873DEA1D56261FDDCDA1E1E6E
+Y(218)=1B82C70B1E266966EF1BA9B7C9BA1BE96D8FC427BAE1796E4C29EBA6B675F487
+
+X(219)=63E45F3D91AB915D412BBAA17D1D249E1A1445077FBFAA6BE7D35041C5116A91
+Y(219)=46DAD5A4EC2AD0B86938F5E09F1C03B53B660FC5137648B08527CD20708003DA
+
+X(220)=3CEEAF0E8ED2D9E7ECAE1170E491EBA1FA471AF606985DDB322A1F970718C12F
+Y(220)=E748A5851DF7435A3B28A5216D237DFB995CFECEF176CFDD6FF7617D56EE95E
+
+X(221)=5E2DDD2175417F72C9962C503AC5ADF94ED11F28B9D41FCCB6A4512886F3CC87
+Y(221)=3523B218478911145AF1DC431FEB7DB0A04066EB6E2ADE3C7B67D11BC55323AA
+
+X(222)=1782071860D3857CF35AD11004619F267D371D9A5E739D781869238CBE2E9D67
+Y(222)=75215F081C180ABE968BDCDB7533F38D02B59F855C0592C9EC2CAA556C696320
+
+X(223)=62FF30A6B179A26E7247A8312CB3AF3289E5D722F76A29F203AA623889AA05EC
+Y(223)=562BEB7999019346BEAA80DFD5B95D614E1FF96C1CB1037F65C44997B797D066
+
+X(224)=63C9614779664378FD5517DA69944D4D94979E03655251C742F30F061DD31544
+Y(224)=77472DCA8C2523ED7CF1F4C790541AC768F73542A5D3FEDC6A25A019B9730BB4
+
+X(225)=14988B5D62084FB8335C2F261CDEDDC1B634B09CEDFCE713FF5F0A0BB588A556
+Y(225)=447068731FB98E821B8E413B3B48F2D1C8BEA308F05AAC877006B0F4C3B0CAB3
+
+X(226)=306ADBB0BA397849B249196E02D6B77DCA1A207A261CD425BAE2FE9847546B76
+Y(226)=70D21159A8A63C2D06018B1B9D16FE3294A8B02CC7587098F074268E789F8993
+
+X(227)=1AC777F708A5942CC434236920E82CCC6AF920C0A0676712255AA7082B37A5B6
+Y(227)=52A6F88D92AF1887C781501C6E3A88169A2831B74AEFD416F22B47E8335CE317
+
+X(228)=11A921A69B0655FFC6F41AC598A6AE832D99BA61FBFCF1F36FE38A2B59A3DE40
+Y(228)=FE2C020662AE0FD165CDE71C45B00708D2EF22E1285E1F0E786AD241717FACC
+
+X(229)=5959792833B71BD5042B78E42212AF671F5F87A08EAFD8CDDE2DCEC8140E4BB3
+Y(229)=41CE94633EABB8A1B08FAC66F762997ED8C9E2AF3558E1F6586AD6A5BF5B7B64
+
+X(230)=7D648BBAE1C0942E4C7B3B0AE68C3472012486784187F29186EFFF3126E04557
+Y(230)=4B2E141E8B63DF53368184FD93E9F544C319513548686CE1CA52CBD4619D94CF
+
+X(231)=4464A7962E6722B457336FE98C91765B1FF178F9E892E90129E65FA7688A0607
+Y(231)=3D1510B92FD33C501F058A7A86BDDEDF1B83F9B6E4F04829D321117013F891FE
+
+X(232)=7B9B1919143460736B63322A426C6AF2822F217B8A497138E8B23382D8B3ADB4
+Y(232)=600362F487C4E9967F1607190A7FB39223C9456A5747CCDFC308A1A8E3AE255F
+
+X(233)=62906D81E7F800E662519F4324AB4C8AAC197661C729EED3E744D09EFE721C08
+Y(233)=4B68EFB5B1B709AB86E3253D70BEE87BA07875C04A64ECF7E35CD8CDC6C0F7D8
+
+X(234)=59A7EB700FE1F48928BE84823C4C88DBBD4621FFF04703562799FE437D8DDB24
+Y(234)=63F273D3B07634959DFD84255FF9392DB5F08B611F686941F1E7134B3590910
+
+X(235)=4300FF025AC78EF36E58EE7D0D732CF76CD0929FE265B3A093A57F23FC326757
+Y(235)=2F92880570846FF2E90D91F16BCE3705C9C3CA8011CC543091463B623E4B3C01
+
+X(236)=738FC38CF1EA0B4CBF3DEB42FD95A539BE32A6ECB142C6E1B44AA86117958C24
+Y(236)=3CE42CC9C390C2FC382B843F3B1B7CA0605A5F50505A66A3E71CC975CA547ABF
+
+X(237)=5427BA28D94652527A9B0C76F57A451E46BDC06CBC8A2481DF17F66FFB1524E3
+Y(237)=547A97C4AFC8D1F74A5D51F7E524F68472F589CC0B396B21368628721537D722
+
+X(238)=729B3D8EE04B2DC5E330C491732130ECE6B36BA78CEE28BE3BBE3B7E11F03E4E
+Y(238)=11BD166EC3BE443900378991FD8C0570993526243BCC90B13E122F990ECF92E8
+
+X(239)=424C4493810BFD5E3FFA21776326D8FF62BF8FE74504D7A2DB5D3F74E5CE1015
+Y(239)=74D0DAA832D40405D01551A58B330FFC5ABD5356230D6D7CABEB5B1A55046F32
+
+X(240)=318753748071433A0DB1C00D072371AE730E4A5F26C6256D767CBA159304BCD0
+Y(240)=3E65AC8D4140AD2C5EEECF6951784E3A5B250826FFA0C5B0159FA11A28A2274B
+
+X(241)=54E10980D81B4AE8778896684295FA5C5475E8D68EC2A26E1B0A65383507B3CD
+Y(241)=6B1EB48DA6886C4D88CEA720E9DC8B0D8C51A8F0E1943AFA31A40EEB553C0676
+
+X(242)=19CC0EDA9EEFE456BE807B81D5976CE3B13DBE05197E5FCE16F1747815768CB1
+Y(242)=5F1677EF47731AE680CEF81BB532477E79DDA872F2473B6AA0EC7B857A2C402F
+
+X(243)=732EB9E9EBB556E9F024C5574166738F4707B0FD005F568212AB575C1DB71DDB
+Y(243)=1FC6B00C89E48114D6B13D9920A0C78093994F2B08DF147BDBB56BEAD2CEA165
+
+X(244)=1003E912E9C3E5B79EE9027C62B60F98FEC9FEDA84AB018135D27BA0A1ED00A9
+Y(244)=5D6B76553F1DCC5624583B1A65339C48E22A43B16F5690F2A6BFFF7D0F7E395C
+
+X(245)=74029C04B34B7F314855FEE42A04D0DDFDEB92EF3BF7CFF629928A97733D96FB
+Y(245)=501F63A252DFBC090733B5A208BFE08F81C91419CE3D2D6C0DE8CDC5A5625014
+
+X(246)=20D2A834F2EBD3A50993DDC486B1D95AD351B3DF5A0B666F52B704D6E2214001
+Y(246)=7B6EB68FAEE247F6CD4A4BDBE3062595BA60D365369FC73C25F42C11E46B989
+
+X(247)=4524402EBB71A60BF1055001000203A6D4917F112E50DD766CDD7B718A6EDD7
+Y(247)=71C9E2D15CDC47C565A696FFBE55277570930ED7ADE13B9A254059365D5BF338
+
+X(248)=EEF51FEB35E3A30820DB3A5BF23E368A14FDA6BEEA7AA88EDB0C1D3E4042B76
+Y(248)=7EEABF46A8D6DE7F81FDABDE46D601B866374E9E15300654A743F1B06A9A4434
+
+X(249)=2555C620A50F2BBEEACAC66228A96941FA733AA6070855331613578ED7C12794
+Y(249)=2B3C1BC5CDA7F93242561DBF7572237AC43BF013553230633A5E18B7E71597E5
+
+X(250)=3F2197C3B74E8BD6CD4E80C7EBE70C600BEF672A9570A03B9A2D9F1966303E12
+Y(250)=C1BD12F315CA9EB6CC9B8E0A6A715E06FA26B736958A877BAEED006FF39EE7D
+
+X(251)=555EA607B0AD18AFAF70D7450543D7FFB5B883A3CAD3E2778826CA97BF3211A6
+Y(251)=6DF903158F51AA530D411720A760F8AD0CE9904D54955FDA74A349BE58EDDF5F
+
+X(252)=6CE72AEAF13953B1E7B7CFCA70A91617D582087650EE01E383469B6D2F6D3266
+Y(252)=2A2126B5656FE27F679F7DB61F9A065CC5613BB6BDFEA59455DE251B0866A7C5
+
+X(253)=4DB3CFA284207A250A9C83E1FEC07E804D70065DA586FF2C2A7D2BCB92E6FCA6
+Y(253)=2A4FBF1C51DC0B2A7783DB2BE3BD35C2D6462470C88C8B73AE3CE8503FA07154
+
+X(254)=31C25A97183974CE1E18D22FDB9076E745E44D0020E4ABEC6451A4C177B032CF
+Y(254)=BA5D96B8669E0ED6A1F5D54110EA31E7040D318B5A42DCE6243FE7EC4480BAF
+
+X(255)=5174E33FFDF28A87184A4D6427D821CBAA3B88AC293A90CA7E1EEAE8C5050B16
+Y(255)=315CA6BC8E35E4A3D06F89E1DB1575B16197963EE8E64746FA998CCD403561CC
+
+X(256)=5E7E07ED4E1DECBFE6E9CBC126905449D4B578FBB561576D20B8BCDD0CC2A556
+Y(256)=F55755C51F102796BF5EBAA81D3260E7D1B3D9AC127D9A80E142031566CF6C7
+
+X(257)=6E8CE4FF435B7F78FD959B956096F7B9DDA31809CD4E948377EE6F3F24C4D7CE
+Y(257)=20AB65593C0C68857A0A0CB0A22F1625FB81E49FF0BEF0B2CCABC8E4EABA452C
+
+X(258)=78BBFFC88B4440EB79AF6FD203C5607E8F94021D9C575C78842C910588EDF162
+Y(258)=387035DA111102BCE339F9E6CC0A2B89BDEE6EE23D8848D62C6AF648FE4F841D
+
+X(259)=4250FB17258F29AF4C8B4DD59FDEE32B9BA709F667A39E7168D20E5A1E2BEB3B
+Y(259)=1EAEAB26460B9079013B2BAC1016183A20A5E4D1FC452193E32AE05CA04B42C
+
+X(260)=7F63DB72D1948EEF1BCB8A1BAA65B1F52011930513E2DDD112129AC86731615D
+Y(260)=5D3109482E418A0AA2466C99E4C98ADF1FE21C5AFABB28DA83C42BA7F964D5C
+
+X(261)=4F66888B34279E2FB1B1C7A684B74A84F9826A8F40BDB5608F4274A65CEF4972
+Y(261)=7236DB5046D96A87509B3A271A8B0CB67CB770281C316672DCF1169E77F28DE4
+
+X(262)=B70A92E63CEA61EEA97DC4D0B1B6FF52CB7EBC41F0C68502D421D4B57EAC699
+Y(262)=35E7E21E3681BA4E7DE3BAB5FAFFD13E1DEF420465E98E4EA92C010BB8B8E789
+
+X(263)=6D4D4504110DE524C435A59FFE8B7570D77EB52507DEF7BB6A1596B697CFE7D5
+Y(263)=4716501651820AB2361E4535517CFDB3C1C4F44B0161E31E24B177B647C5F96C
+
+X(264)=19B268D91B0E7E113282569686E8FEA868F458764CC3DE70BDADFA2D94746AAC
+Y(264)=3A70C3608016B61487E195E2FF485EBB7A304DEEA58626714328FB0EA105B89E
+
+X(265)=6657D1F83299702A22D196577F4B85F956F29B26EBE3B39D977307EB8DDEBE80
+Y(265)=6633A0E9B15E49DE32CC78C9CE7E49D349D1D662459501B87C31AA243571DCE5
+
+X(266)=56214F6EBE278F2205B79F896D4E2F361CB0BAB7C63E70165FB44CEEDE0F76BA
+Y(266)=55B08E9362D7B398158E670764BEFBFEB64004A22727218A9556D56A469A0A42
+
+X(267)=799A065C3B5FEF8327923AFD0FFD4F2F41482948315CBA84EE0C254A956AD2A5
+Y(267)=183E6517633CF5A8A6A22D3CD425ED42076BAB3C3AA56F89132D31956463DA88
+
+X(268)=4FF7189A4E0BAD26C4E860EC8C720BFC499831C124D6C38059C3DD4FA64BFAF3
+Y(268)=22109109DE721654CF0C1922A5FFA8BACD8066463975C8839D29CC42D89BD37E
+
+X(269)=EA3069D39E3C3B5D37CA713774112FE7608C28B9BD9D2EC006427AABAA614DB
+Y(269)=74E800AA5BB0BD45BAFB2A9DE7B70D7936D9C667DB66F458FF60D261518F6CB4
+
+X(270)=65DA2C57300929282615C34616073EA0C047FE1B3EA069AEDE591FC0902254BC
+Y(270)=75B2B70DDE1DA3C4C5E222A8559B6378685902D48628356A05D4688890AA32D0
+
+X(271)=87378259B6F5AEF854B2D233F6EBE0D9FEA5BD737F6C41B554ABBC049E73653
+Y(271)=56AAF06F833EC39A59EBBE553AB44BFE521DBD52BDD3A4759C80755D6F870245
+
+X(272)=5324C7C1ED2363D286AA02BAFAE3400B0A7EEA69E61BB156A9DA037389895611
+Y(272)=7F589B4F02490087774C59D8FAC4AF0EC2B4BB8C201107EDF09B0B621BA3240E
+
+X(273)=11A1F76EA5AAEF7F8DD9BA44E2D4CE91E1FE18734E6F5114CE2C068561FA8F32
+Y(273)=79AD4349E3F397428AAE5D69A7357DE5B8E7029DD1C7035AA69CA084743F1D62
+
+X(274)=437209355C7AB3DE112ACC56BB86FB77FB760707C6BE45576A1283A2FB5CDBB0
+Y(274)=6ED00DB92FA413585E5373DE78A0DE4795A974D673C7B24DFA070092F90DB97C
+
+X(275)=6AB2F1EFACD864F36A9154A409FDD5F22D9A99F1086AE59DA1087ECEB311CB00
+Y(275)=4ED69C61DAC79EEE2C837BE2864BEE315985E19748B4EF015E768348FDF83719
+
+X(276)=1DD50A773498542D6DF182742D17C046C1E9EFFD4F65C570FFA44C07D1EE5D44
+Y(276)=528F4894890E434004F9432DB9EF8498154F45D1804AC1BCEDFBB46A37EB769
+
+X(277)=5A2F037F5242F6AF3A189741B2BBC5F7536382FBC139B39D04B5BC21FD0C500
+Y(277)=7C88548712F1A4D102DA46508DDE80D716859F21AD965BB3B5142DA9A16B37EC
+
+X(278)=34B47441B897BB95F91CB55D322F6F4E8F1D318F9B6CE4A009818A7FBEC90AE6
+Y(278)=C7B66647B56B09041BD246F87F281FF731FDDB3EC295C4153B244744C78BFB2
+
+X(279)=267B47B3AE1AA634E0284A3FD97F80BD71802E406177CE6CB719A60C3BA9AAD5
+Y(279)=75165DECDA59F284653E68D4211472FF4EE99B066ED838F8C1B4D080D945CCF2
+
+X(280)=293E63063163BAC5F44CE76B81D56C58817CE2459E8E84D2EC697B78032E89A1
+Y(280)=40C9BE77D9274163626A555361A9FA91873319AB093D0992F3E272A949FDE275
+
+X(281)=7B8341474F38FB873AF66E8A28C19A58758847C3F29F74AB086F84D0CF55F6CC
+Y(281)=50B004B7426686A35FC59A7C9001345318156DBD9868EDA0952C536604BBD092
+
+X(282)=44BB68B494ACCCC852847E976C8AE787FBB28234F607FBBD8DADB831FE7D71DB
+Y(282)=21759EBE768FF8FE0B884C71E3C5A894239023C9905FF8FFDA98618888583724
+
+X(283)=6B52FC1F93794346DCA145B7AD11792A225F8B72017627E3C6E1FBF1EEB028D6
+Y(283)=18FFBEF50C105A7E05E4AE1D14F423FBE9060098B970D515BFC23E92007F16DE
+
+X(284)=249ABD23D47077F6DFD1B16B929409EF4A96C9A4A5DB6CB58C1F0BC9E5E1E33F
+Y(284)=50F7DCB970666B0C7A950DA88952700564A65D0CDF81A17299903E5C88C7B2FF
+
+X(285)=26BBF07DD431A48348119F218DC215EC7D07057BA776DE108195CD95261EDC0C
+Y(285)=2FCE75BAF11A12623CFF17630192528D16C8D9B512633DA8E9876014F54813EA
+
+X(286)=2F3E6AB8C37BDB37912F9E86CDA05C9A5D3F26DCE8FC0B753FA29E27EC434F7C
+Y(286)=72A2F0FBE0E40342CE7CA83FC25B297E5957F6D0D8E8E32B3DBCC4059C5DFC3
+
+X(287)=5EE6A05213BFA885934BF03F1E1AD789E5F657C77C3B881D32D5262B14130936
+Y(287)=3CBF8C36B5DC06A7E229628B200369EF48C16D1E41DDDB76F8CCAE305BF6A335
+
+X(288)=2C46CC1B6AFFAE225C80D980B2E6B82CB38B8C8FD5152E813AF76F8727FC3534
+Y(288)=44DCA08F222B981555B5C43E9C9EBA09D538F957965DAC138738D0DEBFC084E
+
+X(289)=7BAD3C55C8BE4438E2561BBA8B422C4C0F2022759266C463BB2B686F21D01DC1
+Y(289)=13904DF71433A4818AEA9E986587FFDF41713A89EFCF3DD44C292DEE313FB99A
+
+X(290)=5AE1AAEA01513C4C5E004C4F6DB9462BA7B9487BF29DF5B9A3257CE74F336E1A
+Y(290)=398B6AC040C48EF250E2D0111A9E6A64B3D702A55B2F313B2473D1374AFB13AC
+
+X(291)=1CC77F113B9551F733831C659F465E51D2F2173CD6EB5AFE0CF0CBEB39A41191
+Y(291)=4B2EE65201E200448EEBD3B9366AC97FCDD3594076667D812AD07954C0565B5E
+
+X(292)=31D8FB6E060A948C1D4A6E1546F078FA4CE4C7DAE16A4F8CE4020D86F2090726
+Y(292)=563CC95D60F03F1E48F46B2D6420FF44C30954EA253F77A9ED7BDA642E68B25
+
+X(293)=37D0D30F69749E6E3ACBC36F4ED9E1BEA5416D14F96A035C1E4F22AB2DAD606F
+Y(293)=69E1730DC8F89270BDFB5C56D45F86C0239E2B257D71036A992AB64D04727C40
+
+X(294)=698AA44DDB33ACB728E96AACFB28403FE5F4D4DB2F0569AA0107F2676F7F6679
+Y(294)=2825A48ACBDAA7C0D4F7ACC67A9F6FE40427D735BADC8A83855451934C7CBC9B
+
+X(295)=4970696EDC00E129E59381F93D38E656747746F38DB35357FBE6CD7E70002277
+Y(295)=4B252E2D26252DA31B1C3019A9F9D9D784B358542DF6A87FCBDCCBD85B8138C
+
+X(296)=6105977A8BEC80734940104926365CB2C33E96B2527DDE4B15D709EB5BB142AA
+Y(296)=40566FB1A2C005F164DFE8A6EAACC78468021A9E4217A27864B277EBB74B8628
+
+X(297)=19B848F4A29E0DB1B0087321399A4C131D259D0ECCFC12311484F58FDB3395AD
+Y(297)=11B89D71A9A42A76CB5F656484B38BC03C888826AC8A3924B176531F53E060D9
+
+X(298)=593A1DEFB9D4725FF4A9B1D472B867A91473BFE695E11875B91BDB5611FECC86
+Y(298)=1B7CD21107FB1E3B64F26E7AC5501D7969B0649DF97CBD7412F7DEDCB513F0A3
+
+X(299)=53EA3D68BAF61983F05E8BDEA8C61F093E07FE2240C932E7E9DF4E70CC6F13E9
+Y(299)=5A711D3EDF8376C9578205260F66182001BD5A29F97CF5EC323AA8B5DDEE8F49
+
+X(300)=4553BB44A5A6C32FA21D6330E63B04DC2CCF9338B22016A73B06A56F1FC6B9CC
+Y(300)=38CD8DAD85E3444C2BEE4CDA3DF51187442A1C4FAA13DD2AF8634FF687AF26CE
+</Text-field>
+</Output></CodeEditor-ExecGroup>
+<Group labelreference="L8" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=</Equation></Text-field>
+</Input>
+</Group>
+</Worksheet>

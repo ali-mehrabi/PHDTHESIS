@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2017" minor="1"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="true" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" preplot="" helpbrowser="standard" contextmenusize="automatic" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1080" rtablesize="10" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" elisiondigitsthreshold="10000" showassumed="1" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L1" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW5HRiQ2JFEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRidGLw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbW5HRiQ2JFEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block><CodeEditor-ExecGroup view="presentation" hide-input="false" inline-output="false" labelreference="L2" applyint="true" applyrational="true" display="code"><EC-CodeEditor id="CodeEditRegion0" expanded="true" visible="true" pixel-width="17941" pixel-height="6544" code-language="text/maple" autoexpand="true" wrapping="false" show-border="true" code-line-numbers="true">with(LinearAlgebra):
+
+A(1) := Matrix([[2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 1], [2, 0], [2,-1], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [2, 1], [2, 0], [3, 0], [2,-1], [2, 0], [2, 0], [2,-1], 
+             [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [2, 1], [3, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 1], [2, 0], [2, 1], [2, 0], [2, 1], [2, 0], [2, 0], [2,-1], [2, 0], 
+             [2, 0], [2, 1], [2, 0], [2, 0], [3,-1], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 1], [3, 1], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2,-1], [2,-1], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [3, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 1], [2, 0], [2,-1], [2, 1], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [3, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [3,-1], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 1], [2, 0], [3, 0], [3, 0], [2, 0], [2,-1], [2, 1], [2,-1], [2, 1], [2, 1], [2,-1], [2, 0], 
+             [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2,-1], [2, 0], [2, 0], 
+             [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 1], [2, 1], [2, 0], [2, 0], [2,-1], 
+             [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], 
+             [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [3, 1], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], 
+             [3, 0], [2, 0], [2, 0], [2, 0], [2, 0]]):
+             
+A(2) := Matrix([[2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 1], [2, 0], [2,-1], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [2, 1], [2, 0], [3, 0], [2,-1], [2, 0], [2, 0], [2,-1], 
+             [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [2, 1], [3, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 1], [2, 0], [2, 1], [2, 0], [2, 1], [2, 0], [2, 0], [2,-1], [2, 0], 
+             [2, 0], [2, 1], [2, 0], [2, 0], [3,-1], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 1], [3, 1], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2,-1], [2,-1], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [3, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 1], [2, 0], [2,-1], [2, 1], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [3, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [3,-1], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 1], [2, 0], [3, 0], [3, 0], [2, 0], [2,-1], [2, 1], [2,-1], [2, 1], [2, 1], [2,-1], [2, 0], 
+             [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2,-1], [2, 0], [2, 0], 
+             [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 1], [2, 1], [2, 0], [2, 0], [2,-1], 
+             [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], 
+             [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 1], [3, 1], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], 
+             [3, 0], [2, 0], [2, 0], [2, 0], [2, 0]]):
+
+A(3):= Matrix([[2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 1], [2, 0], [2,-1], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [2, 1], [2, 0], [3, 0], [2,-1], [2, 0], [2, 0], [2,-1], 
+             [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [2, 1], [3, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 1], [2, 0], [2, 1], [2, 0], [2, 1], [2, 0], [2, 0], [2,-1], [2, 0], 
+             [2, 0], [2, 1], [2, 0], [2, 0], [3,-1], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 1], [3, 1], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2,-1], [2,-1], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [3, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 1], [2, 0], [2,-1], [2, 1], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [3, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [3,-1], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 1], [2, 0], [3, 0], [2, 1], [2, 0], [2,-1], [2, 1], [2,-1], [2, 1], [2, 1], [2,-1], [2, 0], 
+             [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2,-1], [2, 0], [2, 0], 
+             [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 1], [2, 1], [2, 0], [2, 0], [2, -1], 
+             [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], 
+             [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [3, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], 
+             [3, 0], [2, 0], [2, 0], [2, 0], [2, 0]]):
+
+A(4):= Matrix([v[2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [3, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2,-1], [3, 0], 
+             [3, 0], [3, 0], [3, 0], [3, 0], [2, 0], [2,-1], [2,-1], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2,-1], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 1], [2, 0], 
+             [2, 0], [2, 0], [2,-1], [2, 0], [2,-1], [2, 0], [3,-1], [3, 1], [2, 0], [3, 0], [2, 1], [3, 0], [2, 0], [3, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2, 1], [3, 0], [3, 0], [2, 1], 
+             [2, 0], [2, 0], [2, 1], [2, 1], [2,-1], [3, 1], [2, 0], [2,-1], [3,-1], [2, 0], [3, 0], [2, 0], [3, 0], [2,-1], [2, 0], [2, 1], [2, 0], [2,-1], [2, 1], [2, 0], [2,-1], [3, 0], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2, 1], [2, 1], [3, 0], [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3,-1], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [3, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [3,-1], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 1], [3, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 1], [2, 0], [3, 0], [2, 0], [2, 0], [3,-1], 
+             [2, 0], [2, 0], [2, 0], [2,-1], [2, 1], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3,-1], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 1], [3,-1], 
+             [3, 0], [3, 0], [3,-1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 1], [3, 0], [3, 0], [3, 0], 
+             [2, 0], [3, 0]]):  
+
+
+A(5) := Matrix([[2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [3, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2,-1], [3, 0], 
+             [3, 0], [3, 0], [3, 0], [3, 0], [2, 0], [2,-1], [2,-1], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2,-1], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 1], [2, 0], 
+             [2, 0], [2, 0], [2,-1], [2, 0], [2,-1], [2, 0], [3,-1], [3, 1], [2, 0], [3, 0], [2, 1], [3, 0], [2, 0], [3, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2, 1], [3, 0], [3, 0], [2, 1], 
+             [2, 0], [2, 0], [2, 1], [2, 1], [2,-1], [3, 1], [2, 0], [2,-1], [3,-1], [2, 0], [3, 0], [2, 0], [3, 0], [2,-1], [2, 0], [2, 1], [2, 0], [2,-1], [2, 1], [2, 0], [2,-1], [3, 0], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2, 1], [2, 1], [3, 0], [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3,-1], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [3, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [3,-1], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 1], [3, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 1], [2, 0], [3, 0], [2, 0], [2, 0], [3,-1], 
+             [2, 0], [2, 0], [2, 0], [2,-1], [2, 1], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3,-1], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 1], [3,-1], 
+             [3, 0], [3, 0], [3,-1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 1], [3, 0], [3, 0], [3, 0], 
+             [2, 0], [2, 0], [2, 1], [2, 0]]):
+
+A(6) := Matrix([[2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2,-1], [3, 0], 
+             [3, 0], [3, 0], [3, 0], [3, 0], [2, 0], [2,-1], [2,-1], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2,-1], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 1], [2, 0], 
+             [2, 0], [2, 0], [2,-1], [2, 0], [2,-1], [2, 0], [3,-1], [3, 1], [2, 0], [3, 0], [2, 1], [3, 0], [2, 0], [3, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2, 1], [3, 0], [3, 0], [2, 1], 
+             [2, 0], [2, 0], [2, 1], [2, 1], [2,-1], [3, 1], [2, 0], [2,-1], [3,-1], [2, 0], [3, 0], [2, 0], [3, 0], [2,-1], [2, 0], [2, 1], [2, 0], [2,-1], [2, 1], [2, 0], [2,-1], [3, 0], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2, 1], [2, 1], [3, 0], [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3,-1], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [3, 1], [2, 0], [2, 0], [3, 0], [2, 0], [3, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [3,-1], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 1], [3, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 1], [2, 0], [3, 0], [2, 0], [2, 0], [3,-1], 
+             [2, 0], [2, 0], [2, 0], [2,-1], [2, 1], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3,-1], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 1], [3,-1], 
+             [3, 0], [3, 0], [3,-1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 1], [3, 0], [3, 0], [3, 0], 
+             [2, 0], [2, 0], [2, 0], [2, 0]]):
+
+A(7) := Matrix([[2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2,-1], [3, 0], 
+             [3, 0], [3, 0], [3, 0], [3, 0], [2, 0], [2,-1], [2,-1], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2,-1], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 1], [2, 0], 
+             [2, 0], [2, 0], [2,-1], [2, 0], [2,-1], [2, 0], [3,-1], [3, 1], [2, 0], [3, 0], [2, 1], [3, 0], [2, 0], [3, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2, 1], [3, 0], [3, 0], [2, 1], 
+             [2, 0], [2, 0], [2, 1], [2, 1], [2,-1], [3, 1], [2, 0], [2,-1], [3,-1], [2, 0], [3, 0], [2, 0], [3, 0], [2,-1], [2, 0], [2, 1], [2, 0], [2,-1], [2, 1], [2, 0], [2,-1], [3, 0], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2, 1], [2, 1], [3, 0], [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3,-1], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [3, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [3,-1], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 1], [3, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 1], [2, 0], [3, 0], [2, 0], [2, 0], [3,-1], 
+             [2, 0], [2, 0], [2, 0], [2,-1], [2, 1], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3,-1], [3, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 1], [3,-1], 
+             [3, 0], [3, 0], [3,-1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 1], [3, 0], [3, 0], [3, 0], 
+             [2, 0], [3, 0]]): 
+
+
+A(8) := Matrix([[3, 0], [3, 0], [3, 0], [3, 0], [3, 0], [2,0], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2,-1], [3, 0], 
+             [3, 0], [3, 0], [3, 0], [3, 0], [2, 0], [2,-1], [2,-1], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2,-1], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 1], [2, 0], 
+             [2, 0], [2, 0], [2,-1], [2, 0], [2,-1], [2, 0], [3,-1], [3, 1], [2, 0], [3, 0], [2, 1], [3, 0], [2, 0], [3, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2, 1], [3, 0], [3, 0], [2, 1], 
+             [2, 0], [2, 0], [2, 1], [2, 1], [2,-1], [3, 1], [2, 0], [2,-1], [3,-1], [2, 0], [3, 0], [2, 0], [3, 0], [2,-1], [2, 0], [2, 1], [2, 0], [2,-1], [2, 1], [2, 0], [2,-1], [3, 0], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2, 1], [2, 1], [3, 0], [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3,-1], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [3, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [3,-1], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 1], [3, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 1], [2, 0], [3, 0], [2, 0], [2, 0], [3,-1], 
+             [2, 0], [2, 0], [2, 0], [2,-1], [2, 1], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3,-1], [3, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 1], [3,-1], 
+             [3, 0], [3, 0], [3,-1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 1], [3, 0], [3, 0], [3,1]
+             ]):   
+
+
+A(9):= Matrix([[2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2,-1], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2,-1], [3, 0], 
+             [3, 0], [3, 0], [3, 0], [3, 0], [2, 0], [2,-1], [2,-1], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2,-1], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 1], [2, 0], 
+             [2, 0], [2, 0], [2,-1], [2, 0], [2,-1], [2, 0], [3,-1], [3, 1], [2, 0], [3, 0], [2, 1], [3, 0], [2, 0], [3, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2, 1], [3, 0], [3, 0], [2, 1], 
+             [2, 0], [2, 0], [2, 1], [2, 1], [2,-1], [3, 1], [2, 0], [2,-1], [3,-1], [2, 0], [3, 0], [2, 0], [3, 0], [2,-1], [2, 0], [2, 1], [2, 0], [2,-1], [2, 1], [2, 0], [2,-1], [3, 0], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2, 1], [2, 1], [3, 0], [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3,-1], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [3, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [3,-1], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 1], [3, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 1], [2, 0], [3, 0], [2, 0], [2, 0], [3,-1], 
+             [2, 0], [2, 0], [2, 0], [2,-1], [2, 1], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3,-1], [3, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 1], [3,-1], 
+             [3, 0], [3, 0], [3,-1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 1], [3, 0], [3, 0], [3, 0], 
+             [2, 0], [3, 0],  [2, 0], [2, 0]]): 
+
+
+A(10) := Matrix([[3, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2,-1], [3, 0], 
+             [3, 0], [3, 0], [3, 0], [3, 0], [2, 0], [2,-1], [2,-1], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2,-1], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 1], [2, 0], 
+             [2, 0], [2, 0], [2,-1], [2, 0], [2,-1], [2, 0], [3,-1], [3, 1], [2, 0], [3, 0], [2, 1], [3, 0], [2, 0], [3, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2, 1], [3, 0], [3, 0], [2, 1], 
+             [2, 0], [2, 0], [2, 1], [2, 1], [2,-1], [2, 1], [2, 0], [2,-1], [2,-1], [2, 0], [3, 0], [3, 0], [3, 0], [2,-1], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [3, 0], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2, 1], [2, 1], [3, 0], [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3,-1], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [3, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [3,-1], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 1], [3, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 1], [2, 0], [3, 0], [2, 0], [2, 0], [3,-1], 
+             [2, 0], [2, 0], [2, 0], [2,-1], [2, 1], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3,-1], [3, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 1], [3,-1], 
+             [3, 0], [3, 0], [3,-1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 1], [3, 0], [3, 0], [3, 0], 
+             [2, 0], [3, 0] ]): 
+
+
+A(11) := Matrix([[3, 0], [3, 0], [3, 0], [3, 1], [3, 1], [2, 0], [2, 0], [2, 0], [3, 1], [3, 1], [3, 0], [2, 1], [2, 1], [2, 0], [2, 0], [3, 0], [3, 0], [2, 1], [2, 1], [3, 0], 
+             [3, 0], [3, 0], [3, 0], [3, 0], [2, 0], [2,-1], [2,-1], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 1], [2, 1], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 1], [2, 0], 
+             [2, 0], [2, 0], [2,-1], [2, 0], [2,-1], [2, 0], [3,-1], [3, 1], [2, 0], [3, 0], [2, 1], [3, 0], [2, 0], [3, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2, 1], [3, 0], [3, 0], [2, 1], 
+             [3, 0], [3, 0], [2, 1], [2, 1], [2,-1], [3, 1], [2, 0], [2,-1], [3,-1], [2, 0], [3, 0], [2, 0], [3, 0], [2,-1], [2, 0], [2, 1], [2, 0], [2,-1], [2, 1], [2, 0], [2,-1], [3, 0], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2, 1], [2, 1], [3, 0], [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3,-1], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [3, 1], [3, 1], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [3,-1], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 1], [3, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 1], [2, 0], [3, 0], [2, 0], [2, 0], [3,-1], 
+             [2, 0], [2, 0], [2, 0], [2,-1], [2, 1], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3,-1], [3, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 1], [3,-1], 
+             [3, 0], [3, 0], [3,-1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 1], [3, 0]]): 
+
+
+A(12) := Matrix([[3, 0], [3, 0], [3, 0], [3, 1], [3, 1], [3, 0], [3, 0], [3, 0], [3, 1], [3, 1], [3, 0], [2, 1], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 1], [2, 0], 
+             [3, 0], [3, 0], [3, 0], [3, 0], [3, 0], [3, 1], [3,-1], [3, 0], [3, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 1], [2, 1], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 1], [2, 0], 
+             [2, 0], [2, 0], [2,-1], [2, 0], [2,-1], [2, 0], [3,-1], [3, 1], [2, 0], [3, 0], [2, 1], [3, 0], [2, 0], [3, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2, 1], [3, 0], [3, 0], [2, 1], 
+             [3, 0], [3, 0], [2, 1], [2, 1], [2,-1], [3, 1], [2, 0], [2,-1], [3,-1], [2, 0], [3, 0], [2, 0], [3, 0], [2,-1], [2, 0], [2, 1], [2, 0], [2,-1], [2, 1], [2, 0], [2,-1], [3, 0], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2, 1], [2, 1], [3, 0], [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3,-1], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [3, 1], [3, 1], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [3,-1], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 1], [3, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 1], [2, 0], [3, 0], [2, 0], [2, 0], [3,-1], 
+             [2, 0], [2, 0], [2, 0], [2,-1], [2, 1], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3,-1], [3, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 1], [3,-1], 
+             [3, 0], [3, 0], [3,-1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0]]): 
+
+A(13):= Matrix([[2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [3, 0], [2,-1], [2, 0], [2, 0], [3,-1], [2, 1], [2, 1], [2, 0], [2, 1], [3, 0], [2, 0], 
+             [3, 0], [2, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2,-1], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2,-1], [3, 0], [2,-1], [3, 0], [2, 0], 
+             [2, 0], [2,-1], [2, 0], [2, 0], [3, 0], [2, 0], [2,-1], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [2, 0], [3, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2,-1], [2, 1], [2, 0], [3, 0], [2, 0], [2, 0], [2, 1], [3,-1], [3, 0], [2, 1], 
+             [3, 1], [2,-1], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 1], [3, 0], [2, 1], [2, 0], [3, 0], [3, 0], [2, 0], [2, 0], [3, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [3,-1], [3,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [3, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2, 0], [2, 0], [2,-1], [3,-1], [3, 1], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], 
+             [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 1], [2, 0], [2, 1], [2, 0], [2, 0], 
+             [2,-1], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2,-1], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 1], 
+             [3, 0], [3, 1], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0]]):
+
+A(14):= Matrix([[2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [3, 0], [3, 0], [3, 0], [3, 0], [3, 0], [3, 0], [3,-1], [2, 1], [2, 1], [2, 0], [2, 1], [3, 0], [2, 0], 
+             [3, 0], [2, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2,-1], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2,-1], [3, 0], [2,-1], [3, 0], [2, 0], 
+             [2, 0], [2,-1], [2, 0], [2, 0], [3, 0], [2, 0], [2,-1], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [2, 0], [3, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2,-1], [2, 1], [2, 0], [3, 0], [2, 0], [2, 0], [2, 1], [3,-1], [3, 0], [2, 1], 
+             [3, 1], [2,-1], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 1], [3, 0], [2, 1], [2, 0], [3, 0], [3, 0], [2, 0], [2, 0], [3, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [3,-1], [3,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [3, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2, 0], [2, 0], [2,-1], [3,-1], [3, 1], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], 
+             [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 1], [2, 0], [2, 1], [2, 0], [2, 0], 
+             [2,-1], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2,-1], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 1], 
+             [3, 0], [3, 1], [3, 1], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1]]):
+
+A(15):= Matrix([[3, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [3, 0], [2,-1], [2, 0], [2, 0], [3,-1], [2, 1], [2, 1], [2, 0], [2, 1], [3, 0], [2, 0], 
+             [3, 0], [2, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2,-1], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2,-1], [3, 0], [2,-1], [3, 0], [2, 0], 
+             [2, 0], [2,-1], [2, 0], [2, 0], [3, 0], [2, 0], [2,-1], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [2, 0], [3, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2,-1], [2, 1], [2, 0], [3, 0], [2, 0], [2, 0], [2, 1], [3,-1], [3, 0], [2, 1], 
+             [3, 1], [2,-1], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 1], [3, 0], [2, 1], [2, 0], [3, 0], [3, 0], [2, 0], [2, 0], [3, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [3,-1], [3,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [3, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2, 0], [2, 0], [2,-1], [3,-1], [3, 1], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], 
+             [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 1], [2, 0], [2, 1], [2, 0], [2, 0], 
+             [2,-1], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2,-1], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 1], 
+             [3, 1], [3, 1], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0]]):
+
+
+A(16):= Matrix([[3, 0], [3, 0], [3, 1], [3, 1], [3, 1], [3, 1], [3, 1], [3,-1], [3, 1], [3, 1], [3,-1], [3, 0], [3, 0], [2, 1], [2, 1], [2, 1], [2, 1], [2, 1], [3, 0], [3, 0], 
+             [3, 1], [3, 1], [3, 0], [3, 0], [3, 1], [3, 1], [3,-1], [3, 1], [3, 1], [3, 1], [3, 0], [2, 0], [2, 0], [2, 1], [3, 0], [2,-1], [3, 0], [2, 1], [3, 0], [3, 0], 
+             [2, 1], [2, 1], [2, 1], [2, 0], [3, 1], [3, 0], [2,-1], [3, 1], [3, 0], [3, 0], [3, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [2, 1], [2, 1], [2, 0], [2, 0], [3, 1], [3, 1], [3, 1], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], 
+             [2, 1], [2, 1], [2, 1], [2, 1], [2, 1], [2, 1], [2, 1], [2, 0], [3, 1], [3, 0], [3,-1], [3, 1], [3, 0], [3, 0], [3, 0], [3, 0], [3, 1], [3,-1], [3, 0], [2, 1], 
+             [3, 1], [2,-1], [2, 0], [2, 1], [2, 1], [2, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [3, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [3, 0], [2, 0], [3, 0], [3, 0], [3, 1], [3, 0], [2, 1], [2, 0], [3, 0], [3, 0], [2, 0], [2, 0], [3, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [3,-1], [3,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [3, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2, 0], [2, 0], [2,-1], [3,-1], [3, 1], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], 
+             [3, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 1], [2, 1], [3, 1], [3, 1], [3, 0], 
+             [3,-1], [3, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 1], [2, 1], [3, 1]]):
+
+
+A(17) := Matrix([[3, 0], [3, 0], [2, 0], [2, 0], [2, 1], [2, 1], [2, 0], [2,-1], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [2, 1], [2, 0], [3, 0], [2,-1], [2, 0], [2, 0], [2,-1], 
+             [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [2, 1], [3, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 1], [2, 0], [2, 1], [2, 0], [2, 1], [2, 0], [2, 0], [2,-1], [2, 0], 
+             [2, 0], [2, 1], [2, 0], [2, 0], [3,-1], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 1], [3, 1], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2,-1], [2,-1], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [3, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 1], [2, 0], [2,-1], [2, 1], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [3, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [3,-1], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 1], [2, 0], [3, 0], [3, 0], [2, 0], [2,-1], [2, 1], [2,-1], [2, 1], [2, 1], [2,-1], [2, 0], 
+             [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2,-1], [2, 0], [2, 0], 
+             [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 1], [2, 1], [2, 0], [2, 0], [2,-1], 
+             [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], 
+             [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [3, 1], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [2, 0]]):
+
+A(18) := Matrix([[2, 0], [2, 0], [2, 0], [2, 0], [3, 1], [3, 1], [3, 0], [3,-1], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [2, 1], [2, 0], [3, 0], [2,-1], [2, 0], [2, 0], [2,-1], 
+             [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [2, 1], [3, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 1], [2, 0], [2, 1], [2, 0], [2, 1], [2, 0], [2, 0], [2,-1], [2, 0], 
+             [2, 0], [2, 1], [2, 0], [2, 0], [3,-1], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 1], [3, 1], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2,-1], [2,-1], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [3, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 1], [2, 0], [2,-1], [2, 1], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [3, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [3,-1], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 1], [2, 0], [3, 0], [3, 0], [2, 0], [2,-1], [2, 1], [2,-1], [2, 1], [2, 1], [2,-1], [2, 0], 
+             [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2,-1], [2, 0], [2, 0], 
+             [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 1], [2, 1], [2, 0], [2, 0], [2,-1], 
+             [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], 
+             [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [3, 1], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], 
+             [3, 0], [2, 0]]):
+
+A(19) := Matrix([[3, 0], [3, 0], [2, 0], [2, 0], [2, 1], [2, 1], [2, 0], [2,-1], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [2, 1], [2, 0], [3, 0], [2,-1], [2, 0], [2, 0], [2,-1], 
+             [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [2, 1], [3, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 1], [2, 0], [2, 1], [2, 0], [2, 1], [2, 0], [2, 0], [2,-1], [2, 0], 
+             [2, 0], [2, 1], [2, 0], [2, 0], [3,-1], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 1], [3, 1], [2, 0], [2, 0], [2, 0],  
+             [2, 0], [2,-1], [2,-1], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [3, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 1], [2, 0], [2,-1], [2, 1], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [3, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [3,-1], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 1], [2, 0], [3, 0], [3, 0], [2, 0], [2,-1], [2, 1], [2,-1], [2, 1], [2, 1], [2,-1], [2, 0], 
+             [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2,-1], [2, 0], [2, 0], 
+             [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 1], [2, 1], [2, 0], [2, 0], [2,-1], 
+             [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], 
+             [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [3, 1], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], 
+             [3, 0], [2, 0], [2, 0], [2, 0], [2, 0]]):
+
+A(20) := Matrix([[3, 1], [3, 1], [3, 0], [3, 0], [3, 1], [3, 1], [3, 1], [3,-1], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [2, 1], [2, 0], [3, 0], [2,-1], [2, 0], [2, 0], [2,-1], 
+             [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [2, 1], [3, 1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 1], [2, 0], [2, 1], [2, 0], [2, 1], [2, 0], [2, 0], [2,-1], [2, 0], 
+             [2, 0], [2, 1], [2, 0], [2, 0], [3,-1], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], [2, 1], [3, 1], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [2,-1], [2,-1], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 1], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [3, 0], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 1], [2, 0], [2,-1], [2, 1], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [3, 0], [2, 0], [2, 0], 
+             [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [3, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [3,-1], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 1], [2, 0], [3, 0], [3, 0], [2, 0], [2,-1], [2, 1], [2,-1], [2, 1], [2, 1], [2,-1], [2, 0], 
+             [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2,-1], [2, 0], [2, 0], 
+             [2, 0], [3, 0], [2, 0], [2, 0], [3, 0], [2, 1], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 1], [2, 1], [2, 0], [2, 0], [2,-1], 
+             [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], [3, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 0], [3, 0], 
+             [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2,-1], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [2, 0], [2, 0], 
+             [2, 0], [3, 0], [2, 0], [2, 0], [2, 0], [2, 0], [2, 1], [2, 0], [2, 0], [3, 1], [2, 1], [2, 1], [2, 0], [2, 1], [2, 0], [2, 0]]):
+
+PA:= 1220:
+PD:= 505:
+PT:= 790:
+PR := 10;
+AVR :=0;
+
+for l from 1 to 20 do
+CST1 := 0;
+
+for j from 1 to RowDimension(A(l)) do 
+	
+	           if   (A(l)(j, 1) = 2 and A(l)(j, 2) =  0)  then C(j) := 2; 
+	           elif (A(l)(j, 1) = 2 and A(l)(j, 2) =  1)  then C(j) := 3; 
+	           elif (A(l)(j, 1) = 2 and A(l)(j, 2) = -1)  then C(j) := 1; 
+	           elif (A(l)(j, 1) = 3 and A(l)(j, 2) =  0)  then C(j) := 4; 
+	           elif (A(l)(j, 1) = 3 and A(l)(j, 2) =  1)  then C(j) := 5; 
+	           elif (A(l)(j, 1) = 3 and A(l)(j, 2) = -1)  then C(j) := 6; 
+	           end if; 
+end do:
+
+printf( &quot;Enumurated Matrix C = \134n&quot;); 
+
+for j from 1 to RowDimension(A(l)) do  
+	printf(&quot;%d,&quot;, C(j)); 
+end do;
+
+X := 1: P := X:
+for i from 1 to RowDimension(A(l)) do 
+    if C(i) = 1 then X := 2*X-P; 
+  elif C(i) = 2 then X := 2*X; 
+  elif C(i) = 3 then X := 2*X+P; 
+  elif C(i) = 4 then X := 3*X; 
+  elif C(i) = 5 then X := 3*X+P; 
+  elif C(i) = 6 then X := 3*X-P; 
+  end if; 
+end do:
+printf(&quot;\134n\134nA:= %d\134n&quot;, X);
+ceil(log[2](X));
+
+for j from 1 to RowDimension(A(l)) do 
+	 if   (C(j)= 1 or C(j)= 3 ) then CST1:= CST1+PA+PD+2*PR;
+    elif   (C(j)= 2)  then CST1:= CST1+PD+2*PR;	
+    elif   (C(j)= 4)  then CST1:= CST1+PT+2*PR;
+    elif   (C(j)= 5 or C(j)= 6 ) then CST1:= CST1+PA+PT+2*PR;	                
+    end if; 
+end do:
+
+printf(&quot;\134nTIMING COST FOR A =%d\134n\134n&quot;,CST1);
+
+AVR := AVR + CST1+2*PR;
+
+end do;
+
+printf(&quot;\134n AVERAGE TIMING COST FOR A =%f\134n\134n&quot;,AVR/20);
+
+</EC-CodeEditor>
+<Input><Text-field prompt="&gt; " style="Maple Input" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field>
+</Input>
+<Input><Text-field prompt="&gt; " style="Maple Input" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field>
+</Input>
+<Input><Text-field prompt="&gt; " style="Maple Input" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field>
+</Input>
+<Input><Text-field prompt="&gt; " style="Maple Input" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEjUFJGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkjbW5HRiQ2JFEjMTBGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNQUkdGKCIjNTcjRi4=</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEkQVZSRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRIjBGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRBVlJHRigiIiE3I0Yu</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVElQ1NUMUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIwRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSVDU1QxR0YoIiIhNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Enumurated Matrix C = 
+2,2,2,2,3,3,2,1,2,1,2,2,3,3,2,4,1,2,2,1,1,2,2,2,2,3,2,2,2,2,2,2,2,2,3,2,2,2,2,2,2,2,2,3,5,2,2,2,2,2,1,3,2,3,2,3,2,2,1,2,2,3,2,2,6,2,2,2,3,2,2,4,2,2,3,5,2,2,2,2,2,1,1,1,2,2,2,2,2,1,2,2,3,1,2,2,2,2,2,4,2,2,2,1,2,3,2,1,3,2,2,1,2,2,2,4,2,2,2,2,2,2,2,2,2,2,2,2,2,3,2,4,3,2,2,2,2,6,2,2,3,2,2,3,2,4,4,2,1,3,1,3,3,1,2,4,2,2,2,2,2,2,2,2,2,2,2,2,2,3,1,2,2,2,4,2,2,4,3,2,2,1,2,2,2,3,3,2,2,1,2,2,2,2,4,4,2,1,2,2,2,2,2,2,2,2,4,2,2,2,1,2,2,2,1,2,2,2,3,2,2,2,2,2,4,2,2,2,2,3,2,2,5,2,2,2,1,2,2,4,2,2,2,2,</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJYR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiUEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJQR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+
+A:= 97967580710072457803851794866931140126070069673459272782957899209603532495680</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEkMjU2RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">IiRjIw==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+TIMING COST FOR A =205780
+</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEkQVZSRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRJzIwNTgwMEYnRjlGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRBVlJHRigiJytlPzcjRi4=</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVElQ1NUMUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIwRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSVDU1QxR0YoIiIhNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Enumurated Matrix C = 
+2,2,2,2,3,3,2,1,2,1,2,2,3,3,2,4,1,2,2,1,1,2,2,2,2,3,2,2,2,2,2,2,2,2,3,2,2,2,2,2,2,2,2,3,5,2,2,2,2,2,1,3,2,3,2,3,2,2,1,2,2,3,2,2,6,2,2,2,3,2,2,4,2,2,3,5,2,2,2,2,2,1,1,1,2,2,2,2,2,1,2,2,3,1,2,2,2,2,2,4,2,2,2,1,2,3,2,1,3,2,2,1,2,2,2,4,2,2,2,2,2,2,2,2,2,2,2,2,2,3,2,4,3,2,2,2,2,6,2,2,3,2,2,3,2,4,4,2,1,3,1,3,3,1,2,4,2,2,2,2,2,2,2,2,2,2,2,2,2,3,1,2,2,2,4,2,2,4,3,2,2,1,2,2,2,3,3,2,2,1,2,2,2,2,4,4,2,1,2,2,2,2,2,2,2,2,4,2,2,2,1,2,2,2,1,2,2,2,3,2,2,2,2,2,4,2,2,2,2,3,2,3,5,2,2,2,1,2,2,4,2,2,2,2,</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJYR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiUEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJQR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+
+A:= 97967580710072457803851794866931140126070069673459272782957899209603532504896</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEkMjU2RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">IiRjIw==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+TIMING COST FOR A =207000
+</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEkQVZSRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRJzQxMjgyMEYnRjlGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRBVlJHRigiJz9HVDcjRi4=</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVElQ1NUMUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIwRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSVDU1QxR0YoIiIhNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Enumurated Matrix C = 
+2,2,2,2,3,3,2,1,2,1,2,2,3,3,2,4,1,2,2,1,1,2,2,2,2,3,2,2,2,2,2,2,2,2,3,2,2,2,2,2,2,2,2,3,5,2,2,2,2,2,1,3,2,3,2,3,2,2,1,2,2,3,2,2,6,2,2,2,3,2,2,4,2,2,3,5,2,2,2,2,2,1,1,1,2,2,2,2,2,1,2,2,3,1,2,2,2,2,2,4,2,2,2,1,2,3,2,1,3,2,2,1,2,2,2,4,2,2,2,2,2,2,2,2,2,2,2,2,2,3,2,4,3,2,2,2,2,6,2,2,3,2,2,3,2,4,3,2,1,3,1,3,3,1,2,4,2,2,2,2,2,2,2,2,2,2,2,2,2,3,1,2,2,2,4,2,2,4,3,2,2,1,2,2,2,3,3,2,2,1,2,2,2,2,4,4,2,1,2,2,2,2,2,2,2,2,4,2,2,2,1,2,2,2,1,2,2,2,3,2,2,2,2,2,4,2,4,2,2,3,2,2,3,2,2,2,1,2,2,4,2,2,2,2,</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJYR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiUEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJQR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+
+A:= 65311720473381638535901196577954093417380046454763035083600989268284270472000</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEkMjU2RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">IiRjIw==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+TIMING COST FOR A =206715
+</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEkQVZSRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRJzYxOTU1NUYnRjlGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRBVlJHRigiJ2ImPic3I0Yu</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVElQ1NUMUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIwRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSVDU1QxR0YoIiIhNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Enumurated Matrix C = 
+2,</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJYR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiUEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJQR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+
+A:= 2</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEiMUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJw==">IiIi</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+TIMING COST FOR A =525
+</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEkQVZSRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRJzYyMDEwMEYnRjlGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRBVlJHRigiJyssaTcjRi4=</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVElQ1NUMUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIwRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSVDU1QxR0YoIiIhNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Enumurated Matrix C = 
+2,2,2,2,2,1,2,4,4,2,2,2,2,2,2,2,4,3,1,4,4,4,4,4,2,1,1,4,2,2,2,2,2,4,2,2,3,2,2,2,2,2,1,2,1,2,2,2,2,2,1,2,2,3,2,2,2,2,2,3,2,2,3,2,2,2,1,2,1,2,6,5,2,4,3,4,2,4,2,4,4,2,3,4,4,3,2,2,3,3,1,5,2,1,6,2,4,2,4,1,2,3,2,1,3,2,1,4,2,2,2,4,3,3,3,4,2,4,2,2,4,2,2,4,2,4,2,2,2,6,2,2,2,4,5,2,2,4,2,2,2,4,2,2,2,4,4,2,6,2,2,2,2,2,2,4,4,2,2,2,4,2,3,5,2,2,4,2,3,2,4,2,2,6,2,2,2,1,3,4,2,2,2,2,2,6,2,3,2,2,2,2,2,2,5,6,4,4,6,2,2,4,2,2,2,2,3,4,2,2,2,2,4,2,3,4,4,4,2,2,3,2,</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJYR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiUEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJQR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+
+A:= 108420869797782529178707918995433270666718174691422420023288714069072718712242</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEkMjU2RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">IiRjIw==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+TIMING COST FOR A =194080
+</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEkQVZSRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRJzgxNDIwMEYnRjlGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRBVlJHRigiJytVIik3I0Yu</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVElQ1NUMUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIwRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSVDU1QxR0YoIiIhNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Enumurated Matrix C = 
+2,4,2,2,2,1,2,2,2,2,2,2,2,2,2,2,4,3,1,4,4,4,4,4,2,1,1,4,2,2,2,2,2,4,2,2,3,2,2,2,2,2,1,2,1,2,2,2,2,2,1,2,2,3,2,2,2,2,2,3,2,2,3,2,2,2,1,2,1,2,6,5,2,4,3,4,2,4,2,4,4,2,3,4,4,3,2,2,3,3,1,5,2,1,6,2,4,2,4,1,2,3,2,1,3,2,1,4,2,2,2,4,3,3,3,4,2,4,2,2,4,2,2,4,2,4,2,2,2,6,2,2,2,4,5,2,2,4,2,4,2,4,2,2,2,4,4,2,6,2,2,2,2,2,2,4,4,2,2,2,4,2,3,5,2,2,4,2,3,2,4,2,2,6,2,2,2,1,3,4,2,2,2,2,2,6,2,3,2,2,2,2,2,2,5,6,4,4,6,2,2,4,2,2,2,2,3,4,2,2,2,2,4,2,3,4,4,4,2,2,2,2,</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJYR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiUEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJQR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+
+A:= 108994555939461654779186179085681536264255689390557551579435112664382530506160</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEkMjU2RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">IiRjIw==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+TIMING COST FOR A =192860
+</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEkQVZSRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRKDEwMDcwODBGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRBVlJHRigiKCEzMjU3I0Yu</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVElQ1NUMUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIwRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSVDU1QxR0YoIiIhNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Enumurated Matrix C = 
+2,4,2,2,2,1,2,2,4,4,2,2,2,2,2,2,4,3,1,4,4,4,4,4,2,1,1,4,2,2,2,2,2,4,2,2,3,2,2,2,2,2,1,2,1,2,2,2,2,2,1,2,2,3,2,2,2,2,2,3,2,2,3,2,2,2,1,2,1,2,6,5,2,4,3,4,2,4,2,4,4,2,3,4,4,3,2,2,3,3,1,5,2,1,6,2,4,2,4,1,2,3,2,1,3,2,1,4,2,2,2,4,3,3,3,4,2,4,2,2,4,2,2,4,2,4,2,2,2,6,2,2,2,4,5,2,2,4,2,2,2,4,2,2,2,4,4,2,6,2,2,2,2,2,2,4,4,2,2,2,4,2,3,5,2,2,4,2,3,2,4,2,2,6,2,2,2,1,3,4,2,2,2,2,2,6,4,3,2,2,2,2,2,2,5,6,4,4,6,2,2,4,2,2,2,2,3,4,2,2,2,2,4,2,3,4,4,4,2,4,</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJYR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiUEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJQR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+
+A:= 91964112875043640635208100349404925613498116824514513236818706341040073420066</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEkMjU2RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">IiRjIw==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+TIMING COST FOR A =192665
+</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEkQVZSRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRKDExOTk3NjVGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRBVlJHRigiKGwoKj4iNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVElQ1NUMUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIwRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSVDU1QxR0YoIiIhNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Enumurated Matrix C = 
+4,4,4,4,4,2,2,2,4,4,2,2,2,2,2,2,4,3,1,4,4,4,4,4,2,1,1,4,2,2,2,2,2,4,2,2,3,2,2,2,2,2,1,2,1,2,2,2,2,2,1,2,2,3,2,2,2,2,2,3,2,2,3,2,2,2,1,2,1,2,6,5,2,4,3,4,2,4,2,4,4,2,3,4,4,3,2,2,3,3,1,5,2,1,6,2,4,2,4,1,2,3,2,1,3,2,1,4,2,2,2,4,3,3,3,4,2,4,2,2,4,2,2,4,2,4,2,2,2,6,2,2,2,4,5,2,2,4,2,2,2,4,2,2,2,4,4,2,6,2,2,2,2,2,2,4,4,2,2,2,4,2,3,5,2,2,4,2,3,2,4,2,2,6,2,2,2,1,3,4,2,2,2,2,2,6,4,3,2,2,2,2,2,2,5,6,4,4,6,2,2,4,2,2,2,2,3,4,2,2,2,2,4,2,3,4,4,5,</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJYR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiUEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJQR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+
+A:= 78411482786425338424223716217396763371085285784244378100532558498971796233436</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEkMjU2RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">IiRjIw==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+TIMING COST FOR A =192470
+</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEkQVZSRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRKDEzOTIyNTVGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRBVlJHRigiKGJBUiI3I0Yu</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVElQ1NUMUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIwRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSVDU1QxR0YoIiIhNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Enumurated Matrix C = 
+2,2,2,2,1,1,1,2,2,2,2,2,2,2,2,2,4,3,1,4,4,4,4,4,2,1,1,4,2,2,2,2,2,4,2,2,3,2,2,2,2,2,1,2,1,2,2,2,2,2,1,2,2,3,2,2,2,2,2,3,2,2,3,2,2,2,1,2,1,2,6,5,2,4,3,4,2,4,2,4,4,2,3,4,4,3,2,2,3,3,1,5,2,1,6,2,4,2,4,1,2,3,2,1,3,2,1,4,2,2,2,4,3,3,3,4,2,4,2,2,4,2,2,4,2,4,2,2,2,6,2,2,2,4,5,2,2,4,2,2,2,4,2,2,2,4,4,2,6,2,2,2,2,2,2,4,4,2,2,2,4,2,3,5,2,2,4,2,3,2,4,2,2,6,2,2,2,1,3,4,2,2,2,2,2,6,4,3,2,2,2,2,2,2,5,6,4,4,6,2,2,4,2,2,2,2,3,4,2,2,2,2,4,2,3,4,4,4,2,4,2,2,</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJYR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiUEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJQR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+
+A:= 104118534482759793555424884792447691908067675594706616698807779985176830719112</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEkMjU2RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">IiRjIw==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+TIMING COST FOR A =195300
+</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEkQVZSRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRKDE1ODc1NzVGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRBVlJHRigiKHZ2ZSI3I0Yu</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVElQ1NUMUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIwRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSVDU1QxR0YoIiIhNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Enumurated Matrix C = 
+4,4,2,2,2,1,2,2,4,4,2,2,2,2,2,2,4,3,1,4,4,4,4,4,2,1,1,4,2,2,2,2,2,4,2,2,3,2,2,2,2,2,1,2,1,2,2,2,2,2,1,2,2,3,2,2,2,2,2,3,2,2,3,2,2,2,1,2,1,2,6,5,2,4,3,4,2,4,2,4,4,2,3,4,4,3,2,2,3,3,1,3,2,1,1,2,4,4,4,1,2,3,2,2,2,2,1,4,2,2,2,4,3,3,3,4,2,4,2,2,4,2,2,4,2,4,2,2,2,6,2,2,2,4,5,2,2,4,2,2,2,4,2,2,2,4,4,2,6,2,2,2,2,2,2,4,4,2,2,2,4,2,3,5,2,2,4,2,3,2,4,2,2,6,2,2,2,1,3,4,2,2,2,2,2,6,4,3,2,2,2,2,2,2,5,6,4,4,6,2,2,4,2,2,2,2,3,4,2,2,2,2,4,2,3,4,4,4,2,4,</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJYR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiUEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJQR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+
+A:= 92286782197153395062323629480744339624352146377350449740875982115427215158562</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEkMjU2RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">IiRjIw==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+TIMING COST FOR A =190225
+</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEkQVZSRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRKDE3Nzc4MjBGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRBVlJHRigiKD95eCI3I0Yu</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVElQ1NUMUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIwRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSVDU1QxR0YoIiIhNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Enumurated Matrix C = 
+4,4,4,5,5,2,2,2,5,5,4,3,3,2,2,4,4,3,3,4,4,4,4,4,2,1,1,4,2,2,2,2,2,4,2,2,3,2,2,2,2,2,3,3,3,2,2,2,2,2,1,2,2,3,2,2,2,2,2,3,2,2,3,2,2,2,1,2,1,2,6,5,2,4,3,4,2,4,2,4,4,2,3,4,4,3,4,4,3,3,1,5,2,1,6,2,4,2,4,1,2,3,2,1,3,2,1,4,2,2,2,4,3,3,3,4,2,4,2,2,4,2,2,4,2,4,2,2,2,6,2,2,2,4,5,5,2,4,2,2,2,4,2,2,2,4,4,2,6,2,2,2,2,2,2,4,4,2,2,2,4,2,3,5,2,2,4,2,3,2,4,2,2,6,2,2,2,1,3,4,2,2,2,2,2,6,4,3,2,2,2,2,2,2,5,6,4,4,6,2,2,4,2,2,2,2,3,4,2,2,2,2,4,2,3,4,</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJYR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiUEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJQR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+
+A:= 67264809562746475703169305941793956367020167313995330456811236549895884154563</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEkMjU2RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">IiRjIw==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+TIMING COST FOR A =200815
+</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEkQVZSRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRKDE5Nzg2NTVGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRBVlJHRigiKGIneT43I0Yu</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVElQ1NUMUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIwRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSVDU1QxR0YoIiIhNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Enumurated Matrix C = 
+4,4,4,5,5,4,4,4,5,5,4,3,3,2,2,2,2,3,3,2,4,4,4,4,4,5,6,4,4,4,2,2,2,4,2,2,3,2,2,2,2,2,3,3,3,2,2,2,2,2,1,2,2,3,2,2,2,2,2,3,2,2,3,2,2,2,1,2,1,2,6,5,2,4,3,4,2,4,2,4,4,2,3,4,4,3,4,4,3,3,1,5,2,1,6,2,4,2,4,1,2,3,2,1,3,2,1,4,2,2,2,4,3,3,3,4,2,4,2,2,4,2,2,4,2,4,2,2,2,6,2,2,2,4,5,5,2,4,2,2,2,4,2,2,2,4,4,2,6,2,2,2,2,2,2,4,4,2,2,2,4,2,3,5,2,2,4,2,3,2,4,2,2,6,2,2,2,1,3,4,2,2,2,2,2,6,4,3,2,2,2,2,2,2,5,6,4,4,6,2,2,4,2,2,2,2,3,4,2,2,2,2,4,2,</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJYR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiUEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJQR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+
+A:= 85117708581620037917072044859151543163233298116762506816845126948876890501408</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEkMjU2RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">IiRjIw==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+TIMING COST FOR A =199685
+</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEkQVZSRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRKDIxNzgzNjBGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRBVlJHRigiKGckeUA3I0Yu</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVElQ1NUMUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIwRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSVDU1QxR0YoIiIhNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Enumurated Matrix C = 
+2,4,2,2,2,2,1,2,2,4,1,2,2,6,3,3,2,3,4,2,4,3,2,2,4,2,1,2,4,2,2,2,2,2,4,1,4,1,4,2,2,1,2,2,4,2,1,3,2,2,2,2,1,2,2,2,2,2,3,2,2,2,2,2,1,2,2,3,2,4,3,2,2,2,2,4,2,2,4,2,2,2,2,2,2,2,2,2,3,2,1,3,2,4,2,2,3,6,4,3,5,1,2,3,2,2,2,2,4,2,2,2,2,2,2,2,2,2,2,2,2,2,4,2,2,2,3,4,3,2,4,4,2,2,5,2,2,4,2,2,2,2,6,6,2,2,2,2,1,2,2,3,4,4,2,2,2,1,2,2,2,2,4,2,2,2,4,3,2,2,1,6,5,2,2,2,2,4,4,2,2,4,2,2,1,2,2,4,2,2,2,1,3,2,3,2,2,1,2,3,2,2,2,2,2,4,2,1,3,2,2,2,2,1,2,3,4,5,2,2,2,1,2,2,2,2,2,2,3,2,2,2,</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJYR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiUEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJQR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+
+A:= 75900611678843504067742839787231202375623566932223034601834272424795225816072</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEkMjU2RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">IiRjIw==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+TIMING COST FOR A =196640
+</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEkQVZSRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRKDIzNzUwMjBGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRBVlJHRigiKD9dUCM3I0Yu</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVElQ1NUMUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIwRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSVDU1QxR0YoIiIhNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Enumurated Matrix C = 
+2,2,2,2,2,2,1,4,4,4,4,4,4,6,3,3,2,3,4,2,4,3,2,2,4,2,1,2,4,2,2,2,2,2,4,1,4,1,4,2,2,1,2,2,4,2,1,3,2,2,2,2,1,2,2,2,2,2,3,2,2,2,2,2,1,2,2,3,2,4,3,2,2,2,2,4,2,2,4,2,2,2,2,2,2,2,2,2,3,2,1,3,2,4,2,2,3,6,4,3,5,1,2,3,2,2,2,2,4,2,2,2,2,2,2,2,2,2,2,2,2,2,4,2,2,2,3,4,3,2,4,4,2,2,5,2,2,4,2,2,2,2,6,6,2,2,2,2,1,2,2,3,4,4,2,2,2,1,2,2,2,2,4,2,2,2,4,3,2,2,1,6,5,2,2,2,2,4,4,2,2,4,2,2,1,2,2,4,2,2,2,1,3,2,3,2,2,1,2,3,2,2,2,2,2,4,2,1,3,2,2,2,2,1,2,3,4,5,5,2,2,1,2,2,2,2,2,2,3,</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJYR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiUEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJQR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+
+A:= 71873554824841243931869226371960008415921974986380970850332212919482544868225</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEkMjU2RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">IiRjIw==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+TIMING COST FOR A =196490
+</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEkQVZSRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRKDI1NzE1MzBGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRBVlJHRigiKEk6ZCM3I0Yu</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVElQ1NUMUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIwRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSVDU1QxR0YoIiIhNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Enumurated Matrix C = 
+4,4,2,2,2,2,1,2,2,4,1,2,2,6,3,3,2,3,4,2,4,3,2,2,4,2,1,2,4,2,2,2,2,2,4,1,4,1,4,2,2,1,2,2,4,2,1,3,2,2,2,2,1,2,2,2,2,2,3,2,2,2,2,2,1,2,2,3,2,4,3,2,2,2,2,4,2,2,4,2,2,2,2,2,2,2,2,2,3,2,1,3,2,4,2,2,3,6,4,3,5,1,2,3,2,2,2,2,4,2,2,2,2,2,2,2,2,2,2,2,2,2,4,2,2,2,3,4,3,2,4,4,2,2,5,2,2,4,2,2,2,2,6,6,2,2,2,2,1,2,2,3,4,4,2,2,2,1,2,2,2,2,4,2,2,2,4,3,2,2,1,6,5,2,2,2,2,4,4,2,2,4,2,2,1,2,2,4,2,2,2,1,3,2,3,2,2,1,2,3,2,2,2,2,2,4,2,1,3,2,2,2,2,1,2,3,5,5,2,2,2,1,2,2,2,2,2,2,3,2,2,2,</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJYR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiUEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJQR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+
+A:= 114058063154491981371091188000123359687520378041611864278808646840648120024072</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEkMjU2RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">IiRjIw==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+TIMING COST FOR A =198145
+</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEkQVZSRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRKDI3Njk2OTVGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRBVlJHRigiKCZwcEY3I0Yu</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVElQ1NUMUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIwRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSVDU1QxR0YoIiIhNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Enumurated Matrix C = 
+4,4,5,5,5,5,5,6,5,5,6,4,4,3,3,3,3,3,4,4,5,5,4,4,5,5,6,5,5,5,4,2,2,3,4,1,4,3,4,4,3,3,3,2,5,4,1,5,4,4,4,2,1,2,2,2,2,2,3,2,2,2,2,3,3,2,2,5,5,5,3,2,2,2,2,4,2,2,4,2,3,3,3,3,3,3,3,2,5,4,6,5,4,4,4,4,5,6,4,3,5,1,2,3,3,3,2,2,4,2,2,4,4,4,2,2,2,2,2,2,2,2,4,2,4,4,5,4,3,2,4,4,2,2,5,2,2,4,2,2,2,2,6,6,2,2,2,2,1,2,2,3,4,4,2,2,2,1,2,2,2,2,4,2,2,2,4,3,2,2,1,6,5,2,2,2,2,4,4,2,2,4,2,2,1,2,2,4,2,2,2,1,3,3,5,5,4,6,4,3,2,2,2,3,3,5,</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJYR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiUEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJQR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+
+A:= 67173034630532757256802626277406711340696486264975803462539461195754268055786</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEkMjU2RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">IiRjIw==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+TIMING COST FOR A =229690
+</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEkQVZSRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRKDI5OTk0MDVGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRBVlJHRigiKDAlKipINyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVElQ1NUMUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIwRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSVDU1QxR0YoIiIhNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Enumurated Matrix C = 
+4,4,2,2,3,3,2,1,2,1,2,2,3,3,2,4,1,2,2,1,1,2,2,2,2,3,2,2,2,2,2,2,2,2,3,2,2,2,2,2,2,2,2,3,5,2,2,2,2,2,1,3,2,3,2,3,2,2,1,2,2,3,2,2,6,2,2,2,3,2,2,4,2,2,3,5,2,2,2,2,2,1,1,1,2,2,2,2,2,1,2,2,3,1,2,2,2,2,2,4,2,2,2,1,2,3,2,1,3,2,2,1,2,2,2,4,2,2,2,2,2,2,2,2,2,2,2,2,2,3,2,4,3,2,2,2,2,6,2,2,3,2,2,3,2,4,4,2,1,3,1,3,3,1,2,4,2,2,2,2,2,2,2,2,2,2,2,2,2,3,1,2,2,2,4,2,2,4,3,2,2,1,2,2,2,3,3,2,2,1,2,2,2,2,4,4,2,1,2,2,2,2,2,2,2,2,4,2,2,2,1,2,2,2,1,2,2,2,3,2,2,2,2,2,4,2,2,2,2,3,2,2,5,2,2,2,1,2,2,2,2,2,2,</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJYR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiUEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJQR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+
+A:= 71823994191196148415123427953415257464364655352277516309620106187263707198400</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEkMjU2RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">IiRjIw==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+TIMING COST FOR A =205540
+</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEkQVZSRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRKDMyMDQ5NjVGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRBVlJHRigiKGxcPyQ3I0Yu</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVElQ1NUMUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIwRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSVDU1QxR0YoIiIhNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Enumurated Matrix C = 
+2,2,2,2,5,5,4,6,2,1,2,2,3,3,2,4,1,2,2,1,1,2,2,2,2,3,2,2,2,2,2,2,2,2,3,2,2,2,2,2,2,2,2,3,5,2,2,2,2,2,1,3,2,3,2,3,2,2,1,2,2,3,2,2,6,2,2,2,3,2,2,4,2,2,3,5,2,2,2,2,2,1,1,1,2,2,2,2,2,1,2,2,3,1,2,2,2,2,2,4,2,2,2,1,2,3,2,1,3,2,2,1,2,2,2,4,2,2,2,2,2,2,2,2,2,2,2,2,2,3,2,4,3,2,2,2,2,6,2,2,3,2,2,3,2,4,4,2,1,3,1,3,3,1,2,4,2,2,2,2,2,2,2,2,2,2,2,2,2,3,1,2,2,2,4,2,2,4,3,2,2,1,2,2,2,3,3,2,2,1,2,2,2,2,4,4,2,1,2,2,2,2,2,2,2,2,4,2,2,2,1,2,2,2,1,2,2,2,3,2,2,2,2,2,4,2,2,2,2,3,2,2,5,2,2,2,1,2,2,4,2,</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJYR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiUEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJQR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+
+A:= 61083714613282889505862596346212786551740565643521926996010430444453408281448</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEkMjU2RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">IiRjIw==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+TIMING COST FOR A =205345
+</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEkQVZSRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRKDM0MTAzMzBGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRBVlJHRigiKEkuVCQ3I0Yu</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVElQ1NUMUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIwRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSVDU1QxR0YoIiIhNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Enumurated Matrix C = 
+4,4,2,2,3,3,2,1,2,1,2,2,3,3,2,4,1,2,2,1,1,2,2,2,2,3,2,2,2,2,2,2,2,2,3,2,2,2,2,2,2,2,2,3,5,2,2,2,2,2,1,3,2,3,2,3,2,2,1,2,2,3,2,2,6,2,2,2,3,2,2,4,2,2,3,5,2,2,2,2,1,1,1,2,2,2,2,2,1,2,2,3,1,2,2,2,2,2,4,2,2,2,1,2,3,2,1,3,2,2,1,2,2,2,4,2,2,2,2,2,2,2,2,2,2,2,2,2,3,2,4,3,2,2,2,2,6,2,2,3,2,2,3,2,4,4,2,1,3,1,3,3,1,2,4,2,2,2,2,2,2,2,2,2,2,2,2,2,3,1,2,2,2,4,2,2,4,3,2,2,1,2,2,2,3,3,2,2,1,2,2,2,2,4,4,2,1,2,2,2,2,2,2,2,2,4,2,2,2,1,2,2,2,1,2,2,2,3,2,2,2,2,2,4,2,2,2,2,3,2,2,5,2,2,2,1,2,2,4,2,2,2,2,</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJYR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiUEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJQR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+
+A:= 107735991286794222622685139685496121434326665731536353779322285206119441800000</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEkMjU2RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">IiRjIw==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+TIMING COST FOR A =205825
+</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEkQVZSRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRKDM2MTYxNzVGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRBVlJHRigiKHZoaCQ3I0Yu</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVElQ1NUMUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIwRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSVDU1QxR0YoIiIhNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Enumurated Matrix C = 
+5,5,4,4,5,5,5,6,2,1,2,2,3,3,2,4,1,2,2,1,1,2,2,2,2,3,2,2,2,2,2,2,2,2,3,2,2,2,2,2,2,2,2,3,5,2,2,2,2,2,1,3,2,3,2,3,2,2,1,2,2,3,2,2,6,2,2,2,3,2,2,4,2,2,3,5,2,2,2,2,2,1,1,1,2,2,2,2,2,1,2,2,3,1,2,2,2,2,2,4,2,2,2,1,2,3,2,1,3,2,2,1,2,2,2,4,2,2,2,2,2,2,2,2,2,2,2,2,2,3,2,4,3,2,2,2,2,6,2,2,3,2,2,3,2,4,4,2,1,3,1,3,3,1,2,4,2,2,2,2,2,2,2,2,2,2,2,2,2,3,1,2,2,2,4,2,2,4,3,2,2,1,2,2,2,3,3,2,2,1,2,2,2,2,4,4,2,1,2,2,2,2,2,2,2,2,4,2,2,2,1,2,2,2,1,2,2,2,3,2,2,2,2,2,4,2,2,2,2,3,2,2,5,3,3,2,3,2,2,</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiWEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJYR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiUEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSIxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJQR0YoIiIiNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+
+A:= 72788433220118426976327835974452583596730430732353061529157037885163017864052</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEkMjU2RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">IiRjIw==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+TIMING COST FOR A =211250
+</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEkQVZSRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRKDM4Mjc0NDVGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSRBVlJHRigiKFh1I1E3I0Yu</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+ AVERAGE TIMING COST FOR A =191372.250000
+</Text-field>
+</Output></CodeEditor-ExecGroup></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="false" inline-output="false" labelreference="L4" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEifkYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLyUrZXhlY3V0YWJsZUdGNEYv">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEifkYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLyUrZXhlY3V0YWJsZUdGNEYv</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L9" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW5HRiQ2JFEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRidGLw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbW5HRiQ2JFEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L8" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW5HRiQ2JFEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRidGLw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbW5HRiQ2JFEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L7" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW5HRiQ2JFEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRidGLw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbW5HRiQ2JFEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L6" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW5HRiQ2JFEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRidGLw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbW5HRiQ2JFEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L5" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW5HRiQ2JFEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRidGLw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbW5HRiQ2JFEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn</Equation></Text-field>
+</Input>
+</Group></Presentation-Block>
+</Worksheet>

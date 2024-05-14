@@ -1,0 +1,1497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2017" minor="1"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="true" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" preplot="" helpbrowser="standard" contextmenusize="automatic" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1080" rtablesize="10" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" elisiondigitsthreshold="10000" showassumed="1" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L1" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block><CodeEditor-ExecGroup view="presentation" hide-input="false" inline-output="false" labelreference="L2" applyint="true" applyrational="true" display="code"><EC-CodeEditor id="CodeEditRegion0" expanded="true" visible="true" pixel-width="1170" pixel-height="1233" code-language="text/maple" autoexpand="false" wrapping="false" show-border="true" code-line-numbers="true">## a.x^2 + y^2 = 1+ d.x^2.y^2   y^2 = (1-a*x^2)/(1-d*x^2) mod M
+global M := 2^255-19: d := modp(-121665/121666, M); a :=-1;# M-1: 
+
+#First point on Curve
+x1:=15112221349535400772501151409588531511454012693041857206046113283949847762202: 
+y1:=46316835694926478169428394003475163141307993866256225615783033603165251855960:
+##########################################################################################################
+EDDBL := proc (X1, Y1, Z1) 
+local B, C, D, E, F, G, H, J, N, W, X2, Y2, Z2:
+global x2,y2:
+B := (X1+Y1)^2:
+C := X1^2; 
+D := Y1^2; 
+G := C+D; 
+H := Z1^2; E := modp(a*C, M); 
+J := modp(B-G, M); 
+F := modp(E+D, M); 
+N := modp(E-D, M); 
+W := modp(F-2*H, M); 
+Y2 := modp(F*N, M); 
+X2 := modp(W*J, M); 
+Z2 := modp(F*W, M); 
+#printf(&quot;\134nX2:=%d\134nY2:=%d\134nZ2:=%d\134n&quot;, X2, Y2, Z2); 
+#printf(&quot;\134nx2=%d\134ny2=%d\134n&quot;,modp(X2/Z2, M), modp(Y2/Z2, M) ) ;
+x2:=modp(X2/Z2, M):y2:=modp(Y2/Z2, M):
+end proc:
+#########################################################################################################
+EDADD:= proc(X1,Y1,Z1,X2,Y2,Z2) 
+local A, B, C, D, E, F, G, H, J, L, P, Q, R, S, T, N, V, W, X3, Y3, Z3:
+global x3,y3:
+A:= Z1*Z2 mod M: C:= X1*X2 mod M:
+B:=A^2: J:=a*C:  D:= Y1*Y2 mod M:  T:= d*C mod M: N:=(C+D): 
+E:= D*T: F:= (B-E) mod M : G:= (B+E) mod M:
+S:= A*F mod M: R:= A*G mod M: V:=(X1+Y1): W:= (X2+Y2):
+Q:= V*W: P:= (Q-N) mod M: L:= (D-J) mod M:
+X3:= S*P mod M: Y3:= R*L mod M:
+Z3:= F*G mod M:
+x3:=modp(X3/Z3, M): y3:=modp(Y3/Z3, M):
+end proc:
+###########################################################################################################
+# EDWARDS TRIPLING 
+EDTRPL:= proc(X1,Y1,Z1)
+local A, B, C, D, E, F, G, H, K, J, U, V, W, XX, X, Y, Z, X3, Y3, Z3:
+global xx3,yy3:
+XX := X1^2 mod M:  Y:= Y1^2 mod M:
+Z := 2*(Z1^2): 
+X := a*XX mod M:
+A :=(X+Y): 
+B := 2*(Z-A) mod M: E :=(Y-X) mod M:  
+C := X*B mod M:     D := Y*B  mod M:
+F := A*E: 
+H :=(F+C) mod M:  G:=(F-D) mod M:
+K :=(C-F) mod M:  J:=(F+D) mod M:
+W := X1*G mod M:  V:= Y1*H mod M:
+U := Z1*G mod M:  X3:=W*J  mod M;
+Y3:= V*K  mod M;  Z3:=U*H  mod M;
+xx3:=modp(X3/Z3, M): 
+yy3:=modp(Y3/Z3, M):
+end proc:
+</EC-CodeEditor>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiZEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUWhvMzcwOTU3MDU5MzQ2Njk0MzkzNDMxMzgwODM1MDg3NTQ1NjUxODk1NDIxMTM4Nzk4NDMyMTkwMTYzODg3ODU1MzMwODU5NDAyODM1NTVGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJkR0YoImhvYk5HU2YzTGJ5KVE7IT5LJSl6UTZVJio9bFh2M04zUUpNUiVwWSRmcSY0UDcjRi4=</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiYUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUSsmdW1pbnVzMDsxRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJhR0YoISIiNyNGLg==</Equation></Text-field>
+</Output></CodeEditor-ExecGroup></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L4" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L12" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block><CodeEditor-ExecGroup view="presentation" inline-output="false" labelreference="L26" applyint="true" applyrational="true" display="code"><EC-CodeEditor id="CodeEditRegion2" expanded="true" visible="true" pixel-width="500" pixel-height="384" code-language="text/maple" autoexpand="true" wrapping="false" show-border="true" code-line-numbers="true">### Generating Points 
+printf(&quot;X(1)=%X\134nY(1)=%X\134n&quot;, x1,y1):
+printf(&quot;\134n&quot;):
+xx1:=x1:yy1:=y1:
+EDDBL(xx1,yy1,1):
+printf(&quot;X(2)=%X\134nY(2)=%X\134n&quot;, x2,y2):
+printf(&quot;\134n&quot;):
+xx2:=x2: yy2:=y2:
+for i from 3 to 100 do 
+EDADD(xx1,yy1,1,xx2,yy2,1):
+printf(&quot;X(%d)=%X\134nY(%d)=%X\134n&quot;, i,x3,i,y3):
+printf(&quot;\134n&quot;):
+xx2:=x3;yy2:=y3:
+end do:
+
+</EC-CodeEditor>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">X(1)=216936D3CD6E53FEC0A4E231FDD6DC5C692CC7609525A7B2C9562D608F25D51A
+Y(1)=6666666666666666666666666666666666666666666666666666666666666658</Text-field><Text-field style="Line Printed Output" layout="Line Printed Output">
+X(2)=36AB384C9F5A046C3D043B7D1833E7AC080D8E4515D7A45F83C5A14E2843CE0E
+Y(2)=2260CDF3092329C21DA25EE8C9A21F5697390F51643851560E5F46AE6AF8A3C9
+
+X(3)=67AE9C4A22928F491FF4AE743EDAC83A6343981981624886AC62485FD3F8E25C
+Y(3)=1267B1D177EE69ABA126A18E60269EF79F16EC176724030402C3684878F5B4D4
+
+X(4)=203DA8DB56CFF1468325D4B87A3520F91A739EC193CE1547493AA657C4C9F870
+Y(4)=47D0E827CB1595E1470EB88580D5716C4CF22832EA2F0FF0DF38AB61CA32112F
+
+X(5)=49FDA73EADE3587BFCEF7CF7D12DA5DE5C2819F93E1BE1A591409CC0322EF233
+Y(5)=5F4825B298FEAE6FE02C6E148992466631282ECA89430B5D10D21F83D676C8ED
+
+X(6)=4C9797BA7A45601C62AEACC0DD0A29BEA1E599826C7B4427783A741A7DCBF23D
+Y(6)=54DE3FC2886D8A11DB709A7FD4F7D77F9417C06944D6B60C1D27AD0F9497EF4
+
+X(7)=14568685FCF4BD4EE9E3EE194B1D810783E809F3BBF1CE955855981AF50E4107
+Y(7)=31C563E32B47D52F87CE6468DD36AD41F0882B46F7ABF23D12C4C4B59F4062B8
+
+X(8)=6742E15F97D771B642862D5CF84ECF93EB3AC67B80698B993B87FDBC08A584C8
+Y(8)=21D30600C9E573796EAD6F09668AF38F81783CFC621EE4931E2F5BA9FC37B9B4
+
+X(9)=357CC970C80071651BF336E06F9422B886D80E5C2E4E0294D3E023065185715C
+Y(9)=7F3D23C2C2DD0DF4B2BEFCE956F2D2FD1F789013236E4430C74E44845522F1C0
+
+X(10)=602C797E30CA6D754470B60ED2BC8677207E8E4ED836F81444951F224877F94F
+Y(10)=637FFCAA7A1B2477C8E44D54C898BFCF2576A6853DE0E843BA8874B06AE87B2C
+
+X(11)=14E528B1154BE417B6CF078DD6712438D381A5B2C593D552FF2FD2C1207CF3CB
+Y(11)=2D9082313F21AB975A6F7CE340FF0FCE1258591C3C9C58D4308F2DC36A033713
+
+X(12)=4719E17E016E5D355ECF70E00CA249DB3295BF2385C13B42AE62FE6678F0902D
+Y(12)=4070CE608BCE8022E71D6C4E637825B856487EB45273966733D281DC2E2DE4F9
+
+X(13)=107427E0D5F366CCDB33ADF0282D304F8843E3E88D22B7B83780E073B7C05FED
+Y(13)=12DBB00DED538B7478466022D2DA89B83740CFB2289A272387EFE1AEEA401F80
+
+X(14)=205F3B42F5884AAF048C7A895CCABB15D8DEE6D83E39832AA38E7353B58515B9
+Y(14)=4E50256F50C4CB8115BAD17ACBB702BFA74898E819B6265C8369FD98899C2839
+
+X(15)=4F162DEAEC2EC435DC5AC6F95D20419ED9631374770189CB90617F3E66A18DC1
+Y(15)=12CBFB2D04FF22F55162F70164D29331ACE5AF18A19A9AA1946D4CC4AD2E5CDF
+
+X(16)=23A4860627E53AEEB8E22B1508249C9109578D33E7BF237459B2596D6C28F9F8
+Y(16)=709696F2827FC3729F980F2E3AAD6E78B06A11FF8E079C27D87AAB37C16727EB
+
+X(17)=7DC52D5A7DB816E9B850741EA2FD72918D94985B85A20B4DC5597853A876DF6A
+Y(17)=6F6D2BCA60003EF9F24AC245CC919FB717B188723B34F901CD6CFE9BEC97BE04
+
+X(18)=1368877F4867292AAF9C0393BC2B0E869158987876B8001297B644A64BB10B96
+Y(18)=2E1126847E0BD8987DE8E8EA8A96C3A5BC810E4ED6D496B0354E3E90E075B04A
+
+X(19)=1D81F74A5BA45C7022E8C140D763B9C1B0E281A5304696E74F791A3A04A94472
+Y(19)=3F185A93D95A4347227C5BB6DDD65CF42E1830823F435F3083FE6102691D55B9
+
+X(20)=673C65CAEDD698B94F5BBD757DF73A9E6985150ECD4A2135A058E273AB4CF9AF
+Y(20)=136CEBACB6260A9D5E6A3E3171C535F0BE71CFBE16A960B9DD317BDA6F3C5A38
+
+X(21)=6F0AC78E5EB90E87958588F9D47541EDF252CB1DDE3D073CC45E3E7EF9365716
+Y(21)=6628D116B7975AE5F323E5DDF4F8CC35AE06D5C5C7D8A56EFFC66051336D289E
+
+X(22)=1E029B938C915F04B0C73D7338516AD51E376A9AFA7DE7C8C077622C2AEC2F7A
+Y(22)=6BFC9472CDE96427C4AC03F52E0D2B3CDCE6566535DCEE5A85A6A44B8975F24
+
+X(23)=2188AC423C67DB5625915E05222A391BCAF91F05D9B7CC2CAB5798B2D2E14D95
+Y(23)=23240C559C57B79A4DF69A23FC46E50504277B1FA49369AB663D79782B33C0EE
+
+X(24)=70985F28875D4006E0968D9C952D799E610ED8E052A9A10E9677C71EE8886B81
+Y(24)=604E1B93C877B9896DCA33CF8A2093CDDF9FD21208C20D08E7B2444FED7B79F1
+
+X(25)=794241471ED9CEB009384B370CB8790FCA98552ECB822DC06B19362C36353455
+Y(25)=71E918C03CDFCA7207772E8D18EE8F9D92D79A0A83F378912362BC68D311DCD0
+
+X(26)=7982F658573D3D2519905E0D62C9469B667197FD602C7BE16D5AA882178D4E9
+Y(26)=6C66E7E8EAB0CFC9E9A180A04D91D6E5C9709380B7D63EB011DFE9AFA1FA1A0C
+
+X(27)=163BC180C22DFC5DA23C5C052107BBA93A88B4360AA1D4E729611D8F5A7F8079
+Y(27)=631107A6BA83F7458194B9766A0A54F638CA20DAF800384DBAE1498677501939
+
+X(28)=47827FC68C31EC77E418A77ED5281A3C85BDBAB18D755B18BCDF5B549748291
+Y(28)=7324EC33CEF7B3EA9331141AE90F02866CE1BCFCDCD8C2D0191002F02078F0BB
+
+X(29)=39A32A30F3EB1DA0EB7E3903B8ACE3DA3890B24B61A3A9E79DB663B5DB0F7A5D
+Y(29)=4D4C54675DC1F1C9A1AF9CA0010045DC803C16AF345823136DD203715D67C491
+
+X(30)=7E40E656ADBD6AA0CB203F337DD19D441336400F59E341C837EBD71B7881E1E4
+Y(30)=342740FF1D2CC47AEFED1E9B1C1B387CAD3FF6F842729E20A414557407D2F3E4
+
+X(31)=38085391A0E2831F59C33FCCE7591515784D359925F11FF958E0E4658EFAC0E9
+Y(31)=42918001A829F49B5634E34AB7FAC21B30E24660669ED91955CC31944A19E62A
+
+X(32)=39CF6C6917421AF98582561D0B39567DE6033190F97852FC4FDD40F6977E4F26
+Y(32)=4434A90EE12CCE6B7ADE93ECC0F88B78B41205E74C8C4038F92D394F3A06D269
+
+X(33)=5E3573B049D6135FFBBBBD9A480617434F2455B4A591F719E91153EEB75A32A1
+Y(33)=54BC665420C789DA1105D53983C1A0FC33BCC2690CD9B37D6566E21A85892871
+
+X(34)=43B314AF3FAD092A519DD4C1E4D90F6E6909EEE8D3F9E99CA245DB9D4DE0A886
+Y(34)=AEBDAF9A47AFA9625F4A71B1F2D9B79DA982C3139DBDBE3DBEFA92D62333393
+
+X(35)=7ED068B25B82C05FDC0E46BD80A357F3ACD2F5C3B9330BC8D474E5B28270F6EB
+Y(35)=1DA83A187DA8CCCA704D46557A462551D70DF7F943A681C3B97B1DB6A21B7D3
+
+X(36)=2A7EBC21E24C98AEC05E00BF8904C110450F1A405AF9302B0BDBF676F59C5E7C
+Y(36)=7B84DE710AB04731D5A19160922616929CA121489F83A5B56EA1D8D6C6C4E766
+
+X(37)=5CA3370E7516F6686111B72650AAB4C5484407F14B515ADE03951C6A14A0AA3
+Y(37)=6F407FC537B95277966E7F0F5E64B86904BF7BAEE091CEE6011A3611834C6903
+
+X(38)=7BD4C5F7BB2DF5549DE8A5C0D2C15286DC2A09AF820E185CE5B6A1E6AEDC22CD
+Y(38)=A0D3B2C427D6E4843D756E1E51A0C6B11BEAF2BB7CD081321D507995BE963D7
+
+X(39)=624CB312B698BBD6DBCA79B8D2B53CB5D8B3AB33C19306E87C18211F095AB9C3
+Y(39)=5B3336B2751E97C793731AC9B9A2243B6229F6D0BBEA6B619395D0E5200BD8A3
+
+X(40)=4C1CF2DE651D088552F1D9C280730ABE88709452EB06BE5E722EB6AABE6FC247
+Y(40)=420B63B5CDC6728636A318389C11922B01A670472881F3CA229FBEEBCB67B394
+
+X(41)=1DDF6ECE608FE2901B34B7E4F47CFCB75E947E293C704D8121B11A31A051B5F9
+Y(41)=5E2DC58E9A48A749CE5296D229CFB34F96A147A8246D2E9844D52B52112EA94E
+
+X(42)=5DBE6CC3CCFE19F056F503FD5895E4CA00385A5F109126914B52446017318069
+Y(42)=4237066783C4352092FDF0DE4DF92CAE7343F40939F32B3E195C834E99321ACE
+
+X(43)=396B384F3D61CFC060308FBB1C941EBC9418E2D9ABD81316E08D625F48C0E101
+Y(43)=7223E5F7B66D1CA24962BAC273A7AA6618CC60CB8A64A8837E0261107E7AD644
+
+X(44)=1E9C5433522B34DF12C8B3C773B2CE0968F1FEB137A6993274BBBEC0A7BDEDF7
+Y(44)=1CC644921DC9A1586B9A580FBE2DB87D65695FD79A9A44B02274ABAD533F4B12
+
+X(45)=53CC3DCA3410277FB38D75E4AC0DDE8E77A99C817170DBC9696CFFE7890FBD50
+Y(45)=2592A3AAFCE64D7C69F4DE468D5D5AA19845F5CA08F64A0A40E37D23ECECBBE1
+
+X(46)=1AE2567765322A4F508799B49CB4E23DC39AFB5BBC4EC505B98AF74C02602D3E
+Y(46)=DA4E8204D91171438A09618B0897D33240B2D70C8C6F7106042A44C711567FD
+
+X(47)=34705FE600F5AED77B29D3EACDFFCD45D886904156D43DC550BB7FC889CC1368
+Y(47)=299153C141A8950FFBCC8E9352993E642FA39A476200DD4ACF42E158DBE3B01E
+
+X(48)=4D6204A526DEC7D09F148A93137704532E8A41AE27BD0F58CF2D0F6F7BA4D779
+Y(48)=654330726D32AAA4A89784E2141FD21A8BE67387882B44A38745EA7BA206DF11
+
+X(49)=5969255BD089181B991FCE96B1792BA330A14F8A0B061F8118C9C336B8504618
+Y(49)=680A805FA0AE93C2A12B193517FB1147D355547E4AB18A9D6CA21575BBB4D7A4
+
+X(50)=1687CBF84FD6EFF08833B22B598BD634E5E2B2E8AC5484506BB9A1057F2F259E
+Y(50)=14A6E98E85A577BC8299245A489B96FEFB1197F1EDB5AB9549D283A4E209BFB1
+
+X(51)=27D1D57FA8808D3D452DF14BDA4248B37902752163B1FD499A92456C59918ECB
+Y(51)=A42F1C0F4C5D7DE9E82904F0B4FF63988D31FEDB8AAD9D8AE009C7A1DFF09C3
+
+X(52)=74D651DFED11FF3479E71E2BC902AE30D9D66053869AC2C20E8D2019735835A
+Y(52)=63B49B0199A9613023724958B5911A40715EED5D9D4580A4B4AFB242ECA74DDC
+
+X(53)=811D14BFDFDCF2144EDD9CF55BCE584A9BA17AEC3EAC8AAA82987AD703D9B8A
+Y(53)=42BEA70D46F3EE0DF0EC77D24C5495EA56ADA2E0415920470C4746B68306376E
+
+X(54)=4A607E730479E507AF1A9EB9CB3F5C0B53BD8F4003CD9B51D1914776FB3BFB8B
+Y(54)=26F582DBF3E3BB00F35E76C4B4EB6647155E8FB67BC00D74B2B56D2B2C89D657
+
+X(55)=4DE090761B863CB0F0650297F154A8E66D00C5119C38E5DD05303D905D527A4A
+Y(55)=5EEF0EFD105361CE198A30E09E7E7EDFFBE3D70189E63CA68CF6057B9772BAA8
+
+X(56)=3C5B691A9DF916FA07FEFC3C7B39D45DB189869213E30C34E0EBF5367AC2FE5D
+Y(56)=5735B59EFA95E6E5BFF6AAD65A79D699864425F58CC156E990C24D898CB44944
+
+X(57)=1D45517858CE45556AAEE056EBAB7E0EF3DC9AE3740AED570F3E76BFB4FC4817
+Y(57)=B5A9D8FE8B7CCB04C0A5EF77798A3EC6E1BC1138604EB05E83844F0D4C5C699
+
+X(58)=69272A336C06AC710E10D5CFA326AE09A86BC792D2A916AFB393ADAC23F4A449
+Y(58)=1270F6B5D0A4FBB634D6938EF46C56585F91353316E016D7427C5A2A6A129BB2
+
+X(59)=4285EDBE9117F30AAE1EF5EE419EB1D472106C6B3D7F3CE3701E39324B0EEAFC
+Y(59)=503AA6104A682BCF2C0A60C84F4C22B50B0CAA0FED8DB87DEDC7173EAE04BDBD
+
+X(60)=4EF30DC3615711698A49A56F3868988185A96CC66B9A432463C468FAE85B0111
+Y(60)=4C8761688148E6F6010218AC46449B2884B692475A386EE4043EEF5785CA8AB4
+
+X(61)=3EF830CBEFF9B79039B1B6BD9BB52BBCFA56D008D91B9703EA1C80351F8687D6
+Y(61)=62349FF5D8DBD216A874769EEC152EF9734BEA9240EED623992C7553DC8EE4C8
+
+X(62)=61ECE0F6DCB258C1DD02754BC690E3B6BB0EC560DF7F88F1FBB14E8B40880832
+Y(62)=9C7D0D3A901A68305A9C45094510B715C1C3D59186C35DB23528A78354F7795
+
+X(63)=649A996E6D4D3B60CCB526939ED8929134107E03E2FD4648EAA2FA9830822C1A
+Y(63)=1648311B942FE95D492A1ACE5E5235C1AEA860D036D2475CC8964CD1ACEDEE9C
+
+X(64)=5FA64200BF829139CF290F9871D79A8B8E846FD6AD9D678F1517A0FB03CA40B
+Y(64)=3D199EEAF926002872F486796FA8AA4C99F1125E6E0D196AFBD695AF17DA0926
+
+X(65)=3A95596D97770D050D1ECC075D58A74F5FE6B4B8222740534BA22C8BE73F9D56
+Y(65)=15A80CDCC03317A830FA4A7461DE6BAC136993E0A797F83B405C161A34C98FD7
+
+X(66)=1E7B271F557987C4BE5B88C96E26DDAB396357DC3BF5EA5CC5B0B7FBF451B690
+Y(66)=4A9176FF5BDAB12856A1F0A52B815FF57E6AE8062DD503BE643564D4A10B8F1
+
+X(67)=2D265D3FE1C88903CA93685209418DEEC5AF886BF0D9FDB3F499D831CBB76CE1
+Y(67)=8376FB0663D3AA220948612B519AF4A6A1F956622B15A305FB2E60A84210B3C
+
+X(68)=39F3D2A2147281B77AFDF98DB352CDB314143E4F9DDA20D5689876F1AA2FE23A
+Y(68)=28D6ED8A52D62A0C91355626C2262C0779D95580AE1C49A44279F21CE6F23012
+
+X(69)=642CB15498D8C6B25803F3E56B98E2EA185AC808CBEAB5EB0A610ED5BABB9385
+Y(69)=21B5CA5020A9E5A2334C0BEE15193EA16C909963FFA6E1D93DF4B239ABEAEB3E
+
+X(70)=3BAF6FFD495A94ABDEBAAEB9D4853792BE9C8A5B622B3F77D6E18801391D723E
+Y(70)=16A371752A302C2DB274CAAD6E59AFB7B06753441663E48B772606D0C485B2E8
+
+X(71)=38E576301FF6CDD0822A19C6D610D445D3967E2BADA903ABB6220F68C6E79BEF
+Y(71)=458FE689E31A24952D2817DDA4349109C1B26EF31699FA36C4F8389EEB60EAC0
+
+X(72)=6400A924D21F6096F158727ABF13F09777F9E949D0D3822AC7A5DF0476C3C068
+Y(72)=595C1621E0DEA885F83C8956598B5E682FDAC02CC4D8A29CD189B860590E8CE1
+
+X(73)=372BEC78D75011A0EF2233CD08790A7F15C1EC1E3A78CAC8D6652678641780DB
+Y(73)=32E9E47CF2F48612ED3E2C2006EA0C0C8476D3562AA88CEFB67EC97ABDB538E8
+
+X(74)=7F5A58F1514B010C8DAA97ADF9284545BCB205E5D1BF701B4C4CDB68011435A3
+Y(74)=3D2B07D268AE543496E20BC00FD52CC0EEA383CC785478909A1B16C4FC12BE22
+
+X(75)=1AA3756AABCC3EB65AFEE34E0A15DD67BFB9FB199EB131F4CC6A3CA9EC4D1C77
+Y(75)=42333E27831ADD6EB49AF80E17347C63C26DD684758096EE3DBDBE03A49159AE
+
+X(76)=23B6B58911A7FEE53495BA038BE06BEDF55DD97518343B8C402BF4FD8D0ABF54
+Y(76)=3ED59443EEFF0ADDEEE42C9BA85614DE230D7DDD3131630DF09CE87E8849C80D
+
+X(77)=38DB16447D79D3590C4A36E20286BEADFBAE91A4EED2E5E7DD4F975AC0537DC5
+Y(77)=1C48CCAED60EC12CE862EA71165BBA7DF1739845DF2A857F4EF0A0F714F96DAA
+
+X(78)=65A3E79EF554B55B8D8FBB8005A01A1A0490BD2BFA8AD028567E4187CAD4E7F1
+Y(78)=25DAD5A79EAF42360DD7B837291FC3778309D634C204C9653417CD5610762C84
+
+X(79)=176B78984CDDFDDEF90BAE619C6A98E951D9A7AC7D6AF218AE7E76B273212FB7
+Y(79)=7B5B93EDA77443F366E2A127ABE12212AAD8536767EC1C5861143F777DB85852
+
+X(80)=78B43CC5BC020E13514EDD21E5A56E1A1912C615029152A13CDFE8D7F6425311
+Y(80)=75358A782E64B36E2F8762960F215646A01FBC926F27D6AC7E188D0CD2FB4DB9
+
+X(81)=42D154BF7B4A7BD73897AE528C6BC552EA58D74F8109E8E4052D3E9D38BB0F6
+Y(81)=42D1831323E279F9F7EE9E3470BA20CA7EDC3245ECA5D8FFA182DE120A71FC90
+
+X(82)=37B29395654CDD06C96B76715B563BB8B6B902B675005EE5A54CE7B47AAF08AC
+Y(82)=23965787C490E92A56E87E86FF1631083982D89F4B57517FBA5BDED135D93EB0
+
+X(83)=1F8D28DD4F286A8D0687B626B01204434BF5874A9550D6E375116490C154E108
+Y(83)=1CE82E2360367E06F41757FD45239F9BC2C61609139446B09B55A9C43DA98BB8
+
+X(84)=6C66A539BC140A776738EFCC8B959420E0CFEB6AB2514B122E80077F6E686374
+Y(84)=3AD3BFF438D509F9088564765492D4F039281D2853D603351170D0AC3A0C9DB6
+
+X(85)=613EB914C015076E9AE8356BF508C289E50B1C87D9E2546F6E406362E248E5E5
+Y(85)=3EDBAAFCD8C41EF4AA18B254137D201A2EF0CA4CA28807156BC949E920B97353
+
+X(86)=45AA406EB23C46728939154279CA04732BB82759E09834AD452074AD6E04AC60
+Y(86)=434D91D5BF4C2A02C6D4904F6BB7D7545F7AE95AFF08DD5450A1EAF94ED57E81
+
+X(87)=27BF43826BF0310B4B3E3A405EFF790A1D77A8D48B04891246CFF8E193CB03A9
+Y(87)=16A24D749CC1D234FBE8AF9CFD782C3AAA5869D6DB0AFA7B4D4C67037514F2EA
+
+X(88)=5A37CB0168B32DBC1A5847C2E569B4195CB61C3AB2FDACC5AC5DC90392F01087
+Y(88)=6B93B7D2913FA2FDBEB5B29A89438DE10E1CEE4BAEA6899F8ED384560B86C193
+
+X(89)=769A6A59746D7BEAD417BDD9C3B5F5AE1DBD924083FFD9E88DF7714F57A675C2
+Y(89)=22DC1267CFB2B41C590ABB7DC3DF45619AF688D0421F2BDFB50748335EC5DA25
+
+X(90)=66EEE7CF3A541BAC6A01950E3C7023D1BBB84FA706AD6BCC4BAB6777EED6E1F3
+Y(90)=2748C7173C261BB0914A345C069F3204EC80F12C32CF85F22F73BAE1F8125699
+
+X(91)=795734EE4FCC24194219D25D41A2889CDB942F765848E9DF63BFF0B158C7224D
+Y(91)=756420AB5C71127D39D2E79907634A177AF0E483E08484EA4D7B76F7100669B5
+
+X(92)=2FD9D0035A2AA6A9DA7CD833994E500E2DF16636C4E993E39098086A8C5DF55F
+Y(92)=2BDF6429B5C088D5BC79D98EBD6D1F9E6135550E9E29574B8CADDB708EEA2991
+
+X(93)=644D12FC5E7FCAC5AEB5911D8240971A99FC59FDD2903F46958E6896AEFBCF46
+Y(93)=173450789FCD40172E8124FEA56F7AEDAD2EE13FA8FC5209CC8CB572175216DC
+
+X(94)=5DE169F7AEB9837A5DB60F3F51716E88BCCAC71FF94A6DFEF4DCDB63A839EC9B
+Y(94)=1BA06944E3EF4A36A771E996B9841B9673D7FC87A3998713C553E143DE496A
+
+X(95)=5DECA767EF17B9E8D4F351F5C8AD1FCC50E97A2ED687516BF5210679FD6C1110
+Y(95)=4DDF2207DA12F700708089989DA016F3307CE5721C9E27C952599D67898AA396
+
+X(96)=3B5C6A2E0D4CB9CBDD2DA21EBF38F0159C0B57FDB7E632CCF56D4FC15B1416
+Y(96)=1BD9006846ACB57C1348639768D984736AEDBDDAE41BC81393449FBAFC243D1E
+
+X(97)=296DCB24CB3185D037A94BEF93C97CACD09FC7050BA8472DA59D4A689D9D2848
+Y(97)=B17DC85A4ACF73833FAB728F15ABCCAC97CD09E57975BD996D3E1DD8B060F7B
+
+X(98)=5FA357BB28DF099B8B70C2DDC02CAE05F06EB3B9A814B78FF7BD9CF55CF0841
+Y(98)=34533FBB409BD176EFB059999927A0E6FF374C125AFBB63D0A33D71D66C4E037
+
+X(99)=408A3F1AF2E77DFE94F8E225B40DFC146ABB1002DB7BCF15FDE61C1A6CF1B93F
+Y(99)=4F01EC38854C15A879E7C7924F048E2EC951DCDF04A614088B68FBCC0954E1C8
+
+X(100)=4B87A1147457B111116B878CFC2312DE451370AC38FE8690876EF6AC346FD47
+Y(100)=405EA0CDD414BDA960318B3108769A8928A25B756C372B254C69C78EA2FD81C5
+</Text-field>
+</Output></CodeEditor-ExecGroup></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L13" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L15" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=</Equation><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L17" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block><CodeEditor-ExecGroup view="presentation" inline-output="false" labelreference="L6" applyint="true" applyrational="true" display="code"><EC-CodeEditor id="CodeEditRegion3" expanded="true" visible="true" pixel-width="500" pixel-height="304" code-language="text/maple" autoexpand="true" wrapping="false" show-border="true" code-line-numbers="true">### Generating Points 
+### Generating Points 
+printf(&quot;X(1)=%d\134nY(1)=%d\134n&quot;, x1,y1):
+printf(&quot;\134n&quot;):
+xx1:=x1:yy1:=y1:
+EDDBL(xx1,yy1,1):
+printf(&quot;X(2)=%d\134nY(2)=%d\134n&quot;, x2,y2):
+printf(&quot;\134n&quot;):
+xx2:=x2: yy2:=y2:
+for i from 3 to 300 do 
+EDADD(xx1,yy1,1,xx2,yy2,1):
+printf(&quot;X(%d)=%d\134nY(%d)=%d\134n&quot;, i,x3,i,y3):
+printf(&quot;\134n&quot;):
+xx2:=x3;yy2:=y3:
+end do:</EC-CodeEditor>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">X(1)=15112221349535400772501151409588531511454012693041857206046113283949847762202
+Y(1)=46316835694926478169428394003475163141307993866256225615783033603165251855960
+</Text-field><Text-field style="Line Printed Output" layout="Line Printed Output">X(2)=24727413235106541002554574571675588834622768167397638456726423682521233608206
+Y(2)=15549675580280190176352668710449542251549572066445060580507079593062643049417
+
+X(3)=46896733464454938657123544595386787789046198280132665686241321779790909858396
+Y(3)=8324843778533443976490377120369201138301417226297555316741202210403726505172
+
+X(4)=14582954232372986451776170844943001818709880559417862259286374126315108956272
+Y(4)=32483318716863467900234833297694612235682047836132991208333042722294373421359
+
+X(5)=33467004535436536005251147249499675200073690106659565782908757308821616914995
+Y(5)=43097193783671926753355113395909008640284023746042808659097434958891230611693
+
+X(6)=34643617590234865996699167120328052565261792237873803846102513686264813449789
+Y(6)=2399184961499513294557607325187831088545696902880432827228757905043131825908
+
+X(7)=9199134265559022971505535402808359556995554859516252602543778295037484220679
+Y(7)=22512087849695599276028560866629687720820254811233262850576678203618951717560
+
+X(8)=46706390780465557264338673484185971070529246228527338942042475661633188627656
+Y(8)=15299170165656271974649334809062094114079726227711063015095704409550798436788
+
+X(9)=24193060302538010417230488029838514081720802923509845138863968807030823940444
+Y(9)=57551756252899625001155759838357770487605224608455116862194664796369308545472
+
+X(10)=43500613248243327786121022071801015118933854441360174117148262713429272820047
+Y(10)=45005105423099817237495816771148012388779685712352441364231470781391834741548
+
+X(11)=9451145793506787353375160377761530931587019091193333050860601958827395183563
+Y(11)=20609402718286069808115703540855311742885093522056241285814584245966805874451
+
+X(12)=32159939716063394567822525359727347405356413309540137282993608327129696604205
+Y(12)=29147333543209904737197244325450674102993621692520459538942544703173373584633
+
+X(13)=7442235066513780790779899786332475485840754593728627195931759107337804079085
+Y(13)=8529785864514984411577036536286432879603480171865651918962709025066066124672
+
+X(14)=14642270634066990240227516988620748386040643134865523775420225321890511918521
+Y(14)=35422008320351900419562335198749713095866812710345432231966142485751234570297
+
+X(15)=35771902585589234259498423420223840099331465042459337605611172842168536632769
+Y(15)=8502034780705657720897159939055122322178084209392286764802307224484658961631
+
+X(16)=16121637619009607773439840283436156467545443443832420589584197780484295031288
+Y(16)=50925107901044861941301590032293890690813323578124472818968980802518735333355
+
+X(17)=56887487962890212366448920369068155807228363509110160616941230120594402893674
+Y(17)=50399614753915632959315208729749638020219221279769677088273404540033848294916
+
+X(18)=8778631385113979698503536285416800227654173765449177055618004852346255903638
+Y(18)=20836693273279846447679364815620750369985077404681918478249609412539783163978
+
+X(19)=13346702616305880250625797905033110013610783268122163073441956367914506994802
+Y(19)=28538738933473734169299754119352599799370168616011542341037902841874845881785
+
+X(20)=46694936775300686710656303283485882876784402425210400817529601134760286812591
+Y(20)=8786390172762935853260670851718824721296437982862763585171334833968259029560
+
+X(21)=50225771949201274361147459834746220569466535222228818887295803055453597226774
+Y(21)=46208027515524026132634947992908006558629116634733371548624088163349986879646
+
+X(22)=13573992900226984090748095853848150339937641750842223334862146895175526133626
+Y(22)=3052734050769495802597881998410325288769335981404779438774444193392297991972
+
+X(23)=15167804090147240796704745970103640960377179264657920924415329504792525491605
+Y(23)=15894641323762775886165254377632211629130670573149184921308427149378999009518
+
+X(24)=50928256553728481948911630629666132786956144639164569209049331250881255467905
+Y(24)=43560037866421520918397835382447693300549458116876580283282657262250317543921
+
+X(25)=54846917115768330619790814740892186926788842441833214832408031455129980187733
+Y(25)=51523198080635348197873958871233843482419331819135846709619421472564022729936
+
+X(26)=3435077813016275107483123527917339964045462790142673174291197534518549992681
+Y(26)=49031606630429712899685572851341938155001976455062492776543297311635203037708
+
+X(27)=10056462154021391239856996874853659019511074659679831924986970282922560422009
+Y(27)=44809061217062553138112899580209381526111882751950383543265117049319607769401
+
+X(28)=2021549015153302768071948455936406251444491173971959502737138336775546372753
+Y(28)=52081214290299010201031964936844764452248179756267218181985514793159144042683
+
+X(29)=26070119633916673889427188390093068315746377482597609790888944959534641674845
+Y(29)=34962952251276133495465544882339565660805818974054644234720183634005221426321
+
+X(30)=57106086872149504630501731112459945944181540262514210562917268767735105577444
+Y(30)=23589623751481276643826901046351147143936356298062031635194619310244214535140
+
+X(31)=25344231068263343557312671210034852780250565727459959105713588744016025534697
+Y(31)=30109724299090507709721901574046413042973851339526781666015125174926452581930
+
+X(32)=26148317933504540005443173402042326458672162458767831815669826413036406984486
+Y(32)=30850316547316149219369061290562558254923949145644564178378051444253659681385
+
+X(33)=42611849114816652129849893691017933418470198005445295618574438878926339715745
+Y(33)=38327152775387684259939149722928462304957747489365687042923896203043169446001
+
+X(34)=30621369239297638553950989323115622910922755217475469581920184690331732715654
+Y(34)=4939848857107711064248957060703823656488503051438194212126486282978746119059
+
+X(35)=57359645701093248420816504207718352998047016588956650167590481162962813908715
+Y(35)=838393992334862776911110796605108112109744556731718955387967463686536280019
+
+X(36)=19221060812482789234368547596301475681161058446712650531274529329161973816956
+Y(36)=55869239423581112917232026573486342821488235200958368007514111290385012942694
+
+X(37)=2618822382939918472464326363506382308506563065871512020243697662348925471395
+Y(37)=50320686243652334683939416124331799820126441965494584097882694525646149544195
+
+X(38)=56010418276324232474324043408430061262972468655834285040749297044067152831181
+Y(38)=4546505893949107362250150168211798642654916580858840250845205308660569957335
+
+X(39)=44462175455188046892222484719546055784157152163002118353595175691857350539715
+Y(39)=41250955926888295695844134362236867903953218899814850652798605340599156201635
+
+X(40)=34426924428514608760437100447421064591311588584549077394333265447466212246087
+Y(40)=29872771498517479181395568267318965384440757492476580330810382845026939417492
+
+X(41)=13511844260376636224045354466431267741437119520385947019100694749963739051513
+Y(41)=42598279373332793099311117101031735604891279367359875383476302369238283102542
+
+X(42)=42401546527934959338467043669041894126909913971352700899843678753185653162089
+Y(42)=29949868796287605534742663495443951076253075016671145616113943856256572857038
+
+X(43)=25971273639272965358051816942276143659127281589126768844295111824468548313345
+Y(43)=51627091563991576647229263946065042464841600440281785461296967542614523565636
+
+X(44)=13845594729907212090500956169618868806051351380236451804794676036608924184055
+Y(44)=13015068737198376468483567987835728915515221105984422923523859504746217818898
+
+X(45)=37902829691545166284213691511066751630225703343383256556677833754086067912016
+Y(45)=16994664663517399287148722075068506437968764501348821155246371716892440968161
+
+X(46)=12160038268881496590358377491143183196804840279616178407828699620905412734270
+Y(46)=6171432026245599923711380042347817610638601881189692654214279736447143864317
+
+X(47)=23718816864376777902485600299607035871694119137992723080494867296159294821224
+Y(47)=18801597671437927711926629324445589800829136382765123117758016983191217483806
+
+X(48)=35001272412729894487700944000423684755391638931461925418476502852019945789305
+Y(48)=45802310829008505789907872287434294679337129788647631954073608803522879872785
+
+X(49)=40441620305643770819298003694626599185885818830970695600848126844281944032792
+Y(49)=47059090724956594362411819374234473169949339738843677565729260189344207263652
+
+X(50)=10190814771560205470183753471037330904170810583506070006131113597535406466462
+Y(50)=9341165533704372766762891197119216427297512557382043592317901383009607204785
+
+X(51)=18010945644916512698676136786086019514705242243880541195875649718176156061387
+Y(51)=4641408915064961023940129725699183976918364633153776974073667031800416766403
+
+X(52)=3302935049125630545407011086794726242500880388138678050622590614786710799194
+Y(52)=45098074295229640200818168507272703110201706196631632420993461485384350780892
+
+X(53)=3649983702498263705124257929542975097372991836599165264671104968869703162762
+Y(53)=30189501898394902709791594584911085573998809387607366596302597005529596704622
+
+X(54)=33641640834285393685205357472172038469482491519483653775743847528044215139211
+Y(54)=17621668933972799560685749277633240314732742841866671622641600119391000319575
+
+X(55)=35224860119068168364201828486471166300959710378520856284205398345745205197386
+Y(55)=42939787662343734271828586199746058165505594191271575613522244082897905695400
+
+X(56)=27300279398852342004271038166915742174097520289721663256397362726642515115613
+Y(56)=39446114223327511659606650932804263525064626367298451818628726477307537279300
+
+X(57)=13239547342384460441740843928817921189677515756333419862042325950390981117975
+Y(57)=5135545024202866805423335102285094480512091141502696048055133211529776055961
+
+X(58)=47562047396449645856455645320641679960052385862084696684816774542446745134153
+Y(58)=8341220877078458107677953742026548920259779880389721120981023585970274081714
+
+X(59)=30089279517665297366843750486972119628142523445463369930578469403038948715260
+Y(59)=36288651145507134369720131369870071120545687010621933755073935000075206180285
+
+X(60)=35709841016379144053317044420475323238747569033265485832876440326696485978385
+Y(60)=34614973132918695316437887141261747297098718223623947717457876423416866310836
+
+X(61)=28481911466193740113982250422077857382554373748136449347054762058673375578070
+Y(61)=44419639214222539171410774900126189378904649103185784070490839347935717549256
+
+X(62)=44292874866435171326670920765301506838181626037863858562512991322410022602802
+Y(62)=4423859472727631425279806007311358229428692227430278867240913165920521648021
+
+X(63)=45504438250598513538485059443511695406573243023535889726978537388810594036762
+Y(63)=10078434586591385814259736863155812422924467409649877259704724789123596807836
+
+X(64)=2703967047724422927942795606844806438471095130334849099131707700624039388171
+Y(64)=27636351750987415494008535949645960827550590090960186204735008729987540453670
+
+X(65)=26498022640491611594791765883428815536935150279009928791057761428317350632790
+Y(65)=9795488899516769181913869787699821615668456722274737434031563807435914842071
+
+X(66)=13786977659333143913697810130680604739891291717550393596915083864049039029904
+Y(66)=2108010306880205193675654284074020053282397904216644915321063025986145138929
+
+X(67)=20421861959373218661848231428646718212456889616611838740261936344041518492897
+Y(67)=3716450226791091330994576816135934139823365870521078217525177499933709765436
+
+X(68)=26212629942384868786155108800542634057122387412073733065044390579318928958010
+Y(68)=18472258658273769192791657588023708455276452481144998373009817225556143517714
+
+X(69)=45310250019012434591209241812977019967173254448873511996145369200655427408773
+Y(69)=15247519634970348353811587077697968448128627821046441150628336078413407906622
+
+X(70)=26996429225184994763416129463624491663405318020128586307445115603192576307774
+Y(70)=10239661796484617877154560645749361431235683140034477219406579405017011565288
+
+X(71)=25734943202009739373266739726198879713347989241793559430857388160297919290351
+Y(71)=31463836801597789760748598532451847469347966247164442608636617344021889608384
+
+X(72)=45232452246145815584287057188141510739525184860594383701985353247443369836648
+Y(72)=40418546205649738975142794036523411124106237937782166300248458440325072850145
+
+X(73)=24954813165871645645868308773333710666109364192126572770305228187834688962779
+Y(73)=23028894762043303752972358701699993689274434757865754829152287813773252966632
+
+X(74)=57603361865491700787331969167324014446947267157956835002270999113657497171363
+Y(74)=27667112172202140947203792556085504385884923151374649002932055672439795007010
+
+X(75)=12048940514893147339928581080368295514847669072044445124090638684505479388279
+Y(75)=29943186180317662083698897353738382520558683808889795350249618975992853911982
+
+X(76)=16153768777664870407376232275958114812222870166854132575577785919004933275476
+Y(76)=28420758326905307439004108086581416760460366996425341746180924972405262764045
+
+X(77)=25716612712759539270051080111512026411278455075093001156779253632885851389381
+Y(77)=12793385418823868009362013082227787343898685310226539971370868749054133235114
+
+X(78)=45973192367382822386437404294326201721151788394014137911342949839115327432689
+Y(78)=17122222648696943263134396065964322373847465512046569973909308577006382099588
+
+X(79)=10593080468914978578954316149578855170502344604886137564370015851276669104055
+Y(79)=55796284422491918605008127743680813251749702717113703981918900034647788902482
+
+X(80)=54595993737341932850985810580331498627343004252537166119201387252698264523537
+Y(80)=53015201859750670329269460820416289893334744012044749640526875026655440227769
+
+X(81)=1888906497003828781533724152732528885885466369666481475519282324847993794806
+Y(81)=30222823687823777421709728366946846185210526866492003578721078956925106912400
+
+X(82)=25192724034023396610543307038618005391731040328352366652134827061831986514092
+Y(82)=16096580872356874100324058965927687342642986996907973279536575264523231510192
+
+X(83)=14271105778553392600940570031069361360434173127137356258109617098170874257672
+Y(83)=13074986713422526584669628041876335907794556155703766976146591428371588680632
+
+X(84)=49031146392271300791909813011889668201086401623583029954197052381441160668020
+Y(84)=26608274766262040878400610005629357840787273511483441390128620336435501505974
+
+X(85)=43985168213094799940094806375327318369313937498316631927550455825254482240997
+Y(85)=28431516232962631232771928210963476138568021529190923803978359087932332667731
+
+X(86)=31510395249388417806421691847388249075906429960415892195250052200930753162336
+Y(86)=30442014594901688153336980298691767458093347977148653146941676798936459083393
+
+X(87)=17978134817285586543699117488112127037536463945037102683046330393797851808681
+Y(87)=10237646471656925953252517303528695918183409469495707757157204181650079281898
+
+X(88)=40806734053551319398748907843562819261756869234902286356070202745367489941639
+Y(88)=48658470013398649732666587012571971589833049132972916876423725776212521828755
+
+X(89)=53645744577610583151137873853452117286390127447118124960520196768428311606722
+Y(89)=15767470236264209458847667706077852781084022912946232716899124594839464040997
+
+X(90)=46558020047168208787005243690467612013649297273593329281826497319738877075955
+Y(90)=17768788157347631774015634577988654452192964630858992724328246288435452728985
+
+X(91)=54883935688891942103572512491293438983350180206631890001012137042401548509773
+Y(91)=53097513466489229301629794712889059949376509234466694231217414297153937238453
+
+X(92)=21643545350086053957710378816398720854586218978026602236175876208689814566239
+Y(92)=19844150683659255711083364312570656326010785682786328897761374282845440846225
+
+X(93)=45367463117607302811716896272568340838111093474062244703212756889405998485318
+Y(93)=10495626956514035694316320583564929935315728679860050630298334983168784996060
+
+X(94)=42463366868692805001374155883553020074095646681881693390270933166824860806299
+Y(94)=48811988213905659050004678361206354184542372196523450940707252310810446186
+
+X(95)=42483226219225291666206290956805506670267797230346332606573867055290918899984
+Y(95)=35222331107418390430175174574004544860266040390641531875690665555738946610070
+
+X(96)=104881800090012725400516207153154851742526013653154149369302601615982400534
+Y(96)=12595855536082464016649119657961004877002779218757459806965929933777112677662
+
+X(97)=18738815168440011986408904409747661355966848393371742103586138146960616269896
+Y(97)=5017600804117403562852659704574511322216896914205922652106168593697487589243
+
+X(98)=2703645136544726566377012726098354451487836346071553717463705687777442990145
+Y(98)=23667356291040419222466785524756814039356262990801813467443403508861372784695
+
+X(99)=29192282740827731982078784083464250662447785942931125630510056961472277363007
+Y(99)=35736112221075513181060196225701441231475745443265747306909465023354160603592
+
+X(100)=2135193733131445483070106335232343073504389117864377679761312986749504781639
+Y(100)=29115215761957508369960670020698458660032318370996003643263431019843054043589
+
+X(101)=3538726453975914435617595262222435937490111486496223300492449923895316430599
+Y(101)=48288102829186737267472415431990357545558088516591715547999253676012517401237
+
+X(102)=54642093598031178430398619952831756277216076906932109463197360214637313732162
+Y(102)=11404963080885134756263922602785000643441264285555941471749701105831421228683
+
+X(103)=18775989219995924902262703894895915931787419135208769297569213090284662237299
+Y(103)=15092564918877020896055315831125065364295751910717370618564669341592749033910
+
+X(104)=39027275683705250245486147019499224302095796622779061306825750733084435862792
+Y(104)=50403688393965132618864750892979671822330482213863328952559485180171894790343
+
+X(105)=13354336136597057070088069432595988192690158424311068664169831886766787013914
+Y(105)=41220341509157462898981550386790353380385984221275050089389988785397098347372
+
+X(106)=14875636699675012980278859028678731805675469505313108601420037483547066864878
+Y(106)=8197171350089926383603186585472540919150412843389056806471095033314677400953
+
+X(107)=38165437774720909708430156491871644145667637220781664959214992880090980960919
+Y(107)=47888229451203228247220455705963305977496060167570057699215585088076712164568
+
+X(108)=39137535517144001650353734088104817382372911689837664370673683947702192198525
+Y(108)=35321278045013974096021415374316079570344437926821574657154156111070779422515
+
+X(109)=16456775658776808226060651592493371271810353940370105904061572868037807252923
+Y(109)=48361948965846996525806534114102407387652979891320297988278032396285661947527
+
+X(110)=25545994231902973902765996014195292644684725126154342049701595520341159927969
+Y(110)=56935626649103103170385840564514111429986160646493871902886232097679551881587
+
+X(111)=45635945466609512418349485650868743423054004533608481849282937655179356263736
+Y(111)=36741209074829586811916381480859544910745474653328240605787143472905582150564
+
+X(112)=25463514247666628881246100419153510816085404335906892785529149900693237725418
+Y(112)=8175766222087193306859482269153342153310951459170903154964940213837262530277
+
+X(113)=32544860979829984460326528508322699565196777507535195337739434238017633828622
+Y(113)=57001768824794049586038001285928718023582220955622679169311720754936306504382
+
+X(114)=26358803017876084539903847291495243794575906032199516877365203191573695277280
+Y(114)=36384240060097415481811891526465951772328201037105690835231791224843806604720
+
+X(115)=33663974810266673461447629111895868327905489731406785555758056452737635999247
+Y(115)=34532747459707837320015228635460888967543176026929308983857480419036488628077
+
+X(116)=56126587994718255594212704317808228608668759884816202893935400840252347846723
+Y(116)=21305459282036374252220097732945474666085979659233505185802305249323190249231
+
+X(117)=28104680254895858602950095340273610962152604410683289209133586156927824858805
+Y(117)=47318893950578276168317079672385112889584626339324959120861701577279184447848
+
+X(118)=34407602974494912037325811888601507667477315852002372900119783354286254707775
+Y(118)=6888131896207948455463338669946194435335481270279943493556220243818329546203
+
+X(119)=44168927853678188456177247566360023272242924945241068067465019294792676694544
+Y(119)=45160652107306945093532894828998101032099620673035706149677413539720867312157
+
+X(120)=36544415091088730688676787179365145196827415388099874916436062251488202318406
+Y(120)=3631654937492102720631237398875713570556324864096901935547382701740129588283
+
+X(121)=1741034066516442728221803851022550519203408551599137295516868151581149541396
+Y(121)=52792263807239017099438268247179667123057316010686234953080965449168598851971
+
+X(122)=3329057433552696620926309455091649838720360817742168895516101239232479954809
+Y(122)=36040974198136636858860004966853622404322993667766393968308721817321138527788
+
+X(123)=6793267552109303426714283933058780686479675063110456973958823574520916708073
+Y(123)=14354063030838747457377084064054122732435413243421171596538303439542010558660
+
+X(124)=44396073625439070064476461048188509313415135336755097924744923865322311300255
+Y(124)=48467221993130256819205102141574839515482848783646261685695198857883476362496
+
+X(125)=54942938454751913722296513738258045663586181438113069087315218415255299988734
+Y(125)=42445037456507663161943914039307893194156276829901887124912893150438651136460
+
+X(126)=4580635029585603317011402699123576615297157991977209839935060118824970583298
+Y(126)=23464394616493395815415580459610655717327914073617315238868382839822481306592
+
+X(127)=52177455900347975269446818167507370548050990241699285561210242702190992391389
+Y(127)=25461445923190515800173219401727465009944263300372551267485572041545056243244
+
+X(128)=25155917782814837260398069725241853231864729763246304429004555936282046356871
+Y(128)=18508826420441071939750277538143617204571229748311242415842946762595677996796
+
+X(129)=50402219523513078989671804772393472137291553315529945832951212636869289165228
+Y(129)=44256207831965414614072997021241185724192995260230492000874120700393682086928
+
+X(130)=28941831057569195916078455145344835486165250566900423151882658976109212759601
+Y(130)=31811044121050529308010513256765684572862063523899735406461527566569098374246
+
+X(131)=42336545018932484817506708033978417278003048878679574416591430818009642731379
+Y(131)=57406292128282290561711654584031793334494793143591308687342913477710797294494
+
+X(132)=53297870228976702542543779679344200343619072645490015816989655495309423170022
+Y(132)=50877332280077317676257441067667711604682389303555860030419956476014994551413
+
+X(133)=22532081135146523808800443246901822792755193350900111403177755147609017909992
+Y(133)=9758113469800829449005920477055450002285733088958130649363316716155953717952
+
+X(134)=43096920701770713496929622272711562591859347590157017438951073682851383119926
+Y(134)=50503497722854290095381087053025265219419238983194336824748131209018943938641
+
+X(135)=29988624611507951182987297520571160475798721683051902214058239724618007464608
+Y(135)=23825650204457880015178499557451370581060263051093290482927818030129488055107
+
+X(136)=34333185008214886609396280886063516482388346392615623493132750433217941285501
+Y(136)=52415719022645214057220811561272111971248792695423857493578694994665105801812
+
+X(137)=23362452932805135702318701288623460256753573499377510336323526849756033442375
+Y(137)=24881013653715931170667195177124431436259627839389316946368155394604418098690
+
+X(138)=15183323322607134595131665784127768308051628578871000830323551280879127849750
+Y(138)=34419843545110713565607408176242489262231812535558488725320266508648823087710
+
+X(139)=40357239544924035598373007874665971332708518745436338638437003857384250852299
+Y(139)=25388508185991131398295693026539124430747318569081517237052050472356527369255
+
+X(140)=6237189493062610795634840181585885969247360902987218567702867126693836640385
+Y(140)=15992176031866281806396668819173828178196505767517811130869991114385586163031
+
+X(141)=24555471768503166042265000577652114244988703659940868512397269923338137649206
+Y(141)=4383284461963566036462828286164645765332321782720845109169940951977057672164
+
+X(142)=3813948462721674531658936463224405937170663040856510866212870577757324663030
+Y(142)=18775487845239505296840681993908714682438721209019750841871350787379826629231
+
+X(143)=44678871590370681016487251137685842908660693820030121816078407717626481912179
+Y(143)=43392834491863051727239833522430691761895078512027692527102355670942087136478
+
+X(144)=19035506023757977505845594486934871426329681897462202628516593304909749774032
+Y(144)=51613555624159191750369076303507203284652949391030784459943182931106047057820
+
+X(145)=5689823768699196629621131444006901256562444108480152877162679838278925416147
+Y(145)=49716718162591818733434060232645349755571536661144389716250236309634964243682
+
+X(146)=40168514334080010056039871793330158934712150162767802370544193877143160762646
+Y(146)=34132380813822102806604067847714324495379982930328158720672954101656946314885
+
+X(147)=50369997912173836449371595108168145751960816672309711617733190219902324972350
+Y(147)=52883242223072132576799964347906247685686492886534263248652908938870987927419
+
+X(148)=55260770921458426464954357420542408024025220265196683619842381483450486669231
+Y(148)=2713634577000949085892744879784356562684794750798717457167042613750360196902
+
+X(149)=35320877860819967781174245346300618130221036530940846807686238675379394896015
+Y(149)=29733992245025168461142923965627326754336981044027059455262164344396450135372
+
+X(150)=5321939109727274310852757633548304351496477188156546406778746654008393749452
+Y(150)=15535800349610948627738883875698391381458515640697742613043107151530579224146
+
+X(151)=46065735672772994538483447648770970601129564184007306006901855441131021715265
+Y(151)=46659251182692741518927184755267639852678021514774275867589990999320227693109
+
+X(152)=26972389249615288516887548242768834371456540677530563490752017119444265338111
+Y(152)=8321264742409140497376778898688596597931670579812507363917387556017315323901
+
+X(153)=12821156937420704162686441802137286916956769966992602679175050526023644293624
+Y(153)=56359059108491101836289594505043455654195778226386344058793421221317484088695
+
+X(154)=10565711167735707707923194081234370891945104025635533296005395855972585958999
+Y(154)=3728586505320803105129784605199798055216375028040980798318911318994819152720
+
+X(155)=20129279169460221134874056302226730366027643355049695721931573525130565766769
+Y(155)=57695304527527223885033468028648329158558898989288938461869063371635867628399
+
+X(156)=6159526333397924962769199634225646505303304816833109743069073302268794106433
+Y(156)=43654007984553494188216079423963337242680991748255088445568767571449697962261
+
+X(157)=13623051940775241643977479300011546459138236841597826839243916801747585186246
+Y(157)=9597795608961207259398241134258752312011665312013655874873207986277812725143
+
+X(158)=14616733388750452487747145004315984797649451621969636774743674223711938856404
+Y(158)=5257337278612997328336274345172856388079928884337886946298325782686692769768
+
+X(159)=5824028576871759840467113227577443861693297937095801285779278537770117984553
+Y(159)=51775736714422015459022798554148988462801820469343274057356678410689951479201
+
+X(160)=24442349017532329507137579467284840760287577086091058124280722066528526209504
+Y(160)=41376825629595961260543250240516239842782835063757762652888552919976831577058
+
+X(161)=746880230483338416902197093803309660581850189234125449642593554093251681956
+Y(161)=43862094755375492851603689163103433100062304875626416424579172937446784087260
+
+X(162)=35643082583008326998558587990715566072410931415460663352595127914305402179993
+Y(162)=47797970007910756184042572185077125380567371597323944793502786882968816897981
+
+X(163)=55049310538696613414523560014971713193661900771870938457338527515589878903120
+Y(163)=37826464969845357855359096496480940822346027914801680509597224558903073416283
+
+X(164)=12696500148949064154866953075346083747633947965198110244838776959136501417592
+Y(164)=7196665940777409143818455263942006776602194028962021278214429447850943727008
+
+X(165)=15404941717896136729579264978152092677222482163845648904718051996808141550744
+Y(165)=2709594250424822734435667017026066849221285121346051637630405747031741475370
+
+X(166)=43079652960157223770134569174092245841064868900610476285758748263406262786170
+Y(166)=52439286871809881625282850787696721097441393932577340530561170518500308165459
+
+X(167)=13653475116238619677485035120603148660511291214846521195422152478048545028632
+Y(167)=15605343264687299439854079504634034676316532083333516870811078114756167681645
+
+X(168)=52307232252040863017213298226694874351314320606637205072840956212484571104556
+Y(168)=39010801468790200525187712647293790455638963519536121794040581289118496529442
+
+X(169)=24298409821894785808801718142041828246240125481229196336985068145974591155547
+Y(169)=9640758685384859184335455143641518985841565406971855434506187477133988609593
+
+X(170)=28610009377193164568720502502898212740528216079214551402007394757654176181011
+Y(170)=17416441606057173854209511293230619414385693621873926729316304295497407351559
+
+X(171)=27456888525108624985393757797271245854418019717105574687023077618090214074045
+Y(171)=25156583307674273396840077860975640413074680153738867046089104826739790928161
+
+X(172)=16179252331556242353547157499940298770339985971243875512227111309522213730276
+Y(172)=28177744457500250649875660025359500207269039367755250224766455970287137810697
+
+X(173)=48328720708140309668103042420824805149518906436926971395220690340220168045503
+Y(173)=13739301556708279643891522284312060645555818486850839185818754627442517527530
+
+X(174)=26708199258371309919811567403599758100987226792100421437320194587999819186773
+Y(174)=16792635489586786790701840459702653685742312670603289533265678617470121091832
+
+X(175)=56089238415125802741908908027827669952879232015945157792951624321433490809123
+Y(175)=23926720715371025979927116650235449190905955100320302263849485570789773087119
+
+X(176)=10016249075611583841620968343947922855016542409062109493204466229754466392589
+Y(176)=43826457180738388576929409669806465153544841383412563967141512600792292627403
+
+X(177)=24107121878780049561764395311165940064987940063858459621522297379484343119071
+Y(177)=55512837930571978986705015325311055554083366780361006708232320920149971500090
+
+X(178)=1481674785233536705756419579701743812538844783973090298395273241889535221740
+Y(178)=38694657787507084881996983188303907472944614036469244719865856454744994225804
+
+X(179)=13725049488447289401491592331579272309571104200675561896473638662388681418832
+Y(179)=15104481515205577926680097253413871733044297921026762516046149443604082564615
+
+X(180)=29079727611479226974571933423612025621247325092910699699261229534454261027662
+Y(180)=36976923058356273948647059922725145200212476869890924255258908546820538353859
+
+X(181)=37646810470510877088721432839688027609437977371024674024801840836196751948861
+Y(181)=43452445344066100790768910825245258193127369745887079045433688093862236677988
+
+X(182)=2467837271171960769090545617528941403440440399626583509607056070117445493958
+Y(182)=54839771478839076422802099854993677282762892851721195295918327990957822027277
+
+X(183)=34065774766056729475772682480745517610416058563538138801815723445159891198587
+Y(183)=13821695617123440091441439166949806239958384013797699682742916476880731416260
+
+X(184)=50122750023343290250794180087985365588456265847744500812828946468835716149949
+Y(184)=29168430114700585527126706096136603840940910582976915746675808833186211516310
+
+X(185)=23337846346742104420371340954528169358072169433934722150970121147188419314277
+Y(185)=1065652339356052659906400120883040258950236906671128949003249865542197134041
+
+X(186)=19598726833504658478944617367973993224105782320207341176946345883848487861954
+Y(186)=54478332295576358913151248227506234670850434458395225339451325660031260574256
+
+X(187)=40371803080862242357026063549718741170187478391938647862702974707302250871014
+Y(187)=37558704362430155373287963408976387650257036331658106619747811016295817544430
+
+X(188)=39959933904970795916835805196558699984224729559564472784933756155195602769756
+Y(188)=22329923611986574495620795140630772115770805836281023874811540045099787189559
+
+X(189)=20220797342608379075189905396313948337283319039460469566545237974503918280905
+Y(189)=20879404068605431251433307626871404479793785797768022239041604606299923196260
+
+X(190)=22425654226874114861764104704102067691009700259518987352052054084326071831174
+Y(190)=8317708060781175097888975308390266640663885145386780426976943335006771355053
+
+X(191)=54815230755837623869662659385525979124378472631083276773294895243298860088801
+Y(191)=50487309642682426876008264067495439151956802721316659870941592490203955660091
+
+X(192)=49922421124201685538241111247129765311776595365822404764700920025730383608903
+Y(192)=54075054753812694748477677358793322850828385891137706493709013152066722093340
+
+X(193)=39736367854488103371156202721939176137731510175288120450562313733989658259043
+Y(193)=9091300516621244677121301230997005473306763132622237374426903530836637585340
+
+X(194)=6053177945340976131070234042254229443341657983902284329482922014898914534156
+Y(194)=50632566181750147752491172445550395586447569465200598400216134923753749591227
+
+X(195)=49573968376455696980432795143059608026915384335159203082777979880471130891555
+Y(195)=21318062164776235845298817238685262074506892907209684879472488621001115418960
+
+X(196)=55115097979434934830599242537055746961994423297008745226893689714904516113619
+Y(196)=25759551887768542695237210662663885255299917504434463638431212877229464100217
+
+X(197)=52745860371197311002356131980626911479526813849119686688145208493190515642041
+Y(197)=57332901221040728871262883784231927786917616929824372248428421348595877505165
+
+X(198)=46702149595155637596839415700691042309074520107723173260393269758269682486192
+Y(198)=8071566318351148138887054982293686743303966496020786613386840692512377197467
+
+X(199)=23547649804238332498492543040583919286978946228679878624766986905211040199665
+Y(199)=45630934904068964386651257285334798632074626104670361606249611789943227588842
+
+X(200)=35856140977315493186431398871635730770988436921468466395306773216387986463585
+Y(200)=50043711410464696239782795016386849245230257331671304141168068206590300904727
+
+X(201)=33759574795154225370080806951114342997779525793423209865475935596471796138249
+Y(201)=23304238713591472398893725399527076496839893331223339008474878796404091551265
+
+X(202)=2260965452632649461574789989089476154028383253763004104476398087765469260667
+Y(202)=45422679802875712649014069754419824524883054961244799815969570529350070340937
+
+X(203)=23836532295713381266197421011216702004672406514811867296650032154708732339435
+Y(203)=53547799078165718667106963103060435941886937151350223076625333319050275563013
+
+X(204)=47462388449704454899120344392551200414114438466872573661685388302587394773937
+Y(204)=45025021502364631280535977136734340379941373054162607805654693153661615177164
+
+X(205)=229799126036608188289527809100765225265495467356126860468492179279619256670
+Y(205)=53099860676876520824087675381306871559629048322365544511319676456766779056857
+
+X(206)=13466092431198871872008937330808448044529784678111381329929526967301874620047
+Y(206)=46876928541785897604196423436746527305004469489641222109765334896552202330616
+
+X(207)=3791377092222815920799322859982282177510251867527134602674436141854768432595
+Y(207)=23780754116426159513105212772966132816404760758366384048383885270472692712863
+
+X(208)=13162856841043440496820829316309858847965662808312771581431882472197474449676
+Y(208)=41942751186826816031959576902798546582566943137243063651802037072675962180475
+
+X(209)=41291421460819878019311199120774804688815013197104346345943900436844888428331
+Y(209)=38365462579846383849761277229715803229764409571980753077406699588215617774892
+
+X(210)=10364758819991048009428159556802859005569016666028524717739399104337862418958
+Y(210)=8574131176725124659082204560721286812290997982651942287607382558968622148798
+
+X(211)=53070039394086784889837216404494985796370320025424486101968406639322739117308
+Y(211)=3308840396225720009810240542101179656979082228108166656539856904604082301353
+
+X(212)=5787574869009701256083815946263278216779881296412324769577871541433804893738
+Y(212)=27615173744652963751335581375600514897161941317671793240737769710926254693896
+
+X(213)=43019551666104963515380142650319065282772284864628083181124439511748799318859
+Y(213)=44089763471220720785292842422917894652320054332188537764333410989650393040570
+
+X(214)=28615822432900870203932819146223835789711611755969637120851099000074614059867
+Y(214)=9164002674514059343609321085528882812059022765757749454849631569480852213267
+
+X(215)=11344940933786930742276319423700465537884837794897739472798528964862153715014
+Y(215)=43051032003608037910347106640337120982099025961469771424992918559341623864722
+
+X(216)=55110650450135877753526663188491171431188578818551156963466132796329500996361
+Y(216)=13684067855269794499029160054117788575724154742903470341079397699523475894568
+
+X(217)=35542210166186806918985177706745037191267835342581033895376657210177608634205
+Y(217)=31464339752273604961301904458262799236100068448037972572125091750011499192699
+
+X(218)=7349076633439829492285407058205272844259380248939941877023749997803719237230
+Y(218)=12443510777426977527749522053253438941308289927909465640417432197308458857607
+
+X(219)=45182470466313397079004053810688854485627769408047056490733350578069414439569
+Y(219)=32048546579224768805084842138857188627216271092424527252043727554920755233754
+
+X(220)=27560488714504265029175997104497423518566305130863100976671337499419345469743
+Y(220)=6538288961773405072254333192876298385181390534121597002218847123062679071070
+
+X(221)=42598442072711430908433624302886532012092024329216516002200242037871879638151
+Y(221)=24035649787602369452565672237028282042661017843200412421931922835484294980522
+
+X(222)=10632934605296459313661877820045738189875419813017776077984269483319298530663
+Y(222)=52979565121921007023104786481685773045218687181302087914413616657638483387168
+
+X(223)=44777540940544699914137595965233053131969935268023720261761207020246807479788
+Y(223)=38976504590604851099388746733129323474773793949941520333912756047249522806886
+
+X(224)=45134779666100535834008117448945468523268987824770968746425224982773156222276
+Y(224)=53950991162261797327947195866900595541962822920894123062224021140906198633396
+
+X(225)=9315779585852909815923907090071359605064620851662845315293370253587440510294
+Y(225)=30955881460272241024659394135838644456227412262173719201457636256926326114995
+
+X(226)=21899818767875583918296191796793565760737996381409715176906868592368556469110
+Y(226)=51030196671813295161362064979813861540963964699132025327119591919040516295059
+
+X(227)=12112564596888532946764122192053463788578467417329668762011893267507831088566
+Y(227)=37384665646475164600188703423950564017497276027614725850681335376234678117143
+
+X(228)=7988147829169678050392655994547781846892024329699243412113651254835932290624
+Y(228)=7185326174165280911975040819849468453522451054250755505334292309528421071564
+
+X(229)=40413929107828066547848604981884254254743536759265710439152704543753000340403
+Y(229)=29765329787350711562332928523757074713513681236994911338289495331483384773476
+
+X(230)=56716755160452908919638637795995705688554949190636802676981114531661985367383
+Y(230)=34004877467129614282198030477179839713912246473032446390245509302497406981327
+
+X(231)=30935115050658659866107472760034644169191235473022167142017376725985093355015
+Y(231)=27628302972507852826615308256613703776636747719844612760656575292988087374334
+
+X(232)=55908514890567544167033364847725966924034812279218421457009298502204729306548
+Y(232)=43428016968855045156644820504623811194376132229061762494110740462376015766879
+
+X(233)=44581840931102275742065921333794449252538009875668555906805386030490517117960
+Y(233)=34108870154324733795253263652958358768894659032050700035285760441137219303384
+
+X(234)=40552531915306858211850422799931271083324104838167808959048934477106261121828
+Y(234)=2825459275461372459899138301808838797401580780065324799819361610376343521552
+
+X(235)=30306720863877372764220387570348810103980182483742171413565979849946215638871
+Y(235)=21517602339023519430259667617987990163611195419999001982234513232062860442625
+
+X(236)=52269986357745643649883839315179123351087023391910826241888934109988909321252
+Y(236)=27541921162149442180249409749934477184147029000190824884358756053403384969919
+
+X(237)=38064471142620799251581316877786027523695852446317487801362040793511968974051
+Y(237)=38210882089257515320408053916371191640923227259833666197818846417453047076642
+
+X(238)=51837950891993478904004560532411453582200152898844314717306796895407317204558
+Y(238)=8023407345786573991039991574922525092223022659843245384408783119110437311208
+
+X(239)=29987401678872698580887304882863150247928110295788875382166991635556925837333
+Y(239)=52837303740460278205277830819116841946688809000528530353391923124321166585650
+
+X(240)=22402429920152298787631496410019800502823605686501707014310809245469475388624
+Y(240)=28223039074301166251820897166245075501202021074269582159876540690958104274763
+
+X(241)=38391885459918490136675554262293929641005234552984389549525812424967505556429
+Y(241)=48451726343585719063484664669722474737281771545607238133069860536608874038902
+
+X(242)=11668360534251706526608506489300660430824033391377867593125968310594577009841
+Y(242)=43009419009602477068581712802489146746835294938969362644502525811667021611055
+
+X(243)=52098535681620157330947396585699842255317348283858075124035923993665696374235
+Y(243)=14372749070305558426038436374026828854868322458636419433741574755480077508965
+
+X(244)=7243914735322791024397377861074448271670872885389811738326463055838220976297
+Y(244)=42254964258486381875558487431311189120348204725246132596062221375821540374876
+
+X(245)=52472900928940301626122954747358931657499941860589080457336842341133271799547
+Y(245)=36240487794796780285216792956422730881901991139210038164202424376638889414676
+
+X(246)=14846209959154060720125851118341199790082681802523638129035682578287852339201
+Y(246)=3489380846524518920683956728736896786748994795180640899523096154417742133641
+
+X(247)=1954602251140080924442124240656173875546901970452773624704623962827977584087
+Y(247)=51468053589012134154174130938092315314496339613345519595900531506919373534008
+
+X(248)=6755222236817969856591374578619500001521741966640981585924367273633673128822
+Y(248)=57406181273179067601148926928293898026905003436806692990408067775468970591284
+
+X(249)=16887124823964745982422168198730645872620019491657661964944234012720788219796
+Y(249)=19555654992886134584103291493970687892317853466243625637518837128946605463525
+
+X(250)=28555062854075896046838090046121536625511843610078800720161061116262264880658
+Y(250)=5476902791050607568183834081270617080628584407428095516437542909185718087293
+
+X(251)=38613821650886176117434444767104846422159568783153302154346802034819466400166
+Y(251)=49742066701197027289294766204967679799188090836055393755333175400550349266783
+
+X(252)=49258225526334507266032034255524142186032575303007345533237639569982295454310
+Y(252)=19055712750428967967966280011045569927284939362030657537440258034597670332357
+
+X(253)=35145788008426571240511488877653690409771965443152247907422220304107065244838
+Y(253)=19138039555666240670311068528398192388825105710662863157401768444984404504916
+
+X(254)=22506723141821348619340788129788136313160049561785219430976717219865662862031
+Y(254)=5268471677931313646561627763413488137118559855642607440733270200316194196399
+
+X(255)=36843863416400016952258312492144504209624961884991522125275155377549541182230
+Y(255)=22327030283879720808995671630924669697661065034121040761798775626517750047180
+
+X(256)=42740085206947573681423002599456489563927820004573071834350074001818321593686
+Y(256)=6935684722522267618220753829624209639984359598320562595061366101608187623111
+
+X(257)=50003352413275308510238091644685833989837049152943289668545683247561525483470
+Y(257)=14776841484881749344843512049204685647086057480231013321402911382247889847596
+
+X(258)=54609707583079775939866095370646115473774092502521947252990422140639584842082
+Y(258)=25527778063540156884816570459483826731203013624472967364917252682980317430813
+
+X(259)=29995728734045118719471744362812018490592997238813617599645759221412498500411
+Y(259)=867374879828082673478043069933317649798994654099010634642747508448290976812
+
+X(260)=57620164207443140874143769060953289563840009074557339890911605108863965159773
+Y(260)=2634483405382657674424942476705910612908532928306377889979587255894258634076
+
+X(261)=35913875829113727165514812838212592877765865737827033827817114103157036632434
+Y(261)=51660588126697381757728650438815662430966929945599293032276654626501981015524
+
+X(262)=5174495851472190916899213414889773803131503744161909667329086168363755554457
+Y(262)=24382283256089930701107744035530806083839128889212600544348127429624006764425
+
+X(263)=49438624049697712211349747796601037781592132088936564022373962946294766888917
+Y(263)=32153635626247399663471516459633249102954314923872575388361579637027490888044
+
+X(264)=11623043626890098833466114368956229333509158179687193907894448352115108899500
+Y(264)=26433380531266449977204574217158754593891542471731020890451558743032813959326
+
+X(265)=46291075406510879106241431569292307632810346805829370767082545353492617150080
+Y(265)=46227130335558992834863941723054581042077739186866761881539686821632282844389
+
+X(266)=38957759154879735016253433874067693001802001894645083527757490286693245220538
+Y(266)=38758541234481382034973642734213882306626974486508472747487482968623652932162
+
+X(267)=55001993023597169124314078118575218873980403403053021252710444659983654769317
+Y(267)=10965750590925446542807946647891254737208253927925311340994250188206486313608
+
+X(268)=36169296065041577456948890044712783436491979356150851720341321060910357019379
+Y(268)=15407907424153577505364943694740573030930268451117901242621624935973348168574
+
+X(269)=6620421601010811071977215096279131828300024034048847108877031109911342617819
+Y(269)=52878203547534544522733678140093479028671910642878919400835826559349376904372
+
+X(270)=46069076394444970358289651758659008359550246856001882706617884101213377680572
+Y(270)=53236365455225011021001685541581164690334445995986496102590713909531929883344
+
+X(271)=3822519424564500945128513511702535991339982307382013615164353030528237516371
+Y(271)=39200928404672274376181661195113157943606143303118228902343657441483100193349
+
+X(272)=37606951602509421851802397990777074394086088603638658106717275349815506064913
+Y(272)=57600286212535524278545239830536113647848798121242871558869694747077807121422
+
+X(273)=7975488517733486063096044876160296589358383973327762413823578146807303802674
+Y(273)=55035983629869332827914190273598933674020886438367217526068531563126989987170
+
+X(274)=30506444974797086066996214293709962876542887687747154535548009913990715857840
+Y(274)=50122012248943022843609599489503528235086338083712511737275433737751553227132
+
+X(275)=48261330509856353187954231819202903758250699892070459033689250054144361876224
+Y(275)=35659586771942477407937883226685506920370294441546333139282258364123768698649
+
+X(276)=13493483264948546029495932557505010171082287085105279131131967605714759605572
+Y(276)=2333925852770867484742422944885971638850797866316468903581945844227402282857
+
+X(277)=2549451395147123829100368589805759096160329634101972908924299127897877169408
+Y(277)=56327667813415850649246140734938948040485222410266496581957177638366126749676
+
+X(278)=23839102972402603347792823807716932269108570323579044126211982268907888642790
+Y(278)=5645783059078051235414224296672756205799138779081592440516267061280339705778
+
+X(279)=17405705303288241194290993387404121892271014524660308743487617151602474461909
+Y(279)=52960122167620038635125475977558535828478115115550724750947707067048019741938
+
+X(280)=18655054749779522683067754392627132538309171290988289804446992374521454823841
+Y(280)=29304473132257963740514614843992237600141965227614489515939161889264799441525
+
+X(281)=55866387877239601167358009612636585854573881320164098228723688871722432722636
+Y(281)=36496025517710721934245123861048300578738223935846863114333678743757602410642
+
+X(282)=31088396754843443520483151784032358282738650280816584771479454078689412477403
+Y(282)=15134140720625598770696490964904465487513206935922007461511895838732901168932
+
+X(283)=48544096349089860472508573609986615782732260875051187404351026268520431233238
+Y(283)=11307372305780179917765158885035390873389191386906507424032886462278755358430
+
+X(284)=16556662393003610671645155331861595380325433106612573343417721555968006939455
+Y(284)=36622962495285108399966364929115609997953052907451117784079422609397519987455
+
+X(285)=17519948458740871383425370236276428507506452707856634422896916310721491295244
+Y(285)=21623486923021509624703791668717534175609438517510582588361942308888836051946
+
+X(286)=21368984967759575046198107606158621464797015462644185958990160885871494254460
+Y(286)=3240722323296253878735064514339995472761092757383901646725351888635623235523
+
+X(287)=42924889083936959287827425631121287357413633624748733259193708933382625495350
+Y(287)=27477206423846363652525889465130778184218411228659651507577558070336012329781
+
+X(288)=20026853327639796934882628540161358480307872013308939351738056276614783448372
+Y(288)=1946693012262485645866716461183681210802045804988910550886762839894398863438
+
+X(289)=55940561335465429829607063636485243813277904742119062828779645629733354347969
+Y(289)=8848908196113168749641409332020664395948726604798100364218694635300094720410
+
+X(290)=41106876567714316591450593097741137297278988426437973141651276941301856300570
+Y(290)=26028160879493745548116486567420197193019400444541487990587823082004897534892
+
+X(291)=13017239312602345066095910263428855502328104973870327182888500542394882855313
+Y(291)=34006328221298457072688257802480415469152201399262843208132101667593366428510
+
+X(292)=22546703851135588081311545976382624963840982720144597378692871558818918106918
+Y(292)=2437894098159198069314443693734147997092667391680403983677954987216492464933
+
+X(293)=25246167545537692962799576255546151511655857759620866580670586294116190871663
+Y(293)=47891183763292009778062701462881773782473427472407021497571389967063512677440
+
+X(294)=47737807981583804441318188774953839430904055776536332562330809550639135155833
+Y(294)=18159022913069314250546965871184680384636959443510477474158369351956889910427
+
+X(295)=33217452489963237783066953667319759492574394718876297778146715029270324847223
+Y(295)=2124322230168030817031975843179355038045052331385612121206799649793220547468
+
+X(296)=43884226015448290083914173318297519606132523692196667217198413084968403157674
+Y(296)=29100742039794628765483419476866365509931662933105744597484375584327689012776
+
+X(297)=11633424595590448817203587126124446137741532433482974736548683451513831658925
+Y(297)=8015504924350482041445641814809751601186216681593900826149535636894519419097
+
+X(298)=40358527267309334725176358001027790627406979933540832440803089720266943548550
+Y(298)=12432985773673121536521668362607374711197905815690846293008744229083588849827
+
+X(299)=37955832475620185558438132403972651155153269085985280047905970124845378114537
+Y(299)=40908011936513404871404470662569299001714632514933991149185225035632023080777
+
+X(300)=31357527335910340115144758206427641488591245375179888799313506905316842191308
+Y(300)=25692700993348184348495449067937874467647034640772892440259777806143081883342
+</Text-field>
+</Output></CodeEditor-ExecGroup></Presentation-Block><Presentation-Block><CodeEditor-ExecGroup view="presentation" hide-input="false" inline-output="false" labelreference="L30" applyint="true" applyrational="true" display="code"><EC-CodeEditor id="CodeEditRegion1" expanded="true" visible="true" pixel-width="937" pixel-height="248" code-language="text/maple" autoexpand="false" wrapping="false" show-border="true" code-line-numbers="true">#Test Points
+
+Xi(1):=15112221349535400772501151409588531511454012693041857206046113283949847762202:
+Yi(1):=46316835694926478169428394003475163141307993866256225615783033603165251855960:
+
+Xi(2):=24727413235106541002554574571675588834622768167397638456726423682521233608206:
+Yi(2):=15549675580280190176352668710449542251549572066445060580507079593062643049417:
+
+Xi(3):=46896733464454938657123544595386787789046198280132665686241321779790909858396:
+Yi(3):=8324843778533443976490377120369201138301417226297555316741202210403726505172:
+
+Xi(4):=14582954232372986451776170844943001818709880559417862259286374126315108956272:
+Yi(4):=32483318716863467900234833297694612235682047836132991208333042722294373421359:
+
+Xi(5):=33467004535436536005251147249499675200073690106659565782908757308821616914995:
+Yi(5):=43097193783671926753355113395909008640284023746042808659097434958891230611693:
+
+Xi(6):=34643617590234865996699167120328052565261792237873803846102513686264813449789:
+Yi(6)=2399184961499513294557607325187831088545696902880432827228757905043131825908:
+
+Xi(7):=9199134265559022971505535402808359556995554859516252602543778295037484220679:
+Yi(7):=22512087849695599276028560866629687720820254811233262850576678203618951717560:
+
+Xi(8):=46706390780465557264338673484185971070529246228527338942042475661633188627656:
+Yi(8):=15299170165656271974649334809062094114079726227711063015095704409550798436788:
+
+Xi(9):=24193060302538010417230488029838514081720802923509845138863968807030823940444:
+Yi(9):=57551756252899625001155759838357770487605224608455116862194664796369308545472:
+
+Xi(10):=43500613248243327786121022071801015118933854441360174117148262713429272820047:
+Yi(10):=45005105423099817237495816771148012388779685712352441364231470781391834741548:
+
+Xi(11):=9451145793506787353375160377761530931587019091193333050860601958827395183563:
+Yi(11):=20609402718286069808115703540855311742885093522056241285814584245966805874451:
+
+Xi(12):=32159939716063394567822525359727347405356413309540137282993608327129696604205:
+Yi(12):=29147333543209904737197244325450674102993621692520459538942544703173373584633:
+
+Xi(13):=7442235066513780790779899786332475485840754593728627195931759107337804079085:
+Yi(13):=8529785864514984411577036536286432879603480171865651918962709025066066124672:
+
+Xi(14):=14642270634066990240227516988620748386040643134865523775420225321890511918521:
+Yi(14):=35422008320351900419562335198749713095866812710345432231966142485751234570297:
+
+Xi(15):=35771902585589234259498423420223840099331465042459337605611172842168536632769:
+Yi(15):=8502034780705657720897159939055122322178084209392286764802307224484658961631:
+
+Xi(16):=16121637619009607773439840283436156467545443443832420589584197780484295031288:
+Yi(16):=50925107901044861941301590032293890690813323578124472818968980802518735333355:
+
+Xi(17):=56887487962890212366448920369068155807228363509110160616941230120594402893674:
+Yi(17):=50399614753915632959315208729749638020219221279769677088273404540033848294916:
+
+Xi(18):=8778631385113979698503536285416800227654173765449177055618004852346255903638:
+Yi(18):=20836693273279846447679364815620750369985077404681918478249609412539783163978:
+
+
+EDTRPL(Xi(10),Yi(10),1):
+xx3; yy3;
+
+
+x:=modp((1-a*xx3^2)/(1-d*xx3^2), M);
+y:=modp(yy3^2, M);</EC-CodeEditor>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFFobzU3MTA2MDg2ODcyMTQ5NTA0NjMwNTAxNzMxMTEyNDU5OTQ1OTQ0MTgxNTQwMjYyNTE0MjEwNTYyOTE3MjY4NzY3NzM1MTA1NTc3NDQ0RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">ImhvV3VkMF50bihvcyJIYzVVXmktYSI9V2YlKmZDNko8XUlZXVxAKG8zMXIm</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFFobzIzNTg5NjIzNzUxNDgxMjc2NjQzODI2OTAxMDQ2MzUxMTQ3MTQzOTM2MzU2Mjk4MDYyMDMxNjM1MTk0NjE5MzEwMjQ0MjE0NTM1MTQwRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">ImhvU15gOVVDNSQ+WT5OOy5pISlIY2okUjlaNk5ZNSFwI1FrdzdbXlBpKmVC</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUWVvNTk1ODk1MDY2NjMwNjk4NTE4NDgwNjM4OTAxNDY0MTk4OTcwMzkwNDU5NTYwNDgzNDcxODA4MDI0NTQ3NDA0ODU2NTE5MzYwNTFGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJ4R0YoImVvXmckPmwmW1NaWC0zPVokW2cmZi9ScSopPms5ISpRMVs9JilwSW0xJiplZjcjRi4=</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEieUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtbkdGJDYkUWVvNTk1ODk1MDY2NjMwNjk4NTE4NDgwNjM4OTAxNDY0MTk4OTcwMzkwNDU5NTYwNDgzNDcxODA4MDI0NTQ3NDA0ODU2NTE5MzYwNTFGJ0Y5Rjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSJ5R0YoImVvXmckPmwmW1NaWC0zPVokW2cmZi9ScSopPms5ISpRMVs9JilwSW0xJiplZjcjRi4=</Equation></Text-field>
+</Output></CodeEditor-ExecGroup>
+<Group view="presentation" inline-output="false" labelreference="L25" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block><CodeEditor-ExecGroup view="presentation" inline-output="false" labelreference="L29" applyint="true" applyrational="true" display="code"><EC-CodeEditor id="CodeEditRegion4" expanded="true" visible="true" pixel-width="500" pixel-height="200" code-language="text/maple" autoexpand="true" wrapping="false" show-border="true" code-line-numbers="true">for i from 1 to 4 do 
+	EDTRPL(xx1,yy1,1):
+	printf(&quot;X(%d)=%X\134nY(%d)=%X\134n&quot;, i,xx3,i,yy3):
+	xx1:= xx3: yy1:=yy3:
+end do:	</EC-CodeEditor>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">X(1)=67AE9C4A22928F491FF4AE743EDAC83A6343981981624886AC62485FD3F8E25C
+Y(1)=1267B1D177EE69ABA126A18E60269EF79F16EC176724030402C3684878F5B4D4
+X(2)=357CC970C80071651BF336E06F9422B886D80E5C2E4E0294D3E023065185715C</Text-field><Text-field style="Line Printed Output" layout="Line Printed Output">Y(2)=7F3D23C2C2DD0DF4B2BEFCE956F2D2FD1F789013236E4430C74E44845522F1C0
+X(3)=163BC180C22DFC5DA23C5C052107BBA93A88B4360AA1D4E729611D8F5A7F8079
+Y(3)=631107A6BA83F7458194B9766A0A54F638CA20DAF800384DBAE1498677501939
+X(4)=42D154BF7B4A7BD73897AE528C6BC552EA58D74F8109E8E4052D3E9D38BB0F6
+Y(4)=42D1831323E279F9F7EE9E3470BA20CA7EDC3245ECA5D8FFA182DE120A71FC90</Text-field>
+</Output></CodeEditor-ExecGroup></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L28" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkM=</Equation></Text-field>
+</Input>
+</Group></Presentation-Block>
+</Worksheet>
