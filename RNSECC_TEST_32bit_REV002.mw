@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2017" minor="1"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="true" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" preplot="" helpbrowser="standard" contextmenusize="automatic" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1080" rtablesize="10" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" elisiondigitsthreshold="10000" showassumed="1" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L1" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block><CodeEditor-ExecGroup view="presentation" hide-input="false" inline-output="false" labelreference="L2" applyint="true" applyrational="true" display="code"><EC-CodeEditor id="CodeEditRegion0" expanded="true" visible="true" pixel-width="3076" pixel-height="1204" code-language="text/maple" autoexpand="true" wrapping="false" show-border="true" code-line-numbers="true">M := 2^256-2^32-2^9-2^8-2^7-2^6-2^4-1:
+PDX := proc (x1, y1, z1) 
+local PDX, M, zetta, etta; M := 115792089237316195423570985008687907853269984665640564039457584007908834671663; 
+zetta := modp(3*x1^2+0*z1^4, M); etta := modp(4*x1*y1^2, M); PDX := modp(zetta^2-2*etta, M);
+#printf(&quot;%d&quot;,PDX);
+end proc:
+PDY := proc (x1, y1, z1) 
+local PDY, PDX, M, zetta, etta; M := 115792089237316195423570985008687907853269984665640564039457584007908834671663; 
+zetta := modp(3*x1^2+0*z1^4, M); etta := modp(4*x1*y1^2, M); PDX := modp(zetta^2-2*etta, M); PDY := modp(modp((modp(zetta*(etta-PDX), M))-8*y1^4, M), M); 
+end proc:
+PDZ := proc (x1, y1, z1) 
+local PDZ, M; M := 115792089237316195423570985008687907853269984665640564039457584007908834671663; 
+PDZ := modp(2*y1*z1, M);
+end proc:
+PAX := proc (x1, y1, z1, x2, y2, z2) 
+local alpha, beta, M, PAX; M := 115792089237316195423570985008687907853269984665640564039457584007908834671663; 
+alpha := modp(y2*z1^3-y1*z2^3, M); beta := modp(x2*z1^2-x1*z2^2, M); 
+PAX := modp(alpha^2-beta^3-2*x1*z2^2*beta^2, M); 
+end proc:
+PAY := proc (x1, y1, z1, x2, y2, z2) 
+local alpha, beta, M, PA, PAY; M := 115792089237316195423570985008687907853269984665640564039457584007908834671663; 
+alpha := modp(y2*z1^3-y1*z2^3, M); beta := modp(x2*z1^2-x1*z2^2, M); PA := modp(alpha^2-beta^3-2*x1*z2^2*beta^2, M); 
+PAY := modp(modp((modp(alpha*(modp((modp(x1*z2^2*beta^2, M))-PA, M)), M))-y1*z2^3*beta^3, M), M); 
+end proc:
+PAZ := proc (x1, y1, z1, x2, y2, z2) 
+local beta,PAZ, M; M := 115792089237316195423570985008687907853269984665640564039457584007908834671663; 
+beta := modp(x2*z1^2-x1*z2^2, M); PAZ:=modp(z1*z2*beta, M): 
+end proc:
+
+AFFINE:= proc(X,Y,Z) 
+local  M,x,y; M := 115792089237316195423570985008687907853269984665640564039457584007908834671663; 
+x:= modp(X/Z^2, M);
+y:= modp(Y/(Z^3), M);
+#return(x,y);
+return(convert(x,hex)  ,  convert(y,hex));
+end proc:
+
+DOUBLE:=proc(x1,y1,z1) 
+local PDX,PDY,PDZ, M, zetta, etta; M := 115792089237316195423570985008687907853269984665640564039457584007908834671663; 
+zetta := modp(3*x1^2+0*z1^4, M); etta := modp(4*x1*y1^2, M); PDX := modp(zetta^2-2*etta, M); 
+PDY := modp(modp((modp(zetta*(etta-PDX), M))-8*y1^4, M), M); PDZ := modp(2*y1*z1, M);
+return(PDX,PDY,PDZ);
+#return(convert(PDX,hex),convert(PDY,hex),convert(PDZ,hex));
+end proc:
+ADD:= proc(x1,y1,z1,x2,y2,z2) 
+local PAX,PAY,PAZ, M, alpha,beta, zetta, etta; M := 115792089237316195423570985008687907853269984665640564039457584007908834671663; 
+alpha := modp(y2*z1^3-y1*z2^3, M); beta := modp(x2*z1^2-x1*z2^2, M); 
+PAX := modp(alpha^2-beta^3-2*x1*z2^2*beta^2, M); 
+PAY := modp(modp((modp(alpha*(modp((modp(x1*z2^2*beta^2, M))-PA, M)), M))-y1*z2^3*beta^3, M), M); 
+PAZ:=modp(z1*z2*beta, M); 
+return(PAX,PAY,PAZ);
+end proc:
+
+RNS:=proc(x1)
+local m,X,i;
+m(0) := 64600;  for i to 35 do m(i) := nextprime(m(i-1)); end do:
+for i to 35 do X(i) := modp(x1,m(i)); end do:printf(&quot;\134n&quot;);
+for i to 35 do  printf(&quot;\134&quot;%4s\134&quot;,&quot;,convert(X(i),hex)); end do: printf(&quot;\134n\134n&quot;);
+end proc:
+</EC-CodeEditor></CodeEditor-ExecGroup></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L4" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block><CodeEditor-ExecGroup view="presentation" hide-input="false" inline-output="false" labelreference="L8" applyint="true" applyrational="true" display="code"><EC-CodeEditor id="CodeEditRegion1" expanded="true" visible="true" pixel-width="1724" pixel-height="992" code-language="text/maple" autoexpand="true" wrapping="false" show-border="true" code-line-numbers="true">X1:=convert(&quot;79BE667EF9DCBBAC55A06295CE870B07029BFCDB2DCE28D959F2815B16F81798&quot;,decimal,hex);
+Y1:=convert(&quot;483ADA7726A3C4655DA4FBFC0E1108A8FD17B448A68554199C47D08FFB10D4B8&quot;,decimal,hex);
+Z1:=1;
+
+for i from 1 to 10 do  
+printf( &quot;%dP coordinates are:\134n&quot;,2*i);    
+X2:=PDX(X1,Y1,Z1):
+Y2:=PDY(X1,Y1,Z1):
+Z2:=PDZ(X1,Y1,Z1):
+printf(&quot;X(%d)=%X\134n&quot;,2*i,X2); 
+printf(&quot;Y(%d)=%X\134n&quot;,2*i,Y2); 
+printf(&quot;Z(%d)=%X\134n&quot;,2*i,Z2);  
+
+printf(&quot;RNS of X(%d) is&quot;,2*i);
+RNS(X2);
+printf(&quot; RNS of X(%d)+M is&quot;, 2*i);  
+RNS(X2+M);
+
+X3:=PAX(X1,Y1,Z1,X2,Y2,Z2):
+Y3:=PAY(X1,Y1,Z1,X2,Y2,Z2):
+Z3:=PAZ(X1,Y1,Z1,X2,Y2,Z2):
+printf(&quot; X(%d)=%X\134n&quot; , 2*i+1,X3);
+printf(&quot; X(%d)=%X\134n&quot; , 2*i+1,Y3);
+printf(&quot; X(%d)=%X\134n&quot; , 2*i+1,Z3); 
+
+printf(&quot;RNS of X(%d) is&quot;,2*i+1 );
+RNS(X2):
+printf(&quot;RNS of X(%d)+M is&quot;, 2*i+1);  
+RNS(X2+M):  
+printf(&quot;RNS of Y(%d) is&quot;,2*i+1 );
+RNS(Y2):
+printf(&quot;RNS of Y(%d)+M is&quot;, 2*i+1);  
+RNS(Y2+M):
+printf(&quot;RNS of Z(%d) is&quot;,2*i+1 );
+RNS(Z2):
+printf(&quot;RNS of Z(%d)+M is&quot;, 2*i+1);  
+RNS(Z2+M):
+
+printf( &quot;AFFINE of X(%d) is:\134n&quot;,2*i);
+AFFINE(X2,Y2,Z2);  
+printf( &quot;AFFINE of X(%d) is:\134n&quot;,2*i);
+AFFINE(X3,Y3,Z3);   
+printf(&quot;\134n\134n&quot;);
+X1:=X2:
+Y1:=Y2:
+Z1:=Z2:
+X2:=X3:
+Y2:=Y3:
+Z2:=Z3:
+end do:
+
+</EC-CodeEditor>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEjWDFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkjbW5HRiQ2JFFobzU1MDY2MjYzMDIyMjc3MzQzNjY5NTc4NzE4ODk1MTY4NTM0MzI2MjUwNjAzNDUzNzc3NTk0MTc1NTAwMTg3MzYwMzg5MTE2NzI5MjQwRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNYMUdGKCJob1MjSG42KlFndD0rYjwlZnhQWC4xREVWYG9eKik9KHkmcE9NeEEtamkxYjcjRi4=</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEjWTFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkjbW5HRiQ2JFFobzMyNjcwNTEwMDIwNzU4ODE2OTc4MDgzMDg1MTMwNTA3MDQzMTg0NDcxMjczMzgwNjU5MjQzMjc1OTM4OTA0MzM1NzU3MzM3NDgyNDI0RidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNZMUdGKCJob0NDW1B0dk5WISpRZkZWI2YxUXQ3WiU9VnFdSV4zJDN5cCIpZTItNTBuSzcjRi4=</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEjWjFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkjbW5HRiQ2JFEiMUYnRjlGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNaMUdGKCIiIjcjRi4=</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">2P coordinates are:
+X(2)=7D152C041EA8E1DC2191843D1FA9DB55B68F88FEF695E2C791D40444B365AFC2
+Y(2)=56915849F52CC8F76F5FD7E4BF60DB4A43BF633E1B1383F85FE89164BFADCBDB
+Z(2)=9075B4EE4D4788CABB49F7F81C221151FA2F68914D0AA833388FA11FF621A970
+RNS of X(2) is
+&quot;35A5&quot;,&quot;CB56&quot;,&quot;6A2A&quot;,&quot;13EC&quot;,&quot;F2C8&quot;,&quot;DAEA&quot;,&quot;872F&quot;,&quot;1A34&quot;,&quot;4617&quot;,&quot;7ABB&quot;,&quot;ABB7&quot;,&quot;D191&quot;,&quot;ED19&quot;,&quot;6D29&quot;,&quot;6969&quot;,&quot;EC63&quot;,&quot;815E&quot;,&quot;D3F0&quot;,&quot;97E8&quot;,&quot;C3D0&quot;,&quot;E774&quot;,&quot;741F&quot;,&quot; BF3&quot;,&quot;3712&quot;,&quot;DBB9&quot;,&quot;7C7B&quot;,&quot;8060&quot;,&quot;CB51&quot;,&quot;8D8C&quot;,&quot;B601&quot;,&quot;9360&quot;,&quot;5AE0&quot;,&quot;9B7C&quot;,&quot; 3CA&quot;,&quot;EBF4&quot;,
+
+ RNS of X(2)+M is
+&quot;F759&quot;,&quot;C346&quot;,&quot;EA43&quot;,&quot;8E35&quot;,&quot;1CFF&quot;,&quot;A61A&quot;,&quot;B9E8&quot;,&quot;681B&quot;,&quot;BE85&quot;,&quot;F71F&quot;,&quot;EE88&quot;,&quot;7BD7&quot;,&quot;1A16&quot;,&quot;D664&quot;,&quot;F7D9&quot;,&quot;5FD0&quot;,&quot;B700&quot;,&quot;CCF3&quot;,&quot;9527&quot;,&quot;571C&quot;,&quot;A016&quot;,&quot;2E64&quot;,&quot;C8CD&quot;,&quot; 5A5&quot;,&quot;BE94&quot;,&quot;18BC&quot;,&quot;8668&quot;,&quot;9696&quot;,&quot;352B&quot;,&quot;94DE&quot;,&quot;94F2&quot;,&quot;5B97&quot;,&quot;1B0F&quot;,&quot;2469&quot;,&quot;48DD&quot;,
+
+ X(3)=CA90EF9B06D7EB51D650E9145E3083CBD8DF8759168862036F97A358F089848
+ X(3)=435AFE76017B8D55D04FF8A98DD60B2BA7EB6F87F6B28182CA4493D7165DD127
+ X(3)=9242FA9C0B9F23A3BFEA6A0EB6DBCFCBC4853FE9A25EE948105DC66A2A9B5BAA
+RNS of X(3) is
+&quot;35A5&quot;,&quot;CB56&quot;,&quot;6A2A&quot;,&quot;13EC&quot;,&quot;F2C8&quot;,&quot;DAEA&quot;,&quot;872F&quot;,&quot;1A34&quot;,&quot;4617&quot;,&quot;7ABB&quot;,&quot;ABB7&quot;,&quot;D191&quot;,&quot;ED19&quot;,&quot;6D29&quot;,&quot;6969&quot;,&quot;EC63&quot;,&quot;815E&quot;,&quot;D3F0&quot;,&quot;97E8&quot;,&quot;C3D0&quot;,&quot;E774&quot;,&quot;741F&quot;,&quot; BF3&quot;,&quot;3712&quot;,&quot;DBB9&quot;,&quot;7C7B&quot;,&quot;8060&quot;,&quot;CB51&quot;,&quot;8D8C&quot;,&quot;B601&quot;,&quot;9360&quot;,&quot;5AE0&quot;,&quot;9B7C&quot;,&quot; 3CA&quot;,&quot;EBF4&quot;,
+
+RNS of X(3)+M is
+&quot;F759&quot;,&quot;C346&quot;,&quot;EA43&quot;,&quot;8E35&quot;,&quot;1CFF&quot;,&quot;A61A&quot;,&quot;B9E8&quot;,&quot;681B&quot;,&quot;BE85&quot;,&quot;F71F&quot;,&quot;EE88&quot;,&quot;7BD7&quot;,&quot;1A16&quot;,&quot;D664&quot;,&quot;F7D9&quot;,&quot;5FD0&quot;,&quot;B700&quot;,&quot;CCF3&quot;,&quot;9527&quot;,&quot;571C&quot;,&quot;A016&quot;,&quot;2E64&quot;,&quot;C8CD&quot;,&quot; 5A5&quot;,&quot;BE94&quot;,&quot;18BC&quot;,&quot;8668&quot;,&quot;9696&quot;,&quot;352B&quot;,&quot;94DE&quot;,&quot;94F2&quot;,&quot;5B97&quot;,&quot;1B0F&quot;,&quot;2469&quot;,&quot;48DD&quot;,
+
+AFFINE of X(2) is:
+AFFINE of X(2) is:
+
+
+4P coordinates are:
+X(4)=9BAE2D5BAC61E6EA5DE635BCA754B2564B7D78C45277CAD67E45C4CBBEA6E706
+Y(4)=34FB8147EED1C0FBE29EAD4D6C472EB4EF7B2191FDE09E494B2A9845FE3F605E
+Z(4)=C327B5D2636B32F27B051E4742B1BBD5324432C1000BFEDCA4368A29F6654152
+RNS of X(4) is
+&quot;9D7C&quot;,&quot;40A4&quot;,&quot;97DB&quot;,&quot;E544&quot;,&quot;83BB&quot;,&quot;2FA8&quot;,&quot;1835&quot;,&quot;C1D9&quot;,&quot;FAED&quot;,&quot;ECD9&quot;,&quot; 34F&quot;,&quot;AEC7&quot;,&quot;39AF&quot;,&quot;6E71&quot;,&quot;A332&quot;,&quot;1024&quot;,&quot;C7D5&quot;,&quot;D161&quot;,&quot;E93A&quot;,&quot;C788&quot;,&quot;68B0&quot;,&quot;AB49&quot;,&quot;7831&quot;,&quot;4B50&quot;,&quot;F034&quot;,&quot;AE6A&quot;,&quot; A84&quot;,&quot;4852&quot;,&quot;80DD&quot;,&quot;EB49&quot;,&quot;67D4&quot;,&quot;3321&quot;,&quot;63F8&quot;,&quot;5521&quot;,&quot;F12F&quot;,
+
+ RNS of X(4)+M is
+&quot;62D7&quot;,&quot;3894&quot;,&quot;1B8F&quot;,&quot;6320&quot;,&quot;AA65&quot;,&quot;F751&quot;,&quot;4AEE&quot;,&quot;1329&quot;,&quot;76C0&quot;,&quot;6C96&quot;,&quot;4620&quot;,&quot;590D&quot;,&quot;6379&quot;,&quot;D7AC&quot;,&quot;34A7&quot;,&quot;809E&quot;,&quot;  68&quot;,&quot;CA64&quot;,&quot;E679&quot;,&quot;5AD4&quot;,&quot;2152&quot;,&quot;658E&quot;,&quot;37A4&quot;,&quot;19E3&quot;,&quot;D30F&quot;,&quot;4AAB&quot;,&quot;108C&quot;,&quot;1397&quot;,&quot;287C&quot;,&quot;CA26&quot;,&quot;6966&quot;,&quot;33D8&quot;,&quot;E154&quot;,&quot;75C0&quot;,&quot;4E18&quot;,
+
+ X(5)=3EBFE90F9AE60ABFB1856F0120B1519EB535BB763DCF958031FC9B84F508431B
+ X(5)=32AACE1E99E02A607E2873EB006A861104177FB7B199C8DEBBB0D501FAE8EB69
+ X(5)=AB5627AF6930F4B788D5CCE12391BAD9CCB619323B67887D76C3729651E0E8B6
+RNS of X(5) is
+&quot;9D7C&quot;,&quot;40A4&quot;,&quot;97DB&quot;,&quot;E544&quot;,&quot;83BB&quot;,&quot;2FA8&quot;,&quot;1835&quot;,&quot;C1D9&quot;,&quot;FAED&quot;,&quot;ECD9&quot;,&quot; 34F&quot;,&quot;AEC7&quot;,&quot;39AF&quot;,&quot;6E71&quot;,&quot;A332&quot;,&quot;1024&quot;,&quot;C7D5&quot;,&quot;D161&quot;,&quot;E93A&quot;,&quot;C788&quot;,&quot;68B0&quot;,&quot;AB49&quot;,&quot;7831&quot;,&quot;4B50&quot;,&quot;F034&quot;,&quot;AE6A&quot;,&quot; A84&quot;,&quot;4852&quot;,&quot;80DD&quot;,&quot;EB49&quot;,&quot;67D4&quot;,&quot;3321&quot;,&quot;63F8&quot;,&quot;5521&quot;,&quot;F12F&quot;,
+
+RNS of X(5)+M is
+&quot;62D7&quot;,&quot;3894&quot;,&quot;1B8F&quot;,&quot;6320&quot;,&quot;AA65&quot;,&quot;F751&quot;,&quot;4AEE&quot;,&quot;1329&quot;,&quot;76C0&quot;,&quot;6C96&quot;,&quot;4620&quot;,&quot;590D&quot;,&quot;6379&quot;,&quot;D7AC&quot;,&quot;34A7&quot;,&quot;809E&quot;,&quot;  68&quot;,&quot;CA64&quot;,&quot;E679&quot;,&quot;5AD4&quot;,&quot;2152&quot;,&quot;658E&quot;,&quot;37A4&quot;,&quot;19E3&quot;,&quot;D30F&quot;,&quot;4AAB&quot;,&quot;108C&quot;,&quot;1397&quot;,&quot;287C&quot;,&quot;CA26&quot;,&quot;6966&quot;,&quot;33D8&quot;,&quot;E154&quot;,&quot;75C0&quot;,&quot;4E18&quot;,
+
+AFFINE of X(4) is:
+AFFINE of X(4) is:
+
+
+6P coordinates are:
+X(6)=1FD9FDE65B84623A2657369DA0B939A66F3F5D9F627BD9C75D8FE391F097AAF9
+Y(6)=B74DF0C213719D72FE7FEB0321CBEB09AF2BF3665A87A06743F80FCB21037704
+Z(6)=2E82D28EA49DA0BAE39C561E6CB8073AD7E7F0E98D4EF516157A1F87EA03D0E6
+RNS of X(6) is
+&quot;D861&quot;,&quot;3BC3&quot;,&quot; E92&quot;,&quot;68C7&quot;,&quot;6438&quot;,&quot;913B&quot;,&quot;9751&quot;,&quot;DA6D&quot;,&quot;D28E&quot;,&quot;AAD2&quot;,&quot;93A7&quot;,&quot;5799&quot;,&quot;5C29&quot;,&quot;3D49&quot;,&quot;C868&quot;,&quot;3117&quot;,&quot;324E&quot;,&quot;442A&quot;,&quot; CA3&quot;,&quot;E837&quot;,&quot;3C91&quot;,&quot;1D0A&quot;,&quot;9ED3&quot;,&quot;A73A&quot;,&quot;2C47&quot;,&quot;277B&quot;,&quot;6807&quot;,&quot;3ED1&quot;,&quot; B2D&quot;,&quot;BDD4&quot;,&quot; 320&quot;,&quot;9F2E&quot;,&quot;D955&quot;,&quot;A533&quot;,&quot;9EA7&quot;,
+
+ RNS of X(6)+M is
+&quot;9DBC&quot;,&quot;33B3&quot;,&quot;8EAB&quot;,&quot;E310&quot;,&quot;8AE2&quot;,&quot;5C6B&quot;,&quot;CA0A&quot;,&quot;2BBD&quot;,&quot;4E61&quot;,&quot;2A8F&quot;,&quot;D678&quot;,&quot; 1DF&quot;,&quot;85F3&quot;,&quot;A684&quot;,&quot;59DD&quot;,&quot;A191&quot;,&quot;67F0&quot;,&quot;3D2D&quot;,&quot; 9E2&quot;,&quot;7B83&quot;,&quot;F284&quot;,&quot;D4A4&quot;,&quot;5E46&quot;,&quot;75CD&quot;,&quot; F22&quot;,&quot;C137&quot;,&quot;6E0F&quot;,&quot; A16&quot;,&quot;B065&quot;,&quot;9CB1&quot;,&quot; 4B2&quot;,&quot;9FE5&quot;,&quot;58E8&quot;,&quot;C5D2&quot;,&quot;F97B&quot;,
+
+ X(7)=2CCD6F06FE5F54935D2D58EBC95F14CAA6095491A7F537ECAAD2C4A37299E70B
+ X(7)=AF7E492CCF0EA26A77D7DFB8CE4699BE44AFB60A4DEDC340B7C436C7E82A3587
+ X(7)=1C90025E63CBBB04FA6748DFC6343CEAC2396200DCE1FD8B35C39AAB46C6C598
+RNS of X(7) is
+&quot;D861&quot;,&quot;3BC3&quot;,&quot; E92&quot;,&quot;68C7&quot;,&quot;6438&quot;,&quot;913B&quot;,&quot;9751&quot;,&quot;DA6D&quot;,&quot;D28E&quot;,&quot;AAD2&quot;,&quot;93A7&quot;,&quot;5799&quot;,&quot;5C29&quot;,&quot;3D49&quot;,&quot;C868&quot;,&quot;3117&quot;,&quot;324E&quot;,&quot;442A&quot;,&quot; CA3&quot;,&quot;E837&quot;,&quot;3C91&quot;,&quot;1D0A&quot;,&quot;9ED3&quot;,&quot;A73A&quot;,&quot;2C47&quot;,&quot;277B&quot;,&quot;6807&quot;,&quot;3ED1&quot;,&quot; B2D&quot;,&quot;BDD4&quot;,&quot; 320&quot;,&quot;9F2E&quot;,&quot;D955&quot;,&quot;A533&quot;,&quot;9EA7&quot;,
+
+RNS of X(7)+M is
+&quot;9DBC&quot;,&quot;33B3&quot;,&quot;8EAB&quot;,&quot;E310&quot;,&quot;8AE2&quot;,&quot;5C6B&quot;,&quot;CA0A&quot;,&quot;2BBD&quot;,&quot;4E61&quot;,&quot;2A8F&quot;,&quot;D678&quot;,&quot; 1DF&quot;,&quot;85F3&quot;,&quot;A684&quot;,&quot;59DD&quot;,&quot;A191&quot;,&quot;67F0&quot;,&quot;3D2D&quot;,&quot; 9E2&quot;,&quot;7B83&quot;,&quot;F284&quot;,&quot;D4A4&quot;,&quot;5E46&quot;,&quot;75CD&quot;,&quot; F22&quot;,&quot;C137&quot;,&quot;6E0F&quot;,&quot; A16&quot;,&quot;B065&quot;,&quot;9CB1&quot;,&quot; 4B2&quot;,&quot;9FE5&quot;,&quot;58E8&quot;,&quot;C5D2&quot;,&quot;F97B&quot;,
+
+AFFINE of X(6) is:
+AFFINE of X(6) is:
+
+
+8P coordinates are:
+X(8)=9A70E326708582B6C804ADBE8CCA5BF528090B01862D5FC6FFE640B260BE591D
+Y(8)=2565AC52CBECBE8AB7CDA3F533B9C4FE33BFD215AAC88E1715B9CA68FC4BE1AB
+Z(8)=ACF68861945EF4E54281A5A08CD5BC3908415BE53F564595BACD5733DC0A13B7
+RNS of X(8) is
+&quot;D3DA&quot;,&quot;3504&quot;,&quot;BA5A&quot;,&quot; F65&quot;,&quot;D38A&quot;,&quot;F390&quot;,&quot;3E86&quot;,&quot;ADCE&quot;,&quot;5D9B&quot;,&quot;FA88&quot;,&quot;27D1&quot;,&quot;CDAC&quot;,&quot;BC2F&quot;,&quot;4CE3&quot;,&quot;692C&quot;,&quot;747B&quot;,&quot;C92C&quot;,&quot;CC19&quot;,&quot;332A&quot;,&quot;F5FF&quot;,&quot;4E68&quot;,&quot;6795&quot;,&quot;1569&quot;,&quot;3F52&quot;,&quot;CF99&quot;,&quot;DCC5&quot;,&quot;7FBF&quot;,&quot;7115&quot;,&quot;5D6D&quot;,&quot;760A&quot;,&quot;5D89&quot;,&quot;19E6&quot;,&quot;A2A4&quot;,&quot;A7B9&quot;,&quot;5C59&quot;,
+
+ RNS of X(8)+M is
+&quot;9935&quot;,&quot;2CF4&quot;,&quot;3E0E&quot;,&quot;89AE&quot;,&quot;FA34&quot;,&quot;BEC0&quot;,&quot;713F&quot;,&quot;FBB5&quot;,&quot;D609&quot;,&quot;7A45&quot;,&quot;6AA2&quot;,&quot;77F2&quot;,&quot;E5F9&quot;,&quot;B61E&quot;,&quot;F79C&quot;,&quot;E4F5&quot;,&quot; 1BF&quot;,&quot;C51C&quot;,&quot;3069&quot;,&quot;894B&quot;,&quot; 70A&quot;,&quot;21DA&quot;,&quot;D243&quot;,&quot; DE5&quot;,&quot;B274&quot;,&quot;7906&quot;,&quot;85C7&quot;,&quot;3C5A&quot;,&quot; 50C&quot;,&quot;54E7&quot;,&quot;5F1B&quot;,&quot;1A9D&quot;,&quot;2237&quot;,&quot;C858&quot;,&quot;B72D&quot;,
+
+ X(9)=D1238420FC1177F86026039EDAA70F2EAE6D02E5F8B3676A732DE6EF8C11B888
+ X(9)=214146CA7B9D115A51E2F43FB041DB6523B05AE71212009D673B1FC879C6206
+ X(9)=E1FF491D13BC1AD59D7D2739F7C58590B52B7A26A4B0382E5A34DF41E1EF2AA8
+RNS of X(9) is
+&quot;D3DA&quot;,&quot;3504&quot;,&quot;BA5A&quot;,&quot; F65&quot;,&quot;D38A&quot;,&quot;F390&quot;,&quot;3E86&quot;,&quot;ADCE&quot;,&quot;5D9B&quot;,&quot;FA88&quot;,&quot;27D1&quot;,&quot;CDAC&quot;,&quot;BC2F&quot;,&quot;4CE3&quot;,&quot;692C&quot;,&quot;747B&quot;,&quot;C92C&quot;,&quot;CC19&quot;,&quot;332A&quot;,&quot;F5FF&quot;,&quot;4E68&quot;,&quot;6795&quot;,&quot;1569&quot;,&quot;3F52&quot;,&quot;CF99&quot;,&quot;DCC5&quot;,&quot;7FBF&quot;,&quot;7115&quot;,&quot;5D6D&quot;,&quot;760A&quot;,&quot;5D89&quot;,&quot;19E6&quot;,&quot;A2A4&quot;,&quot;A7B9&quot;,&quot;5C59&quot;,
+
+RNS of X(9)+M is
+&quot;9935&quot;,&quot;2CF4&quot;,&quot;3E0E&quot;,&quot;89AE&quot;,&quot;FA34&quot;,&quot;BEC0&quot;,&quot;713F&quot;,&quot;FBB5&quot;,&quot;D609&quot;,&quot;7A45&quot;,&quot;6AA2&quot;,&quot;77F2&quot;,&quot;E5F9&quot;,&quot;B61E&quot;,&quot;F79C&quot;,&quot;E4F5&quot;,&quot; 1BF&quot;,&quot;C51C&quot;,&quot;3069&quot;,&quot;894B&quot;,&quot; 70A&quot;,&quot;21DA&quot;,&quot;D243&quot;,&quot; DE5&quot;,&quot;B274&quot;,&quot;7906&quot;,&quot;85C7&quot;,&quot;3C5A&quot;,&quot; 50C&quot;,&quot;54E7&quot;,&quot;5F1B&quot;,&quot;1A9D&quot;,&quot;2237&quot;,&quot;C858&quot;,&quot;B72D&quot;,
+
+AFFINE of X(8) is:
+AFFINE of X(8) is:
+
+
+10P coordinates are:
+X(10)=49CA2A8728121D021E38155E8BACA79ABC4B338E8B54821BB076C118AF44CFE9
+Y(10)=3A069846A5140A3E2433771802AD160B0AF1F599CD2552D75E7562657F2D714
+Z(10)=CFF8049193CCF8DD7C4157CAD6E0D0F31111E6E84BE23FBC7877DA34E456ED28
+RNS of X(10) is
+&quot;A74B&quot;,&quot;36FD&quot;,&quot;27E8&quot;,&quot;A0A9&quot;,&quot;BE73&quot;,&quot;952F&quot;,&quot;8C63&quot;,&quot;E468&quot;,&quot;  40&quot;,&quot;F93A&quot;,&quot;9725&quot;,&quot;5D94&quot;,&quot;2A9C&quot;,&quot;881A&quot;,&quot;31B8&quot;,&quot;9D9A&quot;,&quot;8EA7&quot;,&quot; 3A4&quot;,&quot;B82F&quot;,&quot;A1E0&quot;,&quot;402B&quot;,&quot;9024&quot;,&quot;EA0B&quot;,&quot;5F7D&quot;,&quot;ED3D&quot;,&quot;E643&quot;,&quot;C9FA&quot;,&quot;9F47&quot;,&quot;2253&quot;,&quot;354B&quot;,&quot;D918&quot;,&quot;DE9F&quot;,&quot;DD09&quot;,&quot;5B02&quot;,&quot;1DD2&quot;,
+
+ RNS of X(10)+M is
+&quot;6CA6&quot;,&quot;2EED&quot;,&quot;A801&quot;,&quot;1E85&quot;,&quot;E51D&quot;,&quot;605F&quot;,&quot;BF1C&quot;,&quot;35B8&quot;,&quot;78AE&quot;,&quot;78F7&quot;,&quot;D9F6&quot;,&quot; 7DA&quot;,&quot;5466&quot;,&quot;F155&quot;,&quot;C028&quot;,&quot;1107&quot;,&quot;C449&quot;,&quot;F9C0&quot;,&quot;B56E&quot;,&quot;352C&quot;,&quot;F61E&quot;,&quot;4A69&quot;,&quot;A97E&quot;,&quot;2E10&quot;,&quot;D018&quot;,&quot;8284&quot;,&quot;D002&quot;,&quot;6A8C&quot;,&quot;C78B&quot;,&quot;1428&quot;,&quot;DAAA&quot;,&quot;DF56&quot;,&quot;5C9C&quot;,&quot;7BA1&quot;,&quot;78A6&quot;,
+
+ X(11)=2A8BF094E2D9982339BFFF41E0B7E29CBCE774642D42E2AE08289F0291C0F6C2
+ X(11)=4B32F3D80A9F6FEB86883EB88136750E183D5F1BFEAA02EA063F441269A0F223
+ X(11)=E1CFCEB0580BA446FD0D4B1BDEC1927754EC803626BC9240796346F8D10FF86
+RNS of X(11) is
+&quot;A74B&quot;,&quot;36FD&quot;,&quot;27E8&quot;,&quot;A0A9&quot;,&quot;BE73&quot;,&quot;952F&quot;,&quot;8C63&quot;,&quot;E468&quot;,&quot;  40&quot;,&quot;F93A&quot;,&quot;9725&quot;,&quot;5D94&quot;,&quot;2A9C&quot;,&quot;881A&quot;,&quot;31B8&quot;,&quot;9D9A&quot;,&quot;8EA7&quot;,&quot; 3A4&quot;,&quot;B82F&quot;,&quot;A1E0&quot;,&quot;402B&quot;,&quot;9024&quot;,&quot;EA0B&quot;,&quot;5F7D&quot;,&quot;ED3D&quot;,&quot;E643&quot;,&quot;C9FA&quot;,&quot;9F47&quot;,&quot;2253&quot;,&quot;354B&quot;,&quot;D918&quot;,&quot;DE9F&quot;,&quot;DD09&quot;,&quot;5B02&quot;,&quot;1DD2&quot;,
+
+RNS of X(11)+M is
+&quot;6CA6&quot;,&quot;2EED&quot;,&quot;A801&quot;,&quot;1E85&quot;,&quot;E51D&quot;,&quot;605F&quot;,&quot;BF1C&quot;,&quot;35B8&quot;,&quot;78AE&quot;,&quot;78F7&quot;,&quot;D9F6&quot;,&quot; 7DA&quot;,&quot;5466&quot;,&quot;F155&quot;,&quot;C028&quot;,&quot;1107&quot;,&quot;C449&quot;,&quot;F9C0&quot;,&quot;B56E&quot;,&quot;352C&quot;,&quot;F61E&quot;,&quot;4A69&quot;,&quot;A97E&quot;,&quot;2E10&quot;,&quot;D018&quot;,&quot;8284&quot;,&quot;D002&quot;,&quot;6A8C&quot;,&quot;C78B&quot;,&quot;1428&quot;,&quot;DAAA&quot;,&quot;DF56&quot;,&quot;5C9C&quot;,&quot;7BA1&quot;,&quot;78A6&quot;,
+
+AFFINE of X(10) is:
+AFFINE of X(10) is:
+
+
+12P coordinates are:
+X(12)=CBE7880B28CD1C075219F7078E2D173CB9482D4D60C93F60E24AF90BEE09F30D
+Y(12)=C564A7C07058653D16B72918F74CEB70933F2EF19E077C844E203523AFA876AB
+Z(12)=EE27186D7941200525C667BBB6A3D4C94B92E9B2B01A15F8F1037BAEC7F7913F
+RNS of X(12) is
+&quot;5345&quot;,&quot;CCA5&quot;,&quot;B318&quot;,&quot;D101&quot;,&quot;8F74&quot;,&quot;241D&quot;,&quot;2EE0&quot;,&quot;2FE6&quot;,&quot;30BC&quot;,&quot;85C5&quot;,&quot;8A71&quot;,&quot;E0B0&quot;,&quot;7C6C&quot;,&quot;D75F&quot;,&quot;4322&quot;,&quot;6743&quot;,&quot;9AA6&quot;,&quot;7C05&quot;,&quot;616B&quot;,&quot; 7FB&quot;,&quot;16AC&quot;,&quot;326C&quot;,&quot;C6A5&quot;,&quot;CEED&quot;,&quot;4AE8&quot;,&quot; E24&quot;,&quot;AF8D&quot;,&quot;3722&quot;,&quot;2577&quot;,&quot;D6A8&quot;,&quot;5F89&quot;,&quot;2C87&quot;,&quot;6122&quot;,&quot;200C&quot;,&quot;2DBE&quot;,
+
+ RNS of X(12)+M is
+&quot;18A0&quot;,&quot;C495&quot;,&quot;36CC&quot;,&quot;4EDD&quot;,&quot;B61E&quot;,&quot;EBC6&quot;,&quot;6199&quot;,&quot;7DCD&quot;,&quot;A92A&quot;,&quot; 582&quot;,&quot;CD42&quot;,&quot;8AF6&quot;,&quot;A636&quot;,&quot;43AF&quot;,&quot;D192&quot;,&quot;D7BD&quot;,&quot;D048&quot;,&quot;7508&quot;,&quot;5EAA&quot;,&quot;9878&quot;,&quot;CC9F&quot;,&quot;EA06&quot;,&quot;8618&quot;,&quot;9D80&quot;,&quot;2DC3&quot;,&quot;A7E0&quot;,&quot;B595&quot;,&quot; 267&quot;,&quot;CAAF&quot;,&quot;B585&quot;,&quot;611B&quot;,&quot;2D3E&quot;,&quot;DE7E&quot;,&quot;40AB&quot;,&quot;8892&quot;,
+
+ X(13)=F9597A54E8F072FB6AEEB2B6427E9432B20743518FDF6CF2A79ABF0489ACD9E1
+ X(13)=A5EA8253F92B9F3192ED6D01E9DC3399738A3E8EEB71246747ED5FCDAD6946AE
+ X(13)=77D0D06F3DC9142437A362CD0728FA0360A3C9429D5619136C3E2E21464BD5E3
+RNS of X(13) is
+&quot;5345&quot;,&quot;CCA5&quot;,&quot;B318&quot;,&quot;D101&quot;,&quot;8F74&quot;,&quot;241D&quot;,&quot;2EE0&quot;,&quot;2FE6&quot;,&quot;30BC&quot;,&quot;85C5&quot;,&quot;8A71&quot;,&quot;E0B0&quot;,&quot;7C6C&quot;,&quot;D75F&quot;,&quot;4322&quot;,&quot;6743&quot;,&quot;9AA6&quot;,&quot;7C05&quot;,&quot;616B&quot;,&quot; 7FB&quot;,&quot;16AC&quot;,&quot;326C&quot;,&quot;C6A5&quot;,&quot;CEED&quot;,&quot;4AE8&quot;,&quot; E24&quot;,&quot;AF8D&quot;,&quot;3722&quot;,&quot;2577&quot;,&quot;D6A8&quot;,&quot;5F89&quot;,&quot;2C87&quot;,&quot;6122&quot;,&quot;200C&quot;,&quot;2DBE&quot;,
+
+RNS of X(13)+M is
+&quot;18A0&quot;,&quot;C495&quot;,&quot;36CC&quot;,&quot;4EDD&quot;,&quot;B61E&quot;,&quot;EBC6&quot;,&quot;6199&quot;,&quot;7DCD&quot;,&quot;A92A&quot;,&quot; 582&quot;,&quot;CD42&quot;,&quot;8AF6&quot;,&quot;A636&quot;,&quot;43AF&quot;,&quot;D192&quot;,&quot;D7BD&quot;,&quot;D048&quot;,&quot;7508&quot;,&quot;5EAA&quot;,&quot;9878&quot;,&quot;CC9F&quot;,&quot;EA06&quot;,&quot;8618&quot;,&quot;9D80&quot;,&quot;2DC3&quot;,&quot;A7E0&quot;,&quot;B595&quot;,&quot; 267&quot;,&quot;CAAF&quot;,&quot;B585&quot;,&quot;611B&quot;,&quot;2D3E&quot;,&quot;DE7E&quot;,&quot;40AB&quot;,&quot;8892&quot;,
+
+AFFINE of X(12) is:
+AFFINE of X(12) is:
+
+
+14P coordinates are:
+X(14)=E5E8F39D77766C3081A69312633F3A7D5FEC1173EA9D36209F0FE0EBC56A2DBC
+Y(14)=26B1B774EA27236E1A8455BF04CC007507EC52F021672AE54800FEBF13DF8351
+Z(14)=98848A7CE36D962D781E2877CE89FA215717BD1A3F6A88320C406517774485D4
+RNS of X(14) is
+&quot;5D3F&quot;,&quot;47D3&quot;,&quot;C684&quot;,&quot;2F92&quot;,&quot;C679&quot;,&quot;80AD&quot;,&quot;9F28&quot;,&quot;1E94&quot;,&quot;B0B7&quot;,&quot;5D20&quot;,&quot;BBBA&quot;,&quot;F87A&quot;,&quot;1944&quot;,&quot;8849&quot;,&quot;19A8&quot;,&quot; E6D&quot;,&quot;85E8&quot;,&quot;6203&quot;,&quot;D823&quot;,&quot;C54F&quot;,&quot;1D08&quot;,&quot;5D7E&quot;,&quot;59CB&quot;,&quot;7492&quot;,&quot;5055&quot;,&quot;  23&quot;,&quot;E98B&quot;,&quot;5AFD&quot;,&quot;7601&quot;,&quot;7F75&quot;,&quot; C15&quot;,&quot;1595&quot;,&quot;9704&quot;,&quot;1FFD&quot;,&quot;355D&quot;,
+
+ RNS of X(14)+M is
+&quot;229A&quot;,&quot;3FC3&quot;,&quot;4A38&quot;,&quot;A9DB&quot;,&quot;ED23&quot;,&quot;4BDD&quot;,&quot;D1E1&quot;,&quot;6C7B&quot;,&quot;2C8A&quot;,&quot;D984&quot;,&quot; 1D6&quot;,&quot;A2C0&quot;,&quot;430E&quot;,&quot;F184&quot;,&quot;A818&quot;,&quot;7EE7&quot;,&quot;BB8A&quot;,&quot;5B06&quot;,&quot;D562&quot;,&quot;589B&quot;,&quot;D2FB&quot;,&quot;17C3&quot;,&quot;193E&quot;,&quot;4325&quot;,&quot;3330&quot;,&quot;99DF&quot;,&quot;EF93&quot;,&quot;2642&quot;,&quot;1DA0&quot;,&quot;5E52&quot;,&quot; DA7&quot;,&quot;164C&quot;,&quot;1697&quot;,&quot;409C&quot;,&quot;9031&quot;,
+
+ X(15)=660805D4DEDE1E0A0E43151AD820C0F7B5EBE90E04DC6D6D7BF4B0A5768E04A7
+ X(15)=39EE9939EE37696DF3B46597710D83DA4C66E8B370ABE398889AD97754C37EB7
+ X(15)=3AFC83D5993884775B4E988334CDFE38A0DBF1C350CA5F623664E56DB27BCAA6
+RNS of X(15) is
+&quot;5D3F&quot;,&quot;47D3&quot;,&quot;C684&quot;,&quot;2F92&quot;,&quot;C679&quot;,&quot;80AD&quot;,&quot;9F28&quot;,&quot;1E94&quot;,&quot;B0B7&quot;,&quot;5D20&quot;,&quot;BBBA&quot;,&quot;F87A&quot;,&quot;1944&quot;,&quot;8849&quot;,&quot;19A8&quot;,&quot; E6D&quot;,&quot;85E8&quot;,&quot;6203&quot;,&quot;D823&quot;,&quot;C54F&quot;,&quot;1D08&quot;,&quot;5D7E&quot;,&quot;59CB&quot;,&quot;7492&quot;,&quot;5055&quot;,&quot;  23&quot;,&quot;E98B&quot;,&quot;5AFD&quot;,&quot;7601&quot;,&quot;7F75&quot;,&quot; C15&quot;,&quot;1595&quot;,&quot;9704&quot;,&quot;1FFD&quot;,&quot;355D&quot;,
+
+RNS of X(15)+M is
+&quot;229A&quot;,&quot;3FC3&quot;,&quot;4A38&quot;,&quot;A9DB&quot;,&quot;ED23&quot;,&quot;4BDD&quot;,&quot;D1E1&quot;,&quot;6C7B&quot;,&quot;2C8A&quot;,&quot;D984&quot;,&quot; 1D6&quot;,&quot;A2C0&quot;,&quot;430E&quot;,&quot;F184&quot;,&quot;A818&quot;,&quot;7EE7&quot;,&quot;BB8A&quot;,&quot;5B06&quot;,&quot;D562&quot;,&quot;589B&quot;,&quot;D2FB&quot;,&quot;17C3&quot;,&quot;193E&quot;,&quot;4325&quot;,&quot;3330&quot;,&quot;99DF&quot;,&quot;EF93&quot;,&quot;2642&quot;,&quot;1DA0&quot;,&quot;5E52&quot;,&quot; DA7&quot;,&quot;164C&quot;,&quot;1697&quot;,&quot;409C&quot;,&quot;9031&quot;,
+
+AFFINE of X(14) is:
+AFFINE of X(14) is:
+
+
+16P coordinates are:
+X(16)=ABDFBDE3FDFE4845E814F8949D51DA90B37A25989C80E4399CF6249FEAED4EF2
+Y(16)=48F48D4AF6FF28359635A1C776A47832D8FBC1433BA904ED4D2CA306B7BFD032
+Z(16)=4CA9A978BFEBDD2ACA83C5D39E51CA031575DE0493AF0A046EFCF07E04424578
+RNS of X(16) is
+&quot;D770&quot;,&quot;D4CD&quot;,&quot;DB12&quot;,&quot; 3D3&quot;,&quot;51AF&quot;,&quot;91CA&quot;,&quot;ED9E&quot;,&quot;3247&quot;,&quot;AC3F&quot;,&quot;AD20&quot;,&quot;EA8C&quot;,&quot;54AF&quot;,&quot;7440&quot;,&quot;D069&quot;,&quot;3063&quot;,&quot;2AA5&quot;,&quot;C2DD&quot;,&quot;E901&quot;,&quot;70CD&quot;,&quot;C758&quot;,&quot;C56F&quot;,&quot;4651&quot;,&quot;53FD&quot;,&quot;5E50&quot;,&quot;34AE&quot;,&quot;47F4&quot;,&quot;5697&quot;,&quot;BADD&quot;,&quot;55A5&quot;,&quot;E8E0&quot;,&quot;D15C&quot;,&quot;9DDA&quot;,&quot;53AC&quot;,&quot;35D0&quot;,&quot;7360&quot;,
+
+ RNS of X(16)+M is
+&quot;9CCB&quot;,&quot;CCBD&quot;,&quot;5EC6&quot;,&quot;7E1C&quot;,&quot;7859&quot;,&quot;5CFA&quot;,&quot;23C2&quot;,&quot;802E&quot;,&quot;2812&quot;,&quot;2CDD&quot;,&quot;30A8&quot;,&quot;FBBA&quot;,&quot;9E0A&quot;,&quot;3CB9&quot;,&quot;BED3&quot;,&quot;9B1F&quot;,&quot;F87F&quot;,&quot;E204&quot;,&quot;6E0C&quot;,&quot;5AA4&quot;,&quot;7E11&quot;,&quot;  96&quot;,&quot;1370&quot;,&quot;2CE3&quot;,&quot;1789&quot;,&quot;E1B0&quot;,&quot;5C9F&quot;,&quot;8622&quot;,&quot;FADD&quot;,&quot;C7BD&quot;,&quot;D2EE&quot;,&quot;9E91&quot;,&quot;D108&quot;,&quot;566F&quot;,&quot;CE34&quot;,
+
+ X(17)=9DD6FC4AEBC0E2A956A552B624161626C75E0F0A11727FC766E1DB4B37C4C821
+ X(17)=C1A411C00F66F4886B9E4FFA56D0DD5C3CEB449FC5764C5C8DC4705D8A09D87B
+ X(17)=C22D3E799B9F17704C501DAB129789F387ED08F3F1BEAEA4E998F03FA0BDEF89
+RNS of X(17) is
+&quot;D770&quot;,&quot;D4CD&quot;,&quot;DB12&quot;,&quot; 3D3&quot;,&quot;51AF&quot;,&quot;91CA&quot;,&quot;ED9E&quot;,&quot;3247&quot;,&quot;AC3F&quot;,&quot;AD20&quot;,&quot;EA8C&quot;,&quot;54AF&quot;,&quot;7440&quot;,&quot;D069&quot;,&quot;3063&quot;,&quot;2AA5&quot;,&quot;C2DD&quot;,&quot;E901&quot;,&quot;70CD&quot;,&quot;C758&quot;,&quot;C56F&quot;,&quot;4651&quot;,&quot;53FD&quot;,&quot;5E50&quot;,&quot;34AE&quot;,&quot;47F4&quot;,&quot;5697&quot;,&quot;BADD&quot;,&quot;55A5&quot;,&quot;E8E0&quot;,&quot;D15C&quot;,&quot;9DDA&quot;,&quot;53AC&quot;,&quot;35D0&quot;,&quot;7360&quot;,
+
+RNS of X(17)+M is
+&quot;9CCB&quot;,&quot;CCBD&quot;,&quot;5EC6&quot;,&quot;7E1C&quot;,&quot;7859&quot;,&quot;5CFA&quot;,&quot;23C2&quot;,&quot;802E&quot;,&quot;2812&quot;,&quot;2CDD&quot;,&quot;30A8&quot;,&quot;FBBA&quot;,&quot;9E0A&quot;,&quot;3CB9&quot;,&quot;BED3&quot;,&quot;9B1F&quot;,&quot;F87F&quot;,&quot;E204&quot;,&quot;6E0C&quot;,&quot;5AA4&quot;,&quot;7E11&quot;,&quot;  96&quot;,&quot;1370&quot;,&quot;2CE3&quot;,&quot;1789&quot;,&quot;E1B0&quot;,&quot;5C9F&quot;,&quot;8622&quot;,&quot;FADD&quot;,&quot;C7BD&quot;,&quot;D2EE&quot;,&quot;9E91&quot;,&quot;D108&quot;,&quot;566F&quot;,&quot;CE34&quot;,
+
+AFFINE of X(16) is:
+AFFINE of X(16) is:
+
+
+18P coordinates are:
+X(18)=D51D0E7644BD23A87B6CDFD7AC58FDAD11A1B4170989050020C329440FCE465E
+Y(18)=82ADE39D49C5D809B9EF4111A04ED0B0672B1016E0A50E4A611DC92E1D68C2A
+Z(18)=860171F28A8A2CF3C8AFBA1DAE78276B2617E7E4E0B4F7CE4C6FF5EE196EF575
+RNS of X(18) is
+&quot;5BB0&quot;,&quot;1A12&quot;,&quot;166C&quot;,&quot;9051&quot;,&quot;F9F4&quot;,&quot;1FFF&quot;,&quot;1E7E&quot;,&quot;D344&quot;,&quot;7BF7&quot;,&quot;E96D&quot;,&quot;506B&quot;,&quot;B278&quot;,&quot;7BC4&quot;,&quot;B107&quot;,&quot;74C9&quot;,&quot;4401&quot;,&quot; 8CD&quot;,&quot;59B7&quot;,&quot;77A8&quot;,&quot;5E20&quot;,&quot;E95B&quot;,&quot;E862&quot;,&quot;7782&quot;,&quot;42D5&quot;,&quot;9356&quot;,&quot;477F&quot;,&quot;D5C2&quot;,&quot;897E&quot;,&quot;AF4A&quot;,&quot;C727&quot;,&quot; AD2&quot;,&quot;5268&quot;,&quot;66B6&quot;,&quot;9280&quot;,&quot;6AC3&quot;,
+
+ RNS of X(18)+M is
+&quot;210B&quot;,&quot;1202&quot;,&quot;9685&quot;,&quot; E2D&quot;,&quot;242B&quot;,&quot;E7A8&quot;,&quot;5137&quot;,&quot;2494&quot;,&quot;F465&quot;,&quot;692A&quot;,&quot;933C&quot;,&quot;5CBE&quot;,&quot;A58E&quot;,&quot;1D57&quot;,&quot; 63E&quot;,&quot;B47B&quot;,&quot;3E6F&quot;,&quot;52BA&quot;,&quot;74E7&quot;,&quot;EE9D&quot;,&quot;A1FD&quot;,&quot;A2A7&quot;,&quot;36F5&quot;,&quot;1168&quot;,&quot;7631&quot;,&quot;E13B&quot;,&quot;DBCA&quot;,&quot;54C3&quot;,&quot;56E9&quot;,&quot;A604&quot;,&quot; C64&quot;,&quot;531F&quot;,&quot;E412&quot;,&quot;B31F&quot;,&quot;C597&quot;,
+
+ X(19)=E0167B8C16DCD332BA9E52BA2CB4E7B7F448B816FC9EC11088F20CB3C0226136
+ X(19)=1BF3F38E9BDD53329284CE61165ED46B4B8F62A41E7CDEC872E2779F72763BF9
+ X(19)=A5F6DAF0999A04DE32FAC2AE1CE7D778CB602B5F8B148CD52FF14C5A35E1FEE4
+RNS of X(19) is
+&quot;5BB0&quot;,&quot;1A12&quot;,&quot;166C&quot;,&quot;9051&quot;,&quot;F9F4&quot;,&quot;1FFF&quot;,&quot;1E7E&quot;,&quot;D344&quot;,&quot;7BF7&quot;,&quot;E96D&quot;,&quot;506B&quot;,&quot;B278&quot;,&quot;7BC4&quot;,&quot;B107&quot;,&quot;74C9&quot;,&quot;4401&quot;,&quot; 8CD&quot;,&quot;59B7&quot;,&quot;77A8&quot;,&quot;5E20&quot;,&quot;E95B&quot;,&quot;E862&quot;,&quot;7782&quot;,&quot;42D5&quot;,&quot;9356&quot;,&quot;477F&quot;,&quot;D5C2&quot;,&quot;897E&quot;,&quot;AF4A&quot;,&quot;C727&quot;,&quot; AD2&quot;,&quot;5268&quot;,&quot;66B6&quot;,&quot;9280&quot;,&quot;6AC3&quot;,
+
+RNS of X(19)+M is
+&quot;210B&quot;,&quot;1202&quot;,&quot;9685&quot;,&quot; E2D&quot;,&quot;242B&quot;,&quot;E7A8&quot;,&quot;5137&quot;,&quot;2494&quot;,&quot;F465&quot;,&quot;692A&quot;,&quot;933C&quot;,&quot;5CBE&quot;,&quot;A58E&quot;,&quot;1D57&quot;,&quot; 63E&quot;,&quot;B47B&quot;,&quot;3E6F&quot;,&quot;52BA&quot;,&quot;74E7&quot;,&quot;EE9D&quot;,&quot;A1FD&quot;,&quot;A2A7&quot;,&quot;36F5&quot;,&quot;1168&quot;,&quot;7631&quot;,&quot;E13B&quot;,&quot;DBCA&quot;,&quot;54C3&quot;,&quot;56E9&quot;,&quot;A604&quot;,&quot; C64&quot;,&quot;531F&quot;,&quot;E412&quot;,&quot;B31F&quot;,&quot;C597&quot;,
+
+AFFINE of X(18) is:
+AFFINE of X(18) is:
+
+
+20P coordinates are:
+X(20)=A60388D27A90E87C09821E74BD4FE5E3D30E6E7C4CC00D97B0FA1D790E902699
+Y(20)=DD402A2620719CBFB0493BF7DF23FC4587A35D30742FB4CAD84BD0044E6348D9
+Z(20)=894D008171E723EFC5C7DC26E3083CFB5AC821E2A92A66C8C7E571A893CB6DBE
+RNS of X(20) is
+&quot;19E7&quot;,&quot; 5CC&quot;,&quot;B839&quot;,&quot;F5F0&quot;,&quot;9C99&quot;,&quot;51B7&quot;,&quot;B8E5&quot;,&quot;AF23&quot;,&quot;DF43&quot;,&quot;8E55&quot;,&quot;1AA9&quot;,&quot;18A1&quot;,&quot;451A&quot;,&quot;26DD&quot;,&quot;747A&quot;,&quot;D12E&quot;,&quot;1506&quot;,&quot;B121&quot;,&quot;2A70&quot;,&quot;CACA&quot;,&quot;C7B0&quot;,&quot;628A&quot;,&quot;5350&quot;,&quot;6720&quot;,&quot;54C8&quot;,&quot;E7FE&quot;,&quot;DB4D&quot;,&quot;35B0&quot;,&quot;4FC4&quot;,&quot;EBBB&quot;,&quot;8F96&quot;,&quot;289F&quot;,&quot;E5AA&quot;,&quot; 3E9&quot;,&quot;16A9&quot;,
+
+ RNS of X(20)+M is
+&quot;DB9B&quot;,&quot;FA1D&quot;,&quot;3BED&quot;,&quot;73CC&quot;,&quot;C343&quot;,&quot;1CE7&quot;,&quot;EB9E&quot;,&quot;  73&quot;,&quot;5B16&quot;,&quot; E12&quot;,&quot;5D7A&quot;,&quot;BFAC&quot;,&quot;6EE4&quot;,&quot;9018&quot;,&quot; 5EF&quot;,&quot;449B&quot;,&quot;4AA8&quot;,&quot;AA24&quot;,&quot;27AF&quot;,&quot;5E16&quot;,&quot;8052&quot;,&quot;1CCF&quot;,&quot;12C3&quot;,&quot;35B3&quot;,&quot;37A3&quot;,&quot;843F&quot;,&quot;E155&quot;,&quot;  F5&quot;,&quot;F4FC&quot;,&quot;CA98&quot;,&quot;9128&quot;,&quot;2956&quot;,&quot;653D&quot;,&quot;2488&quot;,&quot;717D&quot;,
+
+ X(21)=2F64DD7FB2C1F20BC92ED0A73BC6597AD14226841C0BBF2AD77A0B726D2EFD5B
+ X(21)=5B4C3DCD33DFA2798E68357374136B3B40AA9D9240BED1FBF643C01C2DC15F30
+ X(21)=F3CDE4AEC484D88D1DFEDF5D71ACB6290116EA12367EB4DB7A947C18C589C8E8
+RNS of X(21) is
+&quot;19E7&quot;,&quot; 5CC&quot;,&quot;B839&quot;,&quot;F5F0&quot;,&quot;9C99&quot;,&quot;51B7&quot;,&quot;B8E5&quot;,&quot;AF23&quot;,&quot;DF43&quot;,&quot;8E55&quot;,&quot;1AA9&quot;,&quot;18A1&quot;,&quot;451A&quot;,&quot;26DD&quot;,&quot;747A&quot;,&quot;D12E&quot;,&quot;1506&quot;,&quot;B121&quot;,&quot;2A70&quot;,&quot;CACA&quot;,&quot;C7B0&quot;,&quot;628A&quot;,&quot;5350&quot;,&quot;6720&quot;,&quot;54C8&quot;,&quot;E7FE&quot;,&quot;DB4D&quot;,&quot;35B0&quot;,&quot;4FC4&quot;,&quot;EBBB&quot;,&quot;8F96&quot;,&quot;289F&quot;,&quot;E5AA&quot;,&quot; 3E9&quot;,&quot;16A9&quot;,
+
+RNS of X(21)+M is
+&quot;DB9B&quot;,&quot;FA1D&quot;,&quot;3BED&quot;,&quot;73CC&quot;,&quot;C343&quot;,&quot;1CE7&quot;,&quot;EB9E&quot;,&quot;  73&quot;,&quot;5B16&quot;,&quot; E12&quot;,&quot;5D7A&quot;,&quot;BFAC&quot;,&quot;6EE4&quot;,&quot;9018&quot;,&quot; 5EF&quot;,&quot;449B&quot;,&quot;4AA8&quot;,&quot;AA24&quot;,&quot;27AF&quot;,&quot;5E16&quot;,&quot;8052&quot;,&quot;1CCF&quot;,&quot;12C3&quot;,&quot;35B3&quot;,&quot;37A3&quot;,&quot;843F&quot;,&quot;E155&quot;,&quot;  F5&quot;,&quot;F4FC&quot;,&quot;CA98&quot;,&quot;9128&quot;,&quot;2956&quot;,&quot;653D&quot;,&quot;2488&quot;,&quot;717D&quot;,
+
+AFFINE of X(20) is:
+AFFINE of X(20) is:
+
+</Text-field>
+</Output></CodeEditor-ExecGroup></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L7" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJStleGVjdXRhYmxlR0Y0Ri8=</Equation></Text-field>
+</Input>
+</Group></Presentation-Block>
+</Worksheet>

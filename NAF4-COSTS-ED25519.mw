@@ -1,0 +1,1144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2017" minor="1"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="true" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" preplot="" helpbrowser="standard" contextmenusize="automatic" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1080" rtablesize="10" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" elisiondigitsthreshold="10000" showassumed="1" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L1" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW5HRiQ2JFEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRidGLw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbW5HRiQ2JFEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block><CodeEditor-ExecGroup view="presentation" hide-input="false" inline-output="false" labelreference="L2" applyint="true" applyrational="true" display="code"><EC-CodeEditor id="CodeEditRegion0" expanded="true" visible="true" pixel-width="500" pixel-height="844" code-language="text/maple" autoexpand="true" wrapping="false" show-border="true" code-line-numbers="true">
+A := rand(2^254+1..2^255-1): ##255 bit scalar
+AVR := 0:
+PA:=690:
+PD:=370:
+PR:=10:
+w:=3:
+N:=200:
+for j from 1 to N do
+CST:=0:
+B:= A():
+i := 0;
+while B &gt; 0 do
+if (modp(B,2) &lt;&gt; 0) then
+   a(i):= mods(B,2^w):
+   B :=  B- a(i):
+else
+   a(i) := 0:
+end if;
+ i := i + 1:
+ B:= B/2:
+end do;
+
+for k from i-1 to 0 by -1 do
+	printf( &quot;%d&quot;,a(k));
+end do;
+printf(&quot;\134n i=%d \134n&quot;,i);
+printf(&quot;\134n\134n&quot;);
+for k from i-2 to 0 by -1 do 
+	if (a(k) = 0) then 
+		CST:= CST+PD+PR:
+	else 
+		CST:= CST+PD+PA+PR:
+	end if:
+end do:
+CST := CST + PA+PD + 2*PR:
+AVR:= CST+AVR:
+printf(&quot;cost:= (%d,%d)\134n&quot;, j, CST);
+end do:
+printf(&quot;\134n\134n&quot;);		
+printf(&quot;average = %f &quot; , AVR/N);
+</EC-CodeEditor>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">100-30000100100100-100-100300300-10000100100-3003000-100-30000-10000-100-10000-300000-1000100000-1003000-1000-1000-300300-100000300100000-1000-100100100000100000100100-100-30003000-30000-1000000010000-100-100000-100000000-100-30000-3000300000000000000300-300-100100-300-3003003000000-100010
+ i=256 
+
+
+cost:= (1,139380)
+30001000-100010010003000-1000-100-300-3000-100-100100000100-300-300-3003000030010000-10001000-300000300100-100003000000300-100-300030001000300-30010000-30003000-100-30000300010000030000010000-30000-3000-300100-100-3000030000000000100-1000-300300000000000-10001003003000-100000010001
+ i=254 
+
+
+cost:= (2,138620)
+1000-100-3001000000-300-30030000-30000000000-1000030000000300-10000-300-30000-100-100000003000-1000-1003000-300000-10000-10000-3003003003000000-300100-3000003000-300-300300-300-3000100-10000-30000-300001000300-3000100100000-10001000-10000300010003000-3000000-1003000300-30000000100-300-1000
+ i=256 
+
+
+cost:= (3,138000)
+1000-100-30000100100-100100100300-3000100-1000010000000-10003000300-300-30000-1000100001000-300-3000000300003000300100-30000100300-30003000-30000-3000-300-10000-1000300-1000300-10001000300000100-30001000000-300-10030010010000300-300-300300-3000-100-100000000100-300-100030000-100300100-10
+ i=256 
+
+
+cost:= (4,142830)
+3003000000-1000100003000003000100100-10003000300-3000-10003000-100300-100300-300-100-1000-3001001003000-100-3001000-1001000-10001000000010000-1001003000-300-1000003000300-100-3000-10000100-10000100-100-300100300-10000-1003000-3000100-300030000-300300-10000001000-100000000100030001001
+ i=254 
+
+
+cost:= (5,142070)
+1000-300000-10000-100-3000000-3000300030003000100100-300000300030000-3000001001001001001000-3000-3001000-100300-100100000-100-1000100-100000000300300100300000100100-300-100100-3000300300100000100-300300100-3000-3000-1000-1001000-30000300-100030030030030000-300-100-1000-300-3000100-300-1
+ i=256 
+
+
+cost:= (6,144210)
+100-100-100-100000030010030010030030030003000100-3000-10000-30010000300300001000000-1000-30000100-100001003000-100300030030001000-1000-300-100-10000-10010000-10000-100-1000000-1001000-1000300100-300-1001001000-100-10003001001000-300100000-100300-100-1000300300000100-10000-1000000030003
+ i=256 
+
+
+cost:= (7,143520)
+1000-3000000-3000-30030003001000-3000010030010000010003003003000100300100300000-3000300-1001000001001001000300300-300-30000300-100-10000-1003000-30003000000-100-100000-100-30000-100030000100-100-300100-300-3003001000010000010003001000-300-30000100-300-3000100001000300-1000300030001
+ i=256 
+
+
+cost:= (8,143520)
+100100-100-100100003003001003000100-1000000-3003000-100000-100300001000000300000-3001000-1000030030010000100030001003000100300-3003001000000300100-1000-1000-300001000-300-3000000000-30000-1000-300003000-1000-30000-30003000-300-1000100010000-300-3000-100-300-3000-30000100000010003003
+ i=255 
+
+
+cost:= (9,140380)
+100-1001000-100000100-300-3000-1000010010000000000300000000-3001001000-100-3000100100300300-10000-30000-3000-1000100-1000100-30010000-1000-1000-100000-3000-30000100-10000001000000030000-100300030000-30000-100100100000001001000-300003000-100-300300-300100300-3000-100010000100-100-300-3001
+ i=256 
+
+
+cost:= (10,140760)
+100-10000100-300003001000-300-10003000100000010000-30030000030000000300300000300300-10000-300000300-300300030030000-300000100000300000300030001000000-10010000-3000100100100001000-300100-1001000100-3000100-300-1000300-100100100100-1000100100-100000100100300-3000003003003000000
+ i=256 
+
+
+cost:= (11,140760)
+100-100000-100300-100-100010000010001000-300100-300100-300030030000-10003000000-3003000010003000300000300-100-100300-30000-100300100-100000-100100-1001000010010000-1000000-100300-3000000-3000-30000300-300100-3000-30000-30010030000-3000300100-3000000000-10003000-3000010000-1000030003001
+ i=256 
+
+
+cost:= (12,141450)
+10000-30030003001000-1000-10000-100-100-1003000-1000000-30000-3000-30010000-100000100030003001001003000-3001000-300-10030000-3000300-100-300-1000001001000-300300-3000-300-300003000-300-1000-300100300-1000-30000-100010000300300-100000000100000000-300300-30000000000300-100003000-30030000-300
+ i=256 
+
+
+cost:= (13,140760)
+1000-30000-1000-300100000000300-1000-30030030000-100001003000000300300000300-3000-30000100-1003000100-300000-3001000300300300-3000000001000000100000-3000-100-100-3000100-100010030000-30003000000-300100100-3000-300-1000000000-300-30003001000300-300000300003000100000-100-100-100300300-1
+ i=256 
+
+
+cost:= (14,140070)
+10000-300300300100-100100000-3000003001000300-100000300100300000-10000100300-100100100-100001000300300-300-100000100-1000300100300100010001001003000-100-30000100-100-1000-3001000-3000-100-10010010010030030001000-30000-300-30003000-1000-100300-30010000001001001000-300-100-3001000000-3
+ i=256 
+
+
+cost:= (15,145590)
+1000000100-30003000100-300-100000-1000-300100100000-30003000-3003001000-3000000300-300-10000-100-300-1000030000-300100010000300-30000-100100100-1000000030001000-3000-300-100-300100000-100000300-30001003000100001000300300030000-1000-300300100-300-3000-100-100-3000-300100100001000-3000010
+ i=255 
+
+
+cost:= (16,141760)
+3001000001001001000-100100-300300030030000300-3001000030010010000000-1003000-300-3000010000-10030001000-300-300030000-3000-300-30000-300300-3000030000003000-300-300100-3000-3000100-30001000-1000-300-1003001000-10000100100-1000000-300-100100000300-100300000300000001000-3000100100-100
+ i=254 
+
+
+cost:= (17,141380)
+3000300100-100000100010000-300-300100-100300-100300-10000010000000100100001000-10030000010000-1000100-3000-30000-100-300-3003000100-100-100-100-10030000-30000-300-300000-10000-300-10000000-3000100000-1000000100-100-30010000010000300100-300003000100-300100300-30000300300300-3000300-300-3
+ i=254 
+
+
+cost:= (18,141380)
+100-300001000-100-30000-1000100-100000-3000300030000100-1000100300-300-30010000-10010030000-100-300-10000000300000100-1000-10000-300030003003003000-100-1000-1001000100-1000100100300-300-100000-30000-300-1000300100-30000-300300030003000100100-300-30000-300000-300001001001000100-1000-10000-3
+ i=256 
+
+
+cost:= (19,143520)
+100-1001000300-3000001000100-10001000-1000-300-300-100-300030000-100-100-30010000000100100-1000010000000100300000-30010000-10000001000001000-1000-3000-100-100-100-300100-100-300000300-100100-1003000300-100300-100100000-100000-300-300-3000300-100300-300-30000000000-3000-300-300100-3000-10000-300
+ i=256 
+
+
+cost:= (20,142140)
+3000-300000003000300-100-1000300-100010000300-300-10000-10000-300-3000000-100-300100300010003000-1003000000-10003000-300-30010003003000000300-3001003000-100-30000-1000-1000003000-3000300000030001003000100300-30001000030003000-100-300300000-1000-3000-1000-100-1000300003000-300-30000000
+ i=254 
+
+
+cost:= (21,139310)
+1000-3003000-300-100-3000-3000100-100030030010000000-30030010000100001001001001001003000300000-1000-10000300300-100000100100-300300-1000-1000030000100-100300000-100000000-3000000300100100-1000-1001000-100-30000000300000100000-300003001000-1000100100100000-100001001000-100-30000010
+ i=256 
+
+
+cost:= (22,140760)
+3000003000-300-300-10003000100003000300300-3000100000-1001003000-1001001000100300-1000300001000300-300-1000100-100000010000-3000100-10000-100100-300-1000-30030003000000-100-1003000-3000-100000-300003003000-3000-10000100-10000-30000-1003000-3000-3000000300-100-300-3000-100-3000030010000-1
+ i=254 
+
+
+cost:= (23,141380)
+100100000-100010003000-300-3000-300300030000-1000100-100-300-100100001003001000-1000-1000-10000001000-1000000300-1000-300-1000300-100000-100-1003000-1000-100100-100-100-300030000-300-10000-100-100001000000100-300-3000001001000100-300000030001000100003000-300-3000-100100-300-3001000-30030001
+ i=255 
+
+
+cost:= (24,142450)
+100-3001000-300000-300-1000-3003001001000-300-30000300003000-300010030003000-1000000300-3000000-100001000100030000300100030000-30003000100-1000000003000003000000010000-3000-300-10000-30001000-300-1000-300003001000-3003000-300-300-1000-300300-1000-100-300300100-1000-1000300-30000-10003000
+ i=256 
+
+
+cost:= (25,140760)
+1000-30003000010003001000-1000100000-100300300-10000001003000-10000-1003000300-100-3003001000-1000-3000300300-1000000-3001003000-3000-30003000-300-3000000-300300000-300-30000-100-1000-100-10003003000100000-300100100010001000-100-300-1000000-300-3001003000-30000-1000-30000000-100-30000-10001
+ i=256 
+
+
+cost:= (26,142140)
+300300-3000-30000000-100-300-30000-10010000-100-3000-300300-300-300-10001000-3000-3000100-100-1000000-3000010001000-1001000-30010000300-300-3000-30001000100-100-3001000010030000000100100300-10000300100-300003003000100-100-3000-100-100100-10000-30010001001000100000-3001000-100-10003000000-3
+ i=254 
+
+
+cost:= (27,142760)
+100-10000100-1000000300-100100000100300-1000-100-30010003000000100100003000000-1000100-100-100-100030030000000000-300001000-300-1000-100-30010010000-3000-3003000-300300100-1000-1000-100-1000100-1001001000100-300-1000-300100-30030000-300300-30001003000-10000-100-3000-300000-300300-100-1000-300
+ i=256 
+
+
+cost:= (28,143520)
+1000-100300-3000-1001000-10000010000-100000003000-3000003000-3000-30000-3000-100-30000-30000100000-3001000-300-3001000-1000-100-3003000-300-100000100100-300-1000000100100000-10000-300010000001000-3000100010000-1003000-300-100-300-1000-3000030000-100-1000100-300-1003000300100100300300-100-3000
+ i=256 
+
+
+cost:= (29,141450)
+100-300-30000-30001000-300000-3001000-3000030000-10030030000-300-1000-30010000000-100000100-300300000-300100030000-300-3000300-300-1001000003000000100-30000000100-100-300000-1000-10000-1000-30030000-100-300030003000100100-10000300-300030030000-30000-100100-300-100-3003000-1000-100-3000100001
+ i=256 
+
+
+cost:= (30,141450)
+300-1000-30003003000300100-300-1003000000000-30000010003000-10000001000-100300100000-100000-300000-300030000-100300-100-1001000-3000-1000100000000001000300000-1000-3003000-300000001000030010010000100-3000000-3003000030003000001000100001000000000000-300010000-3000-300-100100-3003
+ i=254 
+
+
+cost:= (31,135860)
+100-300100-30000-30030010000300-10000030000-3000000-30000-300-300-1000-30000-1000-10003000100300003003000-100300300-100000-100-3000000001003000-30001003000-300-10030003000-300000-100100300100-300010030000000030030000300030010030000100-30000-10003000-10030030000300300-30001000001001
+ i=256 
+
+
+cost:= (32,142140)
+1000100-3000100-100-1000-10000-1000100000300-10001001000000300-100-100-3000-3000-3000-30000300-300-3000-3001000300-300100000-100300030000-3003000-100-10000-300-1000100100003000-100000300000000000-10000100000300300100000-30010010000001000-300-1000-30000010001000000300000010000-300-300-3
+ i=255 
+
+
+cost:= (33,139000)
+100-10000-30000300300000300300030000000-100-10000-1000000-1003003000-1001000100-1000100010003000-3000100-1000030001000-30010003001001003003001000300-30000100000100300000-10001001000003000-100-300003003003003001000100300300-300300100-10000010000-300-100-300300-10003000-300300001
+ i=256 
+
+
+cost:= (34,143520)
+300000-300100-30000-100000-300-300300100-30000-1000-300300100-10000100100-300-3001000-3000-1000100-3001000-1000-30000100-300-10001000100-30000300300003000300010000-300003003003000000001000100-300-300-10000300-300-100100-300-300100-1000-10000100000-1000-300300-100100-30000-3001003000-10001
+ i=254 
+
+
+cost:= (35,143450)
+3000-3000300000010000000-300100010001000100300000-100300-10000300-300-3000000-300000-1000000100-3000300300-10000010003001000-100000030000003000-300-1003000000001000000-10030003000300010030000-300-3000-100-100100000030030010000300-300-300-100030010000300300-300000100-100001000-1
+ i=254 
+
+
+cost:= (36,137930)
+1000-300-100-10000-300-1001000100-100-10030001000-100000100100100100010000100-300-10000-300-300003003001000003000003000300-100000100300-300-30001000-1003000-3003001000300-300-3001000100-3000300-100100-3000100-300-30000100000-1001001000-100-3000030010001000000030000100-100-10010000100-3
+ i=256 
+
+
+cost:= (37,144900)
+100-1000-10000300-300-300-3000300-1000300000100-300-100100-300300000000100100000-30030030030001000-100-3003000-100-300-300100300100000-300000-3003000-3003000-30010000001000-100-100-100000-100-100-300100100-100-300-10000000000300100300300100-300-100000100000-30003000-300-100000-100100300-100
+ i=256 
+
+
+cost:= (38,143520)
+1000-300-1000030001000-300-100100300300-300-100-3000100100100-10000-10010000-1001000-100-100300100100300300-1000003000100003000100-30000-30000030000-100300300-300-300100-3000-100100-3000000-100-10003000-1000003000100-100000-100-30000000-100-300100030000100003000-30010000-30000100300000-3
+ i=256 
+
+
+cost:= (39,143520)
+1003000-30000-30003001000-100-1001000-1001000-30000100000100-30000300-30000-3000-300-100-30000-100-10000-300300-30030000000003000-1000-100100-300100300000-3000100-10000-100-3000001000000100010000100100-300-3000000-30000100-1001000-10000-100100100-3000000100-3000300300100000000-3000-3000-3
+ i=255 
+
+
+cost:= (40,140380)
+10010000-1000000-300030010030001000-1000001000300300-1003000000-300-1003001000-100003000-1003000300-100100030030000-300300100300000-1000100-30000-1000-100000-1000-100300-1001000100003000-100-3000-300-300-300-300-1001000-3000-1000-300-1000-300-300-3000000100000-1000010000100300-1000-30000-3
+ i=255 
+
+
+cost:= (41,142450)
+1003000100300100-3000000-300000000-300-1001000300100001000-300-300010001000100-1001001000000001000-100010000-10030000100003000300010000-3000-10001000300-30010000-300010001000000-3001000-100-1001003000-300001000000-300030000300-3000-10000-3003000-100-300-10000-300-1003003000-3000-100
+ i=255 
+
+
+cost:= (42,140380)
+300-3000-300000100-10000-1000-300100300001000-1003000-10000100010000-1000100000-30003003003003000300-300100-1000-1003003000100000300-1001000-3000-10000100-100-300100-300-3000100-10000300300100-3000-300000-10000-30000300-100-3000-300100-3000-300-10000-30000100-1000-300-100-1000-30000100-3000
+ i=254 
+
+
+cost:= (43,142760)
+100-30010010000-300-10000300-100100300300-300-3001000000010000100-100-3000000100000-100003000-100300-100-100-1000-3000-1003000-300-100-10000100030000010030000010000-300-100-100100010000-30001001000-100003003000000-30001003000-3000003000-100-1000030010000-3000-10010010000-300000-300-300-10
+ i=256 
+
+
+cost:= (44,142140)
+30003000100300100-1000-100-300-3000-300001000100000-100300-10000100100-1000-100-100-300100100-300010010001001000100-30000-1000-30000-10003000300-30003000-100-300-300300-1000-100300-10000000-300-300-300300-30030010000030000-300-100-100000-1000-1001000-100-30030000100-1001003000-3000-10000-300
+ i=254 
+
+
+cost:= (45,144140)
+10003000000100003001000-300-300-100-100-1000000-100-1000-300100300100-300-300030000-100-100-100300-1001000-300-100-300-3000-30030030010030003001000-100000-100-300100000300000001000-300-300000-100030003000-1000300-3003000030000003000000-30030030001000-3000-300000-100300-1000000-300-300-300-3
+ i=255 
+
+
+cost:= (46,142450)
+100-10000000-300001000010000-100-100-100-30000000000001000003000-1000000003000-100000-100-300100300100010000300010030000-1000-1003000300000-3003000-100100300-30000001000-3000300-3003000000003000-10010000-1000-10000-3000000100-300010001000300300-10000-30001000-30030010000-10000-300-10
+ i=256 
+
+
+cost:= (47,138000)
+10010000-100000-300000-1000100000-300-300300-100-3003001000100300-3000-100100-300030001000300-3000100000100030000100100000300030000-1001000000-100-1000-1003000100000-300030000-1000-100-300300000000003003000100003001000-3000300-300100-1000-300-3000100-300-100-10000-300-100-300-3000300-10
+ i=255 
+
+
+cost:= (48,141760)
+1000000-300-3000-1000300000100-300-100000-3001001000-300300100030000-300100-1000000-300-300100-100-1000-300100-3000000-3000100300001000-3000-10000100-100100030000000300300-1000-10000300000030000-100-100-1001001003000-100-30000-300-1000-300-100300-100-300-1000100-100-100300-30000-10010001000-30
+ i=256 
+
+
+cost:= (49,143520)
+1000010000300-1000-30000000-3000-300030010003000100-300-300-100000-1000-300000100300001000-1003000300030000-1000-100300010010010000-100-30003000-30000300-30000000003001003003000300-10000300001003000-100010001003000300-100000-300001001001001000000-100-30030010000100000-30030000-1
+ i=255 
+
+
+cost:= (50,140380)
+1000-300-3000-100100000100010000000-300003000-300-100-1000-30030003000030030000100-10030010000300-1000000-30010010000-1000001000-1000-100-10001000-300000-10001000-1000-1001003003001000-3000-300-300300-100000-300-30000100010001000-30000-30000100000000-3000-1000300-1003000300000100100030
+ i=256 
+
+
+cost:= (51,140760)
+3000-30000-300-300-30000000100300000000-1003000-10000-100300100-300-300000-1000000300100-3000-3000000100000-3000-100300-1003000-3000-100001000100-100000010000-10000-300-300-10000030000010001000-100-300300003000-3000300003000300300-100000300000-300-1000300100-10000-1000100100010030000
+ i=254 
+
+
+cost:= (52,137930)
+30000-100300-100-3000100-1000000-300-100100000-3000-300-100-100100-1003003001003001001000100100000-1000100-300000-300000100-300000-30000-1000100-300-100-300030000-3000300100300-300300100-3001001000-30000-10000000000-300-3000-300100000-300000-3003003003000001000300-100100030010000-300-30
+ i=254 
+
+
+cost:= (53,142070)
+1000-100010010000-300-1000-100-3000010000-3000-30000-300-3000-3000000-100300-300-1003000000100-300010030030030000300100-1000300-300-1000300010000030030000100-300-300-30000-1000-1000-300-100003000-3000003000030000-300010003001000-100-10000100-300-30003000100-1000100000-3000000100-3003000-10
+ i=256 
+
+
+cost:= (54,142140)
+100000-30000-3003000000100-3000300-1001000300-1003000001000000-300-1003001003000-1000-300-10000030000-300-300-3000-100300-300000000100010010000010000-30010010000100-100-3000100-100-1000300100300300001001000000300-100-10000-100100-30000-100030000-10003000-100100003000-100001000-100300-1
+ i=256 
+
+
+cost:= (55,142140)
+100-3000000-3001001000-3000-300-300-100000300-1000000-100300-3000-3000000000-1003000030000300-300-1000-10000000-100-300-3000000100-3000100-10001000-300-100-1000100010000100100100100-300-30001000010000100-100300-100300100030000-100-300000010000-100300-300-3001003000-3000-30000100030000-100-3
+ i=256 
+
+
+cost:= (56,142140)
+1000-300000-30003001001000-10000-300030000-300000003000000100300000030000-1003000-30001000-300-300003000-1003000-30030010003001000010010000-100-10000003000-300-100100000300-300-100300-100003000-1001000100-30000-1000100-10010000-300-300-300000-300-30000300-100-300010003000000300000000-3
+ i=256 
+
+
+cost:= (57,140070)
+100001000010000100010000-3000-3000100-3000300100-100030000-300-300-1003000-300100-30001000-1000-100-300-30030010001001000-100100003000100-1000-300030000100100300100-100000-10000-100-10003000100300000300300300-3000100000300100000100-3000-100100000000100-30030001000001000-100100030
+ i=255 
+
+
+cost:= (58,142450)
+3000-3000300-30000-100300100300-300-100030000100000000100-100-1003000100300300001001001000-100030000000100-30030000-300-3000-10000-100300-100-300-100003000100003001000300000300-100-30003000300-300-1003000-300100001000-100001000-1000100300-3003000300-3000300030001000-30000-100-1000-1
+ i=254 
+
+
+cost:= (59,142760)
+1000300000-10003000-10003001003000-100-300000-1000010003000100000-100300-3001000-300-100-10000-3000030001000300300-100100003001001000-300-3000030030010010030000300100-3001000030010000100-30030003001003000-100-100000100000000300000000001001000010000-3000000-300003000000-300001
+ i=255 
+
+
+cost:= (60,139690)
+100-3003000-1001000030000-300-100003000000-100100300001000300-300100100-300000300030010000100-300-300000-100030000-30000-100-1001000100003000000-3000-3000100000-3000300-100-300-100-1000100-100-30000-1000-10010010030000001000-1000-10030000-1003000-100300-3000100000100030030000001000010
+ i=256 
+
+
+cost:= (61,141450)
+100-100-100-100100100300100-300030000-3000000-300000000-1003000003001000300-10030000-100-1000-10030030000-30001000-30000-300-3000000000-100-10000-3000000-300100-300300000-3001003000010030000010003000-10000000-10000-100-300-300001000-300100-100000-1000000100100000003000030000-3003000-100
+ i=256 
+
+
+cost:= (62,138690)
+10000-1000300000-100-3000-100-10000100000-10000000-1001000-30001000-30000-30000-3003000-100-1001000-100000-300100030030030000-30000-30000-100-100-300000-1000-3001000-30000-10001000-100010003003001000-1000100-10010000-3003000030000000-100-10000-300300300-10010000-30000000000-3000100100-100-10
+ i=256 
+
+
+cost:= (63,140070)
+1000100300-100-300-300-30001000-100-30003000100-3000-1000-30003000-3000000-3000-100-100-300-300-100100-3000010003000-300-1000-3000-300300100-100-10000-300000-100-300-30001000-300-100001000100-100-300-1000300300-100-300003000-100-3000000-1000100-3000-300-100-10000300100300-1001000-10000300030001001
+ i=255 
+
+
+cost:= (64,145210)
+100-100-1000-100-10000-100-300-100300000-3000300100100-100300-30010000-300-1003000300-300000010000-1000100-100000-300003000-10000-1000300300-300030003000-100001000000300-30000003003001000300300030030010000003000300000000-300-10030000300100-1000-30000-100100-3000-1000-30010000-10000-1001
+ i=256 
+
+
+cost:= (65,142140)
+1001000300300-300-30000010001000000-100010010003000-10001000100-300000-10000300-3000-300030000-100-1000-1000000-30030010000-1000030000010001000-100-30000-3000-3000300-30003000030000100-300-300000000000-100-100-10000-1000300000-3001003000-30003000300100100300-300-100-300300300-10030001
+ i=255 
+
+
+cost:= (66,141070)
+3000-300-30000300-300-100-3000300300-1000100100-300001001000-300-30001001000003000100-3000000-100300000-1000300-30000-100300-300100-100000-3000300-3003000-1000-30000-100100100-10000010000100000300-3000-100300-100300-300300-10000000100300-300-100-300300-100-300-30030000-10000-1000100100100
+ i=254 
+
+
+cost:= (67,143450)
+300003000-100300-300-300-3003003000-100300100-100-10000100300300100-100300-100100-300010003000-1000-3000-100-300-100300010003003000000001000-10000300300300-3000300000-100-100-100-300000001000000100300100100300100-100-300-10030000-300-3001000100300-1000000001000-30000300-100000300010
+ i=254 
+
+
+cost:= (68,143450)
+10000000-300000100003000-100-10000100000003000300300-10000-100003003003001000-100-10000000-1000-1000100-1001001001003000-100-100000-30000-30000300-100-10001000-300-30030000-30000-3001000-300-30001000100300-1001000300000-300-1003000-300100-10030001003000300100-30000000-100-300100-300-100-1
+ i=256 
+
+
+cost:= (69,142830)
+30010000100-300-100000000-30000100-30030030000-1000001000100-100000100300-30030000300-1003003000-3000300300-1000100-30000000001000000-3000-1003000300-100001000000100-100001000010000030000010000001000000-1000003000300-300100-100300-3001000-10030000100-1000030001001000-30010001
+ i=254 
+
+
+cost:= (70,138620)
+1001000000-30000300010000000000000300300100100-300-100300000100-3000-1000000-30000-1000-100-3000-30000300300300001000300-1000-300000300-100030000000000000003000-1000100-100-300100000100000100-300-100-30010030001000-100300-100-1000003000-3003001003000-300-1000-300-3000000-10000300000
+ i=255 
+
+
+cost:= (71,137620)
+1000-300000-300-10000-1000001000-3000010001000-1000-30003000-10001000-10000-300-100001000000100-10001000-3001000-100000-300-30030000030000-10000300-3000-100010000-100300100-3000-3000-1000-10010000-1000-100-100-300000100300-100-100000001001000-3001000300-1000-300-1001000-300-30000000100000-300
+ i=256 
+
+
+cost:= (72,140070)
+100-300-1001000-300100100-1000100-300-3000000-3000010000000-3000000-1000-100-300-30000-300100000001003000-1000300001000-100-1000-100100-100000-30010003000-100-100-300000000100-1001000010000-100300-10003000300-300-1000-100-300000-300300300000300000-3000-100300-300300-300000000-100-30003003003
+ i=256 
+
+
+cost:= (73,141450)
+30000300000-300-300-10010000300003000000010003003000-3001000003000000010000-300300-100030000100-10000-30003000100030000-300000003000-300-10000-100300-100-3000100300300-10000300-3000-10030003000300010001003000-300-3003000000-100-30000300000-10000000-1000-3000100-10000000100300300
+ i=254 
+
+
+cost:= (74,137930)
+10000-100-30001003000-3000003000-3000-3000-100-10000000-3000300-1000-100100300-1000-30000-3000-300-300-300001000030000000-300-100-3001000-100-3000-300-100000000010000-10000-30001000300000300-300-300100003000100-300100000-1000-100100-3000-300-3000000-10000000-300-300003000-10000-100-30010030000-1
+ i=256 
+
+
+cost:= (75,140070)
+100-300000-300000300030000-3000100-300000-300000-300300-300-100-3000003001003000-100-300-3003003003000-1000001000100100-100100-10000-100-3000-10030000100300-100-10003000100100-3001000-10000-10003000-100-3000000-300300300100-300-300-300-30010000000000-3001000-100000-300001000100000-30001001
+ i=256 
+
+
+cost:= (76,142830)
+1000100300100-300300300000000100-100300-30030010000000000-3000100010000300003000100-100-3000-300-300-300300-300-300100-3001000100300-1000-100000-30000300-100100003000-1001000-3000010000030000300003003000000300000-30000300-300-3003000100000300000-300-10030030000-3000003003000-300-1
+ i=255 
+
+
+cost:= (77,141070)
+1000-1001000-10010000-3000-3000100-100-1000-3001000-300003000030000100030010003000300-1003000300-30000000-30003001000000-300-3001000-1000001000-100-300100-100-10000-10010000-10000-30030030000003000-3000000100100-100-100001000300000300-30000300300-300000-1000000-300000300-300-1000000000
+ i=256 
+
+
+cost:= (78,139380)
+1000-10010000300-300-100-10001003000001001001000-3000010030000300001000-30003000100100100-30000-3000-300100-3001000300-3000-100000100300-300-3000-3000-300-100100-3000-100-10000-10003000-10010000100-3000000-300-300-1000-30000-30000100300000100300100-3000100-100000-1003003000-30030000-30010
+ i=256 
+
+
+cost:= (79,144210)
+100-10000-300300100-3000-3003003003001000000-300003000-100-10030030000100-100-3000-30010000-100010000-100000-1000000030000100000-10000-100-300-100000300-3003000-100100100-100100-3000000-3000001003003000000-3000-100030010001000003000-100000-100300100-300100-300-100100300-1000100-10030001
+ i=256 
+
+
+cost:= (80,142830)
+30030000300003000300100100-3000-1003003003000100-3000-30000100100-10030010000100-300100000000000000000-3000-10000000010010010001000-3000300300-3000-300300-30003003000100-3000300001000-3000000-3001000300000000-300-100-100-3000300-300-300000000-30030003000-3000001000300030000003
+ i=254 
+
+
+cost:= (81,138620)
+100-30000-1000-1003000100-30000100100100100-10000300-3000000-1000-10000-300300030000300300-10000100-100003000-100-10000-3003001000-300-300300-3001000100-100-10000100300-300300100-100000-300010030000000100100-30000-1000300300-30030003003000-100300-300-100-3000-10000000300000000010001003
+ i=256 
+
+
+cost:= (82,143520)
+1000-30000100-30000000-10000100100000030000-300-300-3000100100-300-1000-100-3000000300000300-10000-300-300300-100001000-10030001000300000030000100-300-3003000000-1000-10000000-3001000-30003000030030001000001000100-300-10000-30000000100300010000-100-100300-10000000-100100300000-100-100-3
+ i=256 
+
+
+cost:= (83,139380)
+10001000000-100-10000-100-1000-3000-1000-30001000-1000-300000300-1000100300000-10000-100300-10003000300300000-300100300100-100-100000-10000-1000-1000300-3003000300-1001000-300-300-10000100300000100000000-30003003000100003003000300010000000-100-300-300100000-100100-3000-1000-100-3003000-30
+ i=255 
+
+
+cost:= (84,141070)
+300000-100-300300100000-100-3000000003001000000001000-300-100-1003000000300100300-100000-1001000-300-300300-1000-100-30001000-300000030000-1003000000-300300-1000100-300300300-1000-3000-3000100003001000100000000-300-300300-10000-3001000100-300030000000-3000-100-10001000000100-300003000
+ i=254 
+
+
+cost:= (85,138620)
+10000-30000-3000-10000100-100-100100000-1000000300100000-1003000-100000000-100300-1000300300-10000100300001003001001000-10000300300300-3000030000030030000-10001000-100300-3000-100000-300-300-3000300-100003000100100300000-300-10010001000100030000-300-300-300300-3003000300000-300-100-100
+ i=256 
+
+
+cost:= (86,142140)
+100100-30000-300-3000000100300-30030000-1001000-3000-30000-100-300010003003003000100000-100000-3000030010030010000003000000000000100-100-100-30000300010000100-300010000300300-30003001000300-1003000-30010000-100000-100100-300300-1000300300000100000100000300030000-100000100300-300
+ i=255 
+
+
+cost:= (87,139690)
+1000-3003000-100100-300100-1000000003001000100003000100-30003000-300-3000000-1000-100-300100300-300-10010000-100100-1000-10030000-100-10030000300100-3000-3001003000100-300-1000-30000300-30000-10000-1000100100-30010001003000-300-10000-1000-3000-300300-3000-10010000-100-100010030030010003000-3
+ i=256 
+
+
+cost:= (88,145590)
+300300-3000300-30003000-1000-300100300000-300-10000000-100-10000000-300-100100-300000010000030001001001000-30000-10001000030010000300100100300300100300-100-100001003000100-10000-300100300-300-100-10003000-3000300300-300300-3000003001000300-100-30000030000-1000-100300300-100-300-1000-1
+ i=254 
+
+
+cost:= (89,143450)
+100-100-1000-3000-3000003000-30030000300-3000000000300-10003000100010010010000003000100300100-100-300-300-300-1000100-100-1000030000100-100000-3000000000-10001000-1000-100-100000003003000-300-3000-300-300-10000100-100100100300000-30000-3000300-100000010030000-100-3000100-30003003000-3000-3
+ i=256 
+
+
+cost:= (90,141450)
+1001000010030001000100-10000300-3000100000000000300-100-30030000-300100100000-100-3003000-300-300100-100000100000300300-10000001000300000-300-1000100-10000100000000100-10000-30000300-1000010000-300-300-10030000100-300300-100-3000-100100-300-30030003000000100010000100-1000300-300000-1
+ i=255 
+
+
+cost:= (91,140380)
+100-100000300000001000-10000000300-3000-100-300-1000-1000-1000-100-100100100300000-300-10000300-3000100-3000-1000-300010003000100-1000-30000-100-300-300-10030000-1001000100100-30000100-1000100000-300000-300003000100-300-100000-100-100-3000-300-3000000000-3000-30000000-10000-3000030000-1000-10001
+ i=256 
+
+
+cost:= (92,140070)
+1000-3000000100-300100-30000-100-1000-300-300300000-100-100-1000-3000-1000000300300300000100-1000100300-1000100-30000000300-100100001000000-100000300-300-300010000-100-300-3000000-3000-3000-100000-300100100-300-1003000-3000300000100-30003003000000003000-10010030000300-3001000-30003000300-1
+ i=256 
+
+
+cost:= (93,141450)
+100-1000100-100000003000000000300010003000100100100100-1000-30000-100-300-100-1000-3000100000000-30000-10000-10000-300001003000-3003000-30010001000-1003003000300-1000300010000-1000-1000000300-300100-3000100-300300-30010000-100-1000001000-300-1000100300300-100-30000100000300300-10000-100
+ i=256 
+
+
+cost:= (94,141450)
+100300-1000-100-300000-1000-3000-30000-3000-100001000-3000-3000-300-3000-100010000-300000-3000-100-10000-10010000-100000-30003000-10000-100-1000-10001000300100-300-100300030003000030010000001000300-300030001000-30030000-300100300-3000000-30003000100-100100-1000000-100-3000100003001000-10010
+ i=255 
+
+
+cost:= (95,141070)
+1000000100-10030003000-1000-3000000300-300000-300-1000000-100-100000-300-300-300-3000300-100-300-300100-100030000100-30000000-100000300100000-100-300-3000-10000000-300-100-300300100-300-1000-10010000100-100300100300-30010010001000000-3000300-10003000100-300000000-10000300100000-100300-10001
+ i=255 
+
+
+cost:= (96,141070)
+100-3000300000300-300-300100300-3000-100010000100-1000-100010030001000000000-100-1001000000-100-3000001000300-10003001000000300-100000100-30000-100-1003000-10000300100300-100-30000-100003000-10000-3000-30030000-300-100-300300000001000100-3000300-1000-3001000-3000100-300030003000100-1000-1
+ i=256 
+
+
+cost:= (97,142140)
+300-30030000100300100100-300100-10000-30000100-100001000100300-300-3000100-100-1001003003000000000001000030000000000-3000-100-1000-100-300-100000-300000000100000-3000000-300-1000300300100100-10000300-100-300-1003000-1000010003000100000-1001001003000300-30000-300100-30010000000-30001
+ i=254 
+
+
+cost:= (98,140000)
+100-300100-30030000300001000-300-30000300-3000-100-300-300000100-100000300-30000100300000-100010010000-100300-100-3000030000100000100-100000-300300030000100-30000-100-100300100100-1001003000030030010000-3003003001000000300-1000003003000100300-300100000300100100-30000300-300-100100-3
+ i=256 
+
+
+cost:= (99,144210)
+100-1000-300-1000-100-1000300-1000-10000300100-300100-1001000-100001001000100-30000000100-100100300000300-100-300000-1000-100100-1000-100000300100000300-300-300300-100010000100-10000-3000000-3000000-3000-3000000300-3003000300-100-100010000-30000-10000-3000300-100-1000-100-1000-300000-300100300
+ i=256 
+
+
+cost:= (100,142140)
+3003000100001001000-100100030001000-300-30001000-300-100000001001000000300000100000-100-100-3000-1003000-100003003000100300300-100-300-300-300-3000-300-300-100003003000030000100000-1000300010003000000100-100100-1000-100010010000-300000-100000-30000300000000-3000-10000010000300000-3
+ i=254 
+
+
+cost:= (101,138620)
+100-10010000300-300-1000-100000-100-3000-300100-300-100-100300-100100100300-100300030010030000-1000-3000-30030000100-300-30000-100-3000-30000-100100300-300100-100-10030030000000030000300-3000100010010000003001000-300300000100100-3000-3001000003000-3000010001000-1000-30000-30030000-1000-300
+ i=256 
+
+
+cost:= (102,144210)
+100-3001000-3000-100-300100-100-1000-3001000300000-3001000-3001000300-3000100-30010000-30000300-300-3000-100-30000300-3000-300100010030000000-10000-3000100000-1000300300-10001003000000-3000003001000100100-300-100-300-300300-3000-100100-300-10000010000-100100000000-300030000000-3000100-300-30
+ i=256 
+
+
+cost:= (103,142830)
+1000-3000003000-300-100-100300300-1001000010000100-100-1003003000-100-100000-3001000-100300-300-300-30000000300300-1000300-10030000-30000000-300-300300-100000-100030003000000-30000000-300000-100-1000-1000000-100100030010000-10000000-10003000-300-1000100300-300300-300100-3000003000-300100001
+ i=256 
+
+
+cost:= (104,141450)
+100100000000100300000000-1000-1000-100000000-3001000300300100-100-30000300-3000-3000-1000300000-100300000-300300-100300300-100-1001000100000-10000300300000300-30000100000-1000030030000-3000-3000000-3000-3000-1000100-300-1001000-30000-10010010030001000100-3000003000-100000100-10000003
+ i=255 
+
+
+cost:= (105,139000)
+100100-100300000-1000300-300300300-30000-3003000000-300-1000-300-300-1001003003001000-3000-1000-300100100-100-30030010030000-300-10000000300-3000000030000-3000000000300100000-300000010001003000010000-3000-30000-1000-30001000100-1000-100000-30000-30001000100100-1000-3000-300-300030003003
+ i=255 
+
+
+cost:= (106,141070)
+1000-3000-100-300300000030000-1000003000100-100-1003000100100-10003001001001000000-10000000-10030030000-300-30000030001003000-3000100-3000300100-100000300-300100300300-10000-30010000-1000-1000000-3000-100030000100-3000100-1000-1000300-100-300-100300-100010000030000-1001000-1000-10001000
+ i=256 
+
+
+cost:= (107,142140)
+1000-100-3001000-300-1000100-100-1000100003000000300-100-300100-30003000-300-10000000003000003000-30003000100010000-1000-3000100300-30030000-100-3000100-300-30000-100010000000100010000-1000010010000-3000000100-300-30000-10000300100100-3000000100000300300001000-300-10000-30030010000030
+ i=256 
+
+
+cost:= (108,140070)
+3001000-30000010000-3000-100-300300-30001000300-30000-300-100-3000010000000-100-300100300-100-100-10000100-300-10000-3000-300-300-100-10000010001000-30000-1000-30000-1000000-3000000-30000300300-300-10000-1000-300030000-300-3003000-300010030003000-300000-3000-1000-10003000100-1001000300-300-3003
+ i=254 
+
+
+cost:= (109,141380)
+100-300-30000000000010001003000000000100-10000300003000-3001000-300-3000-30030000000-10000-300000-3003003000-30000-300100000-300-3003000010000-3003001000000-300030000-3001001000-100000-1000-3000-300-300-100000001001000100003000-3000000000-300-30010010000-3000-10000300-100300-300100-100-1
+ i=256 
+
+
+cost:= (110,138690)
+10000100-30000-3000-1003003000-1000000-10000-100-100-3001000-300000-300100-300-100100300-100-30030000000-100-300000-300300100-3000003000-3000300100300-30030000-100-1000100300000-3000-300-300-100-1001000-100000-1001000-3000-1003000000300-3000100-3003000300-1000-300-300100010000100-10000100300
+ i=255 
+
+
+cost:= (111,143140)
+100300000030000-30030000100-300000-30000-30000-100-30000100-300001003003001000000-300000010000300-100000-100-10003000-10000-3000001000300000-3003000-300-100100-30010000000-10000-10000100-30003000-30000000-100-100-30000000100-100-10000000300000300-3000100-100300000300-3003001000-300010
+ i=255 
+
+
+cost:= (112,137620)
+3000-300100-30000-10030000100010010030030010000-10000-3001000-300-1000030000300000100-100-100000-100003000000-1000000100-30001003000100-30000-100300-30000000-3000-300-100-1003000-100-30000-1000-100000100-10000300000000000001000300-100-10000-100100-30010000300-10003003000000100-10000-1
+ i=254 
+
+
+cost:= (113,138620)
+100-1003000300003000100003000-3000-3000-1000000100003000-3000-1000-3000300-1000-300-3000100010010000-30000-100000000030001001003000000-100000-300-100300000000-100-300-10030000-300100-1001001001001000-3003003000000030000300-300-30010003000000100-3000000-1000100100000-10003000-1000-100
+ i=256 
+
+
+cost:= (114,139380)
+300-300-30000300300001000-3000-100-100-300-1000000000-300-1000-3003000-300-100100100-1001001003000-300-3000300100-100-100010001003000030000-3000-1000-10000300-300300-100-100030003000-300000-1003000100-1000-1000100-1003000100-300-300-30000-100000-100010010000-30000-30000-300-1001000300010010
+ i=254 
+
+
+cost:= (115,143450)
+100-1000-3000000300000300300100000-30000-10010000003000-30001000000-300300-10000300100-300100100-3000-3000-3000-3000100-30010000003000-100-30001000-10010003003000300000030030000100-10000-3000-300-10000-1000-30000-100100-300-10000300003000-1001000030030000300-300-300-10000-10030000-10030
+ i=256 
+
+
+cost:= (116,141450)
+100300-100300-300000-10001000300000300-100100003000001000-10000-3000-100-300-100-100000-1000-100-10000100-3000-300100100-300000000300-300000300300030001000100300100-1000-10001000-100010030000-100100000100-300300-300300000-3000010003000100300-3000-300-100000030000100010010000-100-1000
+ i=255 
+
+
+cost:= (117,141070)
+100000-100100-300300300100000300-100100300-300000-100100-100300300-300-30000-300300-100-100100-3001001003003000-300-100-300000001003000-300100300-300100-300-1000100-300-1000100-3000100-100-100-1000-300100003000300-300100-10001000000-1000000-3000-10003003000000100000-30000000-100100-3000030
+ i=256 
+
+
+cost:= (118,144900)
+100-10000010003000100-3000-3003000-300-100100-3000030000-3000-30010000-1001001000300030003000-10030000-10003000300000-100-30010000300-1003003000003000-100-300030003003000300-30000010030000100100100300-300100-30000-300-300-10000100-300-100300-3000-10000-1003000300100-300-300300-100-10030
+ i=256 
+
+
+cost:= (119,145590)
+100-1000-1000-100010000-300-300-300100000-100-300000-30003000100-100-300000-1000030000-1003003000003003000-3000000-10030001000300-10000001000100-300-1000-300000-100100100000300-300-10000-3000-3000-30000-1003000300-300300-100-300-3000000-3001000-300-10030030000-1000300100000100000-100300-100-1
+ i=256 
+
+
+cost:= (120,142140)
+300030000-300-300100010003000010000-100000-300000-300-100-30010030000100300-1000-100-300000100-30030001000000001000100000300100-300000300000-300010030000030000-3003000-100000-100100-100100-10030000100-3000-100-1000-100100000-100-1000-100-10010000030000100-100-3000300-3000-10030030003
+ i=254 
+
+
+cost:= (121,140690)
+10000-30030000-1000300001000300000-10003000-3000000-100100-10001000000-3003003000-300-300-10000-1000100001000-3000300100300000001000010030000-3000-1001000-1000300030030030030000300-30000001000-100-300-100000-300-100100000-300100000300000100-30001000100-100100-100000-1000-300-30000-300
+ i=256 
+
+
+cost:= (122,140070)
+300-100-1000-100001000100300-100-3000100000000-30000100-300300-300-100010000-3000-3000-100010000-300-30000100000-100100300-300-30000000-100-30000-10000-300300-1000-1000010001003000030001000100000100-10000-30000000100-100-30003000-100-300030030000100-100-100-3000300003001000000300-100003
+ i=254 
+
+
+cost:= (123,140000)
+100100-300030000300-10000-300-100100-1000-300300-30000003000000-3001000003000-300-100-300000-1001000-3001000000100003000300100-1000-30000000000300-30003000-1000300-100300001001001000-3000300-1000300000100-300-100100300300-3000100100300000-30000000300-1000-1000-100300-3000000-100-3000-1
+ i=255 
+
+
+cost:= (124,141070)
+1003000-1000100100-3003000-30010000000000300-100-10030000100100-10001000-300300-30000-3000001000300-10001000100100-100-100300030000003000-300100001000-300030001000-100000-10000-3003000000-3000300-1000300000300-100-30000-3000003000-10001000-3000000100-30000000-10000-300-30000-10000001
+ i=255 
+
+
+cost:= (125,139000)
+100300-3000100-1001001000000000-10000000-1000100100003000100-300100010000300-300-100-1000-100100100300100-300100-300-1000003000-3000-3000000-300-1000-1003000-30010000-3001000001000-100-100-1000-30001003000030000-300010001000-10010001001000-100-1003000-300300300001000300-3000100100003
+ i=255 
+
+
+cost:= (126,143140)
+100-30000300-100-100-3000300300-100000300000-10010030001000-3000300-100300100000-3000010003003000000001000-1003000010010001000000000100001000-1000010003000100300-30000100-100100-1000-10010030003001003001003000-3000300-300000300-1000030003000-30000-100-10000100-10000300300100100
+ i=256 
+
+
+cost:= (127,142140)
+100000-30030000-10001000-30000030000300-1000-300-3001001000010000000-3000-300100-100300-3001000030030000-1000000-100-100100000010000-100100-300-10000300-10000-300-30000100000-300-1003000100-30001000030000-100-100000-100-3001003003003001000-3001000100-1000300003000-100030000003000100-10
+ i=256 
+
+
+cost:= (128,141450)
+10003000-3000-10000100-1000-1000100003000-3001000100-100-300-10003001000-100-100010003000-300000030000-100-30003001001000000030000-100-3000-100-100000300-10000100100000100-300-3000-100300-300000100-3000-30000-3003000000000-1000300100-100-1000-30000030000000-30000-1000-100-30000000100-3003
+ i=255 
+
+
+cost:= (129,139690)
+1000-10000000-1003000300010000300003000100100-100100030000-300100-1000000300300100-300300030001000-100100-100-100100300-300000000-300-10003000100-1000000300-30010001000010000-1000-100-300-30003000300001000-100100001000001001000-1000003001000-3000100300-3000300-300300100-300-300003
+ i=256 
+
+
+cost:= (130,142830)
+1000-300000-300-300-300100-10000000-1003003000-3000300001000-3001000-1000100-10010030010001001000100100000300100-100000-300-1000300-1001001003003000-1000-30003000100001000010030010000-1000-1000100000300000-3001003000100-1000-100-300000300-300-300100100-1000-300-3001000-30030001000100
+ i=256 
+
+
+cost:= (131,144210)
+300000030000-10000-300100-3000-100100000-100-10000100-1003003000030000300003000-300000100000100-1000-3003000-300100-10000-1001000030000100-1000-1000-1000-30000-100000-10000-300300-1000100-300-100000-3003000100-300010000-100100000100300010030030003000300-100-1000-3000100100000-100-300-3
+ i=254 
+
+
+cost:= (132,140690)
+100-100100-300-30000300100-3000001000-100003000-300-3000-100100-30030000-300100100-100100-100-3000100-3000-300-300000-1000-30000300100-1003003001001003001001000000-3000000300-3000100-100300100-3000-10000100-100000-10030000300000000100100100300300030000-100-300300300-300-10001000-3001003
+ i=256 
+
+
+cost:= (133,145590)
+1001000-300000010000-30000-300-3001003000-10000000001000-100-300100000300010000-100100-300-300100-100030030001000-3000-1003000-100-300-3000-300-100-100-10010000-3000-100-30001000300-3000000-300-1000000-3000-3000-10030000-10000-100001000000-3003001000000100-10030000-1000-300000-1000-100-300-300
+ i=255 
+
+
+cost:= (134,140380)
+3001000300-100030010000-300-3000-300-100000-3000300-300000-300030000-1000-30030000-1000030000-3000300-300000001000300300-30000-100-10030000010030000-100-100000300100-300100300-3000001000100-300-300-100030001000300-3000100-3001000100100-300100-3000-1000-3000-100-300-300300-300100-30000030
+ i=254 
+
+
+cost:= (135,142760)
+100300100000100-1003000300-300-1000-1000-10000300-300300010030001000-100100030003000300100-1000003000-1000-3000-1000-300-3000-300-100300-10030030010030000100-300010000100100300300300-3000-300010001000000000-10000100000300100-10000000-3001000030000000-300-100000300001000003000010
+ i=255 
+
+
+cost:= (136,141070)
+1001003003000100-30030000000-300001000100000100100-3000-30001000100030000100-3000100-100-30000-300-100010000-30030030000-300-10000-300-1003000-30000-100100-300-1000300-100030030000100000-300-300000-3000-10010000-300100-100100-30000100-30010000-300-3000-300-300000100-300-3000100030000-1001
+ i=255 
+
+
+cost:= (137,143140)
+100-1000000100-300-1000-3000-1000-300-100-1000000-300000300000-300100-1000000300-100000-10030003000100-30010000-3000-100000-30000000100100300001003000-1001000000003001000100000-10000-3000-100-10000-300-1003000000-3000-1000-300-300000300-100003001000030030010000-3000-100100-100-100300300-30
+ i=256 
+
+
+cost:= (138,140070)
+100-1000-100000-30001003000-10010010000-10000300100000-30001000000001003000-30001000-10010000-30000-100000-1000000100000-300-300300300-1000300-100-100100-300-100300-100300300000-300300-300300-3000-30010010030000100-30000100-300000003000100-3000100-1000100-30000-300-30000300000300100100
+ i=256 
+
+
+cost:= (139,142140)
+300-30010030003001000-30000030030000-1001001001003000100-300300000-100-1000-300-300000-1000030000100-30000-30001001000000-30000300010003000100100-300030000100-100100-3000010000300-100-1000-100000000-10000000000-3000-300-300-10010001000-10000300-10000100030000-1003000000300-1003000
+ i=254 
+
+
+cost:= (140,139310)
+100-3001000300-100100-300100-1000000100000-100300-1000-300300-3003000300300-100-100001000-100300-300010001000-10010010003003000000-100-300300-1000-1001000-300100-30000-100-300100-100-1000-100-1000-100300-3000000010030010030010000100100100100003001000300-100010000100-100030000-3000-100-30
+ i=256 
+
+
+cost:= (141,146280)
+100100-300-100100100300-100100-100300-3000300-10000-300000-10000-10030030030003000-300-300001000010000-300-10000-30000-30000-300300030003003001000-3000-1000000-30030010000-100000-30000000030001000-1000000-300-3000000-10000100-300030003000-100-1000000010030000300100-100-30001000100100-3
+ i=255 
+
+
+cost:= (142,141070)
+30000100-30000-300000000-30003000-100100300-1001000100-100000-30030000100-1000-100-3000-3000001000000100-3000030030000-10010000-100-3000300-30000-300-3001003000001000001001000300000-1003000010030003003000-30001000-100030000003000-300-300030001000-300-100300-1000000300001000-100003
+ i=254 
+
+
+cost:= (143,139310)
+300-3000-100300300300-30000010000-100-300300-300-1000300-1000300-30000300-3003000-100300000000-1000-30010001003000010000-100-1000-300-300000000100-10000010010030000100030000001000-100300010000000-300300-100000300-100300-3003000000100030000-300-3000-30000-300000001000300030000-1000-1
+ i=254 
+
+
+cost:= (144,139310)
+100100-300-100-30000-3000100-100300-300-10030010003003000100300-1000-3000-300-3003000-3000100100001000-3000300-100000100-3001000-30030000-30000-100-100-100100300-300300000003000000-100-10000-3000100-1000-300000-300-100100000-1003000-3000010000030000-3000-3000-10001000030000100-3000-1000100
+ i=255 
+
+
+cost:= (145,142450)
+1000100-100300100-3000001003001001001000000-100030000-100100300-100100-10001000300000010000-1000-30001003003000-300-100-100000-1000-3003000030003000-3000100100-10000000030001001000300000-1000-10010010001000-300-300-300000-3000-100-10030003000300-100-3001000-100-30000-1000-1000100-3001
+ i=255 
+
+
+cost:= (146,143140)
+100-10003000300-3001000-300300300300000000-100-1000000-30000-3001003000-3000-3000000300-10000300010010000300-300100-100300000-300300-300000-1000-10000000-100-30030010030030000100300-10000100001000100003000-10000-100-100-3000-3003000300-1003000000001000010000-300010010000-3003000-1003
+ i=256 
+
+
+cost:= (147,141450)
+100-300-300100-10030000010000300030000100300-30010010030000100-300100-300-3000030001003000-300-1000100000-100010000-10000300100-300-300-100-300-100010000300-1000100-1000-3000300-100-1001000000300100-3000000100-300-100000300-10000100-1000000100000-10000-100000-300-300-3000300100000010000
+ i=256 
+
+
+cost:= (148,142140)
+300-1001000300003000000-1000-100300030000100300-100030010000-3000000010000300-10010000010000300100-300-30000030000100-100100-10010010000-300300-100-1000-1000100-300000300-30030000-3000-1001000-300-300000100-3000300000-100300010000-100300000-30000100-100300-100010000300-300-300-100-30
+ i=254 
+
+
+cost:= (149,141380)
+100-100001001000100-100-1001000000-100-30030010000-300-10000-10000-100-100-100000-100300-100003000-30000-300001000300-100-300030003000300000-100-3000100030000-300-300-100-300-1000010000003000000100-30030030000-3000000-1000100-10000100100300100100030000000030001003000300300-10000003001
+ i=256 
+
+
+cost:= (150,141450)
+3000-300-1001000100-300-1001000300-300-300030000-3000300-1001001000-10030010000-1000000100-100-300010000030010030000-300-100-3000010000300030000-100-10000000-300300300003001003000000300100300-30000-100100-1000003003001001003000030010000000100000-100-3000300-300-30000010003000030
+ i=254 
+
+
+cost:= (151,141380)
+100300-300030010000-300-30000-1001001000000-3003000-300100-300-30030000000-30000030000-1000-10000-1001003000010010000300-1001000-30000000000000-1000010000100-1000100-10001001000100-30000-100100300000300-1000-1000000000-100-300-3000300-30000000-300-300-30003003001001000100-10000300001
+ i=255 
+
+
+cost:= (152,139690)
+10000000010001001000-100000000000000100010003000000300100000100-100-100-1003001000-3003000100100-3000-3000-30000300100-100030000003000-1000-30000-3000-300100-300-3000000-100-1003001000100000-3003000300-300100-1000000-100300-1000-3003000001000-3000-100-1000030000001000-300100100300-3
+ i=255 
+
+
+cost:= (153,139690)
+100100-10001003000000300-3000300300000100100000-3000100-100-10000000-300000-30030000100000100300300100-100-300-300-300-3001000300-3000001000000-300-100-300-300-3001000-100-100000100000-300-100100-1003000-10000000-300010000-3000300-300000-100-300100-100-30010030000-100-100-100-300-100-300-3003
+ i=255 
+
+
+cost:= (154,143140)
+10000000-1000000300100-10000-3000-1000003000001000-3001000-300000100-100000-300-100-3000-100100100-3000-30030010000300010000-100100-30010010000-100100030010000-30000000-1003001000-3000-300-1000030010010030010000000-100300000300-1003000300100000-300030000000300030001000-1000-1000100
+ i=256 
+
+
+cost:= (155,140070)
+1000000-300003000-100010000-100-1001000-3000-300001000-300-1000-10000100010010030000001000-300000-100100-10030010030000100-3000-30000-3000000000100000-1000300-30000000-1000300000300000000-300-1003000010001000-30000300-300300-3000-300100000100-100-300-10003000-100-300-30000000300-1001000
+ i=256 
+
+
+cost:= (156,138690)
+100300-30030000-10010000100030000-1001001000-300-100100-30010010000-1000-3000000100000-10000-3000-300100030003000-100300100-300100300-3000-100-300300-300-3000-3000-100-3000300100-100000-300-1000-300030000-1000000300300-100-1003000-30001000001001000100-30000003001000003001000300300-1000
+ i=255 
+
+
+cost:= (157,143140)
+3001000000100000300-300030000-100-3000100-100300-10000300-100-300-100-100000-100-1000-10000100-1001003000-100-1001000100-3000300-10030000-3000-300-100100-300-10000-10000300-100000100-300030003000003000100-3000000000-300-300-30003003000300300-100-3003000300100-100030010000100100-30000030
+ i=254 
+
+
+cost:= (158,142760)
+100-100-1000-30003000-100300030000000000300010030030003000-100300000-300-300-30010000001000-3000-300300-100000-100-100-3000010000-100-3001003003000001000100300100000000-3000-3003003000300000000-30000-1001000300-100010000-1000-100000300-300-100030010000100-300100-100-100100-30001000001
+ i=256 
+
+
+cost:= (159,141450)
+300-1000300300300-300-10000100-10030010030000-300-300100-1000-3001000010000-1000000-100300-100-1000-300-1000-300-100-300-100100010000-30001000-1000-100300001001000100-10030010000-30001000100-300-3001001000-30000100100003003000-300-100-1001001000300-10000-300-10000-100003003003000300-1000
+ i=254 
+
+
+cost:= (160,144830)
+100-3000-3003000030000-100-100100100000100-100003000-100100-1003000-300100-3000100-3000000000010003000010003003001000300-30000-100-300-300-300100001000000300001001000001000000-30000-3000-1000-100-300-100300000000300-30000-3003000-1000-100-100000-30000-30000-100000300-300000-300-1000000-10
+ i=256 
+
+
+cost:= (161,139380)
+300-1000300100-100000000-1000-100-3000100100-300010001000-300-300-1000100000300100300-100100-300300-1000000-300-100100-300-3000-1003000-10000-300-1000000-300300-3001000-100-3003001000300-300-30000-100-30001003000030010000300100-300100000300-10000300010000000-30000-3000000100-100300-30000
+ i=254 
+
+
+cost:= (162,142070)
+300000-1000001000300300-3001000-3000-100030000100000003000300100-100100-100-300-300-1000-3000100000100000-1000-10010001000300-100300001000-10010010030000010000000000100100-3003003000-100000-3000100000000-100-3000300001000-300-10000100003000-30030030000-1000030001000000100300-30
+ i=254 
+
+
+cost:= (163,138620)
+100100300-1003000-300100-300-3001003003000000-30030000-100-100-100-1003000-30000300-300-10000300-300030000000-3000-1000-3000-30001000100000030000-30010000100-3000100-1000-300003003000000-100300-30003001000-10000-3000-100100-3000-1000003000-100003001000300-10000-100000030000100-100010000
+ i=255 
+
+
+cost:= (164,141070)
+100-10010000-1003001000-300100000-100-1000000-3000-30010003001000-300300-100000000-1000030000100010003000001003000-30000300-3000-10030000-3000-30001001000300-3001000010000100100030000-30000-30000000030001000-100300-100100000-1000-1000003000100-30000000-1003000-30010000000-300100010
+ i=256 
+
+
+cost:= (165,139380)
+3000000-10000-3000001000-300100-10030000-3000-3000-100300-100300-100100-10000-10030001000000100-10001000100-1003000-3000-300-1000-300300000000000-1000-30003000-1000010030010000000030003000-10003000-3000300100030000-1000000-10000-300-100-100-300-100-10000-1000-300000100003000-100-100-100-10
+ i=254 
+
+
+cost:= (166,139310)
+100100-30003001000000100-300000-1000100300000-100-100100-3003001003000100-100-3003000-100-10000-300-300000000000-300-30001000100-100-1000003000-1001000100-300100-300000000100100-1003000-3000-100-3000030000-3000-3000300-30010000-100300-100000-300-100300-300300100-30001000-1000-30000000-1000
+ i=255 
+
+
+cost:= (167,141760)
+100-100-3003000100-3000-300100-10000-10030003000300-3000300-100-3000001000-3000-3000300-1003000-30000-100300-100300-10000000-300-100-100-1000300-1000000-1000300-3003000-10000-100300-1003000-3003000000000-30030001000-100030000300-30000000300-300000-300-300-10000-100030030030010000000-3000300-3
+ i=256 
+
+
+cost:= (168,142830)
+1003003000100000-10000300000-300000010000003000010001003003000003001001000030000-3000-3000-100-300-100100300-30001000-10003000-30030000300100-300300-30000-3001000300300300-10003000-300100010030000000300-100100-30000-10000-100-100100100300-3000-10030000-10000-100-100100-10000-300100
+ i=255 
+
+
+cost:= (169,142450)
+100-3000300-1000-100300-300-300-3003000100-300300100-1000100001000-300-100000100-100-300300-3000000-30001000-300010000-30000-100300-1000-3000000003000-100-100030000300030030030001000100-300-10001000-1000100-1000-3000-3003000-100-300010003001001000300010003000300-300000010003000-300100-30
+ i=256 
+
+
+cost:= (170,144210)
+1000000-300-10000300030000030010000030010030000000-1000-300-300-100-1000001000001000-1000-300100-10001000-1000010000-300-3000100300-100030030000-100-100010000300-100300-30010010030000-3000-3000-300300-3000010010000000-100000-300-100-30010030010010010001000-300-30000-30000300-3001003003
+ i=256 
+
+
+cost:= (171,142830)
+10000-100000000003000100-10010000-100-100300-3000000000100100100300-1000-100-10000-100100-100-100-30000001001000-100-1003000001001000-300300-3000-100100100100-100-3000-300-3000-300300-10000000-100100-10000-300000-300-100-100000030030030003000-300000-30000030000-3003000-300300-3001003003001
+ i=256 
+
+
+cost:= (172,142830)
+3003003000-100-1003000-300300001003000-1001000000-100-300-1001003000-100300030000100-30000-10030000100300300-300000100-300-10000300100-100030010001001001000300-30000300003000100-10000-300000-100-1000100000000-1000010000000-30000030000100-3000100001000-30003000-100-3000000-3000001
+ i=254 
+
+
+cost:= (173,140000)
+100-1000000300300-100030000-30000000001000-10000100-100-1000-1000003000300-3000-300100100-3000-300-3000-1000-30030030000-100000300-30000300-300000-30003000-100-30000000300300-100003000-30000-1000-100-100010000-30003000-100-300300-3000-100-100-300000000-1000-300-30001000030030001000-1000-1000-1
+ i=256 
+
+
+cost:= (174,140760)
+1000-1000-100100100-10010000-100100100-10001000300-30000-100-3001000300-300-300030000-1000000300-3000300-3000-3000-300003000-100-100-300000-300300-300001000-300-100300-300300300-3000100-3000-30000-3000-300000-300-3000-100-3003003000-1000300300-1000-300100010000001000-3000100-1001000300-300300-3
+ i=256 
+
+
+cost:= (175,145590)
+100-3000-100100-10003000010000-300030001000100000010010000-100-100-30000-100300300-3000300100100300300-300-100300-100-300-30000100300-1001000300-30030010001000-100-300-1000030000300100-300030000010030000-30000-3000300-10010000300-100300030030000-10000300-30000300-300100-300001000-1000
+ i=256 
+
+
+cost:= (176,144900)
+100-300-1000-10000300-300100-100003000030000-100-300-100030010000-1000-100000300-100-300300-10000-3003003000-100-10003000000000-100-1000-30000000-100300-3000300300-10000-300-30000000030003000-3000300-100010000300-3000-1000300-300100300100-3000-30030010000000030000-1000-10000-1000000-3000-300
+ i=256 
+
+
+cost:= (177,140760)
+30003000000003000300000010000-1000100000-300000300-10003000-100-100001000-100100000-100300300-100-3000001001000300-100100300-1000-300100030000000-3000010010000-100-3000100000-100-10000-300100300-1000-3000003000100100-3001000-1000100010001003000100000-1001003000030000100100-3001
+ i=254 
+
+
+cost:= (178,140000)
+1000-100-30000-1000100100-300100-10000000-3000-1003003001000-100300300000000000000-100000-300300-10030010003000-3000-10010001000-300-300001001001001000300300001000000-100-300010000100100-3000000-1001001003001000300-100-30001000-100010003000100000003000000000001000-300-100300100-10
+ i=256 
+
+
+cost:= (179,140760)
+1000-100-1000000000-100000000100-30000-1000-300-3000-100100-10010000-100-100-100010000-300-300-300300010000-30030030000-300300-10030000100-3000-100-1000-30000300-10030000-300100000000-1001001001000001000100300-30010001001000-300-100-300000100000-300000-100030030000000-300100000001000100-1
+ i=256 
+
+
+cost:= (180,140760)
+3003003000300100100-300-3000100-300-100000-30000-30000300-3001000100-100300-100000100010000100100-30000-1000000000-30000-100000300300-10030000010000-300001000003000300-100000-1000100100-300000000100100100-30003000003000-3000-300100030003000-3003000-300-300000100-300-3000-30000-100-1
+ i=254 
+
+
+cost:= (181,140000)
+100-30030000000-3000030010030001000-300300-300010000-1000-3000010000010003000-30000-100100-3000300-300100000001003000001000010000030000-10001000-30030000-10030001000-1000-300100-100-1000-3000100100100300300-10000000-30000-100-10000100-300-3000-30001000300-10010000100000-30000-300100-3
+ i=256 
+
+
+cost:= (182,141450)
+100-1000-30000-3000-300-100000-10000-300-300300-300300-300000300300-3000-3003000-100000-1003003000100000100300-100-10000-300-100-100000-300-3000-100300000-3000300000003000010000-30000-100300-30000-100-3001000-100-1000300000000300300-3000001000000100-30010001000000100300-300-100001000-1000-30
+ i=256 
+
+
+cost:= (183,140760)
+1000000-100-100-10000100-100-1001000100100000300300-1001000000-100-300-300-1000-10010000-100000000300100-300-30000300-100100300100-100-1000300100-10010000000-300300100-3000-300-100-1000000-3000-10000000-100-300-100100-100000300000-300-30000-30030000003000001001000-100100000100-10010010000-3
+ i=256 
+
+
+cost:= (184,142140)
+100300100-1000100300300000-100-30000-300-300000000100100-1001001000-100-30003000300100100-30030000-300003003000-300030000-100-100-1000300000000100100-300-3003000-100000300-10000100-3000100100100100-10010000100300-300-1000-300-1000-3000100-1000-100-1000300003003003000100-100001003000-3
+ i=255 
+
+
+cost:= (185,144520)
+1000-300-30000300300-10003000-10000-3003000-100300010000100-3003003001000100-300-300-300-3003000-100-100-3001000030001000000300-300001000-100300010000-1000100-300-100030003000-100-30000000300-100-300-300000100-1000030000100-100-1000010030030010000100-30030010000300300000030003003000-3
+ i=256 
+
+
+cost:= (186,144210)
+100-1000100100-30003000-300-300-300000000-300000100-1000-10000-100100000100000100-1000-3000-3000100-10000300-100000-10003000000-3000300-10001000000-100100300300-100100300-3000010000-1000-30030000-100000000100-1000-1000003001001003000000300010000-100100-300100-100-3000100-100000-100100-30
+ i=256 
+
+
+cost:= (187,140760)
+10030000000-300-1001000100-300100300-30000-100000-100300-100-1000-100-300100-30000-30030000-1000300003000300000-1000-3000-300030000001003000300-10000-3000300000000030010000-1000-300-1000003000-1000100300100000300-1001000-300000100-1000000003000-30030000100-30000-100300-100-3000-1001003
+ i=255 
+
+
+cost:= (188,140380)
+1000000-1000-3001000-100-100003000000300-1000003003001000-1000300-100000100300-300000100000100-300-3000-30030003000-100-30001000-30000-10000300010003000010000-100-1003000-100100-300010000-3000-1000-10000100000-300-100001000000-100010000300100001000000-300100-1000100-10000-1001000-10010
+ i=256 
+
+
+cost:= (189,140070)
+1000300003000-300-100-1000-100000300-300030000-100100300100000-300-100-30000030000-100-100300300-100-3000-300-3000-100-100-1003003000-300-100100-10030000001003001000-100000-30000300-1000-1000300-3003000-1000000100100-3003000003000-1000-3000-3000-100-300-100300100-100-3000300-100-100100001000-3
+ i=255 
+
+
+cost:= (190,144520)
+300000300100-10000-300-1000-3001003000000100-100000-10000000-1001000-10000300-100000003001001000-100-100300100010001000100100300-100-1000-1000100-30003000-300-1000-3000-300-300000-100-1000-3001000-100300010000100000-100100-1000000-300-3000-100100-3000-3000-1000-3000-3000300300-1000300-3000
+ i=254 
+
+
+cost:= (191,141380)
+1000-30000-100-100-10000-3001000000100000-3000-100-3000-1000000-3000-3003003000100100-3000300-30010000-300300-300-30000300-100100000100-100030000300100-100000-1000030001000000-300-3001003000-100003000-30010000030000000-100-300-1000-300001000-30030000100300300-300000-300-300030000000-1000-3
+ i=256 
+
+
+cost:= (192,140760)
+1003000-300100-1000-300-300-300000-100-100-300100-100-100010000-30000100-300-30003000-3000010000-30000300-100-10010000300-3000-100-100-10000100000-100300000-1000100-10003001003000100300-300100003003001000-10000100000-1000000100300-300-30030030000-300100-300-100-1000-10010000-300-300-1000100-1
+ i=255 
+
+
+cost:= (193,144520)
+10003001000-300-100000300-10000-300000-3000-3003000-10000-3000000-300-1000-100-300300000-1001001000-3001000-300100300-3000100-300000-10030030001000-300-100-3000000-300-10000100-300300-1003003000-1001000-100000300003000-10001000-3003000-100-3000300300-10000-100-3000-100000-1003000100-3000-1003
+ i=255 
+
+
+cost:= (194,143140)
+1000-1003000-300-100100000-300000300010000-1000-300-10000-300-30030000-1000300-100-300010000-30010000100-1003000-1003000-30003000-3000100100000100-10010000000100000300-300-1000300-100-300-100-3000300-30000300-300-100000100-300-300-100-100100-100-1000000-10010030001000100-100003000000100-1003
+ i=256 
+
+
+cost:= (195,143520)
+100-10000300-300-300-1001000-300300100-10010000-100-1000-300-300-1000000-30010010000-30000010000-100-3000100-100300000-100300-100100-3000003000-100-300300100300000100030000300000-30000-10000300-300-3000-300300-300000001000100000-10001001000-300000-1001000030003000-100100-300001000000-1000
+ i=256 
+
+
+cost:= (196,141450)
+10010000-100-10003000300-3003000300-30010000-300-300-1000-100-1000000100-300-300300030030000-100100300000-100-30000-100001003001000-300300-1000-100-300-10000-30000-3001000-300-100-100-100000000003000100-1000-1000-10000-10030000-100-1000003000-3000300300-100-3000-300-3001000-1000-10001000030010
+ i=255 
+
+
+cost:= (197,143140)
+3000-300300300-300000300-3000-10000-3000-300-1003003000003000300-1001000100000030000-100-3001003000-10010030000300-100-3000-3003000100000000-30000300100300-100300-30010000300-100-300-1000-1000100000-3001001000-100-30000-1000100-100000000000-300100-1003001000-100-100000100100-100-3000-30
+ i=254 
+
+
+cost:= (198,142070)
+300100000-100300100-100-100-100-100-100000000-10030000100-30030000-30000-100030010001000100300-300-300000-300300100-300-1000-100300-300-1000010003000-100000000-100-100100-10000-300-300-100-300100300-30030010000000000-30001000-300100100000100300100-300-300100000030000100-10003003000100-3
+ i=254 
+
+
+cost:= (199,142760)
+100-300100300-300100-300-1001000-100001000000000-100-3000000300010000-1000003000-300300-300-1000-10001003000-10000001000-3000-100-300-10000-1000-100-1000300003000000300-100100-1000300010000100-100-300-300-1003003000300000-100003000-30010000-10030003000-300000-100-300003000-300-100-300-100300
+ i=256 
+
+
+cost:= (200,142140)
+
+
+average = 141537.100000 </Text-field>
+</Output></CodeEditor-ExecGroup></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L4" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW5HRiQ2JFEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRidGLw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbW5HRiQ2JFEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn</Equation></Text-field>
+</Input>
+</Group></Presentation-Block>
+</Worksheet>

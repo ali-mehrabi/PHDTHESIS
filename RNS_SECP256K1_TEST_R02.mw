@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2017" minor="1"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="true" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" preplot="" helpbrowser="standard" contextmenusize="automatic" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1080" rtablesize="10" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" elisiondigitsthreshold="10000" showassumed="1" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L1" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block><CodeEditor-ExecGroup view="presentation" inline-output="false" labelreference="L2" applyint="true" applyrational="true" display="code"><EC-CodeEditor id="CodeEditRegion0" expanded="true" visible="true" pixel-width="1921" pixel-height="1468" code-language="text/maple" autoexpand="true" wrapping="false" show-border="true" code-line-numbers="true">M := 2^256-2^32-2^9-2^8-2^7-2^6-2^4-1:
+PDX := proc (x1, y1, z1) 
+local PDX, zetta, etta:
+zetta := modp(3*x1^2+0*z1^4, M); etta := modp(4*x1*y1^2, M); PDX := modp(zetta^2-2*etta, M);
+#printf(&quot;%d&quot;,PDX);
+end proc:
+PDY := proc (x1, y1, z1) 
+local PDY, PDX, zetta, etta: 
+zetta := modp(3*x1^2+0*z1^4, M); etta := modp(4*x1*y1^2, M); PDX := modp(zetta^2-2*etta, M); PDY := modp(modp((modp(zetta*(etta-PDX), M))-8*y1^4, M), M); 
+end proc:
+PDZ := proc (x1, y1, z1) 
+local PDZ: 
+PDZ := modp(2*y1*z1, M);
+end proc:
+PAX := proc (x1, y1, z1, x2, y2, z2) 
+local alpha, beta, PAX:
+alpha := modp(y2*z1^3-y1*z2^3, M); beta := modp(x2*z1^2-x1*z2^2, M); 
+PAX := modp(alpha^2-beta^3-2*x1*z2^2*beta^2, M); 
+end proc:
+PAY := proc (x1, y1, z1, x2, y2, z2) 
+local alpha, beta, PA, PAY:
+alpha := modp(y2*z1^3-y1*z2^3, M); beta := modp(x2*z1^2-x1*z2^2, M); PA := modp(alpha^2-beta^3-2*x1*z2^2*beta^2, M); 
+PAY := modp(modp((modp(alpha*(modp((modp(x1*z2^2*beta^2, M))-PA, M)), M))-y1*z2^3*beta^3, M), M); 
+end proc:
+PAZ := proc (x1, y1, z1, x2, y2, z2) 
+local beta,PAZ:
+beta := modp(x2*z1^2-x1*z2^2, M); PAZ:=modp(z1*z2*beta, M): 
+end proc:
+
+AFFINE:= proc(X,Y,Z) 
+local x,y:
+x:= modp(X/Z^2, M);
+y:= modp(Y/(Z^3), M);
+#return(x,y);
+printf(&quot;x:=%s\134ny:=%s\134n&quot;,convert(x,hex),convert(y,hex));
+#return(convert(x,hex)  ,  convert(y,hex));
+end proc:
+
+DOUBLE:=proc(x1,y1,z1) 
+local PDX,PDY,PDZ, M, zetta, etta: 
+zetta := modp(3*x1^2+0*z1^4, M); etta := modp(4*x1*y1^2, M); PDX := modp(zetta^2-2*etta, M); 
+PDY := modp(modp((modp(zetta*(etta-PDX), M))-8*y1^4, M), M); PDZ := modp(2*y1*z1, M);
+return(PDX,PDY,PDZ);
+#return(convert(PDX,hex),convert(PDY,hex),convert(PDZ,hex));
+end proc:
+ADD:= proc(x1,y1,z1,x2,y2,z2) 
+local PAX,PAY,PAZ, alpha,beta, zetta, etta:
+alpha := modp(y2*z1^3-y1*z2^3, M); beta := modp(x2*z1^2-x1*z2^2, M); 
+PAX := modp(alpha^2-beta^3-2*x1*z2^2*beta^2, M); 
+PAY := modp(modp((modp(alpha*(modp((modp(x1*z2^2*beta^2, M))-PA, M)), M))-y1*z2^3*beta^3, M), M); 
+PAZ:=modp(z1*z2*beta, M); 
+return(PAX,PAY,PAZ);
+end proc:
+
+RNS:=proc(x1)
+local m,X,i;
+m(1) := 2^66-1; m(2) := 2^66-2^2-1; m(3) := 2^66-2^3-1; m(4) := 2^66-2^4-1; m(5) := 2^66-2^5-1; m(6) := 2^66-2^6-1; m(7) := 2^66-2^8-1; m(8) := 2^66-2^9-1:
+for i to 8 do X(i) := modp(x1,m(i)); end do:printf(&quot;\134n&quot;);
+for i to 8 do  printf(&quot;\134X\134&quot;%017X\134&quot;,&quot;, X(i)); end do: printf(&quot;\134n\134n&quot;);
+end proc:
+</EC-CodeEditor></CodeEditor-ExecGroup></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L4" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L5" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L6" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L7" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==">JSFH</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block><CodeEditor-ExecGroup view="presentation" hide-input="false" inline-output="false" labelreference="L30" applyint="true" applyrational="true" display="code"><EC-CodeEditor id="CodeEditRegion1" expanded="true" visible="true" pixel-width="1016" pixel-height="1660" code-language="text/maple" autoexpand="true" wrapping="false" show-border="true" code-line-numbers="true">X1:=convert(&quot;79BE667EF9DCBBAC55A06295CE870B07029BFCDB2DCE28D959F2815B16F81798&quot;,decimal,hex);
+Y1:=convert(&quot;483ADA7726A3C4655DA4FBFC0E1108A8FD17B448A68554199C47D08FFB10D4B8&quot;,decimal,hex);
+Z1:=1;
+
+printf(&quot;\134nRNS format of POINT X1 is:\134n&quot;);
+printf(&quot;X1=&quot;); RNS(X1);
+printf(&quot;Y1=&quot;); RNS(Y1);
+printf(&quot;Z1=&quot;); RNS(Z1);
+
+for i from 1 to 10 do  
+printf( &quot;%dP coordinates are:\134n&quot;,2*i);    
+X2:=PDX(X1,Y1,Z1):
+Y2:=PDY(X1,Y1,Z1):
+Z2:=PDZ(X1,Y1,Z1):
+printf(&quot;X(%d)=%X\134n&quot;,2*i,X2); 
+printf(&quot;Y(%d)=%X\134n&quot;,2*i,Y2); 
+printf(&quot;Z(%d)=%X\134n&quot;,2*i,Z2);  
+
+printf(&quot;RNS of X(%d) is&quot;,2*i);
+RNS(X2);
+printf(&quot;RNS of X(%d)+M is&quot;, 2*i);  
+RNS(X2+M);
+printf(&quot;RNS of Y(%d) is&quot;,2*i);
+RNS(Y2);
+printf(&quot;RNS of Y(%d)+M is&quot;, 2*i);  
+RNS(Y2+M);
+printf(&quot;RNS of Z(%d) is&quot;,2*i);
+RNS(Z2);
+printf(&quot;RNS of Z(%d)+M is&quot;, 2*i);  
+RNS(Z2+M);
+
+X3:=PAX(X1,Y1,Z1,X2,Y2,Z2):
+Y3:=PAY(X1,Y1,Z1,X2,Y2,Z2):
+Z3:=PAZ(X1,Y1,Z1,X2,Y2,Z2):
+
+printf(&quot;X(%d)=%X\134n&quot; , 2*i+1,X3);
+printf(&quot;X(%d)=%X\134n&quot; , 2*i+1,Y3);
+printf(&quot;X(%d)=%X\134n&quot; , 2*i+1,Z3); 
+
+printf(&quot;RNS of X(%d) is&quot;,2*i+1 );
+RNS(X3):
+printf(&quot;RNS of X(%d)+M is&quot;, 2*i+1);  
+RNS(X3+M): 
+printf(&quot;RNS of Y(%d) is&quot;,2*i+1 ); 
+RNS(Y3):
+printf(&quot;RNS of Y(%d)+M is&quot;, 2*i+1);  
+RNS(Y3+M):
+printf(&quot;RNS of Z(%d) is&quot;,2*i+1 ); 
+RNS(Z3):
+printf(&quot;RNS of Z(%d)+M is&quot;, 2*i+1);  
+RNS(Z3+M):
+
+
+printf( &quot;AFFINE of X(%d) is:\134n&quot;,2*i);
+AFFINE(X2,Y2,Z2);  
+printf(&quot;\134n&quot;);
+printf( &quot;AFFINE of X(%d) is:\134n&quot;,2*i+1);
+AFFINE(X3,Y3,Z3);  
+printf(&quot;\134n&quot;);
+
+X1:=X2:
+Y1:=Y2:
+Z1:=Z2:
+X2:=X3:
+Y2:=Y3:
+Z2:=Z3:
+end do:
+
+</EC-CodeEditor>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEjWDFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkjbW5HRiQ2JFFobzU1MDY2MjYzMDIyMjc3MzQzNjY5NTc4NzE4ODk1MTY4NTM0MzI2MjUwNjAzNDUzNzc3NTk0MTc1NTAwMTg3MzYwMzg5MTE2NzI5MjQwRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNYMUdGKCJob1MjSG42KlFndD0rYjwlZnhQWC4xREVWYG9eKik9KHkmcE9NeEEtamkxYjcjRi4=</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEjWTFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkjbW5HRiQ2JFFobzMyNjcwNTEwMDIwNzU4ODE2OTc4MDgzMDg1MTMwNTA3MDQzMTg0NDcxMjczMzgwNjU5MjQzMjc1OTM4OTA0MzM1NzU3MzM3NDgyNDI0RidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNZMUdGKCJob0NDW1B0dk5WISpRZkZWI2YxUXQ3WiU9VnFdSV4zJDN5cCIpZTItNTBuSzcjRi4=</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEjWjFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkjbW5HRiQ2JFEiMUYnRjlGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNaMUdGKCIiIjcjRi4=</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+RNS format of POINT X1 is:
+X1=
+X&quot;1E1DA80553B3B856D&quot;,X&quot;050C7F7A722EFEA70&quot;,X&quot;2FC0A34DCF9A9E511&quot;,X&quot;071669CDBE0E033D5&quot;,X&quot;3BC72667A8F31650F&quot;,X&quot;2FB6FFADB323FAD35&quot;,X&quot;37EC60FDFEEA96AC3&quot;,X&quot;09D87AD59D3EC3A18&quot;,
+
+Y1=
+X&quot;23288F8CBC22DC95A&quot;,X&quot;3C80A2E5558A9F6F2&quot;,X&quot;2368EC254AD1476DE&quot;,X&quot;0642680E02F0ED761&quot;,X&quot;1682FB65BF312006F&quot;,X&quot;148A3F4715719350F&quot;,X&quot;10BB1B94CC4EF3DA0&quot;,X&quot;28400C689B0AA19E5&quot;,
+
+Z1=
+X&quot;00000000000000001&quot;,X&quot;00000000000000001&quot;,X&quot;00000000000000001&quot;,X&quot;00000000000000001&quot;,X&quot;00000000000000001&quot;,X&quot;00000000000000001&quot;,X&quot;00000000000000001&quot;,X&quot;00000000000000001&quot;,
+
+2P coordinates are:
+X(2)=7D152C041EA8E1DC2191843D1FA9DB55B68F88FEF695E2C791D40444B365AFC2
+Y(2)=56915849F52CC8F76F5FD7E4BF60DB4A43BF633E1B1383F85FE89164BFADCBDB
+Z(2)=9075B4EE4D4788CABB49F7F81C221151FA2F68914D0AA833388FA11FF621A970
+RNS of X(2) is
+X&quot;2C3855378538069B0&quot;,X&quot;39EC8281AF4FC4B10&quot;,X&quot;0674CCF56BBBE8120&quot;,X&quot;17A17B5FC98EB182E&quot;,X&quot;3BC98C6B5B0B92FBE&quot;,X&quot;1646F0B7E4CCB1854&quot;,X&quot;13CFAA9196E5A5C01&quot;,X&quot;0037AE564CD51B6CC&quot;,
+
+RNS of X(2)+M is
+X&quot;2C7855377538065DF&quot;,X&quot;192C82819F4FC4744&quot;,X&quot;3CB4CCF55BBBE7D61&quot;,X&quot;23E17B5FB98EB15A0&quot;,X&quot;14098C6B4B0B93E1A&quot;,X&quot;0686F0B7D4CCC24F4&quot;,X&quot;140FAA9186F5E5E33&quot;,X&quot;0077AE563DD71CB01&quot;,
+
+RNS of Y(2) is
+X&quot;26928AD13BA3D6DB1&quot;,X&quot;07BB16F383F68FFF9&quot;,X&quot;3F63BF750F2262C14&quot;,X&quot;340F6A04DDC88295B&quot;,X&quot;3FC6445FEAA4E9DE3&quot;,X&quot;0863064835504B950&quot;,X&quot;3829634D134A92864&quot;,X&quot;27E363FA9D94BE402&quot;,
+
+RNS of Y(2)+M is
+X&quot;26D28AD12BA3D69E0&quot;,X&quot;26FB16F373F68FC28&quot;,X&quot;35A3BF74FF226285E&quot;,X&quot;004F6A04CDC8826DE&quot;,X&quot;1806445FDAA4EAC3F&quot;,X&quot;38A3064825505C5AF&quot;,X&quot;3869634D035AD2A96&quot;,X&quot;282363FA8E96BF837&quot;,
+
+RNS of Z(2) is
+X&quot;06511F197845B92B5&quot;,X&quot;390145CAAB153EDE9&quot;,X&quot;06D1D84A95A28EDC5&quot;,X&quot;0C84D01C05E1DAEC2&quot;,X&quot;2D05F6CB7E62400DE&quot;,X&quot;29147E8E2AE326A1E&quot;,X&quot;21763729989DE7B40&quot;,X&quot;108018D13615435CB&quot;,
+
+RNS of Z(2)+M is
+X&quot;06911F196845B8EE4&quot;,X&quot;184145CA9B153EA1D&quot;,X&quot;3D11D84A85A28EA06&quot;,X&quot;18C4D01BF5E1DAC34&quot;,X&quot;0545F6CB6E6240F3A&quot;,X&quot;19547E8E1AE3376BE&quot;,X&quot;21B6372988AE27D72&quot;,X&quot;10C018D1271744A00&quot;,
+
+X(3)=CA90EF9B06D7EB51D650E9145E3083CBD8DF8759168862036F97A358F089848
+X(3)=435AFE76017B8D55D04FF8A98DD60B2BA7EB6F87F6B28182CA4493D7165DD127
+X(3)=9242FA9C0B9F23A3BFEA6A0EB6DBCFCBC4853FE9A25EE948105DC66A2A9B5BAA
+RNS of X(3) is
+X&quot;2B865ED77EE82A04E&quot;,X&quot;33A9308CB2E93D845&quot;,X&quot;2567E3191A5A05707&quot;,X&quot;18B6812E0C2EF09EB&quot;,X&quot;0387BE863823E6C96&quot;,X&quot;117327DD9527E6428&quot;,X&quot;0D9F61B12977CBB08&quot;,X&quot;0DE286437C70C98EF&quot;,
+
+RNS of X(3)+M is
+X&quot;2BC65ED76EE829C7D&quot;,X&quot;12E9308CA2E93D479&quot;,X&quot;1BA7E3190A5A05351&quot;,X&quot;24F6812DFC2EF075D&quot;,X&quot;1BC7BE862823E7AD1&quot;,X&quot;01B327DD8527F70C8&quot;,X&quot;0DDF61B119880BD3A&quot;,X&quot;0E2286436D72CAD24&quot;,
+
+RNS of Y(3) is
+X&quot;31251DB3D84EDC06F&quot;,X&quot;3F5358CC87340B486&quot;,X&quot;271E3A41B885E6301&quot;,X&quot;28926DF2A4A8F2F52&quot;,X&quot;36300845B27DB487E&quot;,X&quot;161B876920EC3AA98&quot;,X&quot;37CC0E6D25F08913F&quot;,X&quot;2493057DAD389B848&quot;,
+
+RNS of Y(3)+M is
+X&quot;31651DB3C84EDBC9E&quot;,X&quot;1E9358CC77340B0BA&quot;,X&quot;1D5E3A41A885E5F4B&quot;,X&quot;34D26DF294A8F2CC4&quot;,X&quot;0E700845A27DB56DA&quot;,X&quot;065B876910EC4B738&quot;,X&quot;380C0E6D1600C9371&quot;,X&quot;24D3057D9E3A9CC7D&quot;,
+
+RNS of Z(3) is
+X&quot;13FC6C8EFEECF4F87&quot;,X&quot;3BF8D6D7DF9FC458B&quot;,X&quot;2081F3DBBCA0A6683&quot;,X&quot;3A9EBDFE7CFB580FE&quot;,X&quot;32C1DA16911B681CE&quot;,X&quot;30A86CC4D73DF2B52&quot;,X&quot;2EE582EF5AF453E5C&quot;,X&quot;3B04B23D934736430&quot;,
+
+RNS of Z(3)+M is
+X&quot;143C6C8EEEECF4BB6&quot;,X&quot;1B38D6D7CF9FC41BF&quot;,X&quot;16C1F3DBACA0A62CD&quot;,X&quot;06DEBDFE6CFB57E81&quot;,X&quot;0B01DA16811B6902A&quot;,X&quot;20E86CC4C73E037F2&quot;,X&quot;2F2582EF4B049408E&quot;,X&quot;3B44B23D844937865&quot;,
+
+AFFINE of X(2) is:
+x:=C6047F9441ED7D6D3045406E95C07CD85C778E4B8CEF3CA7ABAC09B95C709EE5
+y:=1AE168FEA63DC339A3C58419466CEAEEF7F632653266D0E1236431A950CFE52A
+
+AFFINE of X(3) is:
+x:=F9308A019258C31049344F85F89D5229B531C845836F99B08601F113BCE036F9
+y:=388F7B0F632DE8140FE337E62A37F3566500A99934C2231B6CB9FD7584B8E672
+
+4P coordinates are:
+X(4)=9BAE2D5BAC61E6EA5DE635BCA754B2564B7D78C45277CAD67E45C4CBBEA6E706
+Y(4)=34FB8147EED1C0FBE29EAD4D6C472EB4EF7B2191FDE09E494B2A9845FE3F605E
+Z(4)=C327B5D2636B32F27B051E4742B1BBD5324432C1000BFEDCA4368A29F6654152
+RNS of X(4) is
+X&quot;2B9723F0E0C6BAC7C&quot;,X&quot;1BF6A804EF7E0323A&quot;,X&quot;210C98138BEDC608E&quot;,X&quot;12E10029F08995D6D&quot;,X&quot;37D0CC7DFAB65680E&quot;,X&quot;1BF337D7A304272CE&quot;,X&quot;3E4AC101527CB782E&quot;,X&quot;26B76375DB5A6FA8B&quot;,
+
+RNS of X(4)+M is
+X&quot;2BD723F0D0C6BA8AB&quot;,X&quot;3B36A804DF7E02E69&quot;,X&quot;174C98137BEDC5CD8&quot;,X&quot;1F210029E08995ADF&quot;,X&quot;1010CC7DEAB65766A&quot;,X&quot;0C3337D7930437F6E&quot;,X&quot;3E8AC101428CF7A60&quot;,X&quot;26F76375CC5C70EC0&quot;,
+
+RNS of Y(4) is
+X&quot;246073984743741DF&quot;,X&quot;17017A985F3390C1F&quot;,X&quot;1ECC3BDBDC9EE5B2D&quot;,X&quot;3D582F18EE21D9F75&quot;,X&quot;229AA5DEB77356860&quot;,X&quot;305040334017F4741&quot;,X&quot;0AE73484DF3362F33&quot;,X&quot;29F6626AE1CAB50BE&quot;,
+
+RNS of Y(4)+M is
+X&quot;24A07398374373E0E&quot;,X&quot;36417A984F339084E&quot;,X&quot;150C3BDBCC9EE5777&quot;,X&quot;09982F18DE21D9CF8&quot;,X&quot;3ADAA5DEA7735769B&quot;,X&quot;209040333018053E1&quot;,X&quot;0B273484CF43A3165&quot;,X&quot;2A36626AD2CCB64F3&quot;,
+
+RNS of Z(4) is
+X&quot;11B848795F4210992&quot;,X&quot;3806D580978D754E2&quot;,X&quot;0930A38B56C95160E&quot;,X&quot;10D19366FF333C129&quot;,X&quot;3669B7580BB5731A1&quot;,X&quot;23FAB929B2A02711C&quot;,X&quot;338C5651BE50F73D8&quot;,X&quot;2BE943656EBB94978&quot;,
+
+RNS of Z(4)+M is
+X&quot;11F848794F42105C1&quot;,X&quot;1746D580878D75116&quot;,X&quot;3F70A38B46C95124F&quot;,X&quot;1D119366EF333BE9B&quot;,X&quot;0EA9B757FBB573FFD&quot;,X&quot;143AB929A2A037DBC&quot;,X&quot;33CC5651AE613760A&quot;,X&quot;2C2943655FBD95DAD&quot;,
+
+X(5)=3EBFE90F9AE60ABFB1856F0120B1519EB535BB763DCF958031FC9B84F508431B
+X(5)=32AACE1E99E02A607E2873EB006A861104177FB7B199C8DEBBB0D501FAE8EB69
+X(5)=AB5627AF6930F4B788D5CCE12391BAD9CCB619323B67887D76C3729651E0E8B6
+RNS of X(5) is
+X&quot;3DB5D60F6D4F2D5BF&quot;,X&quot;2946F167CFFEA1A7F&quot;,X&quot;2872AFDFA7601531F&quot;,X&quot;3FB9F3C51C920A221&quot;,X&quot;24E6A68AFB219C7BA&quot;,X&quot;20B131215C6AEC72D&quot;,X&quot;34494444BAAA453EB&quot;,X&quot;332FB47CD40F8A99B&quot;,
+
+RNS of X(5)+M is
+X&quot;3DF5D60F5D4F2D1EE&quot;,X&quot;0886F167BFFEA16B3&quot;,X&quot;1EB2AFDF976014F69&quot;,X&quot;0BF9F3C50C9209FA4&quot;,X&quot;3D26A68AEB219D5F5&quot;,X&quot;10F131214C6AFD3CD&quot;,X&quot;34894444AABA8561D&quot;,X&quot;336FB47CC5118BDD0&quot;,
+
+RNS of Y(5) is
+X&quot;10563E76711BD86AB&quot;,X&quot;328E3045A8E196ABB&quot;,X&quot;3C4B413098D5B98C4&quot;,X&quot;1254F58788196CC02&quot;,X&quot;1CA81C7AF3C046051&quot;,X&quot;0A5905827D19ADB64&quot;,X&quot;1F1B682E0901581FB&quot;,X&quot;342B7C9D85EFE966D&quot;,
+
+RNS of Y(5)+M is
+X&quot;10963E76611BD82DA&quot;,X&quot;11CE304598E1966EF&quot;,X&quot;328B413088D5B950E&quot;,X&quot;1E94F58778196C974&quot;,X&quot;34E81C7AE3C046E8C&quot;,X&quot;3A9905826D19BE7C3&quot;,X&quot;1F5B682DF9119842D&quot;,X&quot;346B7C9D76F1EAAA2&quot;,
+
+RNS of Z(5) is
+X&quot;3652BAE4FB098AA55&quot;,X&quot;1CB1967B77D29A53D&quot;,X&quot;047B8E48525CD414A&quot;,X&quot;19520E0C3E7E34E76&quot;,X&quot;1F11EEEEC376B5CB7&quot;,X&quot;13223BAD044F0795C&quot;,X&quot;1BADD632725AFFF2C&quot;,X&quot;296558AE463B76452&quot;,
+
+RNS of Z(5)+M is
+X&quot;3692BAE4EB098A684&quot;,X&quot;3BF1967B67D29A16C&quot;,X&quot;3ABB8E48425CD3D8B&quot;,X&quot;25920E0C2E7E34BE8&quot;,X&quot;3751EEEEB376B6AF2&quot;,X&quot;03623BACF44F185FC&quot;,X&quot;1BEDD632626B4015E&quot;,X&quot;29A558AE373D77887&quot;,
+
+AFFINE of X(4) is:
+x:=E493DBF1C10D80F3581E4904930B1404CC6C13900EE0758474FA94ABE8C4CD13
+y:=51ED993EA0D455B75642E2098EA51448D967AE33BFBDFE40CFE97BDC47739922
+
+AFFINE of X(5) is:
+x:=FFF97BD5755EEEA420453A14355235D382F6472F8568A18B2F057A1460297556
+y:=AE12777AACFBB620F3BE96017F45C560DE80F0F6518FE4A03C870C36B075F297
+
+6P coordinates are:
+X(6)=1FD9FDE65B84623A2657369DA0B939A66F3F5D9F627BD9C75D8FE391F097AAF9
+Y(6)=B74DF0C213719D72FE7FEB0321CBEB09AF2BF3665A87A06743F80FCB21037704
+Z(6)=2E82D28EA49DA0BAE39C561E6CB8073AD7E7F0E98D4EF516157A1F87EA03D0E6
+RNS of X(6) is
+X&quot;09C44965B3CB0468E&quot;,X&quot;282BD21D56192751D&quot;,X&quot;1A4C70ACA7647F7B2&quot;,X&quot;297FEC2BE03962E6C&quot;,X&quot;0220C69F6BC9FD9C9&quot;,X&quot;0FD158F0F1F6BED2B&quot;,X&quot;25824CD1B8E409B99&quot;,X&quot;3383EE4F0A76FB3B2&quot;,
+
+RNS of X(6)+M is
+X&quot;0A044965A3CB042BD&quot;,X&quot;076BD21D461927151&quot;,X&quot;108C70AC97647F3FC&quot;,X&quot;35BFEC2BD03962BDE&quot;,X&quot;1A60C69F5BC9FE804&quot;,X&quot;001158F0E1F6CF9CB&quot;,X&quot;25C24CD1A8F449DCB&quot;,X&quot;33C3EE4EFB78FC7E7&quot;,
+
+RNS of Y(6) is
+X&quot;0E2884317F20FE444&quot;,X&quot;0729B197B04F5864A&quot;,X&quot;35E765393ED471B4A&quot;,X&quot;078D4851910D4E1B1&quot;,X&quot;00355DCCD662A3ABF&quot;,X&quot;2C89C59C45E372E10&quot;,X&quot;07E2B5EF83F60E8E7&quot;,X&quot;1F7F2E38B7DB5419D&quot;,
+
+RNS of Y(6)+M is
+X&quot;0E6884316F20FE073&quot;,X&quot;2669B197A04F58279&quot;,X&quot;2C2765392ED471794&quot;,X&quot;13CD4851810D4DF23&quot;,X&quot;18755DCCC662A48FA&quot;,X&quot;1CC9C59C35E383AB0&quot;,X&quot;0822B5EF74064EB19&quot;,X&quot;1FBF2E38A8DD555D2&quot;,
+
+RNS of Z(6) is
+X&quot;07A67EC6E6EB58522&quot;,X&quot;001D7D679FE09EC7B&quot;,X&quot;2AD5597F0396C97C1&quot;,X&quot;1CCBE5E7C2323CBD9&quot;,X&quot;1B31F27ADC9CB269A&quot;,X&quot;04CEF17589F89993F&quot;,X&quot;0478BF24877EE7744&quot;,X&quot;3A09093EF5D3524AA&quot;,
+
+RNS of Z(6)+M is
+X&quot;07E67EC6D6EB58151&quot;,X&quot;1F5D7D678FE09E8AA&quot;,X&quot;2115597EF396C940B&quot;,X&quot;290BE5E7B2323C94B&quot;,X&quot;3371F27ACC9CB34D5&quot;,X&quot;350EF17579F8AA59E&quot;,X&quot;04B8BF24778F27976&quot;,X&quot;3A49093EE6D5538DF&quot;,
+
+X(7)=2CCD6F06FE5F54935D2D58EBC95F14CAA6095491A7F537ECAAD2C4A37299E70B
+X(7)=AF7E492CCF0EA26A77D7DFB8CE4699BE44AFB60A4DEDC340B7C436C7E82A3587
+X(7)=1C90025E63CBBB04FA6748DFC6343CEAC2396200DCE1FD8B35C39AAB46C6C598
+RNS of X(7) is
+X&quot;08ADB2512B526A3A5&quot;,X&quot;09376862398032E9F&quot;,X&quot;0A67159C08168DD83&quot;,X&quot;11EC7C14640BF94FA&quot;,X&quot;0BFC86E186029ED3C&quot;,X&quot;1F9A0238E966E6509&quot;,X&quot;1FF5BA549868DB7B3&quot;,X&quot;2CA0A1F751AC41E88&quot;,
+
+RNS of X(7)+M is
+X&quot;08EDB2511B5269FD4&quot;,X&quot;28776862298032ACE&quot;,X&quot;00A7159BF8168D9CD&quot;,X&quot;1E2C7C14540BF926C&quot;,X&quot;243C86E176029FB77&quot;,X&quot;0FDA0238D966F71A9&quot;,X&quot;2035BA5488791B9E5&quot;,X&quot;2CE0A1F742AE432BD&quot;,
+
+RNS of Y(7) is
+X&quot;2F32B9B6ABBC64A7C&quot;,X&quot;23FA3CED1104A4F08&quot;,X&quot;39FFEE6791249493A&quot;,X&quot;110349EC188175927&quot;,X&quot;1D97E389C1C8E83EB&quot;,X&quot;0668A3CB6F5BE2408&quot;,X&quot;3E21D6605584EF022&quot;,X&quot;28015E7316AEDFA9A&quot;,
+
+RNS of Y(7)+M is
+X&quot;2F72B9B69BBC646AB&quot;,X&quot;033A3CED0104A4B3C&quot;,X&quot;303FEE67812494584&quot;,X&quot;1D4349EC088175699&quot;,X&quot;35D7E389B1C8E9226&quot;,X&quot;36A8A3CB5F5BF3067&quot;,X&quot;3E61D66045952F254&quot;,X&quot;28415E7307B0E0ECF&quot;,
+
+RNS of Z(7) is
+X&quot;2366AA7C2F3F1B7B5&quot;,X&quot;0A795FBAA5B7CCAFA&quot;,X&quot;1E3C7F3153BE852B9&quot;,X&quot;36AC0054EC27A4838&quot;,X&quot;171824542643C87CF&quot;,X&quot;3565BA2B7E7D04520&quot;,X&quot;0A690589F5D495059&quot;,X&quot;1B8E436B6F1D0C0DB&quot;,
+
+RNS of Z(7)+M is
+X&quot;23A6AA7C1F3F1B3E4&quot;,X&quot;29B95FBA95B7CC729&quot;,X&quot;147C7F3143BE84F03&quot;,X&quot;02EC0054DC27A45BB&quot;,X&quot;2F5824541643C960A&quot;,X&quot;25A5BA2B6E7D151C0&quot;,X&quot;0AA90589E5E4D528B&quot;,X&quot;1BCE436B601F0D510&quot;,
+
+AFFINE of X(6) is:
+x:=2F01E5E15CCA351DAFF3843FB70F3C2F0A1BDD05E5AF888A67784EF3E10A2A01
+y:=5C4DA8A741539949293D082A132D13B4C2E213D6BA5B7617B5DA2CB76CBDE904
+
+AFFINE of X(7) is:
+x:=D01115D548E7561B15C38F004D734633687CF4419620095BC5B0F47070AFE85A
+y:=A9F34FFDC815E0D7A8B64537E17BD81579238C5DD9A86D526B051B13F4062327
+
+8P coordinates are:
+X(8)=9A70E326708582B6C804ADBE8CCA5BF528090B01862D5FC6FFE640B260BE591D
+Y(8)=2565AC52CBECBE8AB7CDA3F533B9C4FE33BFD215AAC88E1715B9CA68FC4BE1AB
+Z(8)=ACF68861945EF4E54281A5A08CD5BC3908415BE53F564595BACD5733DC0A13B7
+RNS of X(8) is
+X&quot;3B8D291DB44D86CD8&quot;,X&quot;0381D5995183803D3&quot;,X&quot;2CDC0246C5115A719&quot;,X&quot;0B6A30F0D7FCF5440&quot;,X&quot;0D8F34954A8DA16FB&quot;,X&quot;13065DBC4E63BE014&quot;,X&quot;31B112804A315DF43&quot;,X&quot;2F3EDB6D81AB68832&quot;,
+
+RNS of X(8)+M is
+X&quot;3BCD291DA44D86907&quot;,X&quot;22C1D599418380002&quot;,X&quot;231C0246B5115A363&quot;,X&quot;17AA30F0C7FCF51B2&quot;,X&quot;25CF34953A8DA2536&quot;,X&quot;03465DBC3E63CECB4&quot;,X&quot;31F112803A419E175&quot;,X&quot;2F7EDB6D72AD69C67&quot;,
+
+RNS of Y(8) is
+X&quot;34EBC2FDF0569547A&quot;,X&quot;1DEA575C4E8E33B3A&quot;,X&quot;2F6A490022D404107&quot;,X&quot;0406C6945F6D586FC&quot;,X&quot;3C5DBC54860CA0881&quot;,X&quot;2EE01D5E72AC352D3&quot;,X&quot;148C7AC4F6D6DA769&quot;,X&quot;2A73CB0871EFF0F58&quot;,
+
+RNS of Y(8)+M is
+X&quot;352BC2FDE056950A9&quot;,X&quot;3D2A575C3E8E33769&quot;,X&quot;25AA490012D403D51&quot;,X&quot;1046C6944F6D5846E&quot;,X&quot;149DBC54760CA16DD&quot;,X&quot;1F201D5E62AC45F73&quot;,X&quot;14CC7AC4E6E71A99B&quot;,X&quot;2AB3CB0862F1F238D&quot;,
+
+RNS of Z(8) is
+X&quot;253B9A2A8BAFE7CB3&quot;,X&quot;08EDB1F3BDD0D571C&quot;,X&quot;26038E5EBF18FD6B8&quot;,X&quot;0FCC61AC8DAD6BBA1&quot;,X&quot;39EF0A27F0CBCD97D&quot;,X&quot;295D22A27E0708787&quot;,X&quot;29A18A1DAC33DEB77&quot;,X&quot;2FB1AC17768FDF024&quot;,
+
+RNS of Z(8)+M is
+X&quot;257B9A2A7BAFE78E2&quot;,X&quot;282DB1F3ADD0D534B&quot;,X&quot;1C438E5EAF18FD302&quot;,X&quot;1C0C61AC7DAD6B913&quot;,X&quot;122F0A27E0CBCE7D9&quot;,X&quot;199D22A26E0719427&quot;,X&quot;29E18A1D9C441EDA9&quot;,X&quot;2FF1AC176791E0459&quot;,
+
+X(9)=D1238420FC1177F86026039EDAA70F2EAE6D02E5F8B3676A732DE6EF8C11B888
+X(9)=214146CA7B9D115A51E2F43FB041DB6523B05AE71212009D673B1FC879C6206
+X(9)=E1FF491D13BC1AD59D7D2739F7C58590B52B7A26A4B0382E5A34DF41E1EF2AA8
+RNS of X(9) is
+X&quot;1A81015F37BD94935&quot;,X&quot;27BEAEE47A4E91FD6&quot;,X&quot;2309C2CD0E5CA18AD&quot;,X&quot;1D7D63F9A50A2B0E1&quot;,X&quot;35CF771AE36253EE3&quot;,X&quot;13C63B5059C262EA5&quot;,X&quot;130AADE99F1AF25FD&quot;,X&quot;131343BDA3776BB82&quot;,
+
+RNS of X(9)+M is
+X&quot;1AC1015F27BD94564&quot;,X&quot;06FEAEE46A4E91C0A&quot;,X&quot;1949C2CCFE5CA14F7&quot;,X&quot;29BD63F9950A2AE53&quot;,X&quot;0E0F771AD36254D3F&quot;,X&quot;04063B5049C273B45&quot;,X&quot;134AADE98F2B3282F&quot;,X&quot;135343BD94796CFB7&quot;,
+
+RNS of Y(9) is
+X&quot;0C55CA6AE1633D328&quot;,X&quot;3934BDAD504D324D9&quot;,X&quot;1BB0E06B2D36C521E&quot;,X&quot;049ED2FC2C9F7D960&quot;,X&quot;3C2442E822E64D0E5&quot;,X&quot;306C018EF6420179E&quot;,X&quot;13670E655D7B672E9&quot;,X&quot;139878E8322AEAA58&quot;,
+
+RNS of Y(9)+M is
+X&quot;0C95CA6AD1633CF57&quot;,X&quot;1874BDAD404D3210D&quot;,X&quot;11F0E06B1D36C4E68&quot;,X&quot;10DED2FC1C9F7D6D2&quot;,X&quot;146442E812E64DF41&quot;,X&quot;20AC018EE6421243E&quot;,X&quot;13A70E654D8BA751B&quot;,X&quot;13D878E8232CEBE8D&quot;,
+
+RNS of Z(9) is
+X&quot;3E4DF8D639EE68177&quot;,X&quot;2BC2560098D7B75FC&quot;,X&quot;36D60257D7F9E3EF5&quot;,X&quot;38DA36389482FD2FA&quot;,X&quot;314E8A7455DF4A8C4&quot;,X&quot;1BAAE25F737927C80&quot;,X&quot;065AFB702464D924E&quot;,X&quot;354FBB315D162B357&quot;,
+
+RNS of Z(9)+M is
+X&quot;3E8DF8D629EE67DA6&quot;,X&quot;0B02560088D7B7230&quot;,X&quot;2D160257C7F9E3B3F&quot;,X&quot;051A36388482FD07D&quot;,X&quot;098E8A7445DF4B720&quot;,X&quot;0BEAE25F637938920&quot;,X&quot;069AFB70147519480&quot;,X&quot;358FBB314E182C78C&quot;,
+
+AFFINE of X(8) is:
+x:=E60FCE93B59E9EC53011AABC21C23E97B2A31369B87A5AE9C44EE89E2A6DEC0A
+y:=F7E3507399E595929DB99F34F57937101296891E44D23F0BE1F32CCE69616821
+
+AFFINE of X(9) is:
+x:=FE72C435413D33D48AC09C9161BA8B09683215439D62B7940502BDA8B202E6CE
+y:=6851DE067FF24A68D3AB47E09D72998101DC88E36B4A9D22978ED2FBCF58C5BF
+
+10P coordinates are:
+X(10)=49CA2A8728121D021E38155E8BACA79ABC4B338E8B54821BB076C118AF44CFE9
+Y(10)=3A069846A5140A3E2433771802AD160B0AF1F599CD2552D75E7562657F2D714
+Z(10)=CFF8049193CCF8DD7C4157CAD6E0D0F31111E6E84BE23FBC7877DA34E456ED28
+RNS of X(10) is
+X&quot;2829437FC5775035D&quot;,X&quot;0FB2B3DFE91EF9915&quot;,X&quot;1D99EADB3904B5796&quot;,X&quot;1B30EC6E19A590767&quot;,X&quot;244BFC9002FB03E9F&quot;,X&quot;248C451D9BE668589&quot;,X&quot;2774EA4AA9B2D0A3B&quot;,X&quot;05F5D5042E2D36E83&quot;,
+
+RNS of X(10)+M is
+X&quot;2869437FB5774FF8C&quot;,X&quot;2EF2B3DFD91EF9544&quot;,X&quot;13D9EADB2904B53E0&quot;,X&quot;2770EC6E09A5904D9&quot;,X&quot;3C8BFC8FF2FB04CDA&quot;,X&quot;14CC451D8BE679229&quot;,X&quot;27B4EA4A99C310C6D&quot;,X&quot;0635D5041F2F382B8&quot;,
+
+RNS of Y(10) is
+X&quot;3E045D319E8D35E77&quot;,X&quot;26B60920E53E35AF1&quot;,X&quot;0D634D746DCAA5EFD&quot;,X&quot;1A213D8EE3EFB8D1A&quot;,X&quot;173F0F7FC0BFCED3D&quot;,X&quot;10A519C41F20F1BCA&quot;,X&quot;1DE7480299D42CED6&quot;,X&quot;131DFBED4597E061F&quot;,
+
+RNS of Y(10)+M is
+X&quot;3E445D318E8D35AA6&quot;,X&quot;05F60920D53E35725&quot;,X&quot;03A34D745DCAA5B47&quot;,X&quot;26613D8ED3EFB8A8C&quot;,X&quot;2F7F0F7FB0BFCFB78&quot;,X&quot;00E519C40F210286A&quot;,X&quot;1E27480289E46D108&quot;,X&quot;135DFBED3699E1A54&quot;,
+
+RNS of Z(10) is
+X&quot;317C0497DEB0CBE09&quot;,X&quot;3F624BCF0879D595D&quot;,X&quot;1E4D0023CA670E12A&quot;,X&quot;0723B700746180B81&quot;,X&quot;0C828D7EF0BEA24F7&quot;,X&quot;23675D550A5B87A17&quot;,X&quot;06BFF034E3A553682&quot;,X&quot;1994A990D3B47938C&quot;,
+
+RNS of Z(10)+M is
+X&quot;31BC0497CEB0CBA38&quot;,X&quot;1EA24BCEF879D5591&quot;,X&quot;148D0023BA670DD74&quot;,X&quot;1363B7006461808F3&quot;,X&quot;24C28D7EE0BEA3332&quot;,X&quot;13A75D54FA5B986B7&quot;,X&quot;06FFF034D3B5938B4&quot;,X&quot;19D4A990C4B67A7C1&quot;,
+
+X(11)=2A8BF094E2D9982339BFFF41E0B7E29CBCE774642D42E2AE08289F0291C0F6C2
+X(11)=4B32F3D80A9F6FEB86883EB88136750E183D5F1BFEAA02EA063F441269A0F223
+X(11)=E1CFCEB0580BA446FD0D4B1BDEC1927754EC803626BC9240796346F8D10FF86
+RNS of X(11) is
+X&quot;36BA8ABD20EA893F7&quot;,X&quot;1519F41398484E154&quot;,X&quot;2EA2F61816130E8F2&quot;,X&quot;1303AD0A7935E6A76&quot;,X&quot;1FBD44B02B9DB0F3F&quot;,X&quot;3EFC0BD9B05B9B3F1&quot;,X&quot;22DA398282A9444D0&quot;,X&quot;09C09FA3FEEBBEBBE&quot;,
+
+RNS of X(11)+M is
+X&quot;36FA8ABD10EA89026&quot;,X&quot;3459F41388484DD83&quot;,X&quot;24E2F61806130E53C&quot;,X&quot;1F43AD0A6935E67E8&quot;,X&quot;37FD44B01B9DB1D7A&quot;,X&quot;2F3C0BD9A05BAC091&quot;,X&quot;231A398272B984702&quot;,X&quot;0A009FA3EFEDBFFF3&quot;,
+
+RNS of Y(11) is
+X&quot;045E3EB94518957EE&quot;,X&quot;039A06137A699F346&quot;,X&quot;16E6B79204DC34024&quot;,X&quot;2A7F46C0291526CC5&quot;,X&quot;1B44163D1E6048757&quot;,X&quot;0FD47C9D38AC385DA&quot;,X&quot;16360CAD542DC5A5B&quot;,X&quot;32BD1FA2E7787A9F1&quot;,
+
+RNS of Y(11)+M is
+X&quot;049E3EB935189541D&quot;,X&quot;22DA06136A699EF75&quot;,X&quot;0D26B791F4DC33C6E&quot;,X&quot;36BF46C0191526A37&quot;,X&quot;3384163D0E6049592&quot;,X&quot;00147C9D28AC4927A&quot;,X&quot;16760CAD443E05C8D&quot;,X&quot;32FD1FA2D87A7BE26&quot;,
+
+RNS of Z(11) is
+X&quot;22C1F67AF2DA0B64A&quot;,X&quot;0647F98C487980E0E&quot;,X&quot;3E65ADC2006AD0D1B&quot;,X&quot;0193A4FB1F84177B7&quot;,X&quot;27EA2E47D458E3BEC&quot;,X&quot;1604A968E6C897148&quot;,X&quot;0801A0FE77B8CA0EC&quot;,X&quot;35C697C72D545480E&quot;,
+
+RNS of Z(11)+M is
+X&quot;2301F67AE2DA0B279&quot;,X&quot;2587F98C387980A3D&quot;,X&quot;34A5ADC1F06AD0965&quot;,X&quot;0DD3A4FB0F8417529&quot;,X&quot;002A2E47C458E4A48&quot;,X&quot;0644A968D6C8A7DE8&quot;,X&quot;0841A0FE67C90A31E&quot;,X&quot;360697C71E5655C43&quot;,
+
+AFFINE of X(10) is:
+x:=D30199D74FB5A22D47B6E054E2F378CEDACFFCB89904A61D75D0DBD407143E65
+y:=95038D9D0AE3D5C3B3D6DEC9E98380651F760CC364ED819605B3FF1F24106AB9
+
+AFFINE of X(11) is:
+x:=6ECA335D9645307DB441656EF4E65B4BFC579B27452BEBC19BD870AA1118E5C3
+y:=D50123B57A7A0710592F579074B875A03A496A3A3BF8EC34498A2F7805A08668
+
+12P coordinates are:
+X(12)=CBE7880B28CD1C075219F7078E2D173CB9482D4D60C93F60E24AF90BEE09F30D
+Y(12)=C564A7C07058653D16B72918F74CEB70933F2EF19E077C844E203523AFA876AB
+Z(12)=EE27186D7941200525C667BBB6A3D4C94B92E9B2B01A15F8F1037BAEC7F7913F
+RNS of X(12) is
+X&quot;088EE41EFEBC248C9&quot;,X&quot;1C86DF95E40DC9153&quot;,X&quot;3A56A1B2F64535A9A&quot;,X&quot;0558C5F05E99110C6&quot;,X&quot;35E6A2ED6B3E7784E&quot;,X&quot;29215299D7CD3DCF5&quot;,X&quot;1471078C0AD02E065&quot;,X&quot;3B9E08064F7B540C6&quot;,
+
+RNS of X(12)+M is
+X&quot;08CEE41EEEBC244F8&quot;,X&quot;3BC6DF95D40DC8D82&quot;,X&quot;3096A1B2E645356E4&quot;,X&quot;1198C5F04E9910E38&quot;,X&quot;0E26A2ED5B3E786AA&quot;,X&quot;19615299C7CD4E995&quot;,X&quot;14B1078BFAE06E297&quot;,X&quot;3BDE0806407D554FB&quot;,
+
+RNS of Y(12) is
+X&quot;047710610A8608618&quot;,X&quot;1FB35F7AC9306A7EB&quot;,X&quot;3A4DC259DB6DD97F6&quot;,X&quot;15B3BF08A3267611A&quot;,X&quot;3DE5758D5B2ED0F73&quot;,X&quot;18E6E2584A9D4DB55&quot;,X&quot;3F84A18B6E134931B&quot;,X&quot;3B80ADD18898C99D1&quot;,
+
+RNS of Y(12)+M is
+X&quot;04B71060FA8608247&quot;,X&quot;3EF35F7AB9306A41A&quot;,X&quot;308DC259CB6DD9440&quot;,X&quot;21F3BF08932675E8C&quot;,X&quot;1625758D4B2ED1DCF&quot;,X&quot;0926E2583A9D5E7F5&quot;,X&quot;3FC4A18B5E238954D&quot;,X&quot;3BC0ADD1799ACAE06&quot;,
+
+RNS of Z(12) is
+X&quot;399FD38F8E54D5889&quot;,X&quot;26BA57D99424B5BBA&quot;,X&quot;282FFC8E619F978B7&quot;,X&quot;0D674BDC89781014C&quot;,X&quot;25A0828885DFA59D6&quot;,X&quot;3211540AFAE7EDB28&quot;,X&quot;0FEB0845B3B2E3ED3&quot;,X&quot;124E8E80B3440D6CA&quot;,
+
+RNS of Z(12)+M is
+X&quot;39DFD38F7E54D54B8&quot;,X&quot;05FA57D98424B57EE&quot;,X&quot;1E6FFC8E519F97501&quot;,X&quot;19A74BDC79780FEBE&quot;,X&quot;3DE0828875DFA6811&quot;,X&quot;2251540AEAE7FE7C8&quot;,X&quot;102B0845A3C324105&quot;,X&quot;128E8E80A4460EAFF&quot;,
+
+X(13)=F9597A54E8F072FB6AEEB2B6427E9432B20743518FDF6CF2A79ABF0489ACD9E1
+X(13)=A5EA8253F92B9F3192ED6D01E9DC3399738A3E8EEB71246747ED5FCDAD6946AE
+X(13)=77D0D06F3DC9142437A362CD0728FA0360A3C9429D5619136C3E2E21464BD5E3
+RNS of X(13) is
+X&quot;30EB0E0EDA570602C&quot;,X&quot;0C43B8D551C5F8A34&quot;,X&quot;09DC2B4A5EB573B13&quot;,X&quot;21D29EBF967EAF99D&quot;,X&quot;3F0144520B96F692C&quot;,X&quot;3FC1ADF37AC4858DD&quot;,X&quot;1A4C4CAE9D3F56B27&quot;,X&quot;1EC9D49973514B56A&quot;,
+
+RNS of X(13)+M is
+X&quot;312B0E0ECA5705C5B&quot;,X&quot;2B83B8D541C5F8663&quot;,X&quot;001C2B4A4EB57375D&quot;,X&quot;2E129EBF867EAF70F&quot;,X&quot;17414451FB96F7788&quot;,X&quot;3001ADF36AC49657D&quot;,X&quot;1A8C4CAE8D4F96D59&quot;,X&quot;1F09D49964534C99F&quot;,
+
+RNS of Y(13) is
+X&quot;0C096704AD6C8017E&quot;,X&quot;1D1FB2EDF53C7F7BB&quot;,X&quot;2E59998ED71477F2A&quot;,X&quot;0A17FA755E9DC2ED3&quot;,X&quot;34DD6347355FC9056&quot;,X&quot;087D948BC3F1D8AA3&quot;,X&quot;3A60DC32CE8C1BFCB&quot;,X&quot;26D3C8EBD8DE38213&quot;,
+
+RNS of Y(13)+M is
+X&quot;0C4967049D6C7FDAD&quot;,X&quot;3C5FB2EDE53C7F3EA&quot;,X&quot;2499998EC71477B74&quot;,X&quot;1657FA754E9DC2C45&quot;,X&quot;0D1D6347255FC9EB2&quot;,X&quot;38BD948BB3F1E9702&quot;,X&quot;3AA0DC32BE9C5C1FD&quot;,X&quot;2713C8EBC9E039648&quot;,
+
+RNS of Z(13) is
+X&quot;289C099E07B0B1018&quot;,X&quot;125FE0B2E2AD43737&quot;,X&quot;3B4205D5838536970&quot;,X&quot;3E1A72EAF374DD307&quot;,X&quot;322C64E695127F768&quot;,X&quot;24590CA12541B8F32&quot;,X&quot;2869807DBE8BA0088&quot;,X&quot;20DC14F61398AA669&quot;,
+
+RNS of Z(13)+M is
+X&quot;28DC099DF7B0B0C47&quot;,X&quot;319FE0B2D2AD43366&quot;,X&quot;318205D57385365BA&quot;,X&quot;0A5A72EAE374DD08A&quot;,X&quot;0A6C64E68512805C4&quot;,X&quot;14990CA11541C9BD2&quot;,X&quot;28A9807DAE9BE02BA&quot;,X&quot;211C14F6049AABA9E&quot;,
+
+AFFINE of X(12) is:
+x:=BF23C1542D16EAB70B1051EAF832823CFC4C6F1DCDBAFD81E37918E6F874EF8B
+y:=5CB3866FC33003737AD928A0BA5392E4C522FC54811E2F784DC37EFE66831D9F
+
+AFFINE of X(13) is:
+x:=3F0E80E574456D8F8FA64E044B2EB72EA22EB53FE1EFE3A443933ACA7F8CB0E3
+y:=CB66D7D7296CBC91E90B9C08485D01B39501253AA65B53A4CB0289E2EA5F404F
+
+14P coordinates are:
+X(14)=E5E8F39D77766C3081A69312633F3A7D5FEC1173EA9D36209F0FE0EBC56A2DBC
+Y(14)=26B1B774EA27236E1A8455BF04CC007507EC52F021672AE54800FEBF13DF8351
+Z(14)=98848A7CE36D962D781E2877CE89FA215717BD1A3F6A88320C406517774485D4
+RNS of X(14) is
+X&quot;302BCF2485C23489C&quot;,X&quot;2E2963858F314C816&quot;,X&quot;2820FC7AB507CE80A&quot;,X&quot;28DBA98D891CB2E95&quot;,X&quot;0B8CEE4AB9416DF8E&quot;,X&quot;064F11CE6C5236197&quot;,X&quot;31C918298374ADA9A&quot;,X&quot;0B662559D451B237F&quot;,
+
+RNS of X(14)+M is
+X&quot;306BCF2475C2344CB&quot;,X&quot;0D6963857F314C44A&quot;,X&quot;1E60FC7AA507CE454&quot;,X&quot;351BA98D791CB2C07&quot;,X&quot;23CCEE4AA9416EDC9&quot;,X&quot;368F11CE5C5246DF6&quot;,X&quot;320918297384EDCCC&quot;,X&quot;0BA62559C553B37B4&quot;,
+
+RNS of Y(14) is
+X&quot;16C3F1FB4E02EAA9F&quot;,X&quot;3E6EA46B60E73AAD5&quot;,X&quot;3B8D2F922227635B3&quot;,X&quot;303063330EF5F3DD6&quot;,X&quot;1959460E2C670598E&quot;,X&quot;1D852C864B708D938&quot;,X&quot;3FFFC40FBF0DF4BF0&quot;,X&quot;0FA9A2C7B8164B929&quot;,
+
+RNS of Y(14)+M is
+X&quot;1703F1FB3E02EA6CE&quot;,X&quot;1DAEA46B50E73A709&quot;,X&quot;31CD2F921227631FD&quot;,X&quot;3C706332FEF5F3B48&quot;,X&quot;3199460E1C67067C9&quot;,X&quot;0DC52C863B709E5D8&quot;,X&quot;003FC40FAF1E34F23&quot;,X&quot;0FE9A2C7A9184CD5E&quot;,
+
+RNS of Z(14) is
+X&quot;13BEA490F77957DDB&quot;,X&quot;3EEB00F2F65735034&quot;,X&quot;2099434E79A1AFD36&quot;,X&quot;2C4249AD62A0DFBD4&quot;,X&quot;26360B2A1246D1FB6&quot;,X&quot;3021D21988264D198&quot;,X&quot;36ECE01BBE896D98C&quot;,X&quot;2CF71BBD1FB9979AD&quot;,
+
+RNS of Z(14)+M is
+X&quot;13FEA490E77957A0A&quot;,X&quot;1E2B00F2E65734C68&quot;,X&quot;16D9434E69A1AF980&quot;,X&quot;388249AD52A0DF946&quot;,X&quot;3E760B2A0246D2DF1&quot;,X&quot;2061D21978265DE38&quot;,X&quot;372CE01BAE99ADBBE&quot;,X&quot;2D371BBD10BB98DE2&quot;,
+
+X(15)=660805D4DEDE1E0A0E43151AD820C0F7B5EBE90E04DC6D6D7BF4B0A5768E04A7
+X(15)=39EE9939EE37696DF3B46597710D83DA4C66E8B370ABE398889AD97754C37EB7
+X(15)=3AFC83D5993884775B4E988334CDFE38A0DBF1C350CA5F623664E56DB27BCAA6
+RNS of X(15) is
+X&quot;00BEBFC51F8C2A48A&quot;,X&quot;39CEC1054B19E8D9B&quot;,X&quot;247AE7A49A23DD9F3&quot;,X&quot;27B3ADBFF0F996DA6&quot;,X&quot;14FB5AA4A5C883BFC&quot;,X&quot;058520FF4CD6269EC&quot;,X&quot;0C0944C95946756CA&quot;,X&quot;32460D194F18B4C10&quot;,
+
+RNS of X(15)+M is
+X&quot;00FEBFC50F8C2A0B9&quot;,X&quot;190EC1053B19E89CF&quot;,X&quot;1ABAE7A48A23DD63D&quot;,X&quot;33F3ADBFE0F996B18&quot;,X&quot;2D3B5AA495C884A37&quot;,X&quot;35C520FF3CD63764B&quot;,X&quot;0C4944C94956B58FC&quot;,X&quot;32860D19401AB6045&quot;,
+
+RNS of Y(15) is
+X&quot;1FBD794628FB82D80&quot;,X&quot;1A60B5E596783B324&quot;,X&quot;2EA2570B19C09D737&quot;,X&quot;3AE6ACBF47077DD2D&quot;,X&quot;02BCEEAC81B381302&quot;,X&quot;11EA139CA1B32CBB5&quot;,X&quot;31DBD89FD1E1BF200&quot;,X&quot;388223140745CA511&quot;,
+
+RNS of Y(15)+M is
+X&quot;1FFD794618FB829AF&quot;,X&quot;39A0B5E586783AF53&quot;,X&quot;24E2570B09C09D381&quot;,X&quot;0726ACBF37077DAB0&quot;,X&quot;1AFCEEAC71B38213D&quot;,X&quot;022A139C91B33D855&quot;,X&quot;321BD89FC1F1FF432&quot;,X&quot;38C22313F847CB946&quot;,
+
+RNS of Z(15) is
+X&quot;3D53CBD7610602473&quot;,X&quot;3F157D36C093D01CE&quot;,X&quot;07E75F72A68DDBD26&quot;,X&quot;07367C406B9B7390A&quot;,X&quot;27DD7F76A2EE13672&quot;,X&quot;0C29EE640CFC8E053&quot;,X&quot;108EF0811A39072D4&quot;,X&quot;018141CF0B162EF5C&quot;,
+
+RNS of Z(15)+M is
+X&quot;3D93CBD75106020A2&quot;,X&quot;1E557D36B093CFE02&quot;,X&quot;3E275F72968DDB967&quot;,X&quot;13767C405B9B7367C&quot;,X&quot;001D7F7692EE144CE&quot;,X&quot;3C69EE63FCFC9ECB2&quot;,X&quot;10CEF0810A4947506&quot;,X&quot;01C141CEFC1830391&quot;,
+
+AFFINE of X(14) is:
+x:=34FF3BE4033F7A06696C3D09F7D1671CBCF55CD700535655647077456769A24E
+y:=5D9D11623A236C553F6619D89832098C55DF16C3E8F8B6818491067A73CC2F1A
+
+AFFINE of X(15) is:
+x:=D7A0DA58D01DC635812DDF64D99C9AEAE783C797D7CD204EC7B750F733CE1752
+y:=912770E068008032F6F2928340E284650BE040A8C062B742BBC027380762CEF4
+
+16P coordinates are:
+X(16)=ABDFBDE3FDFE4845E814F8949D51DA90B37A25989C80E4399CF6249FEAED4EF2
+Y(16)=48F48D4AF6FF28359635A1C776A47832D8FBC1433BA904ED4D2CA306B7BFD032
+Z(16)=4CA9A978BFEBDD2ACA83C5D39E51CA031575DE0493AF0A046EFCF07E04424578
+RNS of X(16) is
+X&quot;22B057C86EBDA9ECA&quot;,X&quot;107A096E83072F6E5&quot;,X&quot;0BD73B2A0A0A2223C&quot;,X&quot;2D1BBBB76D39BB9A2&quot;,X&quot;267A7B05732DB606E&quot;,X&quot;19F9413DD4D886A23&quot;,X&quot;2DEAACDA7C90CE78A&quot;,X&quot;0F88FE219885BF8D1&quot;,
+
+RNS of X(16)+M is
+X&quot;22F057C85EBDA9AF9&quot;,X&quot;2FBA096E73072F314&quot;,X&quot;02173B29FA0A21E86&quot;,X&quot;395BBBB75D39BB714&quot;,X&quot;3EBA7B05632DB6EA9&quot;,X&quot;0A39413DC4D8976C3&quot;,X&quot;2E2AACDA6CA10E9BC&quot;,X&quot;0FC8FE218987C0D06&quot;,
+
+RNS of Y(16) is
+X&quot;15DF2BFA929F05591&quot;,X&quot;12598C558D61E6CB2&quot;,X&quot;23CD43249AC0F21CE&quot;,X&quot;330F880F5FD242B3A&quot;,X&quot;01073AAAB4B8F212E&quot;,X&quot;0B019F91954FBE09F&quot;,X&quot;2D4F5BFE55B3C9C94&quot;,X&quot;32C77DE09D05E93BA&quot;,
+
+RNS of Y(16)+M is
+X&quot;161F2BFA829F051C0&quot;,X&quot;31998C557D61E68E1&quot;,X&quot;1A0D43248AC0F1E18&quot;,X&quot;3F4F880F4FD2428AC&quot;,X&quot;19473AAAA4B8F2F69&quot;,X&quot;3B419F91854FCECFE&quot;,X&quot;2D8F5BFE45C409EC6&quot;,X&quot;33077DE08E07EA7EF&quot;,
+
+RNS of Z(16) is
+X&quot;3E2354B024612D40D&quot;,X&quot;3BBF98A1E3B158996&quot;,X&quot;369BDCBEB0C24CDED&quot;,X&quot;1712E3AE94085BF47&quot;,X&quot;27F05FDB5E51A6BB5&quot;,X&quot;3114AD07FB3D83D23&quot;,X&quot;0FE4B5AD79B142E50&quot;,X&quot;25E512E92064D64AC&quot;,
+
+RNS of Z(16)+M is
+X&quot;3E6354B014612D03C&quot;,X&quot;1AFF98A1D3B1585CA&quot;,X&quot;2CDBDCBEA0C24CA37&quot;,X&quot;2352E3AE84085BCB9&quot;,X&quot;00305FDB4E51A7A11&quot;,X&quot;2154AD07EB3D949C3&quot;,X&quot;1024B5AD69C183082&quot;,X&quot;262512E91166D78E1&quot;,
+
+X(17)=9DD6FC4AEBC0E2A956A552B624161626C75E0F0A11727FC766E1DB4B37C4C821
+X(17)=C1A411C00F66F4886B9E4FFA56D0DD5C3CEB449FC5764C5C8DC4705D8A09D87B
+X(17)=C22D3E799B9F17704C501DAB129789F387ED08F3F1BEAEA4E998F03FA0BDEF89
+RNS of X(17) is
+X&quot;3B09B102A4A11CCFF&quot;,X&quot;1ABC1A416BA6B2529&quot;,X&quot;2F3FF41A15B174DA0&quot;,X&quot;237E74097477D4FDC&quot;,X&quot;3227FDF308314DF02&quot;,X&quot;32B80286E3A188598&quot;,X&quot;01D0791482DC72CC4&quot;,X&quot;10277F7183211F9FA&quot;,
+
+RNS of X(17)+M is
+X&quot;3B49B10294A11C92E&quot;,X&quot;39FC1A415BA6B2158&quot;,X&quot;257FF41A05B1749EA&quot;,X&quot;2FBE74096477D4D4E&quot;,X&quot;0A67FDF2F8314ED5E&quot;,X&quot;22F80286D3A199238&quot;,X&quot;0210791472ECB2EF6&quot;,X&quot;10677F71742320E2F&quot;,
+
+RNS of Y(17) is
+X&quot;026BFB6CC2112153A&quot;,X&quot;27C4655C786992768&quot;,X&quot;3555819D80D461E5C&quot;,X&quot;2B97EBB39EFB8A7FA&quot;,X&quot;35D84090B2490AB6B&quot;,X&quot;0B1CC01342A90BAC2&quot;,X&quot;3C5E096CAC5C6D3DA&quot;,X&quot;03AAC34BC2487263B&quot;,
+
+RNS of Y(17)+M is
+X&quot;02ABFB6CB21121169&quot;,X&quot;0704655C68699239C&quot;,X&quot;2B95819D70D461AA6&quot;,X&quot;37D7EBB38EFB8A56C&quot;,X&quot;0E184090A2490B9C7&quot;,X&quot;3B5CC01332A91C721&quot;,X&quot;3C9E096C9C6CAD60C&quot;,X&quot;03EAC34BB34A73A70&quot;,
+
+RNS of Z(17) is
+X&quot;0D361E95134C5902F&quot;,X&quot;245FEC7D15FEBCB2A&quot;,X&quot;2018F3637BF6A49E7&quot;,X&quot;287C89E1DB25A45BA&quot;,X&quot;33E4E9A1C886DA075&quot;,X&quot;2C12F4156F89D6B5E&quot;,X&quot;18D759C548F167891&quot;,X&quot;26480AF2C021036F2&quot;,
+
+RNS of Z(17)+M is
+X&quot;0D761E95034C58C5E&quot;,X&quot;039FEC7D05FEBC75E&quot;,X&quot;1658F3636BF6A4631&quot;,X&quot;34BC89E1CB25A432C&quot;,X&quot;0C24E9A1B886DAED1&quot;,X&quot;1C52F4155F89E77FE&quot;,X&quot;191759C53901A7AC3&quot;,X&quot;26880AF2B12304B27&quot;,
+
+AFFINE of X(16) is:
+x:=8282263212C609D9EA2A6E3E172DE238D8C39CABD5AC1CA10646E23FD5F51508
+y:=11F8A8098557DFE45E8256E830B60ACE62D613AC2F7B17BED31B6EAFF6E26CAF
+
+AFFINE of X(17) is:
+x:=3443A7067A08CD3E10D3AAD6A78ED1AFB5714E7796EB9F84A908B701B5476085
+y:=661A7A5F829B6F854F6E8C4B8C7E1DA9018A4B27D0C2B67F6D3484BD8B8F52D8
+
+18P coordinates are:
+X(18)=D51D0E7644BD23A87B6CDFD7AC58FDAD11A1B4170989050020C329440FCE465E
+Y(18)=82ADE39D49C5D809B9EF4111A04ED0B0672B1016E0A50E4A611DC92E1D68C2A
+Z(18)=860171F28A8A2CF3C8AFBA1DAE78276B2617E7E4E0B4F7CE4C6FF5EE196EF575
+RNS of X(18) is
+X&quot;1F036D88126090C07&quot;,X&quot;157E42860D74602A2&quot;,X&quot;3F4C52466E4BF8012&quot;,X&quot;2C8DB7BFC862367FA&quot;,X&quot;2B56B26EAFECE5B06&quot;,X&quot;278A258BDA8AC8A28&quot;,X&quot;028209FB74948C8A9&quot;,X&quot;01076E4A5AB1D20D3&quot;,
+
+RNS of X(18)+M is
+X&quot;1F436D88026090836&quot;,X&quot;34BE4285FD745FED1&quot;,X&quot;358C52465E4BF7C5C&quot;,X&quot;38CDB7BFB8623656C&quot;,X&quot;0396B26E9FECE6962&quot;,X&quot;17CA258BCA8AD96C8&quot;,X&quot;02C209FB64A4CCADB&quot;,X&quot;01476E4A4BB3D3508&quot;,
+
+RNS of Y(18) is
+X&quot;37189238D364BE0A9&quot;,X&quot;3713D5138574C8A44&quot;,X&quot;0E570E9B766EBCB40&quot;,X&quot;0EF5B309D40AED758&quot;,X&quot;2E55DEBFB64E474CE&quot;,X&quot;13B2AC89DA4F8ADA0&quot;,X&quot;04EA96ACB0A0F8F11&quot;,X&quot;1E48D2FE0E8BA5F87&quot;,
+
+RNS of Y(18)+M is
+X&quot;37589238C364BDCD8&quot;,X&quot;1653D5137574C8678&quot;,X&quot;04970E9B666EBC78A&quot;,X&quot;1B35B309C40AED4CA&quot;,X&quot;0695DEBFA64E4832A&quot;,X&quot;03F2AC89CA4F9BA40&quot;,X&quot;052A96ACA0B139143&quot;,X&quot;1E88D2FDFF8DA73BC&quot;,
+
+RNS of Z(18) is
+X&quot;05498F150F6ADDE93&quot;,X&quot;22B5B3D284982C899&quot;,X&quot;38087D3D6085452A2&quot;,X&quot;136429071C6E17E11&quot;,X&quot;0C0310DD53251B7A3&quot;,X&quot;3D58852A317F60A8A&quot;,X&quot;20D5EE92C2254399B&quot;,X&quot;08ED450C7855A5016&quot;,
+
+RNS of Z(18)+M is
+X&quot;05898F14FF6ADDAC2&quot;,X&quot;01F5B3D274982C4CD&quot;,X&quot;2E487D3D508544EEC&quot;,X&quot;1FA429070C6E17B83&quot;,X&quot;244310DD43251C5DE&quot;,X&quot;2D98852A217F7172A&quot;,X&quot;2115EE92B23583BCD&quot;,X&quot;092D450C6957A644B&quot;,
+
+X(19)=E0167B8C16DCD332BA9E52BA2CB4E7B7F448B816FC9EC11088F20CB3C0226136
+X(19)=1BF3F38E9BDD53329284CE61165ED46B4B8F62A41E7CDEC872E2779F72763BF9
+X(19)=A5F6DAF0999A04DE32FAC2AE1CE7D778CB602B5F8B148CD52FF14C5A35E1FEE4
+RNS of X(19) is
+X&quot;1B52E79D35270D342&quot;,X&quot;373903D60FE6AC917&quot;,X&quot;137D744FDAF46BE70&quot;,X&quot;1D430B586445874FF&quot;,X&quot;26AD22FC33CCDB42B&quot;,X&quot;185D828646E54D3A1&quot;,X&quot;17D5B30BA19285AFB&quot;,X&quot;2C096741009BB6850&quot;,
+
+RNS of X(19)+M is
+X&quot;1B92E79D25270CF71&quot;,X&quot;167903D5FFE6AC54B&quot;,X&quot;09BD744FCAF46BABA&quot;,X&quot;29830B58544587271&quot;,X&quot;3EED22FC23CCDC266&quot;,X&quot;089D828636E55E041&quot;,X&quot;1815B30B91A2C5D2D&quot;,X&quot;2C496740F19DB7C85&quot;,
+
+RNS of Y(19) is
+X&quot;26F5E6CFCC5EAD63E&quot;,X&quot;1CCDDAD16D3F2C4D8&quot;,X&quot;3210C2CA09FB44C43&quot;,X&quot;24C55BF620D23F26F&quot;,X&quot;106B3093288F43660&quot;,X&quot;2CB54DABC4E4D77AA&quot;,X&quot;07DCB7D001970BE1A&quot;,X&quot;0DA38AB2BD59880E9&quot;,
+
+RNS of Y(19)+M is
+X&quot;2735E6CFBC5EAD26D&quot;,X&quot;3C0DDAD15D3F2C107&quot;,X&quot;2850C2C9F9FB4488D&quot;,X&quot;31055BF610D23EFE1&quot;,X&quot;28AB3093188F4449B&quot;,X&quot;1CF54DABB4E4E844A&quot;,X&quot;081CB7CFF1A74C04C&quot;,X&quot;0DE38AB2AE5B8951E&quot;,
+
+RNS of Z(19) is
+X&quot;14890DEC8BCDC07A4&quot;,X&quot;0A1F7765F9CE6C11E&quot;,X&quot;13E0EFD5F36C44E18&quot;,X&quot;1CD756026FE6857E1&quot;,X&quot;1331F26BDAA676372&quot;,X&quot;069E4272DDDDB5288&quot;,X&quot;0F1B6DF201C05BBD9&quot;,X&quot;39E4797EB648B3B52&quot;,
+
+RNS of Z(19)+M is
+X&quot;14C90DEC7BCDC03D3&quot;,X&quot;295F7765E9CE6BD4D&quot;,X&quot;0A20EFD5E36C44A62&quot;,X&quot;291756025FE685553&quot;,X&quot;2B71F26BCAA6771AD&quot;,X&quot;36DE4272CDDDC5EE7&quot;,X&quot;0F5B6DF1F1D09BE0B&quot;,X&quot;3A24797EA74AB4F87&quot;,
+
+AFFINE of X(18) is:
+x:=465370B287A79FF3905A857A9CF918D50ADBC968D9E159D0926E2C00EF34A24D
+y:=35E531B38368C082A4AF8BDAFDEEC2C1588E09B215D37A10A2F8FB20B33887F4
+
+AFFINE of X(19) is:
+x:=8262CF2FF0799C4C0D9A30F8ACA98CA009809191A3C7E184FCFC0CB9E57E8DFA
+y:=83FD95E209109E4E66FEE22EC5B34F3457B6ED332B14C47835CFF8D8FBAC376A
+
+20P coordinates are:
+X(20)=A60388D27A90E87C09821E74BD4FE5E3D30E6E7C4CC00D97B0FA1D790E902699
+Y(20)=DD402A2620719CBFB0493BF7DF23FC4587A35D30742FB4CAD84BD0044E6348D9
+Z(20)=894D008171E723EFC5C7DC26E3083CFB5AC821E2A92A66C8C7E571A893CB6DBE
+RNS of X(20) is
+X&quot;068EDE922B77F6BFF&quot;,X&quot;38BE65E65EDB014DA&quot;,X&quot;39EFD92BD35BF592D&quot;,X&quot;225DD0C63790F805D&quot;,X&quot;1A8B20DAF3B8EE0FE&quot;,X&quot;21542994728CEE000&quot;,X&quot;09492D482BC27473A&quot;,X&quot;22C9590A0281BEABA&quot;,
+
+RNS of X(20)+M is
+X&quot;06CEDE921B77F682E&quot;,X&quot;17FE65E64EDB0110E&quot;,X&quot;302FD92BC35BF5577&quot;,X&quot;2E9DD0C62790F7DCF&quot;,X&quot;32CB20DAE3B8EEF39&quot;,X&quot;11942994628CFECA0&quot;,X&quot;09892D481BD2B496C&quot;,X&quot;23095909F383BFEEF&quot;,
+
+RNS of Y(20) is
+X&quot;038AE3BB881E33C43&quot;,X&quot;2F56BC486A3A50B28&quot;,X&quot;38E1D01627702EA47&quot;,X&quot;3115E8AD63D398BD7&quot;,X&quot;0917985B392214322&quot;,X&quot;308EC636FB251FCE3&quot;,X&quot;2C800C9D8FEA02034&quot;,X&quot;07658F18F5FBE8059&quot;,
+
+RNS of Y(20)+M is
+X&quot;03CAE3BB781E33872&quot;,X&quot;0E96BC485A3A5075C&quot;,X&quot;2F21D01617702E691&quot;,X&quot;3D55E8AD53D398949&quot;,X&quot;2157985B29221515D&quot;,X&quot;20CEC636EB2530983&quot;,X&quot;2CC00C9D7FFA42266&quot;,X&quot;07A58F18E6FDE948E&quot;,
+
+RNS of Z(20) is
+X&quot;29D192BE5B20E27CF&quot;,X&quot;2AA9248FD7C74BFB0&quot;,X&quot;2495CA22DE3315F1A&quot;,X&quot;11A1D14FB3358136C&quot;,X&quot;322D5513A9E0AECDD&quot;,X&quot;1A565CBE29A83658D&quot;,X&quot;0938776A19E4EA805&quot;,X&quot;2C9A96E17A396B36E&quot;,
+
+RNS of Z(20)+M is
+X&quot;2A1192BE4B20E23FE&quot;,X&quot;09E9248FC7C74BBE4&quot;,X&quot;1AD5CA22CE3315B64&quot;,X&quot;1DE1D14FA335810DE&quot;,X&quot;0A6D551399E0AFB39&quot;,X&quot;0A965CBE19A84722D&quot;,X&quot;0978776A09F52AA37&quot;,X&quot;2CDA96E16B3B6C7A3&quot;,
+
+X(21)=2F64DD7FB2C1F20BC92ED0A73BC6597AD14226841C0BBF2AD77A0B726D2EFD5B
+X(21)=5B4C3DCD33DFA2798E68357374136B3B40AA9D9240BED1FBF643C01C2DC15F30
+X(21)=F3CDE4AEC484D88D1DFEDF5D71ACB6290116EA12367EB4DB7A947C18C589C8E8
+RNS of X(21) is
+X&quot;2491B1593E6B95A85&quot;,X&quot;323F6E23A46C664DC&quot;,X&quot;0F4A4CD6CDB0EB98A&quot;,X&quot;3E8EBC36F627FF308&quot;,X&quot;2375789B73C2B809D&quot;,X&quot;13D315DBC94DDE1C1&quot;,X&quot;115A468A408DB2FA9&quot;,X&quot;3F4FF5E1DD8944C8F&quot;,
+
+RNS of X(21)+M is
+X&quot;24D1B1592E6B956B4&quot;,X&quot;117F6E23946C66110&quot;,X&quot;058A4CD6BDB0EB5D4&quot;,X&quot;0ACEBC36E627FF08B&quot;,X&quot;3BB5789B63C2B8ED8&quot;,X&quot;041315DBB94DEEE61&quot;,X&quot;119A468A309DF31DB&quot;,X&quot;3F8FF5E1CE8B460C4&quot;,
+
+RNS of Y(21) is
+X&quot;260C21BCF2A01C8EC&quot;,X&quot;0A7ECC14C2D5F068D&quot;,X&quot;0B8A3A1331DF05D3B&quot;,X&quot;2C5DBDB7BA3A69161&quot;,X&quot;2797EC8A14C23B887&quot;,X&quot;395D2FA8F67763A2E&quot;,X&quot;3AD74B99A8733A805&quot;,X&quot;2F1DDDFBC89746D7F&quot;,
+
+RNS of Y(21)+M is
+X&quot;264C21BCE2A01C51B&quot;,X&quot;29BECC14B2D5F02BC&quot;,X&quot;01CA3A1321DF05985&quot;,X&quot;389DBDB7AA3A68ED3&quot;,X&quot;3FD7EC8A04C23C6C2&quot;,X&quot;299D2FA8E677746CE&quot;,X&quot;3B174B9998837AA37&quot;,X&quot;2F5DDDFBB999481B4&quot;,
+
+RNS of Z(21) is
+X&quot;290895C25E55654E3&quot;,X&quot;116FD8056E3197E8F&quot;,X&quot;0FDF79661861A6CC3&quot;,X&quot;3C8CB08662849E4A9&quot;,X&quot;1510D16DDD48D695A&quot;,X&quot;024EE730E861845A7&quot;,X&quot;32B2F9EF75989BF00&quot;,X&quot;05F945EDF33767E98&quot;,
+
+RNS of Z(21)+M is
+X&quot;294895C24E5565112&quot;,X&quot;30AFD8055E3197ABE&quot;,X&quot;061F79660861A690D&quot;,X&quot;08CCB08652849E22C&quot;,X&quot;2D50D16DCD48D7795&quot;,X&quot;328EE730D86195206&quot;,X&quot;32F2F9EF65A8DC132&quot;,X&quot;063945EDE439692CD&quot;,
+
+AFFINE of X(20) is:
+x:=241FEBB8E23CBD77D664A18F66AD6240AAEC6ECDC813B088D5B901B2E285131F
+y:=513378D9FF94F8D3D6C420BD13981DF8CD50FD0FBD0CB5AFABB3E66F2750026D
+
+AFFINE of X(21) is:
+x:=1653A8A48D2C236DC60DD31A2B6717804998C4BEABC288D9D17CC1F27C70620C
+y:=338290935AF7F7AEAFA99474EFA701C012AF748DFD3DC526CA2E81D315B32CD
+</Text-field>
+</Output></CodeEditor-ExecGroup></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L11" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block><CodeEditor-ExecGroup view="presentation" hide-input="false" inline-output="false" labelreference="L31" applyint="true" applyrational="true" display="code"><EC-CodeEditor id="CodeEditRegion2" expanded="true" visible="true" pixel-width="990" pixel-height="208" code-language="text/maple" autoexpand="false" wrapping="false" show-border="true" code-line-numbers="true">X1:=convert(&quot;79BE667EF9DCBBAC55A06295CE870B07029BFCDB2DCE28D959F2815B16F81798&quot;,decimal,hex);
+Y1:=convert(&quot;483ADA7726A3C4655DA4FBFC0E1108A8FD17B448A68554199C47D08FFB10D4B8&quot;,decimal,hex);
+Z1:=1;
+PX:=X1:
+PY:=Y1:
+PZ:=Z1:
+
+for i from 1 to 2 do 
+	X2:= PDX(X1,Y1,Z1):
+	Y2:= PDY(X1,Y1,Z1):
+	Z2:= PDZ(X1,Y1,Z1):
+	X1:= X2:
+	Y1:= Y2:
+	Z1:= Z2:
+end do:
+
+	X2:= PAX(X1,Y1,Z1,PX,PY,PZ):
+	Y2:= PAY(X1,Y1,Z1,PX,PY,PZ):
+	Z2:= PAZ(X1,Y1,Z1,PX,PY,PZ):	
+
+RNS(X2);printf(&quot;\134n&quot;);RNS(X2+M);
+printf(&quot;\134n\134n&quot;);
+RNS(Y2); printf(&quot;\134n&quot;);RNS(Y2+M);
+printf(&quot;\134n\134n&quot;);
+RNS(Z2);printf(&quot;\134n&quot;); RNS(Z2+M);
+	</EC-CodeEditor>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEjWDFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkjbW5HRiQ2JFFobzU1MDY2MjYzMDIyMjc3MzQzNjY5NTc4NzE4ODk1MTY4NTM0MzI2MjUwNjAzNDUzNzc3NTk0MTc1NTAwMTg3MzYwMzg5MTE2NzI5MjQwRidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNYMUdGKCJob1MjSG42KlFndD0rYjwlZnhQWC4xREVWYG9eKik9KHkmcE9NeEEtamkxYjcjRi4=</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEjWTFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkjbW5HRiQ2JFFobzMyNjcwNTEwMDIwNzU4ODE2OTc4MDgzMDg1MTMwNTA3MDQzMTg0NDcxMjczMzgwNjU5MjQzMjc1OTM4OTA0MzM1NzU3MzM3NDgyNDI0RidGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNZMUdGKCJob0NDW1B0dk5WISpRZkZWI2YxUXQ3WiU9VnFdSV4zJDN5cCIpZTItNTBuSzcjRi4=</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEjWjFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkjbW5HRiQ2JFEiMUYnRjlGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSNaMUdGKCIiIjcjRi4=</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">
+X&quot;154200F37F49C0A0F&quot;,X&quot;1EAB06D6B89C8939E&quot;,X&quot;27798BAAADAAA5BA5&quot;,X&quot;2A8F92B773CD0EF2C&quot;,X&quot;1D9B1A670DF811D33&quot;,X&quot;2F0C30336852567F0&quot;,X&quot;04BA70BD714AC9060&quot;,X&quot;2AB24A73FC55A0E77&quot;,
+
+
+
+X&quot;158200F36F49C063E&quot;,X&quot;3DEB06D6A89C88FCD&quot;,X&quot;1DB98BAA9DAAA57EF&quot;,X&quot;36CF92B763CD0EC9E&quot;,X&quot;35DB1A66FDF812B6E&quot;,X&quot;1F4C3033585267490&quot;,X&quot;04FA70BD615B09292&quot;,X&quot;2AF24A73ED57A22AC&quot;,
+
+
+
+
+X&quot;2368FD8E8F43F4A7D&quot;,X&quot;0DD6EFA8B6718E258&quot;,X&quot;03B86289F804A990F&quot;,X&quot;116687178DD30AE04&quot;,X&quot;3164F2975C55F8591&quot;,X&quot;2B938CEC472088EC0&quot;,X&quot;3D6F9B894E0D540D9&quot;,X&quot;090697942B7D1745D&quot;,
+
+
+
+X&quot;23A8FD8E7F43F46AC&quot;,X&quot;2D16EFA8A6718DE87&quot;,X&quot;39F86289E804A9550&quot;,X&quot;1DA687177DD30AB76&quot;,X&quot;09A4F2974C55F93ED&quot;,X&quot;1BD38CEC372099B60&quot;,X&quot;3DAF9B893E1D9430B&quot;,X&quot;094697941C7F18892&quot;,
+
+
+
+
+X&quot;3BD9E805CA49826A9&quot;,X&quot;1032EDE5C0C6B69CF&quot;,X&quot;0B24F3D6D2BF2F9C3&quot;,X&quot;096E9532D92ECD8E8&quot;,X&quot;37D242C06062C82FF&quot;,X&quot;1DABF0A0DAEE30FD0&quot;,X&quot;18958DC0DFCDE4CC7&quot;,X&quot;3043BB0053E5271AB&quot;,
+
+
+
+X&quot;3C19E805BA49822D8&quot;,X&quot;2F72EDE5B0C6B65FE&quot;,X&quot;0164F3D6C2BF2F60D&quot;,X&quot;15AE9532C92ECD65A&quot;,X&quot;101242C05062C915B&quot;,X&quot;0DEBF0A0CAEE41C70&quot;,X&quot;18D58DC0CFDE24EF9&quot;,X&quot;3083BB0044E7285E0&quot;,
+
+</Text-field>
+</Output></CodeEditor-ExecGroup></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L20" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L21" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L22" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L23" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L24" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L25" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L26" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L27" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L28" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L29" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJStleGVjdXRhYmxlR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZGL0YwRjdGMg==</Equation></Text-field>
+</Input>
+</Group></Presentation-Block>
+</Worksheet>
